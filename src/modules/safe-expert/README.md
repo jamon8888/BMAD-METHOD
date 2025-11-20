@@ -10,43 +10,76 @@ Built for teams practicing SAFe who want to leverage AI agents as full team memb
 
 ## 🎯 What You Get
 
+### 🔐 Security Foundation: Row-Level Security (RLS)
+
+**RLS is MANDATORY, not optional.** This methodology enforces zero-trust security at the PostgreSQL database level using Row-Level Security policies.
+
+**Three-Layer Security:**
+1. **Application Layer**: Clerk authentication
+2. **Database Layer**: PostgreSQL RLS policies (FOUNDATION)
+3. **Network Layer**: SSL/TLS encryption
+
+**All database operations MUST use RLS context helpers:**
+- `withUserContext(userId, async (prisma) => {...})` - User-specific operations
+- `withAdminContext(adminId, async (prisma) => {...})` - Admin operations
+- `withSystemContext(async (prisma) => {...})` - Webhooks, background jobs
+
+**Direct Prisma calls are FORBIDDEN** - linter enforces this. See [RLS Implementation Guide](./data/RLS_IMPLEMENTATION_GUIDE.md) for complete details.
+
+### 👥 Role Separation: DISCOVER vs EXECUTE
+
+**Critical Distinction:**
+- **BSA + System Architect**: DISCOVER patterns and CREATE new patterns (when approved)
+- **All Other Agents**: EXECUTE existing patterns ONLY (no pattern creation)
+
+This prevents pattern proliferation and maintains architectural consistency across the codebase.
+
 ### 11 Specialized SAFe Agents
 
-1. **BSA** (Business Systems Analyst) 📋
+1. **BSA** (Business Systems Analyst) 📋 - **DISCOVERER**
    - Requirements decomposition and user story creation
    - SAFe format: Epic → Features → Stories → Tasks
-   - Pattern Discovery Protocol enforcement
+   - 5-step Pattern Discovery Protocol enforcement (MANDATORY)
    - Testing strategy definition
+   - **Role**: DISCOVERS patterns, creates specifications
 
-2. **Arch** (System Architect) 🏗️
+2. **Arch** (System Architect) 🏗️ - **PATTERN CREATOR**
    - Architecture validation and pattern approval
-   - Architecture Decision Records (ADRs)
-   - Technical debt assessment
-   - Long-term system health
+   - ONLY agent (with BSA) who can CREATE patterns
+   - Architecture Decision Records (ADRs) for all significant decisions
+   - Mandatory review: >100 lines bash, >200 lines TS, security-critical code
+   - SOLID principles validation
+   - **Role**: VALIDATES patterns, ensures architectural integrity
 
-3. **BEDev** (Backend Developer) ⚙️
-   - Server-side implementation
-   - API development and database work
-   - Pattern-driven development
-   - Test-driven development
+3. **BEDev** (Backend Developer) ⚙️ - **EXECUTOR**
+   - Server-side implementation using patterns
+   - API development with RLS context helpers (withUserContext, withAdminContext)
+   - FORBIDDEN: Direct Prisma calls (linter enforces)
+   - Pattern-driven: Use docs/patterns/api/ patterns
+   - Validation: yarn test:integration && yarn type-check && yarn lint
+   - **Role**: EXECUTES patterns, implements specifications
 
-4. **FEDev** (Frontend Developer) 🎨
-   - UI/UX implementation
-   - Component development
-   - Accessibility compliance (WCAG 2.1 AA)
-   - Responsive design
+4. **FEDev** (Frontend Developer) 🎨 - **EXECUTOR**
+   - UI/UX implementation using patterns
+   - Pattern-driven: Use docs/patterns/ui/ patterns
+   - Accessibility compliance (WCAG 2.1 AA) - semantic HTML, ARIA, keyboard nav
+   - Responsive design (mobile-first)
+   - Validation: yarn test:unit && yarn type-check && yarn lint
+   - **Role**: EXECUTES UI patterns, implements components
 
-5. **QA** (Quality Assurance Specialist) ✅
-   - Test strategy and planning
-   - Acceptance criteria validation
-   - Quality gate reviews
-   - E2E test development
+5. **QA** (Quality Assurance Specialist) ✅ - **EXECUTOR**
+   - Test strategy EXECUTION (BSA defines strategy)
+   - Pattern-based testing: docs/patterns/testing/
+   - Acceptance criteria verification with programmatic tests
+   - Validation: yarn ci:validate (test:unit + test:integration + test:e2e)
+   - **Role**: EXECUTES testing strategy, verifies acceptance criteria
 
-6. **DataEng** (Data Engineer) 📊
-   - Data architecture and modeling
-   - ETL pipelines
-   - Database migrations
-   - Data integrity
+6. **DataEng** (Data Engineer) 📊 - **EXECUTOR**
+   - Database migrations with RLS policies
+   - Pattern-driven: Use docs/patterns/database/rls-migration.md
+   - MANDATORY: user_id column + index + RLS policies for all user-specific tables
+   - Migration validation: psql commands to verify RLS isolation
+   - **Role**: EXECUTES data patterns, implements RLS migrations
 
 7. **DevOps** (DevOps Engineer) 🚀
    - CI/CD pipeline setup
@@ -54,17 +87,20 @@ Built for teams practicing SAFe who want to leverage AI agents as full team memb
    - Deployment automation
    - Monitoring and alerting
 
-8. **SecEng** (Security Engineer) 🔒
-   - Security reviews and threat modeling
-   - Vulnerability assessment
-   - Compliance verification
-   - Security testing
+8. **SecEng** (Security Engineer) 🔒 - **RLS ENFORCER**
+   - RLS enforcement and verification
+   - 9-point RLS checklist for all user-specific tables
+   - Security review: ALL database operations must use RLS context helpers
+   - Zero-trust validation at database level
+   - **Role**: ENFORCES RLS, validates security at database layer
 
-9. **RTE** (Release Train Engineer) 🚂
+9. **RTE** (Release Train Engineer) 🚂 - **PROCESS GUARDIAN**
    - SAFe process facilitation
-   - Program increment planning
-   - Dependency management
-   - Impediment removal
+   - Linear git history enforcement (rebase only, NO merge commits)
+   - PR template required (Summary, Test Plan, Checklist)
+   - SAFe commit format: "type: description" (feat:, fix:, docs:, etc.)
+   - Validation before merge: yarn ci:validate MUST pass
+   - **Role**: ENFORCES process, maintains linear history
 
 10. **TechWriter** (Technical Writer) 📝
     - API documentation
@@ -88,13 +124,42 @@ Built for teams practicing SAFe who want to leverage AI agents as full team memb
 - **implement-ui** - Implement UI components with accessibility and responsiveness
 - **create-test-plan** - Create comprehensive test plans (unit, integration, E2E)
 
+### Production-Ready Pattern Library
+
+**30+ copy-paste ready patterns** organized by category:
+
+**API Patterns** (`docs/patterns/api/`):
+- `user-context-api.md` - API endpoints with RLS user context
+- `admin-context-api.md` - Admin-only endpoints with role verification
+- `webhook-handler.md` - Webhooks and background jobs with system context
+
+**Database Patterns** (`docs/patterns/database/`):
+- `rls-migration.md` - Prisma migrations with RLS policies
+- `RLS_IMPLEMENTATION_GUIDE.md` - Complete RLS reference (FOUNDATIONAL)
+
+**Testing Patterns** (`docs/patterns/testing/`):
+- `api-integration-test.md` - API endpoint tests with RLS verification
+- `e2e-user-flow.md` - End-to-end user journey tests
+
+**UI Patterns** (`docs/patterns/ui/`):
+- `authenticated-page.md` - Pages requiring Clerk authentication
+- `form-with-validation.md` - Forms with Zod validation + error display
+- `data-table.md` - Tables with sorting, filtering, pagination
+
+All patterns include:
+- ✅ Production-ready code (copy-paste ready)
+- ✅ Security checklist
+- ✅ Validation commands
+- ✅ Testing examples
+- ✅ Common mistakes and fixes
+
 ### Core Tasks
 
-- **pattern-discovery** - MANDATORY 4-step search before any implementation
+- **pattern-discovery** - MANDATORY 5-step search before any implementation
 - **stop-the-line** - Exercise stop-the-line authority for critical concerns
 - **validate-acceptance-criteria** - Ensure criteria are specific and testable
-- **architecture-review** - Review for architectural compliance
-- **code-review** - Review code for quality and best practices
+- **architecture-review** - Review for architectural compliance (>100 lines bash, >200 lines TS)
+- **code-review** - Review code for SOLID principles and RLS usage
 - **story-decomposition** - Decompose features into user stories
 
 ## 🚀 Quick Start
@@ -123,11 +188,14 @@ ANY team member (human or AI agent) can halt work to address:
 
 #### 3. Pattern Discovery Protocol
 
-MANDATORY 4-step search before creating any implementation:
-1. Check specs directory for similar requirements
-2. Search codebase for existing implementations
-3. Review pattern library for established patterns
-4. Get System Architect approval for new patterns
+MANDATORY 5-step search before creating any implementation:
+1. Check docs/patterns/ library FIRST
+2. Search codebase for similar implementations (grep, file search)
+3. Review session history and specs directory
+4. Check documentation and existing user stories
+5. ONLY propose new patterns to System Architect if nothing exists
+
+**DO NOT proceed with implementation until pattern is identified or created.**
 
 #### 4. Metacognitive Tags
 
