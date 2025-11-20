@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+  <metadata>
+    <id>{bmad_folder}/safe-expert/tasks/validate-acceptance-criteria.xml</id>
+    <name>Validate Acceptance Criteria</name>
+    <description>Ensure acceptance criteria are specific, testable, and verifiable</description>
+    <module>safe-expert</module>
+  </metadata>
+  <instructions>
+    <![CDATA[
+# Validate Acceptance Criteria
+
+Ensure all acceptance criteria are specific, testable, and programmatically verifiable.
+
+## Validation Checklist
+
+For each acceptance criterion:
+
+- [ ] **Specific**: Clearly defined with no ambiguity
+- [ ] **Testable**: Can be verified through automated tests
+- [ ] **Measurable**: Success/failure is objectively determinable
+- [ ] **Given-When-Then Format**: Follows standard structure
+- [ ] **Maps to Tests**: Specific test type identified (unit, integration, E2E)
+
+## Format Requirements
+
+```
+Given [context/precondition]
+When [action/event]
+Then [expected result]
+```
+
+## Examples
+
+**Good Acceptance Criteria**:
+```
+Given a logged-in user
+When they submit a valid email address
+Then the email is saved to the database
+And a confirmation message is displayed
+And an email verification is sent
+```
+**Test Mapping**: Unit test (email validation), Integration test (database save), E2E test (UI flow)
+
+**Bad Acceptance Criteria**:
+```
+The system should work well
+Users should be happy with the feature
+```
+**Why Bad**: Not specific, not testable, not measurable
+
+## Validation Process
+
+1. Review each acceptance criterion
+2. Identify any vague or untestable criteria
+3. Rewrite using Given-When-Then format
+4. Map to specific test types
+5. Verify all edge cases covered
+6. Document test strategy for each criterion
+    ]]>
+  </instructions>
+</task>

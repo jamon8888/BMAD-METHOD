@@ -1,0 +1,169 @@
+code: safe-expert
+name: "Safe Expert - SAFe Multi-Agent Development Methodology"
+description: "Production-validated SAFe methodology with 11 specialized AI agents as full team members"
+default_selected: false
+
+prompts:
+  specs_output_path:
+    prompt: "Where should specifications be saved?"
+    default: "{output_folder}/specs"
+    result: "{project-root}/{value}"
+
+  patterns_library_path:
+    prompt: "Where should the pattern library be stored?"
+    default: "patterns"
+    result: "{project-root}/{value}"
+
+  adr_path:
+    prompt: "Where should Architecture Decision Records be saved?"
+    default: "docs/adr"
+    result: "{project-root}/{value}"
+
+  safe_methodology:
+    prompt: "Are you following SAFe (Scaled Agile Framework)?"
+    default: "yes"
+    single-select:
+      - value: "yes"
+        label: "Yes, we follow SAFe"
+      - value: "partial"
+        label: "Partial SAFe implementation"
+      - value: "no"
+        label: "No, but interested in adopting"
+
+  team_size:
+    prompt: "What is your development team size?"
+    default: "small"
+    single-select:
+      - value: "solo"
+        label: "Solo developer"
+      - value: "small"
+        label: "Small team (2-5)"
+      - value: "medium"
+        label: "Medium team (6-15)"
+      - value: "large"
+        label: "Large team (15+)"
+      - value: "multiple"
+        label: "Multiple teams (ART)"
+
+  pattern_discovery_enforcement:
+    prompt: "Enforce mandatory Pattern Discovery Protocol?"
+    default: "strict"
+    single-select:
+      - value: "strict"
+        label: "Strict - Always required"
+      - value: "recommended"
+        label: "Recommended - Warnings only"
+      - value: "optional"
+        label: "Optional - Best practice"
+
+  stop_the_line_culture:
+    prompt: "Enable Stop-the-Line Authority for all agents?"
+    default: "yes"
+    single-select:
+      - value: "yes"
+        label: "Yes - Any agent can halt work"
+      - value: "architect-only"
+        label: "Architect only"
+      - value: "no"
+        label: "No - Recommendations only"
+
+  test_coverage_requirement:
+    prompt: "Minimum test coverage requirement?"
+    default: "80"
+    single-select:
+      - value: "90"
+        label: "90% (Strict)"
+      - value: "80"
+        label: "80% (Recommended)"
+      - value: "70"
+        label: "70% (Minimum)"
+      - value: "none"
+        label: "No requirement"
+
+configuration:
+  bmad_folder: ".bmad"
+
+  agents:
+    - file: "agents/bsa.agent.yaml"
+      enabled: true
+    - file: "agents/system-architect.agent.yaml"
+      enabled: true
+    - file: "agents/backend-dev.agent.yaml"
+      enabled: true
+    - file: "agents/frontend-dev.agent.yaml"
+      enabled: true
+    - file: "agents/qa-specialist.agent.yaml"
+      enabled: true
+    - file: "agents/data-engineer.agent.yaml"
+      enabled: true
+    - file: "agents/devops-engineer.agent.yaml"
+      enabled: true
+    - file: "agents/security-engineer.agent.yaml"
+      enabled: true
+    - file: "agents/release-train-engineer.agent.yaml"
+      enabled: true
+    - file: "agents/technical-writer.agent.yaml"
+      enabled: true
+    - file: "agents/tech-debt-manager.agent.yaml"
+      enabled: true
+
+  workflows:
+    - folder: "workflows/create-spec"
+      enabled: true
+    - folder: "workflows/planning-mode"
+      enabled: false
+    - folder: "workflows/validate-pattern"
+      enabled: true
+    - folder: "workflows/create-adr"
+      enabled: true
+    - folder: "workflows/implement-spec"
+      enabled: false
+    - folder: "workflows/implement-ui"
+      enabled: false
+    - folder: "workflows/create-test-plan"
+      enabled: true
+
+  tasks:
+    - file: "tasks/pattern-discovery.xml"
+    - file: "tasks/stop-the-line.xml"
+    - file: "tasks/validate-acceptance-criteria.xml"
+    - file: "tasks/architecture-review.xml"
+    - file: "tasks/code-review.xml"
+    - file: "tasks/story-decomposition.xml"
+
+post_install_message: |
+
+  🎯 Safe Expert Module Installed Successfully!
+
+  You now have access to 11 specialized SAFe agents:
+
+  📋 BSA - Business Systems Analyst (requirements & specs)
+  🏗️ Arch - System Architect (patterns & decisions)
+  ⚙️ BEDev - Backend Developer
+  🎨 FEDev - Frontend Developer
+  ✅ QA - Quality Assurance Specialist
+  📊 DataEng - Data Engineer
+  🚀 DevOps - DevOps Engineer
+  🔒 SecEng - Security Engineer
+  🚂 RTE - Release Train Engineer
+  📝 TechWriter - Technical Writer
+  🔧 TechDebt - Technical Debt Manager
+
+  Core Principles Enabled:
+  ✓ Pattern Discovery Protocol: {{pattern_discovery_enforcement}}
+  ✓ Stop-the-Line Authority: {{stop_the_line_culture}}
+  ✓ Round Table Philosophy: All voices heard equally
+  ✓ Test Coverage Required: {{test_coverage_requirement}}%
+
+  💡 Quick Start:
+  1. Load BSA agent
+  2. Run *create-spec to create specification
+  3. Load dev agent (BEDev/FEDev) to implement
+  4. Load QA agent for testing
+
+  📚 Full documentation: src/modules/safe-expert/README.md
+
+  Based on production-validated methodology:
+  169 issues, 2,193 commits, 14× velocity improvement
+
+  Build better, together! 🚀

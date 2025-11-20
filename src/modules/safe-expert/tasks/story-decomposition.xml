@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+  <metadata>
+    <id>{bmad_folder}/safe-expert/tasks/story-decomposition.xml</id>
+    <name>Story Decomposition</name>
+    <description>Decompose features into user stories with clear tasks</description>
+    <module>safe-expert</module>
+  </metadata>
+  <instructions>
+    <![CDATA[
+# Story Decomposition
+
+Decompose features into user stories following SAFe methodology.
+
+## SAFe Hierarchy
+
+```
+Epic → Features → Stories → Tasks
+```
+
+## Story Format
+
+```
+As a [user role]
+I want [functionality]
+So that [business value]
+```
+
+## Decomposition Process
+
+1. **Identify User Roles**: Who will use this feature?
+2. **Define User Needs**: What do they need to accomplish?
+3. **Extract Business Value**: Why does this matter?
+4. **Create Stories**: One story per user need
+5. **Define Acceptance Criteria**: Specific, testable criteria
+6. **Break into Tasks**: Technical implementation tasks
+
+## Story Size
+
+Stories should be completable in 1 sprint:
+- **Too Large**: Epic or Feature, needs decomposition
+- **Right Size**: 1-3 days of work
+- **Too Small**: Combine with related stories
+
+## Task Breakdown
+
+For each story, create tasks for:
+- Backend implementation
+- Frontend implementation
+- Data/schema changes
+- Testing (unit, integration, E2E)
+- Documentation
+
+## Example
+
+**Feature**: User Authentication
+
+**Story 1**: User Login
+```
+As a registered user
+I want to log in with email and password
+So that I can access my account
+
+Acceptance Criteria:
+- Given valid credentials, user is authenticated
+- Given invalid credentials, error message displayed
+- Login persists across sessions
+
+Tasks:
+- Implement login API endpoint
+- Create login form UI
+- Add session management
+- Write unit tests for authentication
+- Write E2E test for login flow
+```
+    ]]>
+  </instructions>
+</task>

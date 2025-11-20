@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+  <metadata>
+    <id>{bmad_folder}/safe-expert/tasks/stop-the-line.xml</id>
+    <name>Stop-the-Line Authority</name>
+    <description>Exercise stop-the-line authority to address critical concerns</description>
+    <module>safe-expert</module>
+    <tags>
+      <tag>stop-the-line</tag>
+      <tag>authority</tag>
+      <tag>safe</tag>
+    </tags>
+  </metadata>
+
+  <instructions>
+    <![CDATA[
+# Stop-the-Line Authority
+
+## What Is Stop-the-Line Authority?
+
+Stop-the-Line Authority empowers ANY team member (human or AI agent) to halt work immediately when they identify critical concerns that threaten:
+- Architectural integrity
+- Security vulnerabilities
+- Performance issues
+- Quality standards
+- Maintainability
+- Compliance requirements
+- User experience
+
+This authority is inspired by lean manufacturing's "andon cord" - anyone can stop the line to prevent defects from propagating.
+
+## When to Exercise Stop-the-Line
+
+**IMMEDIATELY stop work if you identify**:
+
+### Architectural Concerns
+- Violation of established architectural patterns
+- Introduction of circular dependencies
+- Scaling issues or architectural bottlenecks
+- Inconsistent with system design principles
+- Technical debt that threatens maintainability
+
+### Security Vulnerabilities
+- SQL injection, XSS, or CSRF vulnerabilities
+- Hardcoded credentials or secrets
+- Insufficient authentication or authorization
+- Data exposure or privacy violations
+- Compliance violations (GDPR, HIPAA, PCI, etc.)
+
+### Performance Issues
+- N+1 query problems
+- Memory leaks or resource exhaustion
+- Blocking operations on critical paths
+- Unoptimized database queries
+- Missing indexes or inefficient algorithms
+
+### Quality Standards
+- Insufficient test coverage (<80%)
+- Acceptance criteria not met
+- Breaking changes without versioning
+- Missing error handling
+- Poor code quality or maintainability
+
+### Process Violations
+- Pattern Discovery Protocol skipped
+- Required reviews not completed
+- Deployment without proper testing
+- Missing documentation for critical features
+
+## How to Exercise Stop-the-Line
+
+### 1. Halt Work Immediately
+
+**Announce the stop**:
+```
+🛑 STOP-THE-LINE EXERCISED
+
+Agent: [Your Role]
+Concern: [Category: Architecture/Security/Performance/Quality/Process]
+Severity: [Critical/High/Medium]
+```
+
+### 2. Explain the Concern
+
+**Document the issue clearly**:
+
+```markdown
+## Issue Description
+
+[Clear, specific description of the problem]
+
+## Why This Matters
+
+[Explain the impact on system, users, or team]
+
+## Evidence
+
+[Provide specific examples, code snippets, or data]
+
+## Risk Assessment
+
+**If we proceed without addressing**:
+- Short-term risk: [e.g., Security vulnerability in production]
+- Long-term risk: [e.g., Technical debt compounds, harder to fix later]
+```
+
+### 3. Propose Alternatives
+
+**Offer solutions, not just problems**:
+
+```markdown
+## Proposed Solutions
+
+### Option 1: [Preferred Solution]
+**Approach**: [How to fix]
+**Pros**: [Benefits]
+**Cons**: [Trade-offs]
+**Effort**: [Time estimate]
+
+### Option 2: [Alternative]
+**Approach**: [How to fix]
+**Pros**: [Benefits]
+**Cons**: [Trade-offs]
+**Effort**: [Time estimate]
+
+## Recommendation
+
+[Which option and why]
+```
+
+### 4. Document the Decision
+
+**Create proper documentation**:
+
+- **If Architectural**: Create ADR (Architecture Decision Record)
+- **If Security**: Create security incident record
+- **If Process**: Update process documentation
+- **If Pattern**: Add to pattern library with lessons learned
+
+```markdown
+## Decision Record
+
+**Date**: {{date}}
+**Decided by**: [Team members involved]
+**Decision**: [What was decided]
+**Rationale**: [Why this decision was made]
+**Alternatives considered**: [Other options]
+**Consequences**: [Trade-offs accepted]
+```
+
+### 5. Communicate to Team
+
+**Ensure transparency**:
+- Update ticket/issue with stop-the-line explanation
+- Notify stakeholders if timeline impacted
+- Share learnings with team
+- Update documentation
+
+## Stop-the-Line Report Template
+
+```markdown
+# Stop-the-Line Report
+
+**Date**: {{date}}
+**Agent**: {{agent-role}} ({{agent-name}})
+**Feature/Story**: {{story-id}}
+
+---
+
+## 🛑 STOP-THE-LINE EXERCISED
+
+**Concern Category**: [Architecture/Security/Performance/Quality/Process]
+**Severity**: [Critical/High/Medium]
+
+---
+
+## Issue Description
+
+[Clear, detailed description of the problem]
+
+---
+
+## Impact Analysis
+
+**Short-term Impact**:
+- [What happens if we deploy this now]
+
+**Long-term Impact**:
+- [What happens if we never fix this]
+
+**Affected Areas**:
+- [Which components, users, or systems are impacted]
+
+---
+
+## Evidence
+
+**Code Location**: [File paths, line numbers]
+**Symptoms**: [Observable problems]
+**Data**: [Metrics, logs, or test results]
+
+**Example**:
+```
+[Code snippet showing the issue]
+```
+
+---
+
+## Root Cause
+
+[Why did this happen? How did it get this far?]
+
+---
+
+## Proposed Solutions
+
+### ✅ Recommended: Option 1
+
+**Approach**: [How to fix]
+**Benefits**: [Why this is best]
+**Trade-offs**: [What we give up]
+**Effort**: [Time estimate]
+**Implementation**:
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
+
+### Alternative: Option 2
+
+**Approach**: [How to fix]
+**Benefits**: [Why this could work]
+**Trade-offs**: [What we give up]
+**Effort**: [Time estimate]
+
+### Not Recommended: Option 3 (Do Nothing)
+
+**Risk**: [Why this is unacceptable]
+
+---
+
+## Decision
+
+**Status**: [Pending/Approved/Needs Discussion]
+**Chosen Solution**: [Which option]
+**Rationale**: [Why this decision]
+**Implementation Timeline**: [When will this be fixed]
+
+---
+
+## Prevention
+
+**How to prevent this in the future**:
+1. [Process improvement]
+2. [Tool or automation]
+3. [Training or documentation]
+
+---
+
+## Follow-up Actions
+
+- [ ] Create ADR if architectural decision
+- [ ] Update pattern library
+- [ ] Implement fix
+- [ ] Add tests to prevent regression
+- [ ] Update documentation
+- [ ] Share learnings with team
+
+---
+
+**Sign-off**:
+- Agent: {{agent-name}}
+- Architect Approval: [If needed]
+- Security Approval: [If needed]
+```
+
+## Cultural Principles
+
+### Round Table Philosophy
+
+All perspectives are heard with equal weight:
+- Junior developers can stop the line
+- AI agents can stop the line
+- Any role can stop the line
+
+**The goal**: Catch issues early, fix them right
+
+### Blameless Culture
+
+Stop-the-Line is **never punitive**:
+- No blame for identifying issues
+- No penalties for raising concerns
+- Focus on learning and improving
+
+### Continuous Improvement
+
+Each stop-the-line event:
+- Improves the process
+- Strengthens the system
+- Educates the team
+
+## Success Criteria
+
+- [ ] Work halted immediately when concern identified
+- [ ] Issue documented clearly with evidence
+- [ ] Alternative solutions proposed
+- [ ] Decision documented with rationale
+- [ ] Prevention measures identified
+- [ ] Team informed and learnings shared
+
+**Remember**: It's easier and cheaper to fix issues early than to deal with them in production.
+
+Stop-the-Line Authority exists to protect quality - use it confidently when needed.
+    ]]>
+  </instructions>
+</task>

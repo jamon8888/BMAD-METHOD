@@ -8,7 +8,7 @@
 
 ## AI-Driven Agile Development That Scales From Bug Fixes to Enterprise
 
-**Build More, Architect Dreams** (BMAD) with **31+ specialized AI agents** and **73+ guided workflows** that adapt to your project's complexity—from quick bug fixes to enterprise platforms to content creation and marketing operations.
+**Build More, Architect Dreams** (BMAD) with **42+ specialized AI agents** and **80+ guided workflows** that adapt to your project's complexity—from quick bug fixes to enterprise platforms to content creation, marketing operations, and SAFe development.
 
 > **🚀 v6 is a MASSIVE upgrade from v4!** Complete architectural overhaul, scale-adaptive intelligence, visual workflows, and the powerful BMad Core framework. v4 users: this changes everything. [See what's new →](#whats-new-in-v6)
 
@@ -138,6 +138,14 @@ Each agent brings deep expertise and can be customized to match your team's styl
   - 20 specialized tasks for research, optimization, and analysis
   - Professional-grade marketing deliverables with AI assistance
   - [→ Marketing Operations Suite](./src/modules/marketing-ops/README.md)
+
+- **Safe Expert** - Production-validated SAFe multi-agent development methodology
+  - 11 specialized SAFe agents (BSA, System Architect, BE/FE/Data Devs, QA, DevOps, Security, RTE, Tech Writer, Tech Debt Manager)
+  - 7 key workflows for specs, planning, patterns, architecture, implementation, testing
+  - Pattern Discovery Protocol (mandatory 4-step search before implementation)
+  - Stop-the-Line Authority (any agent can halt work for critical concerns)
+  - Based on 5 months production validation: 169 issues, 2,193 commits, 14× velocity improvement
+  - [→ Safe Expert Methodology](./src/modules/safe-expert/README.md)
 
 ### Key Features
 

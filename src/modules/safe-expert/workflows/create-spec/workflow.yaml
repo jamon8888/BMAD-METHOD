@@ -1,0 +1,30 @@
+name: "create-spec"
+description: "Create detailed implementation specification following Pattern Discovery Protocol"
+author: "Safe Expert Module"
+
+config_source: "{project-root}/{bmad_folder}/safe-expert/config.yaml"
+specs_output_folder: "{specs_output_path}"
+default_output_file: "{specs_output_folder}/spec-{{story-id}}-{{date}}.md"
+
+steps:
+  - id: pattern-discovery
+    agent: "{bmad_folder}/safe-expert/agents/bsa.md"
+    task: "{project-root}/{bmad_folder}/safe-expert/tasks/pattern-discovery.xml"
+
+  - id: requirements-analysis
+    agent: "{bmad_folder}/safe-expert/agents/bsa.md"
+    instructions: "{project-root}/{bmad_folder}/safe-expert/workflows/create-spec/instructions.md"
+    template: "{project-root}/{bmad_folder}/safe-expert/workflows/create-spec/template.md"
+
+  - id: validate-acceptance-criteria
+    agent: "{bmad_folder}/safe-expert/agents/bsa.md"
+    task: "{project-root}/{bmad_folder}/safe-expert/tasks/validate-acceptance-criteria.xml"
+
+  - id: architecture-review
+    agent: "{bmad_folder}/safe-expert/agents/system-architect.md"
+    task: "{project-root}/{bmad_folder}/safe-expert/tasks/architecture-review.xml"
+
+  - id: generate-spec
+    agent: "{bmad_folder}/safe-expert/agents/bsa.md"
+    template: "{project-root}/{bmad_folder}/safe-expert/templates/spec-template.md"
+    output_file: "{default_output_file}"

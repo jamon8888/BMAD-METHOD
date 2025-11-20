@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+  <metadata>
+    <id>{bmad_folder}/safe-expert/tasks/architecture-review.xml</id>
+    <name>Architecture Review</name>
+    <description>Review implementation for architectural compliance and pattern adherence</description>
+    <module>safe-expert</module>
+  </metadata>
+  <instructions>
+    <![CDATA[
+# Architecture Review
+
+Review specifications and implementations for architectural soundness, pattern compliance, and long-term maintainability.
+
+## Review Areas
+
+### 1. Pattern Compliance
+- Are established patterns used correctly?
+- Is pattern usage appropriate for this context?
+- Are there better pattern alternatives?
+
+### 2. Architectural Integrity
+- Does this fit the overall system architecture?
+- Are there concerns about coupling or cohesion?
+- Does this introduce new dependencies appropriately?
+- Are abstraction layers respected?
+
+### 3. Scalability
+- Will this scale with increased load?
+- Are there performance bottlenecks?
+- Is caching strategy appropriate?
+
+### 4. Maintainability
+- Is code/design easy to understand and modify?
+- Are responsibilities clearly separated?
+- Is there adequate documentation?
+
+### 5. Security
+- Are security best practices followed?
+- Is authentication/authorization handled correctly?
+- Are inputs validated and sanitized?
+
+## Review Checklist
+
+- [ ] Pattern Discovery Protocol completed
+- [ ] Patterns used correctly and appropriately
+- [ ] No architectural violations
+- [ ] Scalability concerns addressed
+- [ ] Security best practices followed
+- [ ] Maintainability considered
+- [ ] Documentation adequate
+- [ ] Technical debt impact assessed
+
+## Stop-the-Line Triggers
+
+Exercise stop-the-line authority if:
+- Pattern violations that create technical debt
+- Architectural integrity compromised
+- Security vulnerabilities identified
+- Scalability concerns not addressed
+- Maintainability seriously degraded
+
+## Decision Output
+
+- **Approved**: Proceed with implementation
+- **Approved with Changes**: Minor adjustments needed
+- **Needs Revision**: Significant concerns, rework required
+- **Rejected**: Fundamental architectural issues
+    ]]>
+  </instructions>
+</task>

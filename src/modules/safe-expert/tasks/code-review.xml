@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+  <metadata>
+    <id>{bmad_folder}/safe-expert/tasks/code-review.xml</id>
+    <name>Code Review</name>
+    <description>Review code for quality, patterns, best practices, and maintainability</description>
+    <module>safe-expert</module>
+  </metadata>
+  <instructions>
+    <![CDATA[
+# Code Review
+
+Comprehensive code review focusing on quality, patterns, best practices, and maintainability.
+
+## Review Checklist
+
+### Code Quality
+- [ ] Code is clean and readable
+- [ ] Variable/function names are descriptive
+- [ ] No magic numbers or hardcoded values
+- [ ] Proper error handling
+- [ ] No code duplication (DRY principle)
+
+### Pattern Adherence
+- [ ] Uses established patterns from pattern library
+- [ ] Pattern implementation is correct
+- [ ] No anti-patterns introduced
+
+### Testing
+- [ ] Unit tests present and passing
+- [ ] Integration tests for cross-component interactions
+- [ ] Test coverage meets threshold (>80%)
+- [ ] Edge cases tested
+- [ ] Error scenarios tested
+
+### Security
+- [ ] No SQL injection vulnerabilities
+- [ ] No XSS vulnerabilities
+- [ ] Inputs validated and sanitized
+- [ ] Authentication/authorization checked
+- [ ] Secrets not hardcoded
+
+### Performance
+- [ ] No N+1 query problems
+- [ ] Efficient algorithms used
+- [ ] Appropriate caching
+- [ ] No memory leaks
+
+### Documentation
+- [ ] Public APIs documented
+- [ ] Complex logic explained
+- [ ] ADRs created for significant decisions
+
+## Review Process
+
+1. Read the code thoroughly
+2. Check against all items in checklist
+3. Run tests locally
+4. Identify issues and suggest improvements
+5. Approve or request changes
+
+## Feedback Format
+
+**Issues Found**:
+- **Critical**: Must fix before merge
+- **Important**: Should fix soon
+- **Minor**: Nice to have improvements
+
+**Positive Feedback**: Acknowledge good patterns and quality code
+    ]]>
+  </instructions>
+</task>

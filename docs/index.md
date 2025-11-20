@@ -216,7 +216,15 @@ src/modules/
 4. Analyze performance with `*analytics-report` (Elena - Marketing Analyst)
 5. Create design briefs with `*design-brief` (Maya - Marketing Designer)
 
-### Path 8: Contributing to BMad
+### Path 8: SAFe Multi-Agent Development
+
+1. [Safe Expert Module README](../src/modules/safe-expert/README.md) - Understand SAFe methodology
+2. Create specifications with `*create-spec` (BSA - Business Systems Analyst)
+3. Validate architecture with `*validate-pattern` (Arch - System Architect)
+4. Implement with pattern discovery (BEDev/FEDev - Developers)
+5. Ensure quality with `*create-test-plan` (QA - Quality Assurance)
+
+### Path 9: Contributing to BMad
 
 1. [CONTRIBUTING.md](../CONTRIBUTING.md) - Contribution guidelines
 2. Relevant module README - Understand the area you're contributing to
@@ -233,6 +241,7 @@ src/modules/
 - **CIS** - Creative thinking and brainstorming
 - **Content Creator** - Multi-platform content creation with voice profiling
 - **Marketing Ops** - Complete marketing operations suite (strategy, campaigns, analytics, creative)
+- **Safe Expert** - Production-validated SAFe multi-agent development methodology with 11 specialized agents
 
 **How do I load an agent?**
 → See [ide-info](./ide-info/) folder for your IDE

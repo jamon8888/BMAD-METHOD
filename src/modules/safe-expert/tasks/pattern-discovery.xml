@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task>
+  <metadata>
+    <id>{bmad_folder}/safe-expert/tasks/pattern-discovery.xml</id>
+    <name>Pattern Discovery Protocol</name>
+    <description>MANDATORY 4-step pattern discovery before creating any new implementation</description>
+    <module>safe-expert</module>
+    <tags>
+      <tag>pattern-discovery</tag>
+      <tag>safe</tag>
+      <tag>mandatory</tag>
+    </tags>
+  </metadata>
+
+  <instructions>
+    <![CDATA[
+# Pattern Discovery Protocol
+
+## MANDATORY: Execute Before Any Implementation
+
+The Pattern Discovery Protocol is MANDATORY before creating any new code, specification, or architecture. This ensures consistency, reduces technical debt, and leverages existing proven solutions.
+
+## The 4-Step Protocol
+
+### Step 1: Check Specs Directory
+
+**Search** the specs directory for similar requirements or implementations:
+
+```bash
+# Search specs for related keywords
+grep -r "keyword" docs/specs/
+grep -r "similar-feature" docs/specs/
+
+# Review recent specs for patterns
+ls -lt docs/specs/ | head -20
+```
+
+**Document**:
+- Similar specs found
+- Patterns used in those specs
+- Lessons learned from previous implementations
+
+### Step 2: Search Codebase
+
+**Search** existing codebase for similar implementations:
+
+```bash
+# Search for similar functionality
+grep -r "similar-pattern" src/
+grep -r "related-feature" src/
+
+# Find files with similar structure
+find src/ -name "*similar*"
+```
+
+**Document**:
+- Existing implementations found
+- Code patterns used
+- Files and locations
+- Quality and maintainability of existing code
+
+### Step 3: Review Pattern Library
+
+**Review** the pattern library for established, approved patterns:
+
+```bash
+# Check patterns directory
+ls -R patterns/
+cat patterns/README.md
+
+# Search for relevant pattern categories
+find patterns/ -type f -name "*api*"
+find patterns/ -type f -name "*database*"
+find patterns/ -type f -name "*ui*"
+```
+
+**Pattern Categories**:
+- **API Patterns**: REST endpoints, webhooks, validation
+- **Database Patterns**: Transactions, migrations, queries
+- **UI Patterns**: Components, forms, layouts
+- **Testing Patterns**: Unit tests, integration tests, E2E tests
+- **Data Patterns**: ETL, pipelines, transformations
+- **Security Patterns**: Authentication, authorization, encryption
+
+**Document**:
+- Relevant patterns found
+- Pattern applicability to current need
+- Example implementations
+- Pattern pros/cons for this use case
+
+### Step 4: Get System Architect Approval
+
+**IF** no existing pattern fits your need:
+
+1. **Propose New Pattern**:
+   - Document the new pattern proposal
+   - Explain why existing patterns don't fit
+   - Provide implementation approach
+   - Estimate complexity and risks
+
+2. **Consult System Architect**:
+   - Present pattern proposal
+   - Discuss alternatives
+   - Address architectural concerns
+   - Get approval before proceeding
+
+3. **Document Decision**:
+   - Create ADR (Architecture Decision Record) if significant
+   - Add pattern to pattern library if approved
+   - Document rationale and trade-offs
+
+## Pattern Discovery Report
+
+Document your findings in this format:
+
+```markdown
+# Pattern Discovery Report
+
+**Date**: {{date}}
+**Feature/Story**: {{story-name}}
+**Searcher**: {{agent-role}}
+
+## Step 1: Specs Directory Search
+
+**Keywords searched**: keyword1, keyword2, keyword3
+**Similar specs found**:
+- spec-123: Uses pattern XYZ for similar requirement
+- spec-456: Similar approach but different context
+
+**Patterns identified**: Pattern A, Pattern B
+
+## Step 2: Codebase Search
+
+**Search locations**: src/api/, src/database/, src/ui/
+**Similar implementations found**:
+- src/api/users/endpoint.ts: Uses REST pattern with validation
+- src/database/migrations/: Uses migration pattern with rollback
+
+**Code quality assessment**: Good, well-tested, maintainable
+
+## Step 3: Pattern Library Review
+
+**Patterns reviewed**:
+- patterns/api/rest-endpoint.md: Applicable ✓
+- patterns/database/transaction.md: Applicable ✓
+- patterns/testing/integration-test.md: Applicable ✓
+
+**Selected patterns**:
+1. REST API Pattern (patterns/api/rest-endpoint.md)
+   - Why: Matches existing codebase conventions
+   - Modifications needed: None
+
+2. Database Transaction Pattern (patterns/database/transaction.md)
+   - Why: Ensures data integrity for multi-step operation
+   - Modifications needed: Adapt for PostgreSQL
+
+## Step 4: Architect Approval
+
+**Status**: ✓ Existing patterns cover requirements
+
+OR
+
+**Status**: New pattern required
+**Proposal**: [Document new pattern proposal]
+**Architect Approval**: [Pending/Approved/Needs Revision]
+**ADR Created**: docs/adr/ADR-XXX-new-pattern-name.md
+
+## Decision
+
+**Proceed with**: Pattern A, Pattern B
+**Rationale**: Proven patterns that fit requirements
+**Implementation approach**: [Brief description]
+
+## Next Steps
+
+1. Implement using selected patterns
+2. Create pattern-specific tests
+3. Document any pattern variations
+```
+
+## DO NOT Proceed Without Pattern Discovery
+
+**If you skip pattern discovery**:
+- Technical debt accumulates
+- Inconsistent codebase emerges
+- Solutions may not scale
+- Team velocity decreases over time
+
+**Use Stop-the-Line Authority** if:
+- Pressure to skip pattern discovery
+- Unclear which pattern to use
+- Existing patterns are poor quality
+- Time to refactor before adding new code
+
+## Success Criteria
+
+- [ ] All 4 steps completed
+- [ ] Pattern Discovery Report created
+- [ ] Existing patterns found OR new pattern approved
+- [ ] Implementation approach documented
+- [ ] Ready to proceed with confidence
+
+Pattern Discovery is not optional - it's the foundation of sustainable, scalable development.
+    ]]>
+  </instructions>
+</task>
