@@ -54,12 +54,17 @@ With **BMad Builder**, you can architect both simple agents and vastly complex d
 ### 1. Install BMad Method
 
 ```bash
-# Install v6 Alpha (recommended)
+# Install from this fork (jamon8888)
+npx @jamon8888/bmad-method@alpha install
+
+# Or install from original repository
 npx bmad-method@alpha install
 
-# Or stable v4 for production
-npx bmad-method install
+# Or install directly from GitHub (no npm publish needed)
+npx github:jamon8888/BMAD-METHOD install
 ```
+
+> **Note**: This is a fork maintained by [@jamon8888](https://github.com/jamon8888). To publish your own fork to npm, see [PUBLISHING.md](./PUBLISHING.md).
 
 ### 2. Initialize Your Project
 
