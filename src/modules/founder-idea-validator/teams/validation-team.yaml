@@ -1,0 +1,66 @@
+# Complete Validation Team
+# All five validation agents for comprehensive idea assessment
+
+team:
+  name: Complete Validation Team
+  description: Full validation team for 30-45 minute comprehensive idea assessment across all three pillars
+
+  members:
+    - agent: "{bmad_folder}/founder-idea-validator/agents/validator-analyst.md"
+      name: Lisa
+      role: Validator Analyst
+      focus: Idea refinement and validation context preparation
+
+    - agent: "{bmad_folder}/founder-idea-validator/agents/market-fit.md"
+      name: Alex
+      role: Market Fit Validator
+      focus: Demand validation and competitive research
+
+    - agent: "{bmad_folder}/founder-idea-validator/agents/founder-alignment.md"
+      name: Marcus
+      role: Founder Alignment Validator
+      focus: Capability assessment and resource validation
+
+    - agent: "{bmad_folder}/founder-idea-validator/agents/distribution-strategy.md"
+      name: Sarah
+      role: Distribution Strategy Validator
+      focus: Customer acquisition and channel viability
+
+    - agent: "{bmad_folder}/founder-idea-validator/agents/report-generator.md"
+      name: Jordan
+      role: Report Generator
+      focus: Cross-pillar synthesis and final recommendations
+
+  workflow:
+    sequential_flow: true
+    phases:
+      - phase: 1
+        agent: Lisa
+        duration: "5-20 minutes"
+        output: Validation Context Document
+
+      - phase: 2
+        agent: Alex
+        duration: "10-15 minutes"
+        output: Market Fit Assessment
+
+      - phase: 3
+        agent: Marcus
+        duration: "10-15 minutes"
+        output: Founder Alignment Assessment
+
+      - phase: 4
+        agent: Sarah
+        duration: "10-15 minutes"
+        output: Distribution Strategy Assessment
+
+      - phase: 5
+        agent: Jordan
+        duration: "3-5 minutes"
+        output: Comprehensive Validation Report
+
+  best_for:
+    - Complete idea validation from scratch
+    - Fuzzy ideas needing refinement
+    - Systematic assessment across all three pillars
+    - Evidence-based go/no-go decisions

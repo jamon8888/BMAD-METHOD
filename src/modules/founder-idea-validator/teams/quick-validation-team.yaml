@@ -1,0 +1,53 @@
+# Quick Validation Team
+# Alex + Sarah + Jordan for rapid market and distribution reality check
+
+team:
+  name: Quick Validation Team
+  description: Rapid validation for well-defined ideas focusing on external validation (market demand and distribution feasibility)
+
+  members:
+    - agent: "{bmad_folder}/founder-idea-validator/agents/market-fit.md"
+      name: Alex
+      role: Market Fit Validator
+      focus: Demand validation and competitive research
+
+    - agent: "{bmad_folder}/founder-idea-validator/agents/distribution-strategy.md"
+      name: Sarah
+      role: Distribution Strategy Validator
+      focus: Customer acquisition and channel viability
+
+    - agent: "{bmad_folder}/founder-idea-validator/agents/report-generator.md"
+      name: Jordan
+      role: Report Generator
+      focus: Synthesis and recommendations
+
+  workflow:
+    sequential_flow: true
+    phases:
+      - phase: 1
+        agent: Alex
+        duration: "10-15 minutes"
+        output: Market Fit Assessment
+
+      - phase: 2
+        agent: Sarah
+        duration: "10-15 minutes"
+        output: Distribution Strategy Assessment
+
+      - phase: 3
+        agent: Jordan
+        duration: "3-5 minutes"
+        output: Validation Report
+
+  prerequisites:
+    - Idea is already well-defined
+    - Target customer clearly identified
+    - Value proposition articulated
+    - Monetization approach decided
+    - Unit economics understood
+
+  best_for:
+    - Well-defined ideas needing market reality check
+    - Quick go/no-go decisions (20-30 minutes)
+    - External validation only (assuming internal capability)
+    - Testing specific market and distribution assumptions

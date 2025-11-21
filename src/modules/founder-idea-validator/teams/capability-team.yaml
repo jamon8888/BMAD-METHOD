@@ -1,0 +1,43 @@
+# Capability Check Team
+# Marcus + Jordan for founder alignment and execution feasibility assessment
+
+team:
+  name: Capability Check Team
+  description: Focused assessment of founder capability to execute on validated market opportunity
+
+  members:
+    - agent: "{bmad_folder}/founder-idea-validator/agents/founder-alignment.md"
+      name: Marcus
+      role: Founder Alignment Validator
+      focus: Capability assessment and resource validation
+
+    - agent: "{bmad_folder}/founder-idea-validator/agents/report-generator.md"
+      name: Jordan
+      role: Report Generator
+      focus: Capability report and gap recommendations
+
+  workflow:
+    sequential_flow: true
+    phases:
+      - phase: 1
+        agent: Marcus
+        duration: "10-15 minutes"
+        output: Founder Alignment Assessment
+
+      - phase: 2
+        agent: Jordan
+        duration: "3-5 minutes"
+        output: Capability Assessment Report
+
+  prerequisites:
+    - Market demand is known or assumed
+    - Idea is well-defined
+    - Need to assess execution feasibility
+    - Want to identify capability gaps
+
+  best_for:
+    - When market opportunity is validated externally
+    - Assessing whether YOU can execute this specific idea
+    - Identifying skill and resource gaps
+    - Quick capability reality check (15-20 minutes)
+    - Deciding between multiple validated opportunities
