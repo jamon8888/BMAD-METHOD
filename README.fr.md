@@ -75,11 +75,11 @@ Cela analyse votre projet et recommande la bonne piste de workflow.
 
 BMad Method s'adapte à vos besoins avec trois pistes intelligentes :
 
-| Piste              | Utiliser Pour                  | Planification               | Temps de Démarrage |
-| ------------------ | ------------------------------ | --------------------------- | ------------------ |
-| **⚡ Quick Flow**  | Correctifs de bugs, petites fonctionnalités | Spécification technique uniquement | < 5 minutes |
-| **📋 BMad Method** | Produits, plateformes          | PRD + Architecture + UX     | < 15 minutes       |
-| **🏢 Enterprise**  | Conformité, échelle            | Suite complète de gouvernance | < 30 minutes     |
+| Piste              | Utiliser Pour                               | Planification                      | Temps de Démarrage |
+| ------------------ | ------------------------------------------- | ---------------------------------- | ------------------ |
+| **⚡ Quick Flow**  | Correctifs de bugs, petites fonctionnalités | Spécification technique uniquement | < 5 minutes        |
+| **📋 BMad Method** | Produits, plateformes                       | PRD + Architecture + UX            | < 15 minutes       |
+| **🏢 Enterprise**  | Conformité, échelle                         | Suite complète de gouvernance      | < 30 minutes       |
 
 > **Pas sûr ?** Exécutez `*workflow-init` et laissez BMad analyser l'objectif de votre projet.
 
@@ -99,6 +99,7 @@ Chaque phase dispose de workflows et d'agents spécialisés travaillant ensemble
 **31 Agents Spécialisés** organisés par domaine d'expertise :
 
 ### 🔧 Développement Logiciel (BMad Method - 8 agents)
+
 - **PM** - Chef de Produit
 - **Analyst** - Analyste Business
 - **Architect** - Architecte Système
@@ -109,12 +110,14 @@ Chaque phase dispose de workflows et d'agents spécialisés travaillant ensemble
 - **UX Designer** - Designer Expérience Utilisateur
 
 ### 🎮 Développement de Jeux (BMGD - 4 agents)
+
 - **Game Designer** - Designer de Jeu & GDD
 - **Game Developer** - Développeur de Jeu (Unity/Unreal)
 - **Game Architect** - Architecte Technique Jeux
 - **Game Scrum Master** - Scrum Master Jeux
 
 ### 💡 Intelligence Créative (CIS - 5 agents)
+
 - **Carson** - Coach Brainstorming
 - **Maya** - Coach Design Thinking
 - **Dr. Quinn** - Résolveur de Problèmes
@@ -122,6 +125,7 @@ Chaque phase dispose de workflows et d'agents spécialisés travaillant ensemble
 - **Sophia** - Maître Conteur
 
 ### 📝 Création de Contenu (8 agents)
+
 - **Casey** - Rédacteur de Contenu
 - **Alex** - Analyseur de Contenu & SEO
 - **Riley** - Agrégateur de Recherche
@@ -132,17 +136,20 @@ Chaque phase dispose de workflows et d'agents spécialisés travaillant ensemble
 - **Sam** - Optimiseur SEO
 
 ### 📊 Marketing Operations (4 agents)
+
 - **Sofia** - Stratège Marketing de Marque
 - **Marcus** - Spécialiste Marketing de Performance
 - **Elena** - Analyste de Données Marketing
 - **Maya** - Designer Marketing Créatif
 
 ### 💼 Coach Carrière (3 agents)
+
 - **Michael** - Coach Carrière Stratégique
 - **Will** - Rédacteur de CV Professionnel
 - **Jennifer** - Coach Entretien d'Embauche
 
 ### ✍️ Rédaction UX (1 agent)
+
 - **Alex** - Spécialiste Rédaction UX & Microcopy
 
 Chaque agent apporte une expertise approfondie et peut être personnalisé pour correspondre au style de votre équipe.

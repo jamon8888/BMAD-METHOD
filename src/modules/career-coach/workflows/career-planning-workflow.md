@@ -11,6 +11,7 @@ This workflow guides users through a comprehensive career planning process, from
 **Objective**: Understand the user's current situation and establish clear career goals.
 
 **Activities**:
+
 1. **Current Situation Analysis**
    - Assess current role, responsibilities, and performance
    - Evaluate job satisfaction and engagement
@@ -30,6 +31,7 @@ This workflow guides users through a comprehensive career planning process, from
    - Assess demand for target skills and roles
 
 **Deliverables**:
+
 - Current situation assessment report
 - Career goals and objectives document
 - Market position analysis
@@ -41,6 +43,7 @@ This workflow guides users through a comprehensive career planning process, from
 **Objective**: Evaluate current skills and identify development needs.
 
 **Activities**:
+
 1. **Comprehensive Skills Inventory**
    - Technical skills assessment
    - Soft skills evaluation
@@ -60,6 +63,7 @@ This workflow guides users through a comprehensive career planning process, from
    - Establish success metrics
 
 **Deliverables**:
+
 - Skills assessment report
 - Skills gap analysis
 - Skills development plan
@@ -71,6 +75,7 @@ This workflow guides users through a comprehensive career planning process, from
 **Objective**: Create a comprehensive career development strategy.
 
 **Activities**:
+
 1. **Career Path Planning**
    - Map potential career paths and progression
    - Identify key milestones and checkpoints
@@ -90,6 +95,7 @@ This workflow guides users through a comprehensive career planning process, from
    - Create content and engagement strategies
 
 **Deliverables**:
+
 - Career path roadmap
 - Networking strategy plan
 - Personal brand development plan
@@ -101,6 +107,7 @@ This workflow guides users through a comprehensive career planning process, from
 **Objective**: Develop a detailed, actionable implementation plan.
 
 **Activities**:
+
 1. **Learning and Development Plan**
    - Schedule specific learning activities
    - Allocate time and resources
@@ -120,6 +127,7 @@ This workflow guides users through a comprehensive career planning process, from
    - Establish progress tracking
 
 **Deliverables**:
+
 - Detailed action plan
 - Implementation timeline
 - Resource allocation plan
@@ -131,6 +139,7 @@ This workflow guides users through a comprehensive career planning process, from
 **Objective**: Identify potential obstacles and develop mitigation strategies.
 
 **Activities**:
+
 1. **Risk Identification**
    - Assess market and industry risks
    - Identify personal and professional obstacles
@@ -150,6 +159,7 @@ This workflow guides users through a comprehensive career planning process, from
    - Establish feedback loops
 
 **Deliverables**:
+
 - Risk assessment report
 - Contingency plans
 - Flexibility framework
@@ -161,6 +171,7 @@ This workflow guides users through a comprehensive career planning process, from
 **Objective**: Execute the career development plan and track progress.
 
 **Activities**:
+
 1. **Plan Implementation**
    - Begin executing planned activities
    - Allocate time and resources
@@ -180,6 +191,7 @@ This workflow guides users through a comprehensive career planning process, from
    - Update goals and objectives
 
 **Deliverables**:
+
 - Progress tracking reports
 - Adjustment recommendations
 - Updated action plans
@@ -189,6 +201,7 @@ This workflow guides users through a comprehensive career planning process, from
 ## Workflow Roles and Responsibilities
 
 ### Career Coach (Primary)
+
 - **Responsibilities**:
   - Guide users through the entire workflow
   - Provide expertise and insights
@@ -197,6 +210,7 @@ This workflow guides users through a comprehensive career planning process, from
 - **Time Commitment**: 10-15 hours per user
 
 ### User (Active Participant)
+
 - **Responsibilities**:
   - Provide honest self-assessment
   - Complete assigned activities
@@ -205,6 +219,7 @@ This workflow guides users through a comprehensive career planning process, from
 - **Time Commitment**: 20-30 hours total
 
 ### Mentors and Advisors (Support)
+
 - **Responsibilities**:
   - Provide industry insights
   - Offer guidance and feedback
@@ -215,6 +230,7 @@ This workflow guides users through a comprehensive career planning process, from
 ## Quality Assurance
 
 ### Plan Quality Standards
+
 - **Completeness**: All major career development areas addressed
 - **Specificity**: Clear, measurable goals and actions
 - **Realism**: Achievable within stated timeline and resources
@@ -222,6 +238,7 @@ This workflow guides users through a comprehensive career planning process, from
 - **Flexibility**: Plan adaptable to changing circumstances
 
 ### Success Metrics
+
 - **Goal Achievement**: Progress toward stated career goals
 - **Skill Development**: Measurable improvement in target skills
 - **Network Growth**: Expansion and quality of professional network
@@ -231,6 +248,7 @@ This workflow guides users through a comprehensive career planning process, from
 ## Workflow Customization
 
 ### Industry-Specific Adaptations
+
 - **Technology**: Focus on technical skills, certifications, and emerging technologies
 - **Healthcare**: Emphasis on clinical skills, certifications, and patient care
 - **Finance**: Focus on financial skills, regulatory knowledge, and market trends
@@ -238,12 +256,14 @@ This workflow guides users through a comprehensive career planning process, from
 - **Education**: Focus on teaching skills, curriculum development, and student outcomes
 
 ### Experience Level Adjustments
+
 - **Early Career**: Focus on skill development, networking, and career exploration
 - **Mid-Career**: Emphasis on leadership development, specialization, and advancement
 - **Senior Level**: Focus on strategic thinking, executive presence, and legacy building
 - **Career Transition**: Emphasis on transferable skills, networking, and industry knowledge
 
 ### Personal Circumstance Considerations
+
 - **Geographic Constraints**: Adapt to local market conditions and opportunities
 - **Time Constraints**: Optimize for limited time availability
 - **Financial Constraints**: Focus on cost-effective development options
@@ -252,6 +272,7 @@ This workflow guides users through a comprehensive career planning process, from
 ## Workflow Tools and Resources
 
 ### Required Tools
+
 - **Career Planning Templates**: Structured templates for each step
 - **Skills Assessment Tools**: Comprehensive skills evaluation frameworks
 - **Goal Setting Tools**: SMART goal development and tracking
@@ -259,6 +280,7 @@ This workflow guides users through a comprehensive career planning process, from
 - **Resource Libraries**: Access to learning resources and development materials
 
 ### Recommended Resources
+
 - **Industry Research**: Market trends, salary data, and opportunity analysis
 - **Learning Platforms**: Online courses, certifications, and skill development
 - **Networking Tools**: Professional networks, events, and relationship management
@@ -268,12 +290,14 @@ This workflow guides users through a comprehensive career planning process, from
 ## Workflow Outcomes
 
 ### Immediate Outcomes
+
 - **Clear Career Vision**: Well-defined long-term career goals
 - **Comprehensive Assessment**: Thorough understanding of current situation
 - **Detailed Action Plan**: Specific, actionable steps for career development
 - **Resource Identification**: Clear understanding of required resources and support
 
 ### Long-term Outcomes
+
 - **Career Advancement**: Progress toward stated career goals
 - **Skill Development**: Enhanced professional capabilities
 - **Network Expansion**: Stronger professional relationships and connections
@@ -283,18 +307,21 @@ This workflow guides users through a comprehensive career planning process, from
 ## Workflow Success Factors
 
 ### User Commitment
+
 - **Active Participation**: Full engagement in the planning process
 - **Honest Self-Assessment**: Accurate evaluation of current situation and capabilities
 - **Goal Commitment**: Strong commitment to achieving stated goals
 - **Implementation Discipline**: Consistent execution of the action plan
 
 ### Quality Support
+
 - **Expert Guidance**: Access to knowledgeable career coaches and mentors
 - **Comprehensive Resources**: Availability of quality learning and development resources
 - **Regular Feedback**: Ongoing feedback and adjustment opportunities
 - **Accountability Systems**: Mechanisms to maintain progress and commitment
 
 ### Realistic Expectations
+
 - **Achievable Goals**: Goals that are challenging but realistic
 - **Appropriate Timeline**: Reasonable timeframe for goal achievement
 - **Resource Alignment**: Goals aligned with available resources and constraints

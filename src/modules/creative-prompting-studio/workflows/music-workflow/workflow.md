@@ -25,6 +25,7 @@ This workflow guides you through crafting effective music prompts using the Four
 **Goal**: Clarify your musical concept
 
 **Actions**:
+
 1. Describe the musical idea or feeling
 2. Identify intended use case
 3. Determine length (short, medium, long based on {{music_default_length}})
@@ -32,6 +33,7 @@ This workflow guides you through crafting effective music prompts using the Four
 5. Consider audience and context
 
 **Questions**:
+
 - What's the primary emotion or mood?
 - Where will this music be used?
 - What genre or style feels right?
@@ -97,6 +99,7 @@ This workflow guides you through crafting effective music prompts using the Four
 **Goal**: Define rhythmic and harmonic foundation
 
 **Tempo Options**:
+
 - Use BPM values (e.g., "120 BPM")
 - Classical terms: Adagio, Andante, Allegro, etc.
 - Genre-appropriate ranges:
@@ -108,6 +111,7 @@ This workflow guides you through crafting effective music prompts using the Four
 Default: {{default_music_tempo}} BPM
 
 **Musical Key**:
+
 - Specify if important for your use
 - "C minor", "A major", "F# minor"
 - Affects mood and tonality
@@ -117,6 +121,7 @@ Default: {{default_music_tempo}} BPM
 **Goal**: Organize composition with tags
 
 **Structural Tags**:
+
 ```
 [Intro]
 [Verse]
@@ -126,6 +131,7 @@ Default: {{default_music_tempo}} BPM
 ```
 
 **Dynamic Tags**:
+
 ```
 [Build]
 [Drop]
@@ -135,6 +141,7 @@ Default: {{default_music_tempo}} BPM
 ```
 
 **Instrumental Tags**:
+
 ```
 [Piano Solo]
 [Guitar Solo]
@@ -143,6 +150,7 @@ Default: {{default_music_tempo}} BPM
 ```
 
 **Mood Tags**:
+
 ```
 [Melancholic Atmosphere]
 [Euphoric Build]
@@ -150,6 +158,7 @@ Default: {{default_music_tempo}} BPM
 ```
 
 **Example Meta Tag Structure**:
+
 ```
 [Intro - Ambient]
 [Build]
@@ -166,22 +175,26 @@ Default: {{default_music_tempo}} BPM
 **Goal**: Optimize Suno's creative parameters
 
 **Style Influence (0-100%)**:
+
 - **Recommended for Instrumentals**: 70-85%
 - Controls adherence to your specifications
 - Higher = stricter, Lower = more experimental
 
 **Weirdness (0-100%)**:
+
 - **Recommended**: 40-60%
 - WARNING: Below 30% sounds robotic
 - 40-60% provides natural variation
 - Above 70% becomes chaotic
 
 **Audio Influence (0-100%)** (if using reference):
+
 - 0-40%: Light inspiration
 - 50-70%: Strong style influence
 - 80-100%: Close adherence
 
 **Default Settings**:
+
 - Style Influence: {{default_style_influence}}%
 - Weirdness: {{default_weirdness_level}}%
 
@@ -190,6 +203,7 @@ Default: {{default_music_tempo}} BPM
 **Goal**: Ensure prompt completeness
 
 **Checklist**:
+
 - ✅ Specific genre/subgenre identified
 - ✅ Mood and atmosphere defined
 - ✅ Instrumentation explicitly listed
@@ -207,6 +221,7 @@ Default: {{default_music_tempo}} BPM
 **Goal**: Create music and improve quality
 
 **Generation Process**:
+
 1. Input all prompt elements
 2. Configure Custom Mode (Instrumental ON)
 3. Set Advanced Settings
@@ -216,6 +231,7 @@ Default: {{default_music_tempo}} BPM
 **Quality Enhancement**:
 
 **Remaster Feature**:
+
 - Regenerates with latest technology
 - Improves clarity and fidelity
 - Use 1-2 passes maximum
@@ -223,12 +239,14 @@ Default: {{default_music_tempo}} BPM
 **Command**: `apply-remaster`
 
 **Stem Separation**:
+
 - Isolates instrumental components
 - Useful for mixing or verification
 
 **Command**: `create-stem-separation`
 
 **Multi-Remaster Approach**:
+
 - Create 3-4 variations
 - Emphasize different frequency ranges
 - Compare and select best
@@ -240,21 +258,26 @@ Default: {{default_music_tempo}} BPM
 Saved to: `{{music_prompts_folder}}/[project-name]-music-prompt.md`
 
 **Contents**:
+
 ```markdown
 # Music Prompt: [Project Name]
 
 ## Musical Vision
+
 [Concept, mood, intended use]
 
 ## Suno Configuration
 
 ### Style Field
+
 [Detailed genre, mood, instrumentation, structure, tempo description]
 
 ### Exclude Styles
+
 vocals, male vocals, female vocals, singing, lyrics
 
 ### Lyrics/Meta Tags
+
 [Intro - Ambient Pads]
 [Build - Add Bass]
 [Verse - Piano Lead]
@@ -265,15 +288,18 @@ vocals, male vocals, female vocals, singing, lyrics
 [Outro - Fade Out]
 
 ## Advanced Settings
+
 - Style Influence: 75%
 - Weirdness: 50%
 - Audio Influence: N/A (or specify if using reference)
 
 ## Custom Mode
+
 - ✅ Instrumental: ON
 - Duration: Medium (2-3 minutes)
 
 ## Musical Breakdown
+
 - **Genre**: Progressive house, synthwave influences
 - **Tempo**: 128 BPM (Allegro)
 - **Key**: C minor
@@ -282,11 +308,13 @@ vocals, male vocals, female vocals, singing, lyrics
 - **Production**: Sidechain compression, reverb-heavy, warm analog saturation
 
 ## Variation Ideas
+
 - Try 124 BPM for slightly more relaxed feel
 - Add arpeggiated synth in breakdown
 - Experiment with different key (A minor)
 
 ## Metadata
+
 - Length: Medium (2-3 min)
 - Created: [Date]
 - Status: [Draft/Generated/Remastered]
@@ -296,6 +324,7 @@ vocals, male vocals, female vocals, singing, lyrics
 ## Success Criteria
 
 A successful music workflow produces:
+
 - ✅ Complete prompt with all Four Pillars
 - ✅ Instrumental-only configuration
 - ✅ Appropriate meta tag structure
@@ -307,18 +336,23 @@ A successful music workflow produces:
 ## Troubleshooting
 
 **Problem**: Vocal artifacts appear
+
 - **Solution**: Add vocals to Exclude Styles, lower Weirdness to 40-50%
 
 **Problem**: Muddy or distorted sound
+
 - **Solution**: Mention "clean production, crisp mix", apply Remaster, prioritize acoustic instruments
 
 **Problem**: Repetitive or boring
+
 - **Solution**: Use dynamic meta tags, increase Weirdness to 50-60%, vary instrumentation across sections
 
 **Problem**: Wrong genre vibe
+
 - **Solution**: Increase subgenre specificity, raise Style Influence to 80-90%, use Audio Upload reference
 
 **Problem**: Wrong tempo/energy
+
 - **Solution**: Specify exact BPM, use tempo terminology, ensure it matches genre standards
 
 ## Tips for Success
@@ -337,6 +371,7 @@ A successful music workflow produces:
 ## Genre-Specific Quick Commands
 
 **Commands**:
+
 - `create-electronic-prompt` - Electronic/EDM template
 - `create-ambient-prompt` - Ambient/atmospheric template
 - `create-cinematic-prompt` - Cinematic/orchestral template
@@ -346,4 +381,4 @@ A successful music workflow produces:
 
 ---
 
-*Master the art of AI music composition with Suno's powerful instrumental generation capabilities.*
+_Master the art of AI music composition with Suno's powerful instrumental generation capabilities._

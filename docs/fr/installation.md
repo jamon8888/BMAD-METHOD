@@ -36,39 +36,49 @@ L'installateur vous guidera à travers plusieurs questions de configuration :
 #### Configuration de Base
 
 **1. Nom d'utilisateur**
+
 ```
 ? Quel est votre nom ?
 > Votre Nom
 ```
+
 Utilisé par les agents pour personnaliser la communication.
 
 **2. Langue de Communication**
+
 ```
 ? Langue/Style de Chat Préféré ? (English, Mandarin, English Pirate, etc...)
 > Français
 ```
+
 La langue dans laquelle les agents IA communiqueront avec vous pendant les workflows.
 
 **3. Langue de Sortie des Documents**
+
 ```
 ? Langue de Sortie des Documents Préférée ?
 > Français
 ```
+
 La langue utilisée pour tous les documents générés (PRD, architecture, code, etc.).
 Par défaut, elle correspond à votre langue de communication.
 
 **4. Dossier BMAD**
+
 ```
 ? Nom du dossier BMAD ? (recommandé : .bmad)
 > .bmad
 ```
+
 Où les agents, workflows et configurations seront stockés.
 
 **5. Dossier de Sortie**
+
 ```
 ? Dossier de sortie pour les documents ?
 > {project-root}/docs
 ```
+
 Où les documents de workflow (PRD, architecture, etc.) seront sauvegardés.
 
 #### Configuration du Module
@@ -114,11 +124,13 @@ BMad Method offre un support unique de **double langue** :
 ### Séparation Communication vs Sortie
 
 **Langue de Communication** (`communication_language`)
+
 - Comment les agents IA vous parlent pendant les workflows
 - Exemples : "Français", "English", "Español", "Mandarin", "English Pirate"
 - Utilisé pour les menus, questions et guidage interactif
 
 **Langue de Sortie des Documents** (`document_output_language`)
+
 - Langue pour tous les documents générés (PRD, architecture, code, etc.)
 - Par défaut identique à la langue de communication
 - Peut être différente pour les équipes internationales
@@ -126,48 +138,58 @@ BMad Method offre un support unique de **double langue** :
 ### Exemples de Configuration
 
 **Exemple 1 : Tout en Français**
+
 ```yaml
-communication_language: "Français"
-document_output_language: "Français"
+communication_language: 'Français'
+document_output_language: 'Français'
 ```
+
 - Les agents communiquent en français
 - Tous les documents en français
 
 **Exemple 2 : Chat Français, Docs Anglais**
+
 ```yaml
-communication_language: "Français"
-document_output_language: "English"
+communication_language: 'Français'
+document_output_language: 'English'
 ```
+
 - Les agents vous parlent en français
 - PRD, architecture et code en anglais
 - **Parfait pour les équipes internationales !**
 
 **Exemple 3 : Style Décontracté + Sortie Professionnelle**
+
 ```yaml
-communication_language: "Français décontracté"
-document_output_language: "Français professionnel"
+communication_language: 'Français décontracté'
+document_output_language: 'Français professionnel'
 ```
+
 - Conversation décontractée avec les agents
 - Documentation formelle et professionnelle
 
 ### Modifier la Configuration Langue
 
 **Option A : Édition Directe**
+
 ```bash
 # Éditer le fichier de configuration principal
 nano .bmad/core/config.yaml
 ```
 
 Modifiez ces lignes :
+
 ```yaml
-communication_language: "Français"
-document_output_language: "Français"
+communication_language: 'Français'
+document_output_language: 'Français'
 ```
 
 **Option B : Réinstallation**
+
 ```bash
 npx bmad-method@alpha install --quick
 ```
+
 L'installateur détecte l'installation existante et vous demande uniquement les champs modifiés.
 
 ## 🔧 Configuration Avancée
@@ -208,6 +230,7 @@ npx bmad-method install
 ```
 
 L'installateur :
+
 - ✅ Détecte votre installation existante
 - ✅ Préserve vos personnalisations
 - ✅ Met à jour les agents et workflows
@@ -229,6 +252,7 @@ BMad Method utilise un **système de personnalisation sûr pour les mises à jou
 ```bash
 npx bmad-method@alpha install --quick
 ```
+
 Utilise les valeurs par défaut et ne demande que les nouveaux paramètres.
 
 ### Installation Spécifique au Module
@@ -247,6 +271,7 @@ npx bmad-method@alpha install --module cis
 # Sauvegarder d'abord vos personnalisations !
 npx bmad-method@alpha install --clean
 ```
+
 Supprime l'installation existante et recommence.
 
 ## 🌐 Configuration IDE
@@ -303,6 +328,7 @@ Voir le [Guide de Démarrage Rapide](./demarrage-rapide.md) pour un tutoriel com
 **Problème :** `Error: Node.js version X.X.X is not supported`
 
 **Solution :**
+
 ```bash
 # Vérifier la version de Node.js
 node --version
@@ -316,6 +342,7 @@ node --version
 **Problème :** L'installation se termine mais pas de dossier `.bmad`
 
 **Solution :**
+
 ```bash
 # Vérifier si vous êtes dans le bon répertoire
 pwd
@@ -329,6 +356,7 @@ npx bmad-method@alpha install
 **Problème :** Les commandes slash ou règles ne fonctionnent pas
 
 **Solution :**
+
 1. Vérifier que l'installation s'est terminée avec succès
 2. Redémarrer votre IDE
 3. Vérifier la configuration spécifique à l'IDE dans [docs/ide-info/](../ide-info/)
@@ -338,6 +366,7 @@ npx bmad-method@alpha install
 **Problème :** `Error: Cannot find module 'bmad-method'`
 
 **Solution :**
+
 ```bash
 # Vider le cache npm
 npm cache clean --force
@@ -351,9 +380,10 @@ npx bmad-method@alpha install
 **Problème :** Les agents ne parlent pas dans la langue configurée
 
 **Solution :**
+
 1. Vérifier `.bmad/core/config.yaml` :
    ```yaml
-   communication_language: "Français"
+   communication_language: 'Français'
    ```
 2. Redémarrer une nouvelle conversation avec l'agent
 3. Les paramètres de langue prennent effet pour les nouvelles conversations

@@ -47,30 +47,35 @@ If career context has not been provided, ask the user to provide their current c
 ## Strategy Planning Focus Areas
 
 ### Current Situation Assessment
+
 - **Career Stage Analysis** - Where are you in your career journey?
 - **Strengths Inventory** - What are your core competencies and advantages?
 - **Weaknesses Identification** - What areas need development?
 - **Market Position** - How do you compare to peers and competitors?
 
 ### Career Vision Development
+
 - **Long-term Goals** - Where do you want to be in 5-10 years?
 - **Role Aspirations** - What positions or responsibilities do you seek?
 - **Industry Direction** - Which industries or sectors interest you?
 - **Geographic Preferences** - Where do you want to work?
 
 ### Skill Gap Analysis
+
 - **Technical Skills** - What technical competencies are needed?
 - **Leadership Skills** - What management and leadership capabilities are required?
 - **Industry Knowledge** - What domain expertise is necessary?
 - **Soft Skills** - What interpersonal and communication skills are important?
 
 ### Action Plan Creation
+
 - **Short-term Goals** - What can you achieve in the next 6-12 months?
 - **Medium-term Objectives** - What milestones should you reach in 1-3 years?
 - **Learning Priorities** - What skills should you develop first?
 - **Network Building** - Who should you connect with?
 
 ### Implementation Strategy
+
 - **Resource Requirements** - What time, money, or support do you need?
 - **Timeline Development** - When should each milestone be achieved?
 - **Risk Assessment** - What obstacles might you encounter?

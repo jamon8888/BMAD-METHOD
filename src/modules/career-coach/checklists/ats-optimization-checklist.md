@@ -1,6 +1,7 @@
 # ATS Optimization Checklist
 
 ## Checklist Information
+
 - **Checklist Type:** Applicant Tracking System Optimization
 - **Agent:** resume-writer
 - **Task:** create-doc.md
@@ -9,6 +10,7 @@
 ## Document Format and Structure
 
 ### File Format Requirements
+
 - [ ] **File Type**: Document saved as .docx or .pdf format
 - [ ] **File Size**: Under 5MB for optimal processing
 - [ ] **File Name**: Professional naming convention (e.g., "FirstName_LastName_Resume")
@@ -17,6 +19,7 @@
 - [ ] **Editable Format**: Document can be opened and edited if needed
 
 ### Document Layout
+
 - [ ] **Standard Margins**: 0.5-1 inch margins on all sides
 - [ ] **Font Type**: Standard fonts (Arial, Calibri, Times New Roman, Georgia)
 - [ ] **Font Size**: 10-12 point font for body text, 14-16 point for headings
@@ -32,6 +35,7 @@
 ## Content Optimization
 
 ### Contact Information
+
 - [ ] **Full Name**: Complete first and last name prominently displayed
 - [ ] **Phone Number**: Current phone number with area code
 - [ ] **Email Address**: Professional email address
@@ -41,6 +45,7 @@
 - [ ] **Consistent Formatting**: Contact info clearly formatted and easy to read
 
 ### Professional Summary
+
 - [ ] **Keyword-Rich**: Contains relevant industry keywords
 - [ ] **Targeted**: Tailored to specific job requirements
 - [ ] **Concise**: 2-3 sentences maximum
@@ -49,6 +54,7 @@
 - [ ] **Industry-Specific**: Uses industry-appropriate terminology
 
 ### Work Experience Section
+
 - [ ] **Reverse Chronological Order**: Most recent experience first
 - [ ] **Company Names**: Full company names (not abbreviations)
 - [ ] **Job Titles**: Accurate and descriptive job titles
@@ -61,6 +67,7 @@
 - [ ] **Consistent Formatting**: Uniform formatting for all positions
 
 ### Education Section
+
 - [ ] **Degree Information**: Complete degree name and field of study
 - [ ] **Institution Names**: Full institution names
 - [ ] **Graduation Dates**: Month and year of graduation
@@ -71,6 +78,7 @@
 - [ ] **Honors**: Include academic honors and awards
 
 ### Skills Section
+
 - [ ] **Technical Skills**: List specific technical skills and technologies
 - [ ] **Soft Skills**: Include relevant soft skills
 - [ ] **Industry Keywords**: Use industry-specific terminology
@@ -83,6 +91,7 @@
 ## Keyword Optimization
 
 ### Job Description Analysis
+
 - [ ] **Keyword Extraction**: Identify key terms from job description
 - [ ] **Required Skills**: List all required skills and qualifications
 - [ ] **Preferred Skills**: Include preferred skills and qualifications
@@ -93,6 +102,7 @@
 - [ ] **Experience Levels**: Identify required experience levels
 
 ### Keyword Integration
+
 - [ ] **Natural Integration**: Keywords integrated naturally into content
 - [ ] **Multiple Occurrences**: Important keywords appear multiple times
 - [ ] **Contextual Usage**: Keywords used in appropriate context
@@ -103,6 +113,7 @@
 - [ ] **Relevance**: All keywords are relevant to target position
 
 ### Industry-Specific Keywords
+
 - [ ] **Technical Terms**: Include relevant technical terminology
 - [ ] **Methodologies**: List relevant methodologies and frameworks
 - [ ] **Tools and Software**: Include specific tools and software
@@ -115,6 +126,7 @@
 ## Content Quality
 
 ### Achievement-Focused Language
+
 - [ ] **Action Verbs**: Use strong action verbs at beginning of bullet points
 - [ ] **Quantifiable Results**: Include specific numbers, percentages, and metrics
 - [ ] **Impact Statements**: Emphasize impact and results
@@ -125,6 +137,7 @@
 - [ ] **Leadership Examples**: Include leadership and initiative examples
 
 ### Professional Language
+
 - [ ] **Industry-Appropriate**: Use industry-appropriate terminology
 - [ ] **Professional Tone**: Maintain professional and confident tone
 - [ ] **Clear Communication**: Use clear and concise language
@@ -135,6 +148,7 @@
 - [ ] **Concrete Language**: Use specific and concrete language
 
 ### Content Relevance
+
 - [ ] **Target Role Focus**: Content focused on target position
 - [ ] **Relevant Experience**: Emphasize most relevant experience
 - [ ] **Transferable Skills**: Highlight transferable skills appropriately
@@ -147,6 +161,7 @@
 ## Technical Optimization
 
 ### ATS Compatibility
+
 - [ ] **Text Recognition**: All text is machine-readable
 - [ ] **No Scanned Documents**: Document is not a scanned image
 - [ ] **No Handwritten Text**: All text is typed and legible
@@ -157,6 +172,7 @@
 - [ ] **Clean Formatting**: Simple, clean formatting throughout
 
 ### Parsing Optimization
+
 - [ ] **Section Headers**: Clear section headers for easy parsing
 - [ ] **Consistent Structure**: Consistent structure throughout document
 - [ ] **Date Formatting**: Consistent date formatting
@@ -167,6 +183,7 @@
 - [ ] **Education Format**: Education information in standard format
 
 ### Search Optimization
+
 - [ ] **Keyword Density**: Appropriate keyword density throughout
 - [ ] **Keyword Placement**: Keywords in strategic locations
 - [ ] **Section Distribution**: Keywords distributed across sections
@@ -179,6 +196,7 @@
 ## Testing and Validation
 
 ### ATS Testing
+
 - [ ] **ATS Simulation**: Test document in ATS simulation tool
 - [ ] **Parsing Accuracy**: Verify all sections parse correctly
 - [ ] **Keyword Detection**: Confirm keywords are detected
@@ -189,6 +207,7 @@
 - [ ] **Optimization Score**: Achieve high optimization score
 
 ### Human Review
+
 - [ ] **Professional Appearance**: Document looks professional
 - [ ] **Readability**: Content is easy to read and understand
 - [ ] **Grammar and Spelling**: No grammar or spelling errors
@@ -199,6 +218,7 @@
 - [ ] **Impact**: Document makes strong positive impression
 
 ### Final Quality Check
+
 - [ ] **Proofreading**: Document has been thoroughly proofread
 - [ ] **Fact-Checking**: All information verified for accuracy
 - [ ] **Formatting Review**: Final formatting review completed
@@ -211,6 +231,7 @@
 ## Industry-Specific Considerations
 
 ### Technology Roles
+
 - [ ] **Technical Skills**: Comprehensive technical skills section
 - [ ] **Programming Languages**: Specific programming languages listed
 - [ ] **Frameworks**: Relevant frameworks and libraries included
@@ -221,6 +242,7 @@
 - [ ] **GitHub/Portfolio**: Links to technical portfolio if applicable
 
 ### Business Roles
+
 - [ ] **Business Skills**: Relevant business skills highlighted
 - [ ] **Leadership Experience**: Leadership and management experience
 - [ ] **Financial Impact**: Quantified financial impact and results
@@ -231,6 +253,7 @@
 - [ ] **Client Relationships**: Client and stakeholder management
 
 ### Creative Roles
+
 - [ ] **Portfolio Links**: Links to creative portfolio
 - [ ] **Creative Skills**: Specific creative skills and tools
 - [ ] **Project Examples**: Detailed project examples and outcomes
@@ -243,6 +266,7 @@
 ## Maintenance and Updates
 
 ### Regular Updates
+
 - [ ] **Content Updates**: Regular content updates and refreshes
 - [ ] **Skill Updates**: Keep skills section current
 - [ ] **Experience Updates**: Update experience as needed
@@ -253,6 +277,7 @@
 - [ ] **Backup Copies**: Keep backup copies of all versions
 
 ### Continuous Improvement
+
 - [ ] **Performance Tracking**: Track application success rates
 - [ ] **Feedback Integration**: Integrate feedback from applications
 - [ ] **Market Research**: Stay current with industry trends
@@ -265,6 +290,7 @@
 ## Success Metrics
 
 ### Application Success
+
 - [ ] **Response Rate**: Track response rates from applications
 - [ ] **Interview Rate**: Track interview invitation rates
 - [ ] **ATS Score**: Monitor ATS optimization scores
@@ -275,6 +301,7 @@
 - [ ] **Overall Success**: Monitor overall application success
 
 ### Optimization Goals
+
 - [ ] **High ATS Score**: Achieve 90%+ ATS optimization score
 - [ ] **Perfect Parsing**: Achieve 100% parsing accuracy
 - [ ] **Strong Keyword Match**: Achieve 80%+ keyword match rate

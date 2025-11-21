@@ -20,6 +20,7 @@ The UX Writer module transforms interface copy creation with a systematic, evide
 ### What is UX Writing?
 
 UX writing (also called microcopy or interface copy) is the text users see and interact with in digital products:
+
 - Buttons and links
 - Error messages and warnings
 - Success confirmations
@@ -36,24 +37,28 @@ Good UX writing helps users accomplish their goals quickly and confidently.
 Every piece of interface copy is evaluated against four measurable standards:
 
 ### 1. **Purposeful** (Helps users/business achieve goals)
+
 - Clear user benefit
 - Addresses user concerns
 - Advances objectives
 - **Example:** "Download pricing guide" (clear action + benefit) vs. "Click here" (vague)
 
 ### 2. **Concise** (Fewest words without losing meaning)
+
 - No wasted words
 - Front-loaded information
 - Meets research benchmarks
 - **Example:** "We're processing your request" (4 words) vs. "Your request has been received and is currently being processed" (10 words)
 
 ### 3. **Conversational** (Natural and human, not robotic)
+
 - Active voice (85% target)
 - Natural language
 - Human tone
 - **Example:** "We couldn't save your changes" (natural) vs. "An error has occurred" (robotic)
 
 ### 4. **Clear** (Unambiguous and easy to understand)
+
 - Specific verbs
 - Appropriate reading level
 - Consistent terminology
@@ -62,6 +67,7 @@ Every piece of interface copy is evaluated against four measurable standards:
 ### Scoring System
 
 Each standard is scored 0-10:
+
 - **9-10**: Excellent - Ship it
 - **8-8.9**: Very Good - Minor tweaks only
 - **7-7.9**: Good - Consider improvements
@@ -75,30 +81,35 @@ Each standard is scored 0-10:
 ### Core Capabilities
 
 **Analyze Existing Text**
+
 - Score against Four Quality Standards
 - Identify specific issues
 - Provide improvement recommendations
 - Check accessibility compliance
 
 **Create New Interface Copy**
+
 - Pattern-based creation (buttons, errors, empty states, etc.)
 - Context-aware tone adaptation
 - Multiple variations
 - Built-in quality validation
 
 **Improve Existing Copy**
+
 - Before/after comparisons
 - Detailed scoring improvements
 - Explain what changed and why
 - Alternative variations
 
 **Content Audits**
+
 - Evaluate multiple pieces of text
 - Consistency checking
 - Pattern compliance
 - Accessibility validation
 
 **Voice & Tone**
+
 - Create product voice charts
 - Tone adaptation guidance
 - Voice consistency checking
@@ -114,15 +125,18 @@ Each standard is scored 0-10:
 ### Research-Backed Benchmarks
 
 **Comprehension Rates:**
+
 - 8 words or fewer: 100% comprehension
 - 14 words or fewer: 90% comprehension
 
 **Reading Levels:**
+
 - General audience: 7th-8th grade
 - Professional tools: 9th-10th grade
 - Technical products: 10th-11th grade
 
 **UI Element Benchmarks:**
+
 - Buttons: 2-4 words ideal, 6 maximum
 - Error messages: 12-18 words
 - Titles: 3-6 words, 40 characters max
@@ -135,6 +149,7 @@ Each standard is scored 0-10:
 Your AI UX writing expert who helps create clear, user-centered interface copy.
 
 **Expertise:**
+
 - Interface copy for all UI patterns
 - Four Quality Standards framework
 - Accessibility compliance
@@ -167,6 +182,7 @@ npx bmad-method@alpha install
 ```
 
 During installation, you'll configure:
+
 - UX content output folder
 - Target audience (general, professional, technical, specialized)
 - Reading level target (7th-12th grade)
@@ -178,11 +194,13 @@ During installation, you'll configure:
 ### First Steps
 
 **1. Load the Agent**
+
 ```
 Load UX Writer (Alex) in your IDE
 ```
 
 **2. Start with Analysis**
+
 ```
 *analyze
 
@@ -190,6 +208,7 @@ Load UX Writer (Alex) in your IDE
 ```
 
 **3. Or Create New Copy**
+
 ```
 *create
 
@@ -197,6 +216,7 @@ Load UX Writer (Alex) in your IDE
 ```
 
 **4. Or Just Ask**
+
 ```
 "Help me write an error message for when file upload fails"
 "Review this button text: 'Click here to submit'"
@@ -210,12 +230,14 @@ Load UX Writer (Alex) in your IDE
 **Scenario:** You have interface text that feels off but aren't sure why
 
 **Recommended Path:**
+
 1. Load UX Writer agent
 2. Use `*analyze` command
 3. Get objective scoring against four standards
 4. Receive specific improvement recommendations
 
 **Example:**
+
 ```
 User: *analyze
 Agent: "Please share the interface text you'd like me to analyze."
@@ -236,12 +258,14 @@ Recommended: "We couldn't process your request. Try again or contact support."
 **Scenario:** Writing error messages, buttons, or empty states from scratch
 
 **Recommended Path:**
+
 1. Use `*create` command
 2. Select pattern type (button, error, empty state, etc.)
 3. Provide context about user scenario
 4. Receive multiple variations with scoring
 
 **Example:**
+
 ```
 User: "Help me write an error for when file is too large"
 Agent: [Creates multiple options]
@@ -261,6 +285,7 @@ Option 3: "We couldn't upload your file because it's too large..."
 **Scenario:** Interface text works but could be better
 
 **Recommended Path:**
+
 1. Use `*improve` command
 2. Share current text and context
 3. Get before/after comparison with detailed analysis
@@ -271,6 +296,7 @@ Option 3: "We couldn't upload your file because it's too large..."
 **Scenario:** Need to document and maintain consistent brand voice
 
 **Recommended Path:**
+
 1. Use `*voice` command
 2. Interactive session to define voice characteristics
 3. Create voice chart with examples
@@ -281,6 +307,7 @@ Option 3: "We couldn't upload your file because it's too large..."
 **Scenario:** Reviewing multiple screens or an entire flow
 
 **Recommended Path:**
+
 1. Use `*audit` command
 2. Submit multiple pieces of interface copy
 3. Get consistency analysis
@@ -334,26 +361,31 @@ ux-writer/
 ### Pattern-Specific Guidelines
 
 **Buttons:**
+
 - Use imperative verb + object: "Save changes" not "Save"
 - Be specific: "Delete account" not "Delete"
 - Avoid generic labels: Never "OK", "Submit", "Click here"
 
 **Error Messages:**
+
 - Never blame user: "Email must include @" not "Invalid email"
 - Include solution: "Check your connection and try again"
 - Be empathetic: "We couldn't process..." not "An error occurred"
 
 **Success Messages:**
+
 - Past tense: "Changes saved" not "Saving changes"
 - Specific action: "Email sent" not "Success!"
 - Proportional: Brief for small actions, detailed for big ones
 
 **Empty States:**
+
 - Explain why empty: "No messages yet"
 - Provide clear CTA: "Start a conversation"
 - Use encouraging tone: "yet" implies future value
 
 **Form Fields:**
+
 - Label describes input: "Email address" not "Enter email"
 - Instructions explain why: "We'll send updates to this email"
 - Placeholder sparingly: Only for format examples
@@ -371,26 +403,31 @@ ux-writer/
 Adjust tone based on user emotional state:
 
 **Frustrated** (errors, failures)
+
 - Empathetic and solution-focused
 - Acknowledge problem without blame
 - Example: "Payment failed. Check your card and try again."
 
 **Confused** (first use, complex features)
+
 - Patient and explanatory
 - Break down steps clearly
 - Example: "Connect your bank to see insights. We'll guide you."
 
 **Confident** (routine tasks)
+
 - Efficient and direct
 - Minimal explanation
 - Example: "Saved"
 
 **Cautious** (high-stakes actions)
+
 - Serious and transparent
 - Clear consequences
 - Example: "Delete account? You'll lose all data. This can't be undone."
 
 **Successful** (completions)
+
 - Positive and encouraging
 - Proportional celebration
 - Example: "Profile updated. Your changes are live."

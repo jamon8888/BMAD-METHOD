@@ -18,18 +18,23 @@ This workflow analyzes writing samples to create a detailed voice profile that c
 ## Step 1: Gather Writing Samples
 
 ### 1.1 Load Existing Samples
+
 - Read {writing_examples}
 - Identify available writing samples
 - Count total words across all samples
 
 ### 1.2 Request Additional Samples (if needed)
+
 If fewer than 3 samples or less than 1000 total words:
+
 - Ask user to provide additional writing samples
 - Request variety: blog posts, social media, newsletters, etc.
 - Aim for 3-5 samples, 1500-3000+ words total
 
 ### 1.3 Validate Sample Quality
+
 For each sample, verify:
+
 - Sufficient length (200+ words minimum)
 - Representative of authentic voice
 - Recent content (written in last 6-12 months preferred)
@@ -44,18 +49,21 @@ For each sample, verify:
 Analyze and document:
 
 **Sentence Length Patterns:**
+
 - Calculate average words per sentence
 - Identify range (shortest to longest)
 - Determine variance (consistent vs. varied)
 - Note distribution pattern
 
 **Sentence Complexity:**
+
 - Simple sentences ratio (%)
 - Compound sentences ratio (%)
 - Complex sentences ratio (%)
 - Sentence starters (variety and patterns)
 
 **Sentence Rhythm:**
+
 - Pacing (fast/moderate/slow)
 - Flow patterns (choppy, smooth, varied)
 - Cadence and rhythm
@@ -65,18 +73,21 @@ Analyze and document:
 Analyze and document:
 
 **Word Choice Patterns:**
+
 - Vocabulary sophistication level (1-10)
 - Common power words used
 - Favorite descriptive words
 - Technical jargon usage (frequency and context)
 
 **Word Categories:**
+
 - Action verbs used frequently
 - Adjectives and adverbs (frequency and type)
 - Transitional phrases preferred
 - Filler words or verbal tics
 
 **Lexical Diversity:**
+
 - Type-Token Ratio (vocabulary variety)
 - Word repetition patterns
 - Synonym usage patterns
@@ -86,12 +97,14 @@ Analyze and document:
 Analyze and document:
 
 **Formality Level:** (1-10 scale)
+
 - Very casual (1-3)
 - Conversational (4-6)
 - Professional (7-8)
 - Formal (9-10)
 
 **Personality Traits:**
+
 - Authoritative vs. Collaborative
 - Serious vs. Playful
 - Direct vs. Nuanced
@@ -99,12 +112,14 @@ Analyze and document:
 - Analytical vs. Emotional
 
 **Emotional Characteristics:**
+
 - Enthusiasm level (subdued/moderate/high)
 - Empathy expression (rare/occasional/frequent)
 - Humor style (none/dry/witty/playful/sarcastic)
 - Vulnerability (reserved/selective/open)
 
 **Perspective & Voice:**
+
 - First person usage (I/we) frequency
 - Second person usage (you) frequency
 - Third person usage (he/she/they) frequency
@@ -115,17 +130,20 @@ Analyze and document:
 Analyze and document:
 
 **Paragraph Structure:**
+
 - Average sentences per paragraph
 - Paragraph length pattern
 - Opening sentence patterns
 - Transition strategies
 
 **Content Organization:**
+
 - Introduction style (hook type, length)
 - Body organization (linear, thematic, narrative)
 - Conclusion approach (summary, call-to-action, question)
 
 **Formatting Preferences:**
+
 - Subheading frequency and style
 - List usage (bullets vs. numbers)
 - Bold/italic usage patterns
@@ -136,24 +154,28 @@ Analyze and document:
 Analyze and document:
 
 **Storytelling Elements:**
+
 - Anecdote usage (frequency and placement)
 - Personal experience sharing
 - Case study integration
 - Example types (hypothetical, real-world, data)
 
 **Persuasion Techniques:**
+
 - Data/statistics usage
 - Expert citation patterns
 - Logical argumentation style
 - Emotional appeals
 
 **Engagement Devices:**
+
 - Questions (rhetorical, direct, thought-provoking)
 - Metaphors and analogies (frequency and type)
 - Imagery and sensory language
 - Repetition for emphasis
 
 **Unique Patterns:**
+
 - Signature phrases or expressions
 - Consistent opening/closing patterns
 - Unique formatting or structural choices
@@ -168,10 +190,12 @@ Analyze and document:
 Synthesize analysis into clear profile:
 
 **Voice Identity Statement:**
+
 - 2-3 sentence description capturing essence
 - Example: "Your voice is conversational yet authoritative, blending data-driven insights with personal storytelling. You favor short, punchy sentences mixed with longer explanatory ones, creating a rhythmic reading experience that keeps readers engaged."
 
 **Voice Characteristics Summary:**
+
 - Top 5 defining characteristics
 - 3-5 signature patterns
 - Unique voice markers
@@ -181,23 +205,27 @@ Synthesize analysis into clear profile:
 Generate actionable style guide:
 
 **Sentence Construction:**
+
 - Preferred sentence lengths
 - Typical sentence patterns
 - Sentence variety recommendations
 
 **Word Choice Rules:**
+
 - Vocabulary level to maintain
 - Words/phrases to use frequently
 - Words/phrases to avoid
 - Technical language guidelines
 
 **Tone Guidelines:**
+
 - Formality level by context
 - When to be more/less formal
 - Personality expression rules
 - Emotional range guidelines
 
 **Structural Templates:**
+
 - Introduction templates
 - Paragraph organization patterns
 - Transition templates
@@ -208,17 +236,20 @@ Generate actionable style guide:
 Generate examples demonstrating voice:
 
 **Before/After Examples:**
+
 - Generic text → Your voice
 - Show 3-5 transformations
 - Highlight specific voice elements applied
 
 **Voice Variations by Context:**
+
 - Blog post voice
 - Social media voice
 - Newsletter voice
 - Professional email voice
 
 **Platform-Specific Adaptations:**
+
 - How voice adapts for LinkedIn
 - How voice adapts for Twitter
 - How voice adapts for newsletter
@@ -231,6 +262,7 @@ Generate examples demonstrating voice:
 ### 4.1 Similarity Testing
 
 Test voice profile accuracy:
+
 - Generate sample paragraph using profile
 - Compare to original writing samples
 - Calculate similarity score (0-100)
@@ -239,6 +271,7 @@ Test voice profile accuracy:
 ### 4.2 User Validation
 
 Present to user for validation:
+
 - Show voice summary
 - Display sample generated content
 - Request feedback:
@@ -250,6 +283,7 @@ Present to user for validation:
 ### 4.3 Refinement
 
 Based on feedback:
+
 - Adjust voice characteristics
 - Update style guidelines
 - Regenerate examples
@@ -262,6 +296,7 @@ Based on feedback:
 ### 5.1 Create Voice Profile Document
 
 Generate comprehensive profile using {template}:
+
 - Voice identity and summary
 - Detailed characteristics analysis
 - Style guidelines
@@ -271,6 +306,7 @@ Generate comprehensive profile using {template}:
 ### 5.2 Create Quick Reference Card
 
 Generate 1-page quick reference:
+
 - Voice identity statement
 - Top 5 characteristics
 - Key do's and don'ts
@@ -280,6 +316,7 @@ Generate 1-page quick reference:
 ### 5.3 Save Profile
 
 Save complete profile:
+
 - Full profile: {default_output_file}
 - Quick reference: {voice_profiles_folder}/quick-ref-{{profile-name}}.md
 - Raw analysis data: {voice_profiles_folder}/analysis-data-{{profile-name}}.json
@@ -291,6 +328,7 @@ Save complete profile:
 ### 6.1 Profile Activation
 
 Provide instructions:
+
 - How to activate this profile for content creation
 - How to switch between multiple profiles
 - How to update profile with new samples
@@ -298,6 +336,7 @@ Provide instructions:
 ### 6.2 Testing Recommendations
 
 Suggest testing approach:
+
 - Try `*write` with new profile
 - Compare generated content to original voice
 - Iterate on profile as needed
@@ -305,6 +344,7 @@ Suggest testing approach:
 ### 6.3 Maintenance Guidelines
 
 Provide maintenance plan:
+
 - Review profile quarterly
 - Update with new writing samples
 - Track voice evolution
@@ -315,6 +355,7 @@ Provide maintenance plan:
 ## Output
 
 Comprehensive voice profile including:
+
 - **Voice Identity:** Clear statement of unique voice
 - **Detailed Analysis:** All characteristics documented
 - **Style Guidelines:** Actionable writing rules

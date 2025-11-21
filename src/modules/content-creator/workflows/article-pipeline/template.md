@@ -14,16 +14,19 @@
 **Primary Keyword:** [Keyword if applicable]
 
 ### Key Insights
+
 1. [Insight 1 with source]
 2. [Insight 2 with source]
 3. [Insight 3 with source]
 
 ### Data Points
+
 - [Statistic 1 with source]
 - [Statistic 2 with source]
 - [Statistic 3 with source]
 
 ### Unique Angles
+
 - [Angle 1]
 - [Angle 2]
 

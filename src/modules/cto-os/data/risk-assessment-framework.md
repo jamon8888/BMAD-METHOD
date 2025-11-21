@@ -672,21 +672,17 @@ Maintain an ongoing risk register (spreadsheet or tool):
 **Sections**:
 
 1. **Risk Summary**:
-
    - Critical risks: [count]
    - High risks: [count]
    - Medium risks: [count]
 
 2. **Top 3 Risks** (by score):
-
    - [Risk name]: Score [X], Status [Y]
 
 3. **Completed Mitigations This Month**:
-
    - [Risk name]: Mitigation completed, score reduced from [X] to [Y]
 
 4. **New Risks Identified**:
-
    - [Risk name]: Score [X], mitigation planned
 
 5. **Budget/Resources Needed**:

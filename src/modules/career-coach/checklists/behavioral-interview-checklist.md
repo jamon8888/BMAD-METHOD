@@ -1,6 +1,7 @@
 # Behavioral Interview Checklist
 
 ## Checklist Information
+
 - **Checklist Type:** Behavioral Interview Preparation and Execution
 - **Agent:** interview-coach
 - **Task:** develop-behavioral-responses.md, conduct-mock-interview.md
@@ -9,6 +10,7 @@
 ## STAR Method Preparation
 
 ### Situation Framework
+
 - [ ] **Context Setting**: Prepared to set clear context and background
 - [ ] **Timeframe**: Identified specific timeframe for the situation
 - [ ] **Location**: Clarified where the situation occurred
@@ -21,6 +23,7 @@
 - [ ] **Urgency**: Conveyed appropriate sense of urgency if applicable
 
 ### Task Framework
+
 - [ ] **Role Clarity**: Clearly defined your role and responsibilities
 - [ ] **Objectives**: Stated clear objectives and goals
 - [ ] **Expectations**: Clarified what was expected of you
@@ -33,6 +36,7 @@
 - [ ] **Priority Level**: Indicated priority and importance
 
 ### Action Framework
+
 - [ ] **Decision Process**: Explained your decision-making process
 - [ ] **Strategy Development**: Described how you developed your approach
 - [ ] **Implementation Steps**: Outlined specific steps taken
@@ -45,6 +49,7 @@
 - [ ] **Risk Management**: Demonstrated risk assessment and mitigation
 
 ### Result Framework
+
 - [ ] **Quantifiable Outcomes**: Provided specific, measurable results
 - [ ] **Impact Assessment**: Described broader impact and implications
 - [ ] **Success Metrics**: Used relevant success metrics
@@ -59,6 +64,7 @@
 ## Story Development
 
 ### Achievement Stories
+
 - [ ] **Major Accomplishments**: Developed stories about significant achievements
 - [ ] **Project Success**: Prepared stories about successful project delivery
 - [ ] **Problem Resolution**: Developed stories about solving complex problems
@@ -71,6 +77,7 @@
 - [ ] **Crisis Management**: Prepared stories about handling crises
 
 ### Challenge Stories
+
 - [ ] **Difficult Situations**: Developed stories about challenging circumstances
 - [ ] **Conflict Resolution**: Prepared stories about resolving conflicts
 - [ ] **Failure Recovery**: Developed stories about learning from failures
@@ -83,6 +90,7 @@
 - [ ] **Setback Recovery**: Developed stories about overcoming setbacks
 
 ### Leadership Stories
+
 - [ ] **Team Leadership**: Developed stories about leading teams
 - [ ] **Mentoring**: Prepared stories about mentoring others
 - [ ] **Influence**: Developed stories about influencing without authority
@@ -95,6 +103,7 @@
 - [ ] **Cross-functional Leadership**: Prepared stories about leading across functions
 
 ### Learning Stories
+
 - [ ] **Skill Development**: Developed stories about learning new skills
 - [ ] **Adaptation**: Prepared stories about adapting to change
 - [ ] **Feedback Integration**: Developed stories about using feedback
@@ -109,6 +118,7 @@
 ## Question Categories
 
 ### Leadership Questions
+
 - [ ] **Team Management**: Prepared for team leadership questions
 - [ ] **Conflict Resolution**: Developed responses for conflict situations
 - [ ] **Motivation**: Prepared for motivation and inspiration questions
@@ -121,6 +131,7 @@
 - [ ] **Strategic Thinking**: Developed responses for strategic scenarios
 
 ### Problem-Solving Questions
+
 - [ ] **Analytical Thinking**: Prepared for analytical problem-solving
 - [ ] **Creative Solutions**: Developed responses for creative problem-solving
 - [ ] **Data Analysis**: Prepared for data-driven decision making
@@ -133,6 +144,7 @@
 - [ ] **Resource Constraints**: Developed responses for limited resources
 
 ### Communication Questions
+
 - [ ] **Presentation Skills**: Prepared for presentation scenarios
 - [ ] **Difficult Conversations**: Developed responses for challenging discussions
 - [ ] **Stakeholder Communication**: Prepared for stakeholder management
@@ -145,6 +157,7 @@
 - [ ] **Media Relations**: Developed responses for media interactions
 
 ### Teamwork Questions
+
 - [ ] **Collaboration**: Prepared for collaboration scenarios
 - [ ] **Team Building**: Developed responses for team development
 - [ ] **Diversity**: Prepared for diverse team scenarios
@@ -157,6 +170,7 @@
 - [ ] **Team Recognition**: Developed responses for team achievements
 
 ### Adaptability Questions
+
 - [ ] **Change Management**: Prepared for change scenarios
 - [ ] **Learning Agility**: Developed responses for learning situations
 - [ ] **Flexibility**: Prepared for flexibility scenarios
@@ -171,6 +185,7 @@
 ## Response Quality
 
 ### Clarity and Structure
+
 - [ ] **Clear Opening**: Started responses with clear context
 - [ ] **Logical Flow**: Maintained logical progression through STAR
 - [ ] **Concise Language**: Used clear and concise language
@@ -183,6 +198,7 @@
 - [ ] **Adaptation**: Adapted responses based on interviewer engagement
 
 ### Authenticity and Honesty
+
 - [ ] **Genuine Stories**: Used real and authentic examples
 - [ ] **Honest Assessment**: Provided honest self-assessment
 - [ ] **Vulnerability**: Showed appropriate vulnerability when relevant
@@ -195,6 +211,7 @@
 - [ ] **Integrity**: Demonstrated integrity and ethical behavior
 
 ### Impact and Results
+
 - [ ] **Quantifiable Results**: Provided specific numbers and metrics
 - [ ] **Business Impact**: Connected to business outcomes
 - [ ] **Stakeholder Impact**: Described impact on stakeholders
@@ -209,6 +226,7 @@
 ## Delivery Skills
 
 ### Verbal Communication
+
 - [ ] **Clear Speech**: Spoke clearly and audibly
 - [ ] **Appropriate Pace**: Maintained appropriate speaking pace
 - [ ] **Confident Tone**: Used confident and professional tone
@@ -221,6 +239,7 @@
 - [ ] **Engagement**: Kept interviewer engaged
 
 ### Non-verbal Communication
+
 - [ ] **Eye Contact**: Maintained appropriate eye contact
 - [ ] **Posture**: Used confident and open posture
 - [ ] **Gestures**: Used natural and purposeful gestures
@@ -233,6 +252,7 @@
 - [ ] **Comfort**: Appeared comfortable and relaxed
 
 ### Engagement Skills
+
 - [ ] **Active Listening**: Demonstrated active listening
 - [ ] **Question Clarification**: Asked clarifying questions when needed
 - [ ] **Interactive Responses**: Made responses interactive
@@ -247,6 +267,7 @@
 ## Practice and Preparation
 
 ### Story Refinement
+
 - [ ] **Multiple Versions**: Developed multiple versions of key stories
 - [ ] **Time Optimization**: Optimized story length and timing
 - [ ] **Detail Balance**: Balanced detail and conciseness
@@ -259,6 +280,7 @@
 - [ ] **Continuous Refinement**: Continuously refined stories
 
 ### Mock Interview Practice
+
 - [ ] **Behavioral Focus**: Conducted behavioral-focused mock interviews
 - [ ] **STAR Method Practice**: Practiced STAR method consistently
 - [ ] **Question Variety**: Practiced with variety of question types
@@ -271,6 +293,7 @@
 - [ ] **Adaptation Skills**: Practiced adapting to different styles
 
 ### Performance Optimization
+
 - [ ] **Response Speed**: Optimized response speed and timing
 - [ ] **Memory Techniques**: Used memory techniques for key points
 - [ ] **Stress Management**: Developed stress management techniques
@@ -285,6 +308,7 @@
 ## Success Metrics
 
 ### Response Quality
+
 - [ ] **STAR Method**: Consistently used STAR method effectively
 - [ ] **Relevance**: Responses directly addressed questions
 - [ ] **Impact**: Responses demonstrated significant impact
@@ -297,6 +321,7 @@
 - [ ] **Memorability**: Responses were memorable and impactful
 
 ### Interview Performance
+
 - [ ] **Question Handling**: Effectively handled all question types
 - [ ] **Follow-up Management**: Managed follow-up questions well
 - [ ] **Time Management**: Managed time effectively
@@ -309,6 +334,7 @@
 - [ ] **Follow-up**: Completed appropriate follow-up actions
 
 ### Outcome Tracking
+
 - [ ] **Interview Success**: Tracked interview success rates
 - [ ] **Offer Rate**: Monitored job offer success rate
 - [ ] **Feedback Quality**: Tracked quality of interview feedback

@@ -60,6 +60,7 @@
 ## Platform Repurposing
 
 ### LinkedIn Version
+
 - [ ] 900-1300 characters
 - [ ] Professional yet personal tone
 - [ ] Compelling hook for LinkedIn audience
@@ -68,6 +69,7 @@
 - [ ] Formatting optimized (short paragraphs, line breaks)
 
 ### Newsletter Version
+
 - [ ] Compelling subject line (30-50 chars)
 - [ ] Personal greeting included
 - [ ] Scannable sections with headers
@@ -76,6 +78,7 @@
 - [ ] More conversational than main article
 
 ### Social Media Version
+
 - [ ] Twitter thread: 5-8 tweets
 - [ ] Strong hook in first tweet
 - [ ] Each tweet self-contained but builds narrative
@@ -109,6 +112,7 @@
 ---
 
 **Minimum Requirements for Completion:**
+
 - ✅ Overall quality score ≥70
 - ✅ Main article complete and saved
 - ✅ At least 2 platform versions created

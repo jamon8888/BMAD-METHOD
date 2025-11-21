@@ -1,6 +1,7 @@
 # Technical Interview Checklist
 
 ## Checklist Information
+
 - **Checklist Type:** Technical Interview Preparation and Execution
 - **Agent:** interview-coach
 - **Task:** technical-interview-prep.md, conduct-mock-interview.md
@@ -9,6 +10,7 @@
 ## Technical Skills Assessment
 
 ### Core Technical Skills
+
 - [ ] **Programming Languages**: Mastered required programming languages
 - [ ] **Data Structures**: Understood fundamental data structures and algorithms
 - [ ] **System Design**: Prepared for system design and architecture questions
@@ -21,6 +23,7 @@
 - [ ] **DevOps**: Understood DevOps practices and tools
 
 ### Domain-Specific Skills
+
 - [ ] **Frontend Development**: Reviewed frontend technologies and frameworks
 - [ ] **Backend Development**: Prepared for backend development questions
 - [ ] **Mobile Development**: Reviewed mobile development concepts
@@ -33,6 +36,7 @@
 - [ ] **Blockchain**: Understood blockchain and cryptocurrency concepts
 
 ### Tools and Technologies
+
 - [ ] **Development Tools**: Familiar with relevant development tools
 - [ ] **IDEs**: Proficient with integrated development environments
 - [ ] **Build Tools**: Understood build and deployment tools
@@ -47,6 +51,7 @@
 ## Problem-Solving Preparation
 
 ### Algorithm Practice
+
 - [ ] **Basic Algorithms**: Practiced basic algorithms (sorting, searching)
 - [ ] **Data Structures**: Practiced data structure implementations
 - [ ] **Dynamic Programming**: Reviewed dynamic programming concepts
@@ -59,6 +64,7 @@
 - [ ] **Hash Table Problems**: Practiced hash table applications
 
 ### Coding Practice
+
 - [ ] **Online Platforms**: Used coding practice platforms (LeetCode, HackerRank)
 - [ ] **Problem Types**: Practiced various problem types and difficulty levels
 - [ ] **Time Management**: Practiced solving problems under time constraints
@@ -71,6 +77,7 @@
 - [ ] **Code Review**: Reviewed and improved code solutions
 
 ### System Design Practice
+
 - [ ] **Scalability**: Understood scalability concepts and patterns
 - [ ] **Distributed Systems**: Reviewed distributed system concepts
 - [ ] **Microservices**: Understood microservices architecture
@@ -85,6 +92,7 @@
 ## Interview Format Preparation
 
 ### Whiteboard Coding
+
 - [ ] **Handwriting Practice**: Practiced writing code on whiteboard
 - [ ] **Clarification Questions**: Prepared to ask clarifying questions
 - [ ] **Problem Breakdown**: Practiced breaking down complex problems
@@ -97,6 +105,7 @@
 - [ ] **Time Management**: Managed time effectively during coding
 
 ### Live Coding
+
 - [ ] **IDE Familiarity**: Familiar with common IDEs and editors
 - [ ] **Keyboard Shortcuts**: Mastered keyboard shortcuts for efficiency
 - [ ] **Code Execution**: Practiced running and testing code
@@ -109,6 +118,7 @@
 - [ ] **Refactoring**: Practiced code refactoring and improvement
 
 ### Take-Home Projects
+
 - [ ] **Project Understanding**: Thoroughly understood project requirements
 - [ ] **Architecture Design**: Designed appropriate architecture
 - [ ] **Technology Selection**: Selected appropriate technologies
@@ -123,6 +133,7 @@
 ## Technical Communication
 
 ### Problem Clarification
+
 - [ ] **Requirements Understanding**: Clarified problem requirements
 - [ ] **Constraints Identification**: Identified technical constraints
 - [ ] **Assumptions**: Stated assumptions clearly
@@ -135,6 +146,7 @@
 - [ ] **Security Requirements**: Considered security requirements
 
 ### Solution Explanation
+
 - [ ] **Approach Justification**: Explained approach selection
 - [ ] **Algorithm Description**: Described algorithms clearly
 - [ ] **Complexity Analysis**: Analyzed time and space complexity
@@ -147,6 +159,7 @@
 - [ ] **Maintenance**: Considered maintenance and support
 
 ### Code Review
+
 - [ ] **Code Walkthrough**: Explained code step by step
 - [ ] **Design Decisions**: Justified design decisions
 - [ ] **Alternative Solutions**: Discussed alternative approaches
@@ -161,6 +174,7 @@
 ## Technical Knowledge
 
 ### Computer Science Fundamentals
+
 - [ ] **Data Structures**: Mastered fundamental data structures
 - [ ] **Algorithms**: Understood algorithm design and analysis
 - [ ] **Complexity Theory**: Understood time and space complexity
@@ -173,6 +187,7 @@
 - [ ] **Software Design Patterns**: Knew common design patterns
 
 ### Industry Knowledge
+
 - [ ] **Current Trends**: Stayed current with industry trends
 - [ ] **Best Practices**: Understood industry best practices
 - [ ] **Tools and Technologies**: Knew relevant tools and technologies
@@ -185,6 +200,7 @@
 - [ ] **Agile Development**: Familiar with agile development practices
 
 ### Company-Specific Knowledge
+
 - [ ] **Technology Stack**: Researched company's technology stack
 - [ ] **Architecture**: Understood company's architecture approach
 - [ ] **Development Process**: Knew company's development process
@@ -199,6 +215,7 @@
 ## Practical Preparation
 
 ### Environment Setup
+
 - [ ] **Development Environment**: Set up development environment
 - [ ] **Required Tools**: Installed required tools and software
 - [ ] **Test Environment**: Prepared test environment
@@ -211,6 +228,7 @@
 - [ ] **Access Credentials**: Had access to required systems
 
 ### Portfolio Preparation
+
 - [ ] **Code Samples**: Prepared relevant code samples
 - [ ] **Project Documentation**: Documented projects thoroughly
 - [ ] **GitHub Profile**: Updated GitHub profile and repositories
@@ -223,6 +241,7 @@
 - [ ] **References**: Had technical references ready
 
 ### Mock Technical Interviews
+
 - [ ] **Practice Sessions**: Conducted mock technical interviews
 - [ ] **Question Types**: Practiced different question types
 - [ ] **Time Management**: Practiced time management
@@ -237,6 +256,7 @@
 ## Interview Day Preparation
 
 ### Mental Preparation
+
 - [ ] **Confidence Building**: Built confidence through preparation
 - [ ] **Stress Management**: Developed stress management techniques
 - [ ] **Focus Techniques**: Practiced focus and concentration
@@ -249,6 +269,7 @@
 - [ ] **Professional Presence**: Maintained professional presence
 
 ### Physical Preparation
+
 - [ ] **Adequate Sleep**: Ensured adequate sleep the night before
 - [ ] **Healthy Meals**: Planned healthy meals and snacks
 - [ ] **Hydration**: Stayed well-hydrated
@@ -261,6 +282,7 @@
 - [ ] **Distractions**: Minimized distractions and interruptions
 
 ### Technical Readiness
+
 - [ ] **Equipment Check**: Checked all equipment and software
 - [ ] **Backup Plan**: Had backup plan for technical issues
 - [ ] **Test Run**: Conducted test run of interview setup
@@ -275,6 +297,7 @@
 ## Success Metrics
 
 ### Technical Performance
+
 - [ ] **Problem Solving**: Successfully solved technical problems
 - [ ] **Code Quality**: Produced high-quality code
 - [ ] **Communication**: Communicated technical concepts clearly
@@ -287,6 +310,7 @@
 - [ ] **Collaboration**: Collaborated effectively on technical problems
 
 ### Interview Outcomes
+
 - [ ] **Technical Assessment**: Passed technical assessment
 - [ ] **Code Review**: Received positive code review feedback
 - [ ] **System Design**: Demonstrated strong system design skills
@@ -299,6 +323,7 @@
 - [ ] **Professional Development**: Demonstrated commitment to learning
 
 ### Long-term Success
+
 - [ ] **Technical Growth**: Continued technical skill development
 - [ ] **Industry Knowledge**: Stayed current with industry trends
 - [ ] **Professional Network**: Built technical professional network

@@ -1,6 +1,7 @@
 # Interview Day Checklist
 
 ## Checklist Information
+
 - **Checklist Type:** Interview Day Preparation and Execution
 - **Agent:** interview-coach
 - **Task:** interview-preparation.md, conduct-mock-interview.md
@@ -9,6 +10,7 @@
 ## Pre-Interview Day Preparation
 
 ### Final Research Review
+
 - [ ] **Company Information**: Reviewed company research and recent news
 - [ ] **Job Description**: Re-read job description and requirements
 - [ ] **Interviewer Background**: Reviewed interviewer backgrounds and roles
@@ -21,6 +23,7 @@
 - [ ] **Company Challenges**: Understood current company challenges
 
 ### Personal Preparation
+
 - [ ] **Resume Review**: Reviewed and memorized key points from resume
 - [ ] **Story Preparation**: Rehearsed key achievement stories
 - [ ] **Question Preparation**: Reviewed prepared questions to ask
@@ -33,6 +36,7 @@
 - [ ] **Non-negotiables**: Reviewed deal-breakers and requirements
 
 ### Logistics Confirmation
+
 - [ ] **Interview Time**: Confirmed interview time and timezone
 - [ ] **Interview Location**: Confirmed interview location and directions
 - [ ] **Interview Format**: Confirmed interview format (phone, video, in-person)
@@ -47,6 +51,7 @@
 ## Morning of Interview
 
 ### Physical Preparation
+
 - [ ] **Adequate Sleep**: Ensured adequate sleep the night before
 - [ ] **Healthy Breakfast**: Had nutritious breakfast for energy
 - [ ] **Hydration**: Started hydrating early in the day
@@ -59,6 +64,7 @@
 - [ ] **Emergency Kit**: Prepared emergency kit (mints, tissues, etc.)
 
 ### Mental Preparation
+
 - [ ] **Positive Mindset**: Started day with positive mindset
 - [ ] **Visualization**: Visualized successful interview
 - [ ] **Confidence Building**: Built confidence through positive self-talk
@@ -71,6 +77,7 @@
 - [ ] **Professional Presence**: Mentally prepared for professional demeanor
 
 ### Final Review
+
 - [ ] **Resume Copies**: Had multiple copies of updated resume
 - [ ] **Portfolio**: Prepared portfolio or work samples if relevant
 - [ ] **References**: Had reference list ready if requested
@@ -85,6 +92,7 @@
 ## Technology Preparation (for Video/Phone Interviews)
 
 ### Equipment Setup
+
 - [ ] **Computer/Device**: Ensured computer or device is fully charged
 - [ ] **Internet Connection**: Tested internet connection stability
 - [ ] **Video Platform**: Tested video conferencing platform
@@ -97,6 +105,7 @@
 - [ ] **Backup Plan**: Had backup plan for technical issues
 
 ### Environment Setup
+
 - [ ] **Professional Background**: Set up professional video background
 - [ ] **Lighting**: Set up proper lighting for video interview
 - [ ] **Noise Control**: Ensured quiet environment
@@ -111,6 +120,7 @@
 ## Travel and Arrival (for In-Person Interviews)
 
 ### Travel Preparation
+
 - [ ] **Route Planning**: Planned route to interview location
 - [ ] **Traffic Check**: Checked traffic conditions and timing
 - [ ] **Parking**: Researched parking options and availability
@@ -123,6 +133,7 @@
 - [ ] **Arrival Buffer**: Planned to arrive 10-15 minutes early
 
 ### Arrival and Check-in
+
 - [ ] **Building Location**: Located correct building and entrance
 - [ ] **Security Check**: Prepared for security check if required
 - [ ] **Reception**: Located reception desk or check-in area
@@ -137,6 +148,7 @@
 ## Interview Execution
 
 ### First Impression
+
 - [ ] **Professional Appearance**: Maintained professional appearance
 - [ ] **Confident Posture**: Used confident and open posture
 - [ ] **Eye Contact**: Made appropriate eye contact
@@ -149,6 +161,7 @@
 - [ ] **Engagement**: Actively engaged with interviewer
 
 ### Communication Skills
+
 - [ ] **Clear Speech**: Spoke clearly and audibly
 - [ ] **Appropriate Pace**: Maintained appropriate speaking pace
 - [ ] **Confident Tone**: Used confident and professional tone
@@ -161,6 +174,7 @@
 - [ ] **Engagement**: Kept interviewer engaged
 
 ### Question Handling
+
 - [ ] **Active Listening**: Listened carefully to questions
 - [ ] **Clarification**: Asked clarifying questions when needed
 - [ ] **STAR Method**: Used STAR method for behavioral questions
@@ -173,6 +187,7 @@
 - [ ] **Adaptation**: Adapted responses based on interviewer engagement
 
 ### Questions to Ask
+
 - [ ] **Role Questions**: Asked thoughtful questions about the role
 - [ ] **Team Questions**: Inquired about team structure and dynamics
 - [ ] **Project Questions**: Asked about current and future projects
@@ -187,6 +202,7 @@
 ## Interview Management
 
 ### Time Management
+
 - [ ] **Pacing**: Managed interview pacing appropriately
 - [ ] **Response Length**: Controlled response length and timing
 - [ ] **Question Balance**: Balanced answering and asking questions
@@ -199,6 +215,7 @@
 - [ ] **Additional Materials**: Inquired about additional materials needed
 
 ### Professional Demeanor
+
 - [ ] **Confidence**: Maintained confidence throughout interview
 - [ ] **Authenticity**: Remained authentic and genuine
 - [ ] **Enthusiasm**: Showed genuine enthusiasm and interest
@@ -211,6 +228,7 @@
 - [ ] **Closure**: Ended interview on positive note
 
 ### Body Language
+
 - [ ] **Eye Contact**: Maintained appropriate eye contact
 - [ ] **Posture**: Used confident and open posture
 - [ ] **Gestures**: Used natural and purposeful gestures
@@ -225,6 +243,7 @@
 ## Post-Interview Actions
 
 ### Immediate Actions
+
 - [ ] **Thank You Notes**: Prepared thank you note templates
 - [ ] **Follow-up Strategy**: Developed follow-up strategy and timeline
 - [ ] **Next Steps**: Understood expected next steps in process
@@ -237,6 +256,7 @@
 - [ ] **Decision Factors**: Identified key factors for decision making
 
 ### Reflection and Assessment
+
 - [ ] **Performance Review**: Conducted honest self-assessment
 - [ ] **Strengths**: Identified strengths and positive aspects
 - [ ] **Improvement Areas**: Identified areas for improvement
@@ -249,6 +269,7 @@
 - [ ] **Overall Impression**: Assessed overall interview impression
 
 ### Follow-up Actions
+
 - [ ] **Thank You Notes**: Sent personalized thank you notes
 - [ ] **Follow-up Timeline**: Established follow-up timeline
 - [ ] **Additional Information**: Provided any additional information requested
@@ -263,6 +284,7 @@
 ## Success Metrics
 
 ### Interview Performance
+
 - [ ] **Confidence Level**: Maintained high confidence throughout interview
 - [ ] **Communication**: Communicated clearly and effectively
 - [ ] **Engagement**: Actively engaged with interviewers
@@ -275,6 +297,7 @@
 - [ ] **Follow-up**: Completed appropriate follow-up actions
 
 ### Outcome Tracking
+
 - [ ] **Interview Invitations**: Tracked interview invitation success rate
 - [ ] **Interview Performance**: Monitored interview performance feedback
 - [ ] **Offer Rate**: Tracked job offer success rate
@@ -287,6 +310,7 @@
 - [ ] **Long-term Success**: Monitored long-term career success
 
 ### Continuous Improvement
+
 - [ ] **Feedback Integration**: Integrated feedback from interviews
 - [ ] **Skill Development**: Continued developing interview skills
 - [ ] **Preparation Enhancement**: Enhanced interview preparation process

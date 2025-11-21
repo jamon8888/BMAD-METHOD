@@ -48,6 +48,7 @@ If document context has not been provided, ask the user to specify the type of d
 ## Document Types
 
 ### Career Documents
+
 - **Resume/CV** - Professional summary of experience and qualifications
 - **Cover Letter** - Targeted introduction for job applications
 - **LinkedIn Profile** - Professional online presence
@@ -55,6 +56,7 @@ If document context has not been provided, ask the user to specify the type of d
 - **Career Plan** - Strategic career development roadmap
 
 ### Professional Documents
+
 - **Business Plan** - Strategic business development document
 - **Project Proposal** - Detailed project planning and execution
 - **Performance Review** - Self-assessment and goal setting
@@ -62,6 +64,7 @@ If document context has not been provided, ask the user to specify the type of d
 - **Reference List** - Professional contacts and recommendations
 
 ### Development Documents
+
 - **Skills Assessment** - Comprehensive skills evaluation
 - **Learning Plan** - Structured skill development approach
 - **Networking Strategy** - Professional relationship building plan
@@ -71,6 +74,7 @@ If document context has not been provided, ask the user to specify the type of d
 ## Document Creation Focus Areas
 
 ### Purpose and Audience
+
 - **Document Objective** - What should the document accomplish?
 - **Target Audience** - Who will read and use this document?
 - **Key Messages** - What are the main points to communicate?
@@ -78,6 +82,7 @@ If document context has not been provided, ask the user to specify the type of d
 - **Success Criteria** - How will you measure the document's effectiveness?
 
 ### Content Development
+
 - **Information Gathering** - What information needs to be included?
 - **Content Organization** - How should the information be structured?
 - **Key Sections** - What are the main sections of the document?
@@ -85,6 +90,7 @@ If document context has not been provided, ask the user to specify the type of d
 - **Visual Elements** - What graphics or formatting would enhance the document?
 
 ### Quality and Effectiveness
+
 - **Clarity and Readability** - Is the content clear and easy to understand?
 - **Accuracy and Completeness** - Is all information accurate and complete?
 - **Professional Standards** - Does the document meet professional standards?
@@ -114,6 +120,7 @@ After user selects elicitation method (2-9):
 ## Document Structure Guidelines
 
 ### Standard Document Sections
+
 1. **Header/Title** - Clear, descriptive document title
 2. **Introduction** - Purpose, scope, and key messages
 3. **Main Content** - Organized sections with clear headings
@@ -122,6 +129,7 @@ After user selects elicitation method (2-9):
 6. **Appendices** - Additional materials and references
 
 ### Formatting Standards
+
 - **Consistent Formatting** - Use consistent fonts, spacing, and styling
 - **Clear Headings** - Use descriptive, hierarchical headings
 - **Professional Language** - Use clear, professional, and appropriate language
@@ -131,6 +139,7 @@ After user selects elicitation method (2-9):
 ## Document Quality Checklist
 
 ### Content Quality
+
 - [ ] **Clear Purpose** - Document purpose is clearly stated
 - [ ] **Targeted Audience** - Content is appropriate for target audience
 - [ ] **Complete Information** - All necessary information is included
@@ -138,6 +147,7 @@ After user selects elicitation method (2-9):
 - [ ] **Logical Structure** - Information is organized logically
 
 ### Professional Standards
+
 - [ ] **Professional Language** - Language is appropriate and professional
 - [ ] **Consistent Formatting** - Formatting is consistent throughout
 - [ ] **Error-Free** - No spelling, grammar, or formatting errors
@@ -145,6 +155,7 @@ After user selects elicitation method (2-9):
 - [ ] **Industry Standards** - Meets industry-specific standards
 
 ### Effectiveness
+
 - [ ] **Clear Messages** - Key messages are clearly communicated
 - [ ] **Persuasive Content** - Content is compelling and persuasive
 - [ ] **Actionable** - Reader knows what to do next

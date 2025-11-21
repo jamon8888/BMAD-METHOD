@@ -47,18 +47,21 @@ Based on the proven **Idea Validator** methodology by Avery Chernin.
 ### The Three-Pillar Framework
 
 **DEMAND (Market Fit)** - Will people pay enough to make this viable?
+
 - Competitive analysis
 - Demand signal research
 - Market size estimation
 - Pricing sustainability
 
 **SUPPLY (Founder Alignment)** - Can YOU build and deliver this?
+
 - Skills and capability gaps
 - Time and budget sufficiency
 - Operational sustainability
 - Motivation strength
 
 **DISTRIBUTION (Customer Acquisition)** - Can you reach customers affordably?
+
 - Channel strategy specificity
 - CAC benchmarking
 - Existing distribution advantages
@@ -83,6 +86,7 @@ npx bmad-method@alpha install
 ### First Validation
 
 1. **Load Lisa (Validator Analyst)**
+
    ```
    Load Lisa to refine your idea
    ```
@@ -186,6 +190,7 @@ Choose pivot and re-validate.
 ### Lisa (Validator Analyst)
 
 **Triggers:**
+
 - `*start` - Start idea refinement process
 - `*refine` - Refine existing idea definition
 - `*scope-check` - Assess idea scope and suggest MVP
@@ -195,6 +200,7 @@ Choose pivot and re-validate.
 ### Alex (Market Fit Validator)
 
 **Triggers:**
+
 - `*validate` - Conduct market fit validation research
 - `*competitive-analysis` - Analyze competitive landscape
 - `*demand-research` - Research demand signals
@@ -205,6 +211,7 @@ Choose pivot and re-validate.
 ### Marcus (Founder Alignment Validator)
 
 **Triggers:**
+
 - `*validate` - Assess founder capability and alignment
 - `*skills-assessment` - Evaluate technical capability and gaps
 - `*resource-check` - Assess time and budget availability
@@ -215,6 +222,7 @@ Choose pivot and re-validate.
 ### Sarah (Distribution Strategy Validator)
 
 **Triggers:**
+
 - `*validate` - Assess distribution strategy viability
 - `*channel-analysis` - Analyze distribution channels and fit
 - `*cac-research` - Research and benchmark CAC
@@ -225,6 +233,7 @@ Choose pivot and re-validate.
 ### Jordan (Report Generator)
 
 **Triggers:**
+
 - `*generate` - Generate comprehensive validation report
 - `*synthesize` - Synthesize findings across pillars
 - `*export` - Export report in markdown format
@@ -239,7 +248,9 @@ Choose pivot and re-validate.
 The Founder Idea Validator module includes pre-configured team bundles for different validation scenarios:
 
 ### Complete Validation Team (validation-team.yaml)
+
 **All 5 validators working together** for comprehensive idea assessment
+
 - Lisa (Validator Analyst)
 - Alex (Market Fit Validator)
 - Marcus (Founder Alignment Validator)
@@ -249,7 +260,9 @@ The Founder Idea Validator module includes pre-configured team bundles for diffe
 **Best for:** Complete 30-45 minute validation from fuzzy idea to final recommendation
 
 ### Quick Validation Team (quick-validation-team.yaml)
+
 **Alex + Sarah + Jordan** for rapid market and distribution check
+
 - Skip refinement if idea is clear
 - Focus on external validation (market + distribution)
 - Quick go/no-go decision
@@ -257,7 +270,9 @@ The Founder Idea Validator module includes pre-configured team bundles for diffe
 **Best for:** Well-defined ideas needing market reality check
 
 ### Capability Check Team (capability-team.yaml)
+
 **Marcus + Jordan** for founder alignment assessment
+
 - Focus on execution feasibility
 - Resource and skill gap analysis
 - Quick capability reality check
@@ -267,24 +282,28 @@ The Founder Idea Validator module includes pre-configured team bundles for diffe
 ## 🎯 Use Cases
 
 ### For First-Time Founders
+
 - Validate idea before quitting day job
 - Understand market reality vs. assumptions
 - Get honest assessment of capability gaps
 - Avoid common first-time founder mistakes
 
 ### For Serial Entrepreneurs
+
 - Rapid validation of multiple ideas
 - Pressure-test assumptions with evidence
 - Systematic approach to idea selection
 - Focus energy on highest-potential opportunities
 
 ### For Side Project Builders
+
 - Realistic assessment given time constraints
 - Scope validation for part-time execution
 - Channel strategy for limited budgets
 - Go/no-go decision before investing months
 
 ### For Accelerator/Incubator Programs
+
 - Standardized validation framework
 - Evidence-based mentor feedback
 - Identify fatal flaws early
@@ -293,24 +312,28 @@ The Founder Idea Validator module includes pre-configured team bundles for diffe
 ## 📊 Key Features
 
 ### Evidence-Based Research
+
 - All claims backed by sources with URLs
 - Minimum 3 sources per major finding
 - Confidence levels stated explicitly
 - Transparent about data gaps
 
 ### Systematic Evaluation
+
 - Three-pillar framework (Demand, Supply, Distribution)
 - Structured question sequences
 - Cross-pillar synthesis
 - Clear recommendation criteria
 
 ### Actionable Outputs
+
 - Specific next steps with timelines
 - Validation experiments designed
 - Success criteria defined
 - Clear decision points
 
 ### Honest Assessment
+
 - Direct about fatal flaws
 - No sugarcoating issues
 - Constructive pivot suggestions
@@ -393,12 +416,14 @@ The Founder Idea Validator can be **enhanced with other BMAD modules** for deepe
 **When to Use:** Complex or emerging markets requiring comprehensive analysis
 
 Alex (Market Fit Validator) can trigger Deep Research for:
+
 - Comprehensive competitive intelligence
 - Emerging market trend analysis
 - Multi-source demand signal synthesis
 - Deep technology landscape research
 
 **Example:**
+
 ```
 Alex: "Based on initial research, this AI legal tech market is evolving rapidly.
 For deeper insights: *deep-research
@@ -419,12 +444,14 @@ This will provide:
 **When to Use:** Need detailed, channel-specific distribution strategies
 
 Sarah (Distribution Strategy Validator) can trigger Marketing Ops for:
+
 - Detailed channel playbooks (LinkedIn, Google Ads, SEO)
 - Attribution modeling and tracking setup
 - Conversion funnel optimization
 - Marketing automation strategies
 
 **Example:**
+
 ```
 Sarah: "Validation shows LinkedIn is your primary channel.
 For detailed strategy: *marketing-ops
@@ -445,12 +472,14 @@ This will create:
 **When to Use:** Need validation materials or content-driven distribution
 
 Use Content Creator for:
+
 - Landing page copy for validation experiments
 - LinkedIn/social content for channel testing
 - Email sequences for lead nurturing
 - Blog content for SEO validation
 
 **Example:**
+
 ```
 Jordan: "VALIDATE FIRST ⚠️ - Run these experiments:
 1. Landing page with pricing test
@@ -473,12 +502,14 @@ This will create:
 **When to Use:** PIVOT REQUIRED - need to explore alternative directions
 
 Use Creative Prompting Studio for:
+
 - Structured pivot brainstorming
 - Design thinking exploration
 - Alternative business model ideation
 - Problem reframing exercises
 
 **Example:**
+
 ```
 Jordan: "PIVOT REQUIRED ❌ - CAC economics don't work.
 
@@ -498,12 +529,14 @@ This will help:
 **When to Use:** Capability gaps need skill development
 
 Use Career Coach for:
+
 - Personalized learning plans
 - Skill gap assessment
 - Resource recommendations
 - Milestone-based development
 
 **Example:**
+
 ```
 Marcus: "⚠️ Technical gap identified: Modern web frameworks
 
@@ -521,6 +554,7 @@ This will create:
 ### Integration Workflow Pattern
 
 **Standard Flow:**
+
 1. **Complete core validation** (30-45 minutes)
 2. **Identify enhancement needs** (deeper research, detailed strategy, materials)
 3. **Load appropriate module** (via trigger command)
@@ -531,13 +565,13 @@ This will create:
 
 ### Module Compatibility Quick Reference
 
-| Need | Module | Command | Time |
-|------|--------|---------|------|
-| Deep market research | Deep Research | `*deep-research` | +30-60 min |
-| Channel strategy | Marketing Ops | `*marketing-ops` | +20-40 min |
-| Content creation | Content Creator | `*content-strategy` | +30-45 min |
-| Pivot exploration | Creative Prompting Studio | Load CPS | +30-60 min |
-| Skill development | Career Coach | Load Career Coach | +20-40 min |
+| Need                 | Module                    | Command             | Time       |
+| -------------------- | ------------------------- | ------------------- | ---------- |
+| Deep market research | Deep Research             | `*deep-research`    | +30-60 min |
+| Channel strategy     | Marketing Ops             | `*marketing-ops`    | +20-40 min |
+| Content creation     | Content Creator           | `*content-strategy` | +30-45 min |
+| Pivot exploration    | Creative Prompting Studio | Load CPS            | +30-60 min |
+| Skill development    | Career Coach              | Load Career Coach   | +20-40 min |
 
 **Detailed Integration Guide:** See `workflows/enhanced-validation/README.md` for comprehensive integration patterns and examples.
 
@@ -554,6 +588,7 @@ Integration is **optional but powerful** - use it when validation reveals comple
 ## 📈 Success Metrics
 
 After using Founder Idea Validator, track:
+
 - Ideas validated before building
 - Time saved avoiding bad ideas
 - Pivot discoveries before heavy investment
@@ -569,6 +604,7 @@ After using Founder Idea Validator, track:
 ## 📝 Changelog
 
 ### v1.1.0 (Enhanced Module Integration)
+
 - Added selective module integration capabilities
 - Deep Research integration for comprehensive market analysis
 - Marketing Ops integration for detailed channel strategies
@@ -579,6 +615,7 @@ After using Founder Idea Validator, track:
 - Module compatibility matrix and timing guidance
 
 ### v1.0.0 (Initial Release)
+
 - 5 specialized validation agents
 - Three-pillar validation framework
 - Evidence-based research methodology
@@ -597,31 +634,41 @@ Ready to validate your idea? Load Lisa and get started! 🚀
 ## ❓ FAQ
 
 ### How long does validation take?
+
 30-45 minutes for complete validation through all five agents.
 
 ### Do I need to talk to all five agents?
+
 Yes for complete validation. But you can use individual agents (e.g., just Alex for market research) if you have specific questions.
 
 ### What if I get VALIDATE FIRST?
+
 This is common! It means there's potential but uncertainties. Run the recommended validation experiments (usually 2-4 weeks) then reassess.
 
 ### What if I get DON'T PURSUE?
+
 Trust the evidence. Better to know early than after months of building. Extract learnings and move to next idea.
 
 ### Can I re-validate after pivoting?
+
 Absolutely! Pivots change assumptions. Re-run validation to test new direction.
 
 ### How accurate is the research?
+
 Directional, not exhaustive. Validators spend 10-15 minutes per pillar researching with multiple sources. Sufficient for go/no-go decisions, not replacement for deep market research.
 
 ### What industries does this work for?
+
 All. Framework applies to SaaS, e-commerce, services, marketplaces, content, physical products, and more.
 
 ### Is this for tech ideas only?
+
 No. Works for any business idea: consulting practices, local services, online courses, apps, physical products, etc.
 
 ### Can teams use this together?
+
 Yes! Team dynamics are specifically addressed in Marcus's founder alignment assessment.
 
 ### What happens after BUILD NOW?
+
 You get a specific action plan with priorities, metrics to track, and next steps to execute.

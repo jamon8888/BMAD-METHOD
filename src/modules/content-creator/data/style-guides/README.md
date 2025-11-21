@@ -5,6 +5,7 @@ This directory contains your custom style guides for consistent content creation
 ## What is a Style Guide?
 
 A style guide is a comprehensive reference document that defines:
+
 - Writing standards and conventions
 - Grammar and punctuation rules
 - Vocabulary and word choice guidelines
@@ -20,6 +21,7 @@ Run: *create-style-guide
 ```
 
 The workflow will:
+
 1. Load your voice profile
 2. Review brand guidelines
 3. Interview you about requirements
@@ -31,41 +33,48 @@ The workflow will:
 A complete style guide includes:
 
 ### Core Principles
+
 - Voice and tone principles
 - Content philosophy
 - Brand expression guidelines
 
 ### Grammar & Usage
+
 - Punctuation preferences
 - Capitalization rules
 - Number and symbol formatting
 - Common usage decisions
 
 ### Vocabulary Guidelines
+
 - Preferred terms and phrases
 - Words to use frequently
 - Words to avoid
 - Inclusive language guidelines
 
 ### Structure & Formatting
+
 - Document structure templates
 - Header and subheader rules
 - Paragraph guidelines
 - List formatting rules
 
 ### Platform-Specific Rules
+
 - Blog/website guidelines
 - LinkedIn best practices
 - Newsletter standards
 - Social media conventions
 
 ### Quality Standards
+
 - Readability requirements
 - SEO standards
 - Engagement metrics
 - Accuracy requirements
 
 ### Examples
+
 - Good examples
 - Anti-examples (what not to do)
 - Before/after transformations
@@ -73,11 +82,13 @@ A complete style guide includes:
 ## Using Your Style Guide
 
 Reference style guide when creating content:
+
 ```
 Follow my style guide: {path to guide}
 ```
 
 Or integrate with workflows:
+
 ```
 *write
 Style guide: {path to guide}
@@ -87,6 +98,7 @@ Voice profile: {path to profile}
 ## Quick Reference Cards
 
 Each style guide includes a 1-page quick reference with:
+
 - Core principles
 - Top do's and don'ts
 - Key templates
@@ -97,12 +109,14 @@ Use for quick lookups without opening full guide.
 ## Updating Style Guides
 
 Update your style guide:
+
 - When brand voice evolves
 - After major voice profile updates
 - When adding new platforms
 - Quarterly reviews
 
 To update:
+
 ```
 *create-style-guide
 Base on existing: {path to current guide}
@@ -111,6 +125,7 @@ Base on existing: {path to current guide}
 ## Multiple Style Guides
 
 Create separate guides for:
+
 - Different brands
 - Different content types
 - Different audiences
@@ -119,6 +134,7 @@ Create separate guides for:
 ## Best Practices
 
 ### Creating
+
 - Start with voice profile
 - Include brand guidelines
 - Interview stakeholders
@@ -126,12 +142,14 @@ Create separate guides for:
 - Keep practical and actionable
 
 ### Using
+
 - Reference consistently
 - Don't treat as rigid rules
 - Allow for context variation
 - Update based on usage
 
 ### Maintaining
+
 - Review quarterly
 - Update with team feedback
 - Track common questions

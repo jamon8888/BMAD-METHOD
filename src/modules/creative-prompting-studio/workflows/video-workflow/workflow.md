@@ -25,6 +25,7 @@ This workflow guides you through crafting effective video prompts using cinemato
 **Goal**: Clarify your visual vision
 
 **Actions**:
+
 1. Describe your core video idea
 2. Identify the mood and emotional tone
 3. Determine duration (4, 8, or 12 seconds)
@@ -32,6 +33,7 @@ This workflow guides you through crafting effective video prompts using cinemato
 5. Define intended use and platform
 
 **Questions**:
+
 - What's the main visual story?
 - What feeling should it evoke?
 - Where will this be used?
@@ -44,6 +46,7 @@ This workflow guides you through crafting effective video prompts using cinemato
 **Goal**: Select appropriate prompt complexity
 
 **Levels**:
+
 - **Simple** - Basic description, AI creative freedom
 - **Standard** - Clear direction with creative elements (recommended)
 - **Detailed** - Comprehensive cinematographic specifications
@@ -96,6 +99,7 @@ Based on {{prompt_detail_preference}}, but can override for specific needs.
 **Goal**: Set Sora API requirements
 
 **Parameters** (configured separately from prompt):
+
 - **Model**: {{default_video_model}} (sora-2 or sora-2-pro)
 - **Size**: Based on aspect ratio
   - Landscape: 1280x720
@@ -109,6 +113,7 @@ Based on {{prompt_detail_preference}}, but can override for specific needs.
 **Goal**: Include additional control for complex needs
 
 **For Dialogue Scenes**:
+
 - Keep lines concise and natural
 - Label speakers clearly
 - Coordinate dialogue with visual action
@@ -116,11 +121,13 @@ Based on {{prompt_detail_preference}}, but can override for specific needs.
 **Command**: `create-dialogue-scene`
 
 **For Image References**:
+
 - Provide reference images (JPEG, PNG, WEBP)
 - Use `input_reference` parameter
 - Guides visual style and aesthetic
 
 **For Technical Control**:
+
 - Shutter angle and film stock
 - Atmospheric effects (rain, fog, dust)
 - Wardrobe and props details
@@ -131,6 +138,7 @@ Based on {{prompt_detail_preference}}, but can override for specific needs.
 **Goal**: Ensure all visual components are specified
 
 **Checklist**:
+
 - ✅ Concrete, specific visual descriptions (no vague terms)
 - ✅ Camera angle and lens choice specified
 - ✅ Lighting direction and quality defined
@@ -147,6 +155,7 @@ Based on {{prompt_detail_preference}}, but can override for specific needs.
 **Goal**: Create video and refine based on results
 
 **Process**:
+
 1. Use prompt in Sora with technical parameters
 2. Generate video
 3. Evaluate results
@@ -154,6 +163,7 @@ Based on {{prompt_detail_preference}}, but can override for specific needs.
 5. Generate variations
 
 **Remix Strategy**:
+
 - Pin successful elements
 - Change ONE aspect at a time
 - "Switch to 85mm lens"
@@ -169,10 +179,12 @@ Based on {{prompt_detail_preference}}, but can override for specific needs.
 Saved to: `{{video_prompts_folder}}/[project-name]-video-prompt.md`
 
 **Contents**:
+
 ```markdown
 # Video Prompt: [Project Name]
 
 ## Concept
+
 [Visual vision and purpose]
 
 ## Sora Prompt (Prose)
@@ -180,11 +192,13 @@ Saved to: `{{video_prompts_folder}}/[project-name]-video-prompt.md`
 [Complete, detailed visual description]
 
 ## Technical Parameters
+
 - Model: sora-2
 - Size: 1280x720 (landscape)
 - Duration: 8 seconds
 
 ## Cinematographic Breakdown
+
 - **Camera**: Wide shot, 35mm lens, static
 - **Lighting**: Golden hour, warm side light from right
 - **Color Palette**: Amber, terracotta, deep blue, cream, sage
@@ -192,11 +206,13 @@ Saved to: `{{video_prompts_folder}}/[project-name]-video-prompt.md`
 - **Style**: 1970s film aesthetic, slight grain
 
 ## Remix Suggestions
+
 - Try 85mm lens for closer framing
 - Adjust to blue hour for cooler tones
 - Add camera movement (slow dolly in)
 
 ## Metadata
+
 - Created: [Date]
 - Duration: 8 seconds
 - Status: [Draft/Generated/Refined]
@@ -205,6 +221,7 @@ Saved to: `{{video_prompts_folder}}/[project-name]-video-prompt.md`
 ## Success Criteria
 
 A successful video workflow produces:
+
 - ✅ Precise, cinematic prompt ready for Sora
 - ✅ All technical parameters specified
 - ✅ Visual elements clearly defined
@@ -227,6 +244,7 @@ A successful video workflow produces:
 ## Common Use Cases
 
 ### Product Showcase
+
 - Clean, studio-style lighting
 - Specific camera movements (rotate, dolly)
 - Highlight key features with close-ups
@@ -235,6 +253,7 @@ A successful video workflow produces:
 **Command**: `template-product-showcase`
 
 ### Narrative Scene
+
 - Story-driven action beats
 - Character focus and emotion
 - Cinematic lighting and composition
@@ -243,6 +262,7 @@ A successful video workflow produces:
 **Command**: `template-narrative-scene`
 
 ### Abstract/Artistic
+
 - Experimental visuals
 - Focus on movement and color
 - Creative lighting effects
@@ -251,6 +271,7 @@ A successful video workflow produces:
 **Command**: `template-abstract-visual`
 
 ### Nature/Landscape
+
 - Environmental details
 - Natural lighting (golden hour, overcast)
 - Atmospheric effects
@@ -260,4 +281,4 @@ A successful video workflow produces:
 
 ---
 
-*Master cinematic prompting to create stunning, controlled video content with Sora 2.*
+_Master cinematic prompting to create stunning, controlled video content with Sora 2._

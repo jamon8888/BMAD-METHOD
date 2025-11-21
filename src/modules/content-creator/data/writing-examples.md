@@ -5,6 +5,7 @@ This file contains examples of your authentic writing voice. The AI agents will 
 ## Instructions
 
 Replace the examples below with 3-5 samples of your actual writing. Include:
+
 - Blog posts or articles you've written
 - Social media posts that represent your voice
 - Newsletter content

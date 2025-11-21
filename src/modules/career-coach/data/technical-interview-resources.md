@@ -1,6 +1,7 @@
 # Technical Interview Resources Data
 
 ## Data Information
+
 - **Data Type:** Technical Interview Preparation Resources and Study Materials
 - **Agent:** interview-coach
 - **Task:** technical-interview-prep.md, conduct-mock-interview.md
@@ -9,6 +10,7 @@
 ## Online Learning Platforms
 
 ### Coding Practice Platforms
+
 - **LeetCode**
   - **Focus:** Algorithm and data structure problems
   - **Features:** 2000+ problems, company-specific questions, mock interviews
@@ -38,6 +40,7 @@
   - **Best For:** Advanced algorithm practice, competitive programming
 
 ### System Design Resources
+
 - **Grokking the System Design Interview**
   - **Focus:** System design interview preparation
   - **Features:** Step-by-step design process, real-world examples
@@ -62,6 +65,7 @@
 ## Programming Language Resources
 
 ### Python
+
 - **Python Documentation**
   - **Focus:** Official Python language reference
   - **Features:** Complete language reference, tutorials, examples
@@ -84,6 +88,7 @@
   - **Best For:** Python interview preparation
 
 ### Java
+
 - **Oracle Java Documentation**
   - **Focus:** Official Java language reference
   - **Features:** Complete language reference, tutorials, examples
@@ -99,6 +104,7 @@
   - **Best For:** Java interview preparation
 
 ### JavaScript
+
 - **MDN Web Docs**
   - **Focus:** JavaScript language reference and tutorials
   - **Features:** Complete language reference, tutorials, examples
@@ -116,6 +122,7 @@
 ## Data Structures and Algorithms
 
 ### Algorithm Books
+
 - **"Introduction to Algorithms" (CLRS)**
   - **Focus:** Comprehensive algorithm textbook
   - **Features:** Mathematical analysis, pseudocode, exercises
@@ -138,6 +145,7 @@
   - **Best For:** Algorithm implementation, practical approach
 
 ### Online Courses
+
 - **Algorithms Part I & II (Princeton)**
   - **Focus:** Algorithm design and analysis
   - **Features:** Video lectures, assignments, certificates
@@ -155,6 +163,7 @@
 ## System Design Resources
 
 ### Books
+
 - **"Designing Data-Intensive Applications"**
   - **Focus:** Large-scale system design
   - **Features:** Real-world examples, architectural patterns
@@ -170,6 +179,7 @@
   - **Best For:** Interview preparation, design methodology
 
 ### Online Resources
+
 - **System Design Interview Course**
   - **Focus:** Interview preparation for system design
   - **Features:** Video lectures, practice problems, mock interviews
@@ -187,6 +197,7 @@
 ## Database and SQL Resources
 
 ### SQL Practice
+
 - **HackerRank SQL**
   - **Focus:** SQL programming challenges
   - **Features:** 100+ SQL problems, difficulty levels
@@ -202,6 +213,7 @@
   - **Best For:** Database interview preparation
 
 ### Database Design
+
 - **Database Design Course**
   - **Focus:** Database design principles
   - **Features:** Video lectures, assignments, projects
@@ -212,6 +224,7 @@
 ## Web Development Resources
 
 ### Frontend Development
+
 - **Frontend Masters**
   - **Focus:** Advanced frontend development
   - **Features:** Video courses, workshops, live sessions
@@ -227,6 +240,7 @@
   - **Best For:** React learning, reference
 
 ### Backend Development
+
 - **Node.js Documentation**
   - **Focus:** Official Node.js documentation
   - **Features:** API reference, guides, examples
@@ -244,6 +258,7 @@
 ## Cloud and DevOps Resources
 
 ### Cloud Platforms
+
 - **AWS Training**
   - **Focus:** Amazon Web Services training
   - **Features:** Free courses, certifications, hands-on labs
@@ -266,6 +281,7 @@
   - **Best For:** GCP skills, cloud computing
 
 ### DevOps Tools
+
 - **Docker Documentation**
   - **Focus:** Docker containerization
   - **Features:** Tutorials, guides, best practices
@@ -283,6 +299,7 @@
 ## Machine Learning and AI Resources
 
 ### Machine Learning
+
 - **Coursera Machine Learning (Andrew Ng)**
   - **Focus:** Machine learning fundamentals
   - **Features:** Video lectures, assignments, certificates
@@ -298,6 +315,7 @@
   - **Best For:** Practical ML, deep learning
 
 ### Data Science
+
 - **DataCamp**
   - **Focus:** Data science and analytics
   - **Features:** Interactive courses, projects, tracks
@@ -315,6 +333,7 @@
 ## Interview Preparation Tools
 
 ### Mock Interview Platforms
+
 - **Pramp**
   - **Focus:** Free peer-to-peer mock interviews
   - **Features:** Technical and behavioral interviews, feedback
@@ -330,6 +349,7 @@
   - **Best For:** Comprehensive preparation
 
 ### Interview Question Banks
+
 - **Glassdoor Interview Questions**
   - **Focus:** Company-specific interview questions
   - **Features:** User-submitted questions, company reviews
@@ -347,6 +367,7 @@
 ## Study Strategies and Tips
 
 ### Preparation Timeline
+
 - **3-6 Months Before Interview:**
   - Start with fundamentals (data structures, algorithms)
   - Practice coding problems daily
@@ -366,6 +387,7 @@
   - Rest and maintain confidence
 
 ### Daily Practice Routine
+
 - **Morning (30-60 minutes):**
   - Review one data structure or algorithm concept
   - Solve 1-2 coding problems
@@ -383,6 +405,7 @@
   - Review and reflection
 
 ### Focus Areas by Experience Level
+
 - **Entry Level (0-2 years):**
   - Data structures and algorithms
   - Basic system design concepts
@@ -404,6 +427,7 @@
 ## Success Metrics and Tracking
 
 ### Progress Tracking
+
 - **Coding Problems Solved:**
   - Track number of problems solved
   - Monitor success rate by difficulty
@@ -423,6 +447,7 @@
   - Measure progress over time
 
 ### Performance Goals
+
 - **Coding Problems:**
   - Solve 200+ problems before interview
   - Achieve 80%+ success rate on medium problems

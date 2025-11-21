@@ -1,6 +1,7 @@
 # Common Interview Questions Data
 
 ## Data Information
+
 - **Data Type:** Common Interview Questions and Response Strategies
 - **Agent:** interview-coach
 - **Task:** generate-interview-questions.md, develop-behavioral-responses.md
@@ -9,6 +10,7 @@
 ## General Interview Questions
 
 ### Introduction and Background
+
 - **"Tell me about yourself"**
   - **Purpose:** Assess communication skills and professional summary
   - **Strategy:** 2-3 minute elevator pitch focusing on relevant experience
@@ -34,6 +36,7 @@
   - **Key Points:** Positive framing, growth focus, role fit
 
 ### Motivation and Interest
+
 - **"Why do you want to work here?"**
   - **Purpose:** Assess genuine interest and company research
   - **Strategy:** Connect personal values to company mission/culture
@@ -61,6 +64,7 @@
 ## Behavioral Interview Questions
 
 ### Leadership and Management
+
 - **"Tell me about a time you led a team"**
   - **Purpose:** Assess leadership skills and team management
   - **Strategy:** Use STAR method with focus on leadership actions
@@ -86,6 +90,7 @@
   - **Key Points:** Active listening, solution focus, relationship maintenance
 
 ### Problem Solving and Innovation
+
 - **"Tell me about a time you solved a complex problem"**
   - **Purpose:** Assess analytical thinking and problem-solving approach
   - **Strategy:** Show systematic problem-solving methodology
@@ -111,6 +116,7 @@
   - **Key Points:** Flexibility, positive attitude, successful adaptation
 
 ### Communication and Collaboration
+
 - **"Tell me about a time you had to explain something complex"**
   - **Purpose:** Assess communication and explanation skills
   - **Strategy:** Focus on audience adaptation and clear communication
@@ -138,6 +144,7 @@
 ## Technical Interview Questions
 
 ### Technical Skills Assessment
+
 - **"What programming languages are you most comfortable with?"**
   - **Purpose:** Assess technical skills and experience level
   - **Strategy:** Be honest about proficiency levels and learning ability
@@ -163,6 +170,7 @@
   - **Key Points:** Systematic approach, technical solution, learning
 
 ### System Design and Architecture
+
 - **"How would you design a system for [specific requirement]?"**
   - **Purpose:** Assess system design and architectural thinking
   - **Strategy:** Ask clarifying questions and show systematic approach
@@ -190,6 +198,7 @@
 ## Situational Interview Questions
 
 ### Work Scenarios
+
 - **"What would you do if you disagreed with your manager?"**
   - **Purpose:** Assess conflict resolution and professional approach
   - **Strategy:** Show respectful disagreement and constructive approach
@@ -215,6 +224,7 @@
   - **Key Points:** Communication, collaboration, team building
 
 ### Team and Culture Scenarios
+
 - **"How do you handle working with people from different backgrounds?"**
   - **Purpose:** Assess diversity awareness and inclusion
   - **Strategy:** Show respect, understanding, and inclusive approach
@@ -242,6 +252,7 @@
 ## Industry-Specific Questions
 
 ### Technology Industry
+
 - **"What's your experience with agile development?"**
   - **Purpose:** Assess agile methodology knowledge and experience
   - **Strategy:** Show practical experience and understanding of agile principles
@@ -258,6 +269,7 @@
   - **Key Points:** Cloud experience, scalability, cost optimization
 
 ### Business and Finance
+
 - **"How do you analyze financial data?"**
   - **Purpose:** Assess analytical skills and financial knowledge
   - **Strategy:** Show systematic approach and analytical thinking
@@ -269,6 +281,7 @@
   - **Key Points:** Planning, execution, stakeholder management
 
 ### Healthcare
+
 - **"How do you handle patient confidentiality?"**
   - **Purpose:** Assess understanding of healthcare regulations and ethics
   - **Strategy:** Show strong understanding of HIPAA and patient rights
@@ -282,6 +295,7 @@
 ## Closing Questions
 
 ### Questions to Ask Interviewers
+
 - **"What are the biggest challenges facing the team right now?"**
   - **Purpose:** Show interest in team challenges and opportunities
   - **Strategy:** Demonstrate problem-solving interest and team focus
@@ -305,12 +319,14 @@
 ## Response Strategies
 
 ### STAR Method Framework
+
 - **Situation:** Set the context and background
 - **Task:** Describe your role and responsibilities
 - **Action:** Explain what you did and how you did it
 - **Result:** Share the outcomes and impact
 
 ### General Response Tips
+
 - **Be Specific:** Use concrete examples and specific details
 - **Quantify Results:** Include numbers and metrics when possible
 - **Show Learning:** Demonstrate growth and learning from experiences
@@ -323,6 +339,7 @@
 - **Practice:** Rehearse responses while maintaining authenticity
 
 ### Common Mistakes to Avoid
+
 - **Being Too Vague:** Avoid generic responses without specific examples
 - **Focusing on Negatives:** Don't dwell on failures without showing learning
 - **Being Unprepared:** Avoid showing lack of preparation or research

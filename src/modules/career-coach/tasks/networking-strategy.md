@@ -47,36 +47,42 @@ If career context has not been provided, ask the user to provide their industry,
 ## Networking Strategy Focus Areas
 
 ### Current Network Assessment
+
 - **Existing Connections** - Who is already in your professional network?
 - **Connection Strength** - How strong are your current relationships?
 - **Network Diversity** - How diverse is your network across industries and roles?
 - **Network Gaps** - What types of connections are missing?
 
 ### Networking Goals Definition
+
 - **Career Advancement** - How can networking help advance your career?
 - **Knowledge Acquisition** - What insights do you want to gain?
 - **Opportunity Discovery** - What opportunities are you seeking?
 - **Mentorship** - Do you need mentors or want to mentor others?
 
 ### Target Connection Identification
+
 - **Industry Leaders** - Who are the key influencers in your field?
 - **Potential Mentors** - Who could provide guidance and advice?
 - **Peer Connections** - Who are your colleagues and competitors?
 - **Cross-functional Contacts** - Who works in related fields?
 
 ### Outreach Strategy Development
+
 - **Initial Contact Methods** - How will you make first contact?
 - **Value Proposition** - What value can you offer to connections?
 - **Follow-up Strategy** - How will you maintain relationships?
 - **Online Presence** - How will you leverage digital networking?
 
 ### Engagement Planning
+
 - **Regular Communication** - How often should you stay in touch?
 - **Value Exchange** - How can you provide value to your network?
 - **Event Participation** - What events should you attend?
 - **Content Sharing** - How can you share relevant content?
 
 ### Relationship Building
+
 - **Trust Development** - How will you build trust with connections?
 - **Reciprocity** - How can you help others in your network?
 - **Authenticity** - How will you be genuine in your interactions?

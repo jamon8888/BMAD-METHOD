@@ -1,6 +1,7 @@
 # Behavioral Question Examples Data
 
 ## Data Information
+
 - **Data Type:** Behavioral Interview Question Examples and Response Frameworks
 - **Agent:** interview-coach
 - **Task:** develop-behavioral-responses.md, generate-interview-questions.md
@@ -9,6 +10,7 @@
 ## Leadership and Management Questions
 
 ### Team Leadership
+
 - **"Tell me about a time you led a team through a challenging project"**
   - **STAR Framework:**
     - **Situation:** "I was assigned to lead a team of 8 developers on a critical software project with a tight 3-month deadline"
@@ -24,6 +26,7 @@
     - **Result:** "Within 2 months, their performance improved by 40%, they became more engaged, and the team's overall productivity increased"
 
 ### Decision Making
+
 - **"Tell me about a time you had to make a difficult decision with limited information"**
   - **STAR Framework:**
     - **Situation:** "Our company was facing a critical system outage affecting 10,000+ users during peak business hours"
@@ -39,6 +42,7 @@
     - **Result:** "The process was handled professionally, remaining team members felt the decisions were fair, and we maintained productivity during the transition"
 
 ### Conflict Resolution
+
 - **"Tell me about a time you resolved a conflict between team members"**
   - **STAR Framework:**
     - **Situation:** "Two senior developers had a disagreement about the technical approach for a major feature, causing project delays"
@@ -56,6 +60,7 @@
 ## Problem Solving and Innovation Questions
 
 ### Complex Problem Solving
+
 - **"Tell me about a time you solved a complex technical problem"**
   - **STAR Framework:**
     - **Situation:** "Our e-commerce platform was experiencing intermittent crashes during high-traffic periods, causing significant revenue loss"
@@ -71,6 +76,7 @@
     - **Result:** "We exceeded our lead generation targets by 20% while spending 50% less, and built a sustainable organic lead generation system"
 
 ### Innovation and Creativity
+
 - **"Tell me about a time you implemented an innovative solution"**
   - **STAR Framework:**
     - **Situation:** "Our customer service team was overwhelmed with repetitive inquiries, leading to long response times and customer dissatisfaction"
@@ -88,6 +94,7 @@
 ## Communication and Collaboration Questions
 
 ### Communication Skills
+
 - **"Tell me about a time you had to explain a complex concept to a non-technical audience"**
   - **STAR Framework:**
     - **Situation:** "I needed to present our new data analytics platform to the executive team to secure budget approval"
@@ -103,6 +110,7 @@
     - **Result:** "The team member improved their performance significantly, our working relationship strengthened, and they became more engaged in their work"
 
 ### Collaboration and Teamwork
+
 - **"Tell me about a time you worked with a difficult colleague"**
   - **STAR Framework:**
     - **Situation:** "I was assigned to work on a project with a colleague who had a very different working style and communication approach"
@@ -120,6 +128,7 @@
 ## Performance and Achievement Questions
 
 ### Goal Achievement
+
 - **"Tell me about a time you exceeded expectations"**
   - **STAR Framework:**
     - **Situation:** "I was given a target to increase website conversion rates by 15% over 6 months"
@@ -135,6 +144,7 @@
     - **Result:** "We launched the feature on time, retained our customer base, and actually gained market share due to our superior implementation"
 
 ### Learning and Growth
+
 - **"Tell me about a time you failed and what you learned"**
   - **STAR Framework:**
     - **Situation:** "I led a project to implement a new CRM system that was supposed to improve sales efficiency by 50%"
@@ -152,6 +162,7 @@
 ## Customer Service and Client Relations
 
 ### Customer Satisfaction
+
 - **"Tell me about a time you went above and beyond for a customer"**
   - **STAR Framework:**
     - **Situation:** "A major client was experiencing a critical issue with our software during their busiest season"
@@ -169,6 +180,7 @@
 ## Project Management Questions
 
 ### Project Success
+
 - **"Tell me about a time you managed a project from start to finish"**
   - **STAR Framework:**
     - **Situation:** "I was assigned to lead the development of a new mobile app that would serve 100,000+ users"
@@ -177,6 +189,7 @@
     - **Result:** "The app launched on time and under budget, exceeded user adoption targets by 25%, and received positive reviews"
 
 ### Risk Management
+
 - **"Describe a time you had to manage a project risk"**
   - **STAR Framework:**
     - **Situation:** "During a major system upgrade, we discovered a critical security vulnerability that could affect all users"
@@ -187,6 +200,7 @@
 ## Industry-Specific Behavioral Questions
 
 ### Technology Industry
+
 - **"Tell me about a time you had to debug a complex system issue"**
   - **STAR Framework:**
     - **Situation:** "Our production system was experiencing intermittent failures affecting thousands of users"
@@ -195,6 +209,7 @@
     - **Result:** "The issue was completely resolved, system reliability improved to 99.99%, and we implemented better monitoring"
 
 ### Sales and Marketing
+
 - **"Describe a time you had to meet an aggressive sales target"**
   - **STAR Framework:**
     - **Situation:** "I was given a quarterly sales target that was 40% higher than my previous best performance"
@@ -203,6 +218,7 @@
     - **Result:** "I exceeded the target by 15%, setting a new company record and earning recognition as top performer"
 
 ### Healthcare
+
 - **"Tell me about a time you had to handle a medical emergency"**
   - **STAR Framework:**
     - **Situation:** "A patient experienced a severe allergic reaction during a routine procedure"
@@ -213,6 +229,7 @@
 ## Response Framework Guidelines
 
 ### STAR Method Structure
+
 - **Situation (10-20% of response):**
   - Set the context clearly and concisely
   - Include relevant details about timing, scope, and stakeholders
@@ -235,6 +252,7 @@
   - Connect to broader implications
 
 ### Response Tips
+
 - **Be Specific:** Use concrete details and examples
 - **Show Leadership:** Demonstrate initiative and responsibility
 - **Highlight Skills:** Connect actions to relevant competencies
@@ -247,6 +265,7 @@
 - **Follow Up:** Be prepared for follow-up questions
 
 ### Common Mistakes to Avoid
+
 - **Being Too Vague:** Avoid generic responses without specific details
 - **Focusing on Negatives:** Don't dwell on problems without showing solutions
 - **Taking All Credit:** Acknowledge team contributions appropriately

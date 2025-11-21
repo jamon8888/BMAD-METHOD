@@ -1,6 +1,7 @@
 # Career Document Checklist
 
 ## Checklist Information
+
 - **Checklist Type:** Career Document Quality Assurance
 - **Agent:** resume-writer
 - **Task:** create-doc.md
@@ -9,6 +10,7 @@
 ## Document Type Identification
 
 ### Resume/CV
+
 - [ ] **Document Type**: Resume or CV clearly identified
 - [ ] **Target Position**: Specific target position identified
 - [ ] **Industry Focus**: Industry focus clearly defined
@@ -19,6 +21,7 @@
 - [ ] **Human Readable**: Easy to read for human reviewers
 
 ### Cover Letter
+
 - [ ] **Document Type**: Cover letter clearly identified
 - [ ] **Target Company**: Specific target company identified
 - [ ] **Target Position**: Specific target position identified
@@ -29,6 +32,7 @@
 - [ ] **Clear Closing**: Professional closing paragraph
 
 ### LinkedIn Profile
+
 - [ ] **Document Type**: LinkedIn profile optimization
 - [ ] **Profile Completeness**: All sections completed
 - [ ] **Professional Photo**: Professional headshot included
@@ -39,6 +43,7 @@
 - [ ] **Recommendations**: Professional recommendations included
 
 ### Career Summary
+
 - [ ] **Document Type**: Professional career summary
 - [ ] **Executive Level**: Appropriate for executive level
 - [ ] **Achievement Focused**: Focus on key achievements
@@ -51,6 +56,7 @@
 ## Content Quality Assessment
 
 ### Accuracy and Completeness
+
 - [ ] **Factual Accuracy**: All information is accurate and verifiable
 - [ ] **Complete Information**: All required information included
 - [ ] **Current Information**: Information is current and up-to-date
@@ -61,6 +67,7 @@
 - [ ] **Professional Details**: All professional details included
 
 ### Professional Presentation
+
 - [ ] **Professional Tone**: Maintains professional tone throughout
 - [ ] **Confident Language**: Uses confident and assertive language
 - [ ] **Clear Communication**: Clear and concise communication
@@ -71,6 +78,7 @@
 - [ ] **Readable Font**: Clear, readable font selection
 
 ### Achievement Focus
+
 - [ ] **Quantifiable Results**: Includes specific numbers and metrics
 - [ ] **Impact Statements**: Emphasizes impact and results
 - [ ] **Action Verbs**: Uses strong action verbs
@@ -83,6 +91,7 @@
 ## Structure and Organization
 
 ### Logical Flow
+
 - [ ] **Clear Structure**: Document has clear, logical structure
 - [ ] **Section Headers**: Clear section headers and organization
 - [ ] **Chronological Order**: Experience in reverse chronological order
@@ -93,6 +102,7 @@
 - [ ] **Appropriate Length**: Length appropriate for content
 
 ### Section Completeness
+
 - [ ] **Contact Information**: Complete contact information section
 - [ ] **Professional Summary**: Compelling professional summary
 - [ ] **Work Experience**: Comprehensive work experience section
@@ -103,6 +113,7 @@
 - [ ] **Additional Sections**: Relevant additional sections included
 
 ### Content Prioritization
+
 - [ ] **Most Relevant First**: Most relevant information first
 - [ ] **Target Role Focus**: Content focused on target role
 - [ ] **Key Achievements**: Key achievements prominently featured
@@ -115,6 +126,7 @@
 ## Customization and Targeting
 
 ### Job-Specific Customization
+
 - [ ] **Job Description Analysis**: Job description thoroughly analyzed
 - [ ] **Keyword Integration**: Relevant keywords integrated naturally
 - [ ] **Required Skills**: Required skills addressed
@@ -125,6 +137,7 @@
 - [ ] **Company Culture**: Company culture considerations included
 
 ### Industry-Specific Content
+
 - [ ] **Industry Terminology**: Appropriate industry terminology used
 - [ ] **Industry Standards**: Industry standards referenced
 - [ ] **Industry Trends**: Current industry trends included
@@ -135,6 +148,7 @@
 - [ ] **Industry Certifications**: Industry-specific certifications
 
 ### Company-Specific Targeting
+
 - [ ] **Company Values**: Company values reflected in content
 - [ ] **Company Mission**: Company mission alignment shown
 - [ ] **Company Culture**: Company culture fit demonstrated
@@ -147,6 +161,7 @@
 ## Technical Quality
 
 ### Formatting Standards
+
 - [ ] **Consistent Formatting**: Consistent formatting throughout
 - [ ] **Professional Font**: Professional font selection
 - [ ] **Appropriate Size**: Appropriate font size
@@ -157,6 +172,7 @@
 - [ ] **Professional Appearance**: Professional overall appearance
 
 ### File Quality
+
 - [ ] **File Format**: Appropriate file format selected
 - [ ] **File Size**: Reasonable file size
 - [ ] **File Name**: Professional file naming
@@ -167,6 +183,7 @@
 - [ ] **Easy Access**: Easy to access and open
 
 ### ATS Compatibility
+
 - [ ] **Text Recognition**: All text machine-readable
 - [ ] **No Graphics**: No embedded graphics or images
 - [ ] **Simple Formatting**: Simple, clean formatting
@@ -179,6 +196,7 @@
 ## Content Validation
 
 ### Fact Verification
+
 - [ ] **Employment Dates**: Employment dates verified
 - [ ] **Company Names**: Company names accurate
 - [ ] **Job Titles**: Job titles accurate
@@ -189,6 +207,7 @@
 - [ ] **Professional Details**: Professional details accurate
 
 ### Reference Check
+
 - [ ] **Reference Availability**: References available and willing
 - [ ] **Reference Quality**: High-quality references selected
 - [ ] **Reference Diversity**: Diverse reference pool
@@ -199,6 +218,7 @@
 - [ ] **Reference Timing**: Appropriate timing for reference checks
 
 ### Content Review
+
 - [ ] **Professional Review**: Reviewed by professional
 - [ ] **Peer Review**: Reviewed by peer or colleague
 - [ ] **Industry Review**: Reviewed by industry professional
@@ -211,6 +231,7 @@
 ## Brand Alignment
 
 ### Personal Brand Consistency
+
 - [ ] **Brand Message**: Consistent personal brand message
 - [ ] **Professional Identity**: Clear professional identity
 - [ ] **Value Proposition**: Strong value proposition
@@ -221,6 +242,7 @@
 - [ ] **Brand Promise**: Brand promise delivered
 
 ### Professional Image
+
 - [ ] **Professional Appearance**: Professional appearance maintained
 - [ ] **Confident Presentation**: Confident presentation style
 - [ ] **Competent Image**: Competent and capable image
@@ -231,6 +253,7 @@
 - [ ] **Team Player**: Team player image
 
 ### Online Presence
+
 - [ ] **LinkedIn Profile**: Professional LinkedIn profile
 - [ ] **Online Consistency**: Consistent online presence
 - [ ] **Professional Networks**: Active in professional networks
@@ -243,6 +266,7 @@
 ## Competitive Analysis
 
 ### Market Positioning
+
 - [ ] **Competitive Advantage**: Clear competitive advantage identified
 - [ ] **Unique Value**: Unique value proposition defined
 - [ ] **Market Differentiation**: Market differentiation strategy
@@ -253,6 +277,7 @@
 - [ ] **Market Opportunities**: Market opportunities identified
 
 ### Competitive Benchmarking
+
 - [ ] **Industry Standards**: Industry standards benchmarked
 - [ ] **Competitor Analysis**: Competitor strengths analyzed
 - [ ] **Best Practices**: Best practices identified
@@ -263,6 +288,7 @@
 - [ ] **Value Proposition**: Value proposition refined
 
 ### Continuous Improvement
+
 - [ ] **Feedback Collection**: Feedback collected regularly
 - [ ] **Performance Tracking**: Performance tracked
 - [ ] **Improvement Planning**: Improvement plan developed
@@ -275,6 +301,7 @@
 ## Success Metrics
 
 ### Application Success
+
 - [ ] **Response Rate**: High response rate achieved
 - [ ] **Interview Rate**: High interview invitation rate
 - [ ] **Offer Rate**: High job offer rate
@@ -285,6 +312,7 @@
 - [ ] **Industry Recognition**: Industry recognition received
 
 ### Quality Indicators
+
 - [ ] **Professional Feedback**: Positive professional feedback
 - [ ] **Recruiter Response**: Positive recruiter response
 - [ ] **Interview Performance**: Strong interview performance
@@ -295,6 +323,7 @@
 - [ ] **Career Success**: Overall career success
 
 ### Long-term Success
+
 - [ ] **Career Progression**: Successful career progression
 - [ ] **Professional Development**: Continuous professional development
 - [ ] **Industry Leadership**: Industry leadership position

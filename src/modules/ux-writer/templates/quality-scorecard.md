@@ -4,13 +4,13 @@ Use this scorecard to objectively evaluate interface copy against the Four Quali
 
 ## Text Being Evaluated
 
-**Text:** _________________________________________
+**Text:** ********************\_********************
 
-**Type:** ☐ Button ☐ Error ☐ Success ☐ Empty State ☐ Notification ☐ Form ☐ Other: _______
+**Type:** ☐ Button ☐ Error ☐ Success ☐ Empty State ☐ Notification ☐ Form ☐ Other: **\_\_\_**
 
-**Context:** _________________________________________
+**Context:** ********************\_********************
 
-**User scenario:** _________________________________________
+**User scenario:** ********************\_********************
 
 ---
 
@@ -19,6 +19,7 @@ Use this scorecard to objectively evaluate interface copy against the Four Quali
 Does this text help users or the business achieve goals?
 
 ### Evaluation Criteria
+
 - [ ] User benefit is clear
 - [ ] Helps user accomplish their goal
 - [ ] Addresses anticipated user concerns
@@ -34,11 +35,13 @@ Does this text help users or the business achieve goals?
 ☐ **1-2 (Poor)**: No discernible benefit, system-focused
 ☐ **0 (Unacceptable)**: Actively hinders goals
 
-**Score: _____ / 10**
+**Score: **\_** / 10**
 
 **Notes:**
-_________________________________________
-_________________________________________
+
+---
+
+---
 
 ---
 
@@ -47,6 +50,7 @@ _________________________________________
 Does this use the fewest words possible without losing meaning?
 
 ### Evaluation Criteria
+
 - [ ] No wasted words
 - [ ] Meets pattern benchmark
 - [ ] Information is front-loaded
@@ -55,10 +59,11 @@ Does this use the fewest words possible without losing meaning?
 
 ### Word Count & Benchmarks
 
-**Current word count:** _____ words
-**Current character count:** _____ characters
+**Current word count:** **\_** words
+**Current character count:** **\_** characters
 
 **Benchmarks:**
+
 - Buttons/CTAs: 2-4 words ideal, 6 max
 - Error messages: 12-18 words
 - Titles: 3-6 words, 40 chars max
@@ -76,11 +81,13 @@ Does this use the fewest words possible without losing meaning?
 ☐ **1-2 (Poor)**: Extremely wordy, far exceeds benchmark
 ☐ **0 (Unacceptable)**: Incomprehensibly verbose
 
-**Score: _____ / 10**
+**Score: **\_** / 10**
 
 **Notes:**
-_________________________________________
-_________________________________________
+
+---
+
+---
 
 ---
 
@@ -89,6 +96,7 @@ _________________________________________
 Does this sound natural and human, not robotic?
 
 ### Evaluation Criteria
+
 - [ ] Would say this out loud
 - [ ] Uses active voice (target: 85%)
 - [ ] Includes natural connecting words
@@ -102,6 +110,7 @@ Does this sound natural and human, not robotic?
 **Contains jargon/robotic phrases?** ☐ Yes ☐ No
 
 **Examples of robotic phrases to avoid:**
+
 - "An error has occurred"
 - "Your request has been received"
 - "Please be advised that"
@@ -116,11 +125,13 @@ Does this sound natural and human, not robotic?
 ☐ **1-2 (Poor)**: Extremely robotic, all passive voice
 ☐ **0 (Unacceptable)**: Incomprehensible jargon
 
-**Score: _____ / 10**
+**Score: **\_** / 10**
 
 **Notes:**
-_________________________________________
-_________________________________________
+
+---
+
+---
 
 ---
 
@@ -129,6 +140,7 @@ _________________________________________
 Is this unambiguous and easy to understand?
 
 ### Evaluation Criteria
+
 - [ ] Unambiguous - only one interpretation
 - [ ] Uses specific, meaningful verbs
 - [ ] Consistent terminology
@@ -137,13 +149,13 @@ Is this unambiguous and easy to understand?
 
 ### Clarity Analysis
 
-**Reading level:** _____ grade (Target: 7th-10th for general audience)
+**Reading level:** **\_** grade (Target: 7th-10th for general audience)
 
 **Uses specific verbs?** ☐ Yes ☐ No
-**Examples:** _________________________________________
+**Examples:** ********************\_********************
 
 **Any ambiguous phrases?** ☐ Yes ☐ No
-**Examples:** _________________________________________
+**Examples:** ********************\_********************
 
 **Consistent with product terminology?** ☐ Yes ☐ No
 
@@ -156,11 +168,13 @@ Is this unambiguous and easy to understand?
 ☐ **1-2 (Poor)**: Very confusing, highly ambiguous
 ☐ **0 (Unacceptable)**: Incomprehensible
 
-**Score: _____ / 10**
+**Score: **\_** / 10**
 
 **Notes:**
-_________________________________________
-_________________________________________
+
+---
+
+---
 
 ---
 
@@ -168,12 +182,12 @@ _________________________________________
 
 ### Total Score
 
-**Purposeful:** _____ / 10
-**Concise:** _____ / 10
-**Conversational:** _____ / 10
-**Clear:** _____ / 10
+**Purposeful:** **\_** / 10
+**Concise:** **\_** / 10
+**Conversational:** **\_** / 10
+**Clear:** **\_** / 10
 
-**Overall Average:** _____ / 10
+**Overall Average:** **\_** / 10
 
 ### Quality Benchmark
 
@@ -189,22 +203,25 @@ _________________________________________
 
 ### Priority Issues (Score < 7)
 
-**1.** _________________________________________
-**2.** _________________________________________
-**3.** _________________________________________
+**1.** ********************\_********************
+**2.** ********************\_********************
+**3.** ********************\_********************
 
 ### Suggested Improvements
 
 **Revised text:**
-_________________________________________
-_________________________________________
+
+---
+
+---
 
 **Expected new scores:**
-- Purposeful: _____ / 10
-- Concise: _____ / 10
-- Conversational: _____ / 10
-- Clear: _____ / 10
-- **Overall: _____ / 10**
+
+- Purposeful: **\_** / 10
+- Concise: **\_** / 10
+- Conversational: **\_** / 10
+- Clear: **\_** / 10
+- **Overall: **\_** / 10**
 
 ---
 
@@ -216,7 +233,7 @@ _________________________________________
 - [ ] Sentence length appropriate (8-14 words for critical content)
 - [ ] Provides text alternatives for icons
 
-**Accessibility concerns:** _________________________________________
+**Accessibility concerns:** ********************\_********************
 
 ---
 
@@ -225,27 +242,32 @@ _________________________________________
 **Does this follow best practices for its pattern?**
 
 **Buttons:**
+
 - [ ] Uses imperative verb + object
 - [ ] Describes specific action
 - [ ] Avoids generic labels (OK, Submit)
 
 **Errors:**
+
 - [ ] States what failed
 - [ ] Explains why (if known)
 - [ ] Provides recovery action
 - [ ] Doesn't blame user
 
 **Success:**
+
 - [ ] Past tense
 - [ ] Specific action
 - [ ] Brief confirmation
 
 **Empty states:**
+
 - [ ] Explains why empty
 - [ ] Provides clear CTA
 - [ ] Encouraging tone
 
 **Forms:**
+
 - [ ] Clear labels
 - [ ] Helpful instructions
 - [ ] Appropriate placeholder use
@@ -274,14 +296,16 @@ _________________________________________
 **Priority:** ☐ High ☐ Medium ☐ Low
 
 **Next steps:**
-_________________________________________
-_________________________________________
+
+---
+
+---
 
 ---
 
 ## Reviewer Information
 
-**Reviewer:** _________________________________________
-**Date:** _________________________________________
-**Product/Feature:** _________________________________________
+**Reviewer:** ********************\_********************
+**Date:** ********************\_********************
+**Product/Feature:** ********************\_********************
 **Review cycle:** ☐ Initial ☐ Revision 1 ☐ Revision 2 ☐ Final

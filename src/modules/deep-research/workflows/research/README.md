@@ -42,6 +42,7 @@ For standard ChatGPT, Claude, Gemini:
 4. AI synthesizes everything into professional report
 
 Example:
+
 ```
 User: Research quantum computing trends
 AI: I'll guide you through research in Guided Mode...
@@ -62,6 +63,7 @@ workflow deep-research/research --data=/path/to/context.md
 ### With Research Context
 
 Create a context file specifying:
+
 - Research question
 - Specific angles of interest
 - Target audience
@@ -69,28 +71,31 @@ Create a context file specifying:
 
 ## Research Modes
 
-| Mode | Duration | Sources | Verification | Best For |
-|------|----------|---------|--------------|----------|
-| **Quick** | 2-5 min | 2-5 | Basic fact-checking | Initial exploration |
-| **Standard** | 5-10 min | 15-30 | Multi-source comparison | Most research needs |
-| **Deep** | 10-20 min | 30+ | 3+ sources per claim | Important decisions |
-| **UltraDeep** | 20-45+ min | 50+ | Maximum rigor | Enterprise analysis |
+| Mode          | Duration   | Sources | Verification            | Best For            |
+| ------------- | ---------- | ------- | ----------------------- | ------------------- |
+| **Quick**     | 2-5 min    | 2-5     | Basic fact-checking     | Initial exploration |
+| **Standard**  | 5-10 min   | 15-30   | Multi-source comparison | Most research needs |
+| **Deep**      | 10-20 min  | 30+     | 3+ sources per claim    | Important decisions |
+| **UltraDeep** | 20-45+ min | 50+     | Maximum rigor           | Enterprise analysis |
 
 ## Quality Standards
 
 ### Citations
+
 - Every factual claim must cite a specific source immediately
 - Format: "According to [1], finding..."
 - No vague attributions like "studies show"
 - Complete bibliography (no truncation)
 
 ### Source Diversity
+
 - Minimum 10+ distinct sources (Standard mode)
 - Multiple source types: academic, industry, news, official data
 - Credibility assessment for each source
 - Bias evaluation and documentation
 
 ### Verification
+
 - Major claims: 3+ source verification
 - Statistics: Cross-checked across sources
 - Contradictions: Documented and analyzed
@@ -99,6 +104,7 @@ Create a context file specifying:
 ## Output Structure
 
 Reports include:
+
 - **Executive Summary** (under 250 words)
 - **Introduction** (scope, methodology, context)
 - **Main Findings** (themed sections with citations)
@@ -145,6 +151,7 @@ Reports include:
 ## Integration
 
 Works seamlessly with:
+
 - **BMM** - Research for project planning
 - **CIS** - Enhanced creative research
 - **BMB** - Building research-enhanced agents
@@ -152,4 +159,4 @@ Works seamlessly with:
 
 ---
 
-*Part of the BMad Deep Research module - Enterprise-grade intelligence gathering for AI collaboration.*
+_Part of the BMad Deep Research module - Enterprise-grade intelligence gathering for AI collaboration._

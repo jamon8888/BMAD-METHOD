@@ -316,27 +316,31 @@ BMad crée deux fichiers pour suivre votre progression :
 BMad Method offre une **configuration double langue** unique :
 
 **Langue de Communication** - Comment les agents vous parlent :
+
 ```yaml
-communication_language: "Français"
+communication_language: 'Français'
 ```
 
 **Langue de Sortie des Documents** - Langue pour PRD, architecture, code :
+
 ```yaml
-document_output_language: "Français"  # ou "English"
+document_output_language: 'Français' # ou "English"
 ```
 
 ### Exemples
 
 **Tout en Français :**
+
 ```yaml
-communication_language: "Français"
-document_output_language: "Français"
+communication_language: 'Français'
+document_output_language: 'Français'
 ```
 
 **Chat Français, Docs Anglais (Équipes Internationales) :**
+
 ```yaml
-communication_language: "Français"
-document_output_language: "English"
+communication_language: 'Français'
+document_output_language: 'English'
 ```
 
 Voir le [Guide d'Installation](./installation.md#-configuration-multi-langue) pour plus de détails.

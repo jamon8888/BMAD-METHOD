@@ -17,12 +17,14 @@ Every successful business requires three elements working together:
 Assesses whether real market exists for your offering.
 
 **Key Questions:**
+
 - Is there evidence of demand for this solution?
 - What does the competitive landscape look like?
 - Can you price this profitably?
 - Are there strong demand signals?
 
 **Validation Criteria:**
+
 - Identifiable competitors or comparable offerings
 - Evidence of people paying for solutions in this space
 - Pricing supports sustainable business model
@@ -30,6 +32,7 @@ Assesses whether real market exists for your offering.
 - Clear differentiation opportunity
 
 **Outcomes:**
+
 - ✅ **VALIDATED** - Strong supporting evidence with minimal risk
 - ⚠️ **NEEDS VALIDATION** - Positive signals but requires testing
 - ❌ **INVALIDATED** - Fundamental issues requiring modifications
@@ -39,12 +42,14 @@ Assesses whether real market exists for your offering.
 Evaluates whether you possess necessary capabilities or can acquire them.
 
 **Key Questions:**
+
 - Do you have the skills to build this?
 - Is the scope realistic given your resources?
 - Can you sustain this operationally?
 - What critical gaps exist?
 
 **Validation Criteria:**
+
 - Skills match requirements or gaps are fillable
 - Time commitment aligns with project scope
 - Budget covers necessary costs
@@ -52,6 +57,7 @@ Evaluates whether you possess necessary capabilities or can acquire them.
 - Operational capacity for delivery
 
 **Outcomes:**
+
 - ✅ **VALIDATED** - Clear capability with execution path
 - ⚠️ **NEEDS VALIDATION** - Addressable gaps requiring specific actions
 - ❌ **INVALIDATED** - Fundamental mismatch requiring pivot
@@ -61,12 +67,14 @@ Evaluates whether you possess necessary capabilities or can acquire them.
 Examines whether you have clear, executable plan to reach customers affordably.
 
 **Key Questions:**
+
 - How specifically will you acquire customers?
 - Do you have advantages in customer access?
 - Can you afford customer acquisition costs?
 - Is your plan realistic and executable?
 
 **Validation Criteria:**
+
 - Specific channel strategy (not vague "marketing")
 - Existing advantages (audience, network, expertise)
 - CAC sustainable relative to customer value (< 1/3 LTV)
@@ -74,6 +82,7 @@ Examines whether you have clear, executable plan to reach customers affordably.
 - Realistic timeline expectations
 
 **Outcomes:**
+
 - ✅ **VALIDATED** - Clear path to affordable customer acquisition
 - ⚠️ **NEEDS VALIDATION** - Viable but uncertain, testing required
 - ❌ **INVALIDATED** - Fundamental flaw requiring strategic pivot
@@ -81,26 +90,33 @@ Examines whether you have clear, executable plan to reach customers affordably.
 ## Why All Three Matter
 
 ### Demand Without Distribution
+
 You've validated that people want your product, but you can't affordably reach them. The market exists but you can't access it profitably.
 
 ### Demand Without Supply
+
 Market wants it, but you can't build or deliver it effectively. Opportunity exists for someone else, not you.
 
 ### Supply Without Demand
+
 You can build it brilliantly, but nobody wants to pay for it. Technical success, market failure.
 
 ### Distribution Without Demand
+
 You can reach people easily, but they don't want what you're offering. Great megaphone, wrong message.
 
 ### Supply and Distribution Without Demand
+
 You can build and reach people, but solving wrong problem. Efficient execution of bad idea.
 
 ### Demand and Distribution Without Supply
+
 Market exists and accessible, but you lack capability to deliver. Opportunity for better-positioned competitor.
 
 ## Assessment Process
 
 ### Phase 1: Idea Refinement (Lisa)
+
 - Crystallize fuzzy concepts
 - Define core offering
 - Identify target audience
@@ -111,6 +127,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 **Duration:** 5-20 minutes
 
 ### Phase 2: Market Fit Validation (Alex)
+
 - Competitive landscape research
 - Demand signal analysis
 - Market sizing estimation
@@ -120,6 +137,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 **Duration:** 10-15 minutes
 
 ### Phase 3: Founder Alignment Validation (Marcus)
+
 - Technical capability assessment
 - Resource availability evaluation
 - Time commitment realism
@@ -129,6 +147,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 **Duration:** 10-15 minutes
 
 ### Phase 4: Distribution Strategy Validation (Sarah)
+
 - Channel strategy specificity
 - Existing advantages inventory
 - CAC benchmarking research
@@ -138,6 +157,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 **Duration:** 10-15 minutes
 
 ### Phase 5: Final Synthesis (Jordan)
+
 - Cross-pillar pattern analysis
 - Consolidated recommendation
 - Specific action planning
@@ -150,28 +170,36 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 ## Final Recommendations
 
 ### BUILD NOW ✅
+
 **All pillars validated**
+
 - Strong evidence across all three areas
 - Clear execution path
 - Low-risk proceed decision
 - Immediate action recommended
 
 ### VALIDATE FIRST ⚠️
+
 **Mixed results, testing required**
+
 - Positive signals but untested assumptions
 - Specific uncertainties identified
 - Conditional proceed with validation experiments
 - Test before building
 
 ### PIVOT REQUIRED ❌
+
 **Fundamental issues identified**
+
 - One or more pillars invalidated
 - Significant modifications necessary
 - Specific pivot directions provided
 - May be viable with changes
 
 ### DON'T PURSUE 🛑
+
 **Multiple critical failures**
+
 - Multiple pillars invalidated
 - No viable pivot paths
 - Fatal flaws identified
@@ -180,6 +208,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 ## Success Indicators
 
 ### Strong Validation Signals
+
 - Multiple validators converge on "validated"
 - Evidence-based confidence (not just hope)
 - Specific competitive advantages identified
@@ -187,6 +216,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 - Founder capabilities align with requirements
 
 ### Warning Signals
+
 - Validators disagree significantly
 - Assumptions dominate over evidence
 - Vague or uncertain distribution plans
@@ -194,6 +224,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 - Weak demand signals despite research
 
 ### Critical Failure Signals
+
 - No evidence of demand despite research
 - Unsustainable unit economics
 - Fundamental capability mismatches
@@ -203,6 +234,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 ## Using Validation Results
 
 ### For BUILD NOW Recommendations
+
 1. Review action plan priorities
 2. Start with highest-impact next steps
 3. Build minimum viable version first
@@ -210,6 +242,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 5. Iterate based on real customer feedback
 
 ### For VALIDATE FIRST Recommendations
+
 1. Prioritize highest-risk assumptions
 2. Design quick, low-cost validation experiments
 3. Set clear success/failure criteria
@@ -217,6 +250,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 5. Reassess after validation results
 
 ### For PIVOT REQUIRED Recommendations
+
 1. Understand root cause of invalidation
 2. Evaluate suggested pivot directions
 3. Assess effort required for pivots
@@ -224,6 +258,7 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 5. Re-validate after pivot
 
 ### For DON'T PURSUE Recommendations
+
 1. Accept findings objectively
 2. Extract learnings for next idea
 3. Consider completely different directions
@@ -241,18 +276,21 @@ Market exists and accessible, but you lack capability to deliver. Opportunity fo
 ## Common Pitfalls
 
 ### In Market Research
+
 - Confusing interest with intent to purchase
 - Ignoring competitive analysis
 - Underestimating market saturation
 - Overlooking pricing sensitivity
 
 ### In Capability Assessment
+
 - Overestimating available time
 - Underestimating learning curves
 - Ignoring operational complexity
 - Assuming skills transfer easily
 
 ### In Distribution Planning
+
 - Vague "we'll do marketing" plans
 - Underestimating CAC
 - Overestimating organic growth

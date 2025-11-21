@@ -32,16 +32,19 @@ career-coach/
 **Total Files:** 68 files
 
 #### Agents (3 files)
+
 - `career-coach.md` - Strategic career advisor (Michael)
 - `interview-coach.md` - Interview preparation expert (Jennifer)
 - `resume-writer.md` - Document creation specialist (Will)
 
 #### Workflows (3 files)
+
 - `career-planning-workflow.md` - 6-phase career development process
 - `interview-preparation-workflow.md` - 8-step interview readiness workflow
 - `resume-creation-workflow.md` - Complete resume building workflow
 
 #### Tasks (19 files)
+
 1. advanced-elicitation.md
 2. analyze-resume.md
 3. career-brainstorming.md
@@ -63,6 +66,7 @@ career-coach/
 19. technical-interview-prep.md
 
 #### Templates (17 files - YAML format)
+
 1. behavioral-questions-tmpl.yaml
 2. career-plan-tmpl.yaml
 3. career-summary-tmpl.yaml
@@ -82,6 +86,7 @@ career-coach/
 17. technical-prep-tmpl.yaml
 
 #### Data Resources (12 files)
+
 1. behavioral-question-examples.md
 2. career-achievement-examples.md
 3. career-development-resources.md
@@ -96,6 +101,7 @@ career-coach/
 12. technical-interview-resources.md
 
 #### Checklists (11 files)
+
 1. ats-optimization-checklist.md
 2. behavioral-interview-checklist.md
 3. career-document-checklist.md
@@ -109,9 +115,11 @@ career-coach/
 11. technical-interview-checklist.md
 
 #### Agent Teams (1 file)
+
 - resume-builder-team.yaml
 
 #### Configuration Files
+
 - `config.yaml` - Original module configuration
 - `_module-installer/install-config.yaml` - BMAD installer configuration
 - `README.md` - Comprehensive module documentation
@@ -122,6 +130,7 @@ career-coach/
 ### 1. Three Specialized Agents
 
 **Career Coach (Michael):**
+
 - Strategic career planning and goal setting
 - Skills assessment and gap analysis
 - Job search strategy development
@@ -129,6 +138,7 @@ career-coach/
 - Career transition guidance
 
 **Resume Writer (Will):**
+
 - ATS-optimized resume creation
 - Cover letter and CV writing
 - LinkedIn profile optimization
@@ -136,6 +146,7 @@ career-coach/
 - Industry-specific customization
 
 **Interview Coach (Jennifer):**
+
 - Comprehensive interview preparation
 - Mock interview sessions with feedback
 - Behavioral response development (STAR method)
@@ -145,18 +156,21 @@ career-coach/
 ### 2. Comprehensive Workflows
 
 **Resume Creation Workflow:**
+
 - 6-phase process from assessment to final optimization
 - Quality scoring (target: 90-100%)
 - ATS compatibility checking (target: 90%+)
 - Iterative improvement cycles
 
 **Career Planning Workflow:**
+
 - Strategic career development planning
 - Skills evaluation and gap analysis
 - Action planning and risk management
 - Implementation monitoring
 
 **Interview Preparation Workflow:**
+
 - 8-step comprehensive interview prep
 - Company and role research
 - Question preparation and practice
@@ -165,6 +179,7 @@ career-coach/
 ### 3. Professional Templates
 
 17 YAML-based templates covering:
+
 - Resume and CV formats
 - Cover letters
 - LinkedIn profiles
@@ -196,6 +211,7 @@ career-coach/
 Created comprehensive `install-config.yaml` with:
 
 ### Interactive Configuration Options
+
 - Career output folder location
 - Career focus (job search, growth, change, development)
 - Target industry selection
@@ -204,6 +220,7 @@ Created comprehensive `install-config.yaml` with:
 - Interview preparation focus areas
 
 ### Static Configuration Values
+
 - Module version (1.0.0)
 - Data paths for all resource types
 - Output folder structure for all document types
@@ -212,6 +229,7 @@ Created comprehensive `install-config.yaml` with:
 ## Documentation
 
 ### README.md Contents
+
 - Comprehensive module overview
 - Feature descriptions
 - Agent profiles with command lists
@@ -226,6 +244,7 @@ Created comprehensive `install-config.yaml` with:
 ## Module Integration
 
 ### BMAD Method Integration Points
+
 - Compatible with BMAD Core framework
 - Follows BMAD v6 module structure
 - Integrates with BMad Builder for customization
@@ -233,7 +252,9 @@ Created comprehensive `install-config.yaml` with:
 - Can be used alongside Content Creator and Marketing Ops modules
 
 ### Agent Command Structure
+
 Each agent includes:
+
 - `*help` - Display available commands
 - Multiple specialized commands
 - Flexible fuzzy matching for user requests
@@ -243,11 +264,13 @@ Each agent includes:
 ## Technical Implementation
 
 ### Download Method
+
 - Used curl to download all files from GitHub raw URLs
 - Systematic batch downloading by directory
 - Verification of file counts and directory structure
 
 ### File Formats
+
 - Agents: Markdown (.md) with embedded YAML configuration
 - Workflows: Markdown (.md) with structured content
 - Tasks: Markdown (.md) with executable instructions
@@ -257,6 +280,7 @@ Each agent includes:
 - Configuration: YAML (.yaml) files
 
 ### Module Code
+
 - **Module Code:** `career-coach`
 - **Module Name:** "Career Coach - Professional Career Development Suite"
 - **Slash Prefix:** `bmadcc`
@@ -265,6 +289,7 @@ Each agent includes:
 ## Quality Metrics
 
 ### Coverage
+
 ✅ All agents ported (3/3)
 ✅ All workflows ported (3/3)
 ✅ All tasks ported (19/19)
@@ -276,6 +301,7 @@ Each agent includes:
 ✅ Documentation completed
 
 ### Structure Compliance
+
 ✅ Follows BMAD v6 module structure
 ✅ Proper directory organization
 ✅ Install configuration created
@@ -285,6 +311,7 @@ Each agent includes:
 ## Next Steps
 
 ### For Testing
+
 1. Test module installation using BMAD installer
 2. Verify agent activation and command functionality
 3. Test workflow execution
@@ -292,6 +319,7 @@ Each agent includes:
 5. Check file path resolution
 
 ### For Enhancement
+
 1. Consider adding workflow YAML configurations if needed
 2. Add any missing agent customization options
 3. Create example outputs or demos
@@ -299,6 +327,7 @@ Each agent includes:
 5. Consider creating web bundles for agents
 
 ### For Deployment
+
 1. Commit module to repository
 2. Update main BMAD README to include Career Coach module
 3. Add module to installer selection menu
@@ -308,15 +337,19 @@ Each agent includes:
 ## Notes
 
 ### Agent Format
+
 The agents use the self-contained format where the complete agent definition is embedded in the markdown file as a YAML block. This eliminates the need for separate `.agent.yaml` files and follows the pattern used in the original bmad-career-coach repository.
 
 ### Template Format
+
 Templates are in YAML format (.yaml extension) which is the expected format for BMAD templates. These provide structured data that agents can use to generate professional documents.
 
 ### Workflow Structure
+
 Workflows are currently in markdown format. If the BMAD system requires workflow.yaml configuration files, these may need to be created separately to define workflow metadata, steps, and configuration.
 
 ### Original Attribution
+
 The module is based on the bmad-career-coach expansion pack by ataripixel. Original README preserved as README-original.md for reference.
 
 ## Success Criteria Met

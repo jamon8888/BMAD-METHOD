@@ -11,6 +11,7 @@ The Founder Idea Validator can be enhanced by integrating with other BMAD module
 **Use Case:** Market is complex, emerging, or requires comprehensive competitive intelligence
 
 **Workflow:**
+
 1. Run standard validation with Alex (Market Fit Validator)
 2. Identify research gaps (e.g., emerging market trends, niche competitors)
 3. Load Deep Research module
@@ -63,6 +64,7 @@ Alex: "Integrating Deep Research findings into market assessment..."
 **Use Case:** Need detailed, channel-specific distribution strategies
 
 **Workflow:**
+
 1. Run validation with Sarah (Distribution Strategy Validator)
 2. Identify primary distribution channels
 3. Load Marketing Ops module for channel-specific strategy
@@ -110,6 +112,7 @@ Jordan: "Final report includes complete channel implementation roadmap"
 **Use Case:** VALIDATE FIRST recommendation requires landing page and content testing
 
 **Workflow:**
+
 1. Complete validation (result: VALIDATE FIRST)
 2. Jordan recommends specific validation experiments
 3. Load UX Writer or Content Creator for experiment materials
@@ -166,6 +169,7 @@ Content Creator:
 **Use Case:** PIVOT REQUIRED - need to explore alternative directions
 
 **Workflow:**
+
 1. Validation identifies invalidated pillars
 2. Jordan provides initial pivot suggestions
 3. Load Creative Prompting Studio for structured brainstorming
@@ -217,6 +221,7 @@ Ready to re-validate this pivot?"
 **Use Case:** Capability gaps identified - founder needs skill development
 
 **Workflow:**
+
 1. Marcus identifies capability gaps
 2. Gaps are addressable through learning
 3. Load Career Coach module
@@ -272,37 +277,43 @@ Total: 3 months (realistic and achievable)"
 ### In Any Validation Agent
 
 **Trigger deep research:**
+
 ```
 *deep-research
 ```
+
 Switches to Deep Research module with specific research questions
 
 **Trigger marketing ops:**
+
 ```
 *marketing-ops
 ```
+
 Switches to Marketing Ops for channel strategy
 
 **Trigger content creation:**
+
 ```
 *content-strategy
 ```
+
 Switches to Content Creator for content-driven validation
 
 ---
 
 ## Module Compatibility Matrix
 
-| Validation Need | Recommended Module | Use Case |
-|----------------|-------------------|----------|
-| Deep market research | Deep Research | Complex/emerging markets |
-| Competitive intelligence | Deep Research | Crowded/evolving spaces |
-| Channel strategy | Marketing Ops | Detailed distribution planning |
-| Content validation | Content Creator | Content marketing testing |
-| Landing page copy | UX Writer | Validation experiments |
-| Pivot brainstorming | Creative Prompting Studio | Exploring alternatives |
-| Skill development | Career Coach | Capability gap filling |
-| Custom workflows | BMM | Building specialized processes |
+| Validation Need          | Recommended Module        | Use Case                       |
+| ------------------------ | ------------------------- | ------------------------------ |
+| Deep market research     | Deep Research             | Complex/emerging markets       |
+| Competitive intelligence | Deep Research             | Crowded/evolving spaces        |
+| Channel strategy         | Marketing Ops             | Detailed distribution planning |
+| Content validation       | Content Creator           | Content marketing testing      |
+| Landing page copy        | UX Writer                 | Validation experiments         |
+| Pivot brainstorming      | Creative Prompting Studio | Exploring alternatives         |
+| Skill development        | Career Coach              | Capability gap filling         |
+| Custom workflows         | BMM                       | Building specialized processes |
 
 ---
 
@@ -311,6 +322,7 @@ Switches to Content Creator for content-driven validation
 ### When to Use Module Integration
 
 **✅ Use Integration When:**
+
 - Validation reveals complexity requiring deep expertise
 - Founder wants to proceed and needs execution materials
 - Specific capabilities need detailed planning
@@ -318,6 +330,7 @@ Switches to Content Creator for content-driven validation
 - Skill gaps need structured learning plans
 
 **❌ Don't Use Integration When:**
+
 - Simple validation is sufficient
 - Founder just needs go/no-go decision
 - Time constraints require speed over depth

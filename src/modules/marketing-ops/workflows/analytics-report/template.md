@@ -16,8 +16,9 @@
 ### Overall Performance
 
 {{#each overall_metrics}}
+
 - **{{metric_name}}**: {{current_value}} ({{change_vs_previous}} vs {{comparison_period}})
-{{/each}}
+  {{/each}}
 
 ### Top 3 Insights
 
@@ -38,7 +39,8 @@
 ### 1.1 Key Metrics Scorecard
 
 | Metric | Current Period | Previous Period | Change | Target | Status |
-|--------|----------------|-----------------|--------|--------|--------|
+| ------ | -------------- | --------------- | ------ | ------ | ------ |
+
 {{#each key_metrics}}
 | {{metric}} | {{current}} | {{previous}} | {{change}} | {{target}} | {{status_icon}} |
 {{/each}}
@@ -48,16 +50,19 @@
 ### 1.2 Performance Trends
 
 **{{primary_kpi}} Over Time**
+
 ```
 {{primary_kpi_trend_chart}}
 ```
 
 **Traffic & Engagement Trends**
+
 ```
 {{traffic_trends_chart}}
 ```
 
 **Conversion Funnel Performance**
+
 ```
 {{funnel_performance_chart}}
 ```
@@ -69,7 +74,8 @@
 ### 2.1 Channel Overview
 
 | Channel | Traffic | Conversions | Revenue | CAC | ROAS | vs Previous |
-|---------|---------|-------------|---------|-----|------|-------------|
+| ------- | ------- | ----------- | ------- | --- | ---- | ----------- |
+
 {{#each channels}}
 | {{channel_name}} | {{traffic}} | {{conversions}} | {{revenue}} | {{cac}} | {{roas}} | {{change}} |
 {{/each}}
@@ -78,12 +84,14 @@
 ### 2.2 Channel Deep Dives
 
 {{#each channel_deep_dives}}
+
 #### {{channel_name}}
 
 **Performance Summary**
 {{performance_summary}}
 
 **Key Metrics**
+
 - Traffic: {{traffic}} ({{traffic_change}})
 - Conversion Rate: {{conversion_rate}} ({{cr_change}})
 - CAC: {{cac}} ({{cac_change}})
@@ -104,6 +112,7 @@
 {{channel_recommendations}}
 
 ---
+
 {{/each}}
 
 ---
@@ -122,7 +131,8 @@ Awareness → Consideration → Conversion → Retention
 ### 3.2 Conversion Rates by Stage
 
 | Funnel Stage | Users | Conversion to Next Stage | Drop-off | Notes |
-|--------------|-------|-------------------------|----------|-------|
+| ------------ | ----- | ------------------------ | -------- | ----- |
+
 {{#each funnel_stages}}
 | {{stage}} | {{users}} | {{conversion_rate}} | {{dropoff_rate}} | {{notes}} |
 {{/each}}
@@ -132,9 +142,10 @@ Awareness → Consideration → Conversion → Retention
 **Biggest Drop-off Points**
 {{#each dropoff_points}}
 {{number}}. **{{stage_name}}**: {{dropoff_rate}} drop-off
-   - **Why**: {{hypothesis}}
-   - **Action**: {{recommended_action}}
-{{/each}}
+
+- **Why**: {{hypothesis}}
+- **Action**: {{recommended_action}}
+  {{/each}}
 
 **Funnel Improvements vs Previous Period**
 {{funnel_improvements}}
@@ -159,12 +170,14 @@ Awareness → Consideration → Conversion → Retention
 ### 4.2 High-Value Segments
 
 {{#each high_value_segments}}
+
 #### {{segment_name}}
 
 **Characteristics**
 {{segment_characteristics}}
 
 **Performance**
+
 - Users: {{users}} ({{percentage_of_total}}% of total)
 - Conversion Rate: {{conversion_rate}}
 - Average Order Value: {{aov}}
@@ -181,6 +194,7 @@ Awareness → Consideration → Conversion → Retention
 {{growth_opportunity}}
 
 ---
+
 {{/each}}
 
 ### 4.3 Cohort Analysis
@@ -202,29 +216,32 @@ Awareness → Consideration → Conversion → Retention
 ### 5.1 Active Campaigns Summary
 
 {{#each campaigns}}
+
 #### {{campaign_name}}
 
-| Metric | Value | vs Target |
-|--------|-------|-----------|
-| Budget | {{budget_spent}} / {{budget_total}} ({{budget_percentage}}%) | {{vs_budget}} |
-| Impressions | {{impressions}} | {{vs_impression_target}} |
-| Clicks | {{clicks}} | {{vs_click_target}} |
-| CTR | {{ctr}} | {{vs_ctr_target}} |
-| Conversions | {{conversions}} | {{vs_conversion_target}} |
-| CPA | {{cpa}} | {{vs_cpa_target}} |
-| ROAS | {{roas}} | {{vs_roas_target}} |
+| Metric      | Value                                                        | vs Target                |
+| ----------- | ------------------------------------------------------------ | ------------------------ |
+| Budget      | {{budget_spent}} / {{budget_total}} ({{budget_percentage}}%) | {{vs_budget}}            |
+| Impressions | {{impressions}}                                              | {{vs_impression_target}} |
+| Clicks      | {{clicks}}                                                   | {{vs_click_target}}      |
+| CTR         | {{ctr}}                                                      | {{vs_ctr_target}}        |
+| Conversions | {{conversions}}                                              | {{vs_conversion_target}} |
+| CPA         | {{cpa}}                                                      | {{vs_cpa_target}}        |
+| ROAS        | {{roas}}                                                     | {{vs_roas_target}}       |
 
 **Status**: {{campaign_status}}
 **Key Insights**: {{campaign_insights}}
 **Optimization Actions**: {{optimization_actions}}
 
 ---
+
 {{/each}}
 
 ### 5.2 Campaign Comparison
 
 | Campaign | Budget | ROAS | CPA | Conversions | Status |
-|----------|--------|------|-----|-------------|--------|
+| -------- | ------ | ---- | --- | ----------- | ------ |
+
 {{#each campaign_comparison}}
 | {{campaign}} | {{budget}} | {{roas}} | {{cpa}} | {{conversions}} | {{status}} |
 {{/each}}
@@ -245,6 +262,7 @@ Awareness → Consideration → Conversion → Retention
 {{/each}}
 
 **Revenue Trends**
+
 ```
 {{revenue_trend_chart}}
 ```
@@ -277,6 +295,7 @@ Awareness → Consideration → Conversion → Retention
 ## 7. Key Insights & Findings
 
 {{#each insights}}
+
 ### Insight {{number}}: {{insight_title}}
 
 **What Happened**
@@ -292,6 +311,7 @@ Awareness → Consideration → Conversion → Retention
 {{supporting_data}}
 
 ---
+
 {{/each}}
 
 ---
@@ -299,6 +319,7 @@ Awareness → Consideration → Conversion → Retention
 ## 8. Recommendations & Action Plan
 
 {{#each recommendations}}
+
 ### {{priority}} Priority: {{recommendation_title}}
 
 **Recommendation**
@@ -319,6 +340,7 @@ Awareness → Consideration → Conversion → Retention
 {{success_metrics}}
 
 **Resource Requirements**
+
 - Budget: {{budget_required}}
 - Team: {{team_required}}
 - Timeline: {{timeline}}
@@ -327,12 +349,14 @@ Awareness → Consideration → Conversion → Retention
 {{priority_justification}}
 
 ---
+
 {{/each}}
 
 ### Recommendation Summary
 
 | Priority | Recommendation | Expected Impact | Timeline | Owner |
-|----------|----------------|-----------------|----------|-------|
+| -------- | -------------- | --------------- | -------- | ----- |
+
 {{#each recommendation_summary}}
 | {{priority}} | {{recommendation}} | {{impact}} | {{timeline}} | {{owner}} |
 {{/each}}
@@ -344,7 +368,8 @@ Awareness → Consideration → Conversion → Retention
 ### 9.1 Market Benchmarks
 
 | Metric | Our Performance | Industry Average | Best in Class | Gap |
-|--------|-----------------|------------------|---------------|-----|
+| ------ | --------------- | ---------------- | ------------- | --- |
+
 {{#each benchmarks}}
 | {{metric}} | {{our_performance}} | {{industry_avg}} | {{best_in_class}} | {{gap}} |
 {{/each}}
@@ -358,19 +383,25 @@ Awareness → Consideration → Conversion → Retention
 ## 10. Next Steps & Timeline
 
 ### Immediate Actions (This Week)
+
 {{#each immediate_actions}}
+
 - [ ] {{action}} (Owner: {{owner}})
-{{/each}}
+      {{/each}}
 
 ### Short-term Actions (This Month)
+
 {{#each short_term_actions}}
+
 - [ ] {{action}} (Owner: {{owner}})
-{{/each}}
+      {{/each}}
 
 ### Long-term Initiatives (This Quarter)
+
 {{#each long_term_actions}}
+
 - [ ] {{action}} (Owner: {{owner}})
-{{/each}}
+      {{/each}}
 
 ---
 

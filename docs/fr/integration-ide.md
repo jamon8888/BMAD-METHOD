@@ -34,12 +34,15 @@ Les agents BMad sont automatiquement installés en tant que commandes slash dans
 #### Utilisation de Base
 
 **1. Taper la Commande Slash**
+
 ```
 /
 ```
+
 Tapez `/` dans le chat pour voir toutes les commandes disponibles.
 
 **2. Sélectionner un Agent**
+
 ```
 /bmad:bmm:agents:dev              # Agent développeur
 /bmad:bmm:agents:architect        # Agent architecte
@@ -54,6 +57,7 @@ Appuyez sur Entrée pour activer l'agent. L'agent se présentera et affichera so
 #### Exécution de Workflows
 
 **Option A : Via Commande Slash**
+
 ```
 /bmad:bmm:workflows:prd           # Workflow PRD
 /bmad:bmm:workflows:dev-story     # Workflow dev story
@@ -61,6 +65,7 @@ Appuyez sur Entrée pour activer l'agent. L'agent se présentera et affichera so
 ```
 
 **Option B : Via Menu de l'Agent**
+
 ```
 # 1. Charger l'agent
 /bmad:bmm:agents:pm
@@ -75,6 +80,7 @@ Appuyez sur Entrée pour activer l'agent. L'agent se présentera et affichera so
 ### Exemples Claude Code
 
 **Exemple 1 : Initialiser un Projet**
+
 ```
 # Charger l'agent analyste
 /bmad:bmm:agents:analyst
@@ -84,6 +90,7 @@ Appuyez sur Entrée pour activer l'agent. L'agent se présentera et affichera so
 ```
 
 **Exemple 2 : Créer un PRD**
+
 ```
 # Démarrer un nouveau chat
 /bmad:bmm:agents:pm
@@ -93,6 +100,7 @@ Appuyez sur Entrée pour activer l'agent. L'agent se présentera et affichera so
 ```
 
 **Exemple 3 : Implémenter une Story**
+
 ```
 # Démarrer un nouveau chat
 /bmad:bmm:agents:dev
@@ -133,6 +141,7 @@ Utilisez la syntaxe `@` pour charger les agents :
 ```
 
 **2. Inclure un Module Entier**
+
 ```
 @.bmad/bmm                        # Tous les agents BMM
 @.bmad/cis                        # Tous les agents CIS
@@ -140,6 +149,7 @@ Utilisez la syntaxe `@` pour charger les agents :
 ```
 
 **3. Référencer l'Index**
+
 ```
 @.bmad/index                      # Tous les agents disponibles
 ```
@@ -147,11 +157,13 @@ Utilisez la syntaxe `@` pour charger les agents :
 #### Exécution de Workflows
 
 **Étape 1 : Charger l'Agent**
+
 ```
 @.bmad/bmm/agents/pm
 ```
 
 **Étape 2 : Demander un Workflow**
+
 ```
 Exécute le workflow PRD
 ```
@@ -159,6 +171,7 @@ Exécute le workflow PRD
 ### Exemples Cursor
 
 **Exemple 1 : Workflow PRD**
+
 ```
 @.bmad/bmm/agents/pm
 
@@ -166,6 +179,7 @@ Salut ! Créons un nouveau PRD pour mon projet.
 ```
 
 **Exemple 2 : Architecture Design**
+
 ```
 @.bmad/bmm/agents/architect
 
@@ -173,6 +187,7 @@ Aide-moi à créer un document d'architecture.
 ```
 
 **Exemple 3 : Agents Multiples**
+
 ```
 @.bmad/bmm/agents/dev @.bmad/bmm/agents/architect
 
@@ -233,6 +248,7 @@ VS Code nécessite des extensions IA (GitHub Copilot, Codeium, etc.) pour utilis
 ### Configuration
 
 **Option A : Via Copilot Chat**
+
 ```
 # Utiliser dans Copilot Chat
 Charge l'agent de {project-root}/.bmad/bmm/agents/dev.md
@@ -269,6 +285,7 @@ Exécute le workflow dev-story
 **⚠️ IMPORTANT :** Utilisez toujours des conversations fraîches pour les workflows majeurs.
 
 **Pourquoi ?**
+
 - Évite les hallucinations de contexte
 - Assure une capacité de contexte maximale
 - Améliore la qualité des résultats
@@ -278,6 +295,7 @@ Exécute le workflow dev-story
 #### Phase 1 : Analyse (Optionnel)
 
 **Chat 1 : Initialisation**
+
 ```
 # Claude Code
 /bmad:bmm:agents:analyst
@@ -289,6 +307,7 @@ Exécute workflow-init
 ```
 
 **Chat 2 : Brainstorming**
+
 ```
 # Nouveau chat
 /bmad:bmm:agents:analyst
@@ -298,6 +317,7 @@ Exécute workflow-init
 #### Phase 2 : Planification (Requis)
 
 **Chat 3 : PRD**
+
 ```
 # Nouveau chat
 /bmad:bmm:agents:pm
@@ -305,6 +325,7 @@ Exécute workflow-init
 ```
 
 **Chat 4 : UX Design (si UI)**
+
 ```
 # Nouveau chat
 /bmad:bmm:agents:ux-designer
@@ -314,6 +335,7 @@ Exécute workflow-init
 #### Phase 3 : Solution (Piste Method/Enterprise)
 
 **Chat 5 : Architecture**
+
 ```
 # Nouveau chat
 /bmad:bmm:agents:architect
@@ -321,6 +343,7 @@ Exécute workflow-init
 ```
 
 **Chat 6 : Epics et Stories**
+
 ```
 # Nouveau chat
 /bmad:bmm:agents:pm
@@ -330,6 +353,7 @@ Exécute workflow-init
 #### Phase 4 : Implémentation (Requis)
 
 **Chat 7 : Planification Sprint**
+
 ```
 # Nouveau chat
 /bmad:bmm:agents:sm
@@ -337,6 +361,7 @@ Exécute workflow-init
 ```
 
 **Chat 8 : Créer Story**
+
 ```
 # Nouveau chat
 /bmad:bmm:agents:sm
@@ -344,6 +369,7 @@ Exécute workflow-init
 ```
 
 **Chat 9 : Implémenter Story**
+
 ```
 # Nouveau chat
 /bmad:bmm:agents:dev
@@ -351,6 +377,7 @@ Exécute workflow-init
 ```
 
 **Chat 10 : Revue de Code**
+
 ```
 # Nouveau chat
 /bmad:bmm:agents:dev
@@ -365,33 +392,33 @@ Exécute workflow-init
 
 ### Agents de Développement
 
-| Agent | Commande Claude Code | Référence Cursor/Windsurf | Utiliser Pour |
-|-------|---------------------|---------------------------|---------------|
-| **Developer** | `/bmad:bmm:agents:dev` | `@.bmad/bmm/agents/dev` | Implémentation de code |
-| **Architect** | `/bmad:bmm:agents:architect` | `@.bmad/bmm/agents/architect` | Conception d'architecture |
-| **Test Architect** | `/bmad:bmm:agents:tea` | `@.bmad/bmm/agents/tea` | Stratégie de test |
+| Agent              | Commande Claude Code         | Référence Cursor/Windsurf     | Utiliser Pour             |
+| ------------------ | ---------------------------- | ----------------------------- | ------------------------- |
+| **Developer**      | `/bmad:bmm:agents:dev`       | `@.bmad/bmm/agents/dev`       | Implémentation de code    |
+| **Architect**      | `/bmad:bmm:agents:architect` | `@.bmad/bmm/agents/architect` | Conception d'architecture |
+| **Test Architect** | `/bmad:bmm:agents:tea`       | `@.bmad/bmm/agents/tea`       | Stratégie de test         |
 
 ### Agents Produit
 
-| Agent | Commande Claude Code | Référence Cursor/Windsurf | Utiliser Pour |
-|-------|---------------------|---------------------------|---------------|
-| **PM** | `/bmad:bmm:agents:pm` | `@.bmad/bmm/agents/pm` | PRD, epics, stories |
-| **Analyst** | `/bmad:bmm:agents:analyst` | `@.bmad/bmm/agents/analyst` | Recherche, analyse |
-| **UX Designer** | `/bmad:bmm:agents:ux-designer` | `@.bmad/bmm/agents/ux-designer` | Conception UX |
+| Agent           | Commande Claude Code           | Référence Cursor/Windsurf       | Utiliser Pour       |
+| --------------- | ------------------------------ | ------------------------------- | ------------------- |
+| **PM**          | `/bmad:bmm:agents:pm`          | `@.bmad/bmm/agents/pm`          | PRD, epics, stories |
+| **Analyst**     | `/bmad:bmm:agents:analyst`     | `@.bmad/bmm/agents/analyst`     | Recherche, analyse  |
+| **UX Designer** | `/bmad:bmm:agents:ux-designer` | `@.bmad/bmm/agents/ux-designer` | Conception UX       |
 
 ### Agents Leadership
 
-| Agent | Commande Claude Code | Référence Cursor/Windsurf | Utiliser Pour |
-|-------|---------------------|---------------------------|---------------|
-| **Scrum Master** | `/bmad:bmm:agents:sm` | `@.bmad/bmm/agents/sm` | Gestion sprint |
-| **BMad Master** | `/bmad:bmm:agents:bmad-master` | `@.bmad/bmm/agents/bmad-master` | Guide du processus |
+| Agent            | Commande Claude Code           | Référence Cursor/Windsurf       | Utiliser Pour      |
+| ---------------- | ------------------------------ | ------------------------------- | ------------------ |
+| **Scrum Master** | `/bmad:bmm:agents:sm`          | `@.bmad/bmm/agents/sm`          | Gestion sprint     |
+| **BMad Master**  | `/bmad:bmm:agents:bmad-master` | `@.bmad/bmm/agents/bmad-master` | Guide du processus |
 
 ### Agents Créatifs
 
-| Agent | Commande Claude Code | Référence Cursor/Windsurf | Utiliser Pour |
-|-------|---------------------|---------------------------|---------------|
+| Agent                   | Commande Claude Code                   | Référence Cursor/Windsurf               | Utiliser Pour |
+| ----------------------- | -------------------------------------- | --------------------------------------- | ------------- |
 | **Brainstorming Coach** | `/bmad:cis:agents:brainstorming-coach` | `@.bmad/cis/agents/brainstorming-coach` | Brainstorming |
-| **Storyteller** | `/bmad:cis:agents:storyteller` | `@.bmad/cis/agents/storyteller` | Narration |
+| **Storyteller**         | `/bmad:cis:agents:storyteller`         | `@.bmad/cis/agents/storyteller`         | Narration     |
 
 ---
 
@@ -400,16 +427,19 @@ Exécute workflow-init
 ### Maximiser les Performances
 
 **1. Modèles de Contexte 200k+**
+
 - Utilisez Claude Sonnet 4.5, GPT-4, ou équivalent
 - Meilleur pour les workflows complexes
 - Gère de grands documents (PRD, architecture)
 
 **2. Conversations Fraîches**
+
 - Démarrez un nouveau chat pour chaque workflow
 - Évite la fatigue du contexte
 - Améliore la qualité
 
 **3. Copier/Coller de Documents**
+
 - Partagez le contexte entre les conversations
 - Copiez PRD → chat Architecture
 - Copiez Architecture → chat Dev Story
@@ -417,6 +447,7 @@ Exécute workflow-init
 ### Gestion du Contexte
 
 **Workflows à Contexte Élevé**
+
 - PRD
 - Architecture
 - UX Design
@@ -425,6 +456,7 @@ Exécute workflow-init
 → **Utilisez toujours de nouvelles conversations**
 
 **Workflows à Contexte Faible**
+
 - Vérification du statut
 - Questions simples
 - Aide sur les menus
@@ -452,6 +484,7 @@ Les agents BMad v6 sont excellents pour correspondre aux intentions :
 **Problème :** La commande slash / référence @ ne fonctionne pas
 
 **Solutions :**
+
 1. Vérifier que l'installation BMad s'est terminée
 2. Vérifier que le dossier `.bmad` existe
 3. Redémarrer l'IDE
@@ -462,9 +495,10 @@ Les agents BMad v6 sont excellents pour correspondre aux intentions :
 **Problème :** L'agent communique en anglais au lieu du français
 
 **Solutions :**
+
 1. Vérifier `.bmad/core/config.yaml` :
    ```yaml
-   communication_language: "Français"
+   communication_language: 'Français'
    ```
 2. Démarrer une **nouvelle conversation**
 3. Charger à nouveau l'agent
@@ -474,6 +508,7 @@ Les agents BMad v6 sont excellents pour correspondre aux intentions :
 **Problème :** L'agent se charge mais ne montre pas le menu
 
 **Solutions :**
+
 1. Attendre quelques secondes (le menu se génère)
 2. Taper `*help` pour forcer l'affichage du menu
 3. Demander : "montre-moi tes workflows disponibles"
@@ -483,6 +518,7 @@ Les agents BMad v6 sont excellents pour correspondre aux intentions :
 **Problème :** `Error: Cannot find agent file`
 
 **Solutions :**
+
 ```bash
 # Vérifier que les agents existent
 ls .bmad/bmm/agents/
@@ -496,6 +532,7 @@ npx bmad-method@alpha install
 **Problème :** L'agent invente des faits ou donne de mauvaises réponses
 
 **Solutions :**
+
 1. ✅ **Démarrer une nouvelle conversation** (cause #1)
 2. Fournir plus de contexte
 3. Utiliser des modèles de contexte plus grands

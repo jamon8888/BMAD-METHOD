@@ -16,6 +16,7 @@
 [2-3 sentence summary of what happened and impact]
 
 **Impact**:
+
 - Users Affected: [X users / X% of users]
 - Revenue Impact: [$X]
 - Service(s) Affected: [List]
@@ -27,16 +28,16 @@
 
 All times in [Timezone]
 
-| Time     | Event                                   | Action Taken                        | Actor        |
-| -------- | --------------------------------------- | ----------------------------------- | ------------ |
-| 14:00    | [Event description]                     | [What was done]                     | [Who did it] |
-| 14:15    | First alert fired                       | On-call engineer paged              | System       |
-| 14:20    | Incident declared                       | Incident channel created            | Engineer A   |
-| 14:25    | Investigation began                     | Checked logs and metrics            | Engineer A   |
-| 14:40    | Root cause identified                   | Database connection pool exhausted  | Engineer B   |
-| 15:00    | Mitigation deployed                     | Increased connection pool size      | Engineer B   |
-| 15:15    | Service restored                        | Verified healthy metrics            | Engineer A   |
-| 15:30    | Incident resolved, monitoring continues | Continued observing for issues      | Team         |
+| Time  | Event                                   | Action Taken                       | Actor        |
+| ----- | --------------------------------------- | ---------------------------------- | ------------ |
+| 14:00 | [Event description]                     | [What was done]                    | [Who did it] |
+| 14:15 | First alert fired                       | On-call engineer paged             | System       |
+| 14:20 | Incident declared                       | Incident channel created           | Engineer A   |
+| 14:25 | Investigation began                     | Checked logs and metrics           | Engineer A   |
+| 14:40 | Root cause identified                   | Database connection pool exhausted | Engineer B   |
+| 15:00 | Mitigation deployed                     | Increased connection pool size     | Engineer B   |
+| 15:15 | Service restored                        | Verified healthy metrics           | Engineer A   |
+| 15:30 | Incident resolved, monitoring continues | Continued observing for issues     | Team         |
 
 **Total Duration**: 1 hour 30 minutes
 **Time to Detect**: 15 minutes
@@ -54,6 +55,7 @@ All times in [Timezone]
 [Underlying reasons - technical, process, or human factors]
 
 **Contributing Factors**:
+
 1. [Factor 1]
 2. [Factor 2]
 3. [Factor 3]
@@ -63,14 +65,17 @@ All times in [Timezone]
 ## Resolution
 
 **Immediate Mitigation** (What stopped the bleeding):
+
 - [Action 1]
 - [Action 2]
 
 **Permanent Fix** (Long-term solution):
+
 - [Action 1]
 - [Action 2]
 
 **Verification**:
+
 - [How we confirmed it was fixed]
 - [Monitoring put in place]
 
@@ -79,16 +84,20 @@ All times in [Timezone]
 ## Impact Analysis
 
 ### Customer Impact
+
 **External**:
+
 - [Description of customer-facing impact]
 - [Specific features or functionality affected]
 - [Customer complaints received: X]
 
 **Internal**:
+
 - [Internal teams affected]
 - [Business operations impacted]
 
 ### Business Impact
+
 - Revenue Lost: [$X estimated]
 - SLA Credits: [$Y]
 - Customer Trust: [Assessment]
@@ -130,26 +139,30 @@ All times in [Timezone]
 
 ## Action Items
 
-| ID  | Action                                        | Owner        | Priority | Due Date   | Status      |
-| --- | --------------------------------------------- | ------------ | -------- | ---------- | ----------- |
-| 1   | [Specific action to prevent recurrence]      | [Name]       | High     | YYYY-MM-DD | Not Started |
-| 2   | [Improve monitoring/alerting]                 | [Name]       | High     | YYYY-MM-DD | Not Started |
-| 3   | [Update documentation/runbooks]               | [Name]       | Medium   | YYYY-MM-DD | Not Started |
-| 4   | [Process improvement]                         | [Name]       | Medium   | YYYY-MM-DD | Not Started |
-| 5   | [Conduct training/knowledge sharing]          | [Name]       | Low      | YYYY-MM-DD | Not Started |
+| ID  | Action                                  | Owner  | Priority | Due Date   | Status      |
+| --- | --------------------------------------- | ------ | -------- | ---------- | ----------- |
+| 1   | [Specific action to prevent recurrence] | [Name] | High     | YYYY-MM-DD | Not Started |
+| 2   | [Improve monitoring/alerting]           | [Name] | High     | YYYY-MM-DD | Not Started |
+| 3   | [Update documentation/runbooks]         | [Name] | Medium   | YYYY-MM-DD | Not Started |
+| 4   | [Process improvement]                   | [Name] | Medium   | YYYY-MM-DD | Not Started |
+| 5   | [Conduct training/knowledge sharing]    | [Name] | Low      | YYYY-MM-DD | Not Started |
 
 ### Action Categories
 
 **Prevent Recurrence** (Stop this specific issue):
+
 - [Action items that prevent this exact problem]
 
 **Improve Detection** (Find issues faster):
+
 - [Better monitoring, alerting, observability]
 
 **Improve Response** (Respond faster and better):
+
 - [Runbooks, training, tools, process]
 
 **Systemic Improvements** (Broader fixes):
+
 - [Architecture, culture, organizational changes]
 
 ---
@@ -157,15 +170,18 @@ All times in [Timezone]
 ## Lessons Learned
 
 **Technical Lessons**:
+
 1. [Lesson 1]
 2. [Lesson 2]
 3. [Lesson 3]
 
 **Process Lessons**:
+
 1. [Lesson 1]
 2. [Lesson 2]
 
 **Organizational Lessons**:
+
 1. [Lesson 1]
 2. [Lesson 2]
 
@@ -174,11 +190,13 @@ All times in [Timezone]
 ## Follow-Up
 
 **One Week Follow-Up**:
+
 - Review action item progress
 - Check if issue has recurred
 - Verify monitoring improvements
 
 **One Month Follow-Up**:
+
 - Validate all action items completed
 - Assess effectiveness of changes
 - Update runbooks based on learnings
@@ -188,6 +206,7 @@ All times in [Timezone]
 ## Supporting Information
 
 **Relevant Links**:
+
 - Incident Slack Channel: [Link]
 - Status Page Updates: [Link]
 - Monitoring Dashboard: [Link]
@@ -195,6 +214,7 @@ All times in [Timezone]
 - Related Incidents: [Previous incident links]
 
 **Attached Documents**:
+
 - [Screenshots of errors]
 - [Graphs/charts of metrics]
 - [Customer communications]
@@ -204,11 +224,13 @@ All times in [Timezone]
 ## Communication
 
 **Internal Communication**:
+
 - All-hands update: [Date/Time]
 - Engineering team sync: [Date/Time]
 - Executive briefing: [Date/Time]
 
 **External Communication**:
+
 - Status page updates: [Count]
 - Customer emails sent: [Count]
 - Public post-mortem: [Yes/No - If yes, link]
@@ -220,6 +242,7 @@ All times in [Timezone]
 This post-mortem focuses on **systems and processes**, not individuals. Everyone involved acted with the best information available at the time. Our goal is to learn and improve, not to assign blame.
 
 **Key Principles**:
+
 - No individual is at fault
 - We learn from failures
 - We improve our systems

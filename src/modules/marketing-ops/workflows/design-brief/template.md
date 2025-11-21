@@ -20,23 +20,25 @@
 
 **Business Objectives**
 {{#each business_objectives}}
+
 - {{objective}}
-{{/each}}
+  {{/each}}
 
 **Success Criteria**
 {{#each success_criteria}}
+
 - {{criterion}}
-{{/each}}
+  {{/each}}
 
 ### 1.2 Timeline & Budget
 
-| Item | Details |
-|------|---------|
-| **Kickoff Date** | {{kickoff_date}} |
-| **Launch Date** | {{launch_date}} |
-| **Project Duration** | {{duration}} |
-| **Creative Budget** | {{budget}} |
-| **Production Resources** | {{resources}} |
+| Item                     | Details          |
+| ------------------------ | ---------------- |
+| **Kickoff Date**         | {{kickoff_date}} |
+| **Launch Date**          | {{launch_date}}  |
+| **Project Duration**     | {{duration}}     |
+| **Creative Budget**      | {{budget}}       |
+| **Production Resources** | {{resources}}    |
 
 ---
 
@@ -45,6 +47,7 @@
 ### 2.1 Primary Audience
 
 **Demographics**
+
 - Age: {{primary_age}}
 - Gender: {{primary_gender}}
 - Location: {{primary_location}}
@@ -52,12 +55,14 @@
 - Education: {{primary_education}}
 
 **Psychographics**
+
 - Values: {{primary_values}}
 - Interests: {{primary_interests}}
 - Lifestyle: {{primary_lifestyle}}
 - Motivations: {{primary_motivations}}
 
 **Behaviors**
+
 - Online Habits: {{primary_online_habits}}
 - Purchase Behavior: {{primary_purchase_behavior}}
 - Device Usage: {{primary_device_usage}}
@@ -65,12 +70,14 @@
 
 **Pain Points & Needs**
 {{#each primary_pain_points}}
+
 - {{pain_point}}
-{{/each}}
+  {{/each}}
 
 ### 2.2 Secondary Audience(s)
 
 {{#each secondary_audiences}}
+
 #### {{audience_name}}
 
 **Key Characteristics**
@@ -80,6 +87,7 @@
 {{considerations}}
 
 ---
+
 {{/each}}
 
 ### 2.3 Audience Insights
@@ -110,6 +118,7 @@
 {{/each}}
 
 **Typography**
+
 - **Headings**: {{heading_font}}
 - **Body Text**: {{body_font}}
 - **Accents**: {{accent_font}}
@@ -122,8 +131,9 @@
 
 **Design Principles**
 {{#each design_principles}}
+
 - {{principle}}
-{{/each}}
+  {{/each}}
 
 ### 3.2 Voice & Tone
 
@@ -143,8 +153,9 @@
 ### 3.3 Legal & Regulatory Requirements
 
 {{#each legal_requirements}}
+
 - {{requirement}}
-{{/each}}
+  {{/each}}
 
 ---
 
@@ -157,8 +168,9 @@
 
 **Secondary Goals**
 {{#each secondary_creative_goals}}
+
 - {{goal}}
-{{/each}}
+  {{/each}}
 
 ### 4.2 Messaging Framework
 
@@ -172,10 +184,12 @@
 
 **Proof Points**
 {{#each proof_points}}
+
 - {{proof_point}}
-{{/each}}
+  {{/each}}
 
 **Call-to-Action**
+
 - Primary CTA: {{primary_cta}}
 - Secondary CTA: {{secondary_cta}}
 
@@ -197,20 +211,24 @@
 ### 5.1 Required Deliverables
 
 {{#each deliverables}}
+
 #### {{deliverable_category}}
 
 | Asset | Dimensions | Format | Color | Resolution | Quantity | Notes |
-|-------|------------|--------|-------|------------|----------|-------|
+| ----- | ---------- | ------ | ----- | ---------- | -------- | ----- |
+
 {{#each assets}}
 | {{asset_name}} | {{dimensions}} | {{format}} | {{color_mode}} | {{resolution}} | {{quantity}} | {{notes}} |
 {{/each}}
 
 ---
+
 {{/each}}
 
 ### 5.2 Platform-Specific Requirements
 
 {{#each platforms}}
+
 #### {{platform_name}}
 
 **Technical Specs**
@@ -226,6 +244,7 @@
 {{limits}}
 
 ---
+
 {{/each}}
 
 ### 5.3 File Delivery Requirements
@@ -281,33 +300,38 @@
 
 **Aspirational Examples**
 {{#each aspirational_examples}}
+
 - **{{example_title}}**: {{example_url}}
   - Why: {{why_this_works}}
-{{/each}}
+    {{/each}}
 
 **Competitive Examples**
 {{#each competitive_examples}}
+
 - **{{competitor_name}}**: {{example_url}}
   - Analysis: {{analysis}}
-{{/each}}
+    {{/each}}
 
 **Brand's Successful Work**
 {{#each internal_examples}}
+
 - **{{example_title}}**: {{example_url}}
   - Why it worked: {{why_it_worked}}
-{{/each}}
+    {{/each}}
 
 ### 6.4 What to Avoid
 
 {{#each avoid_list}}
+
 - {{avoid_item}}
-{{/each}}
+  {{/each}}
 
 ### 6.5 Mandatory Elements
 
 {{#each mandatory_elements}}
+
 - {{element}}: {{requirement}}
-{{/each}}
+  {{/each}}
 
 ---
 
@@ -342,6 +366,7 @@
 {{mobile_considerations}}
 
 **Page Load Performance**
+
 - Target Load Time: {{target_load_time}}
 - Maximum File Size: {{max_file_size}}
 - Optimization Requirements: {{optimization_requirements}}
@@ -353,7 +378,8 @@
 ### 8.1 Project Timeline
 
 | Milestone | Date | Deliverable | Owner |
-|-----------|------|-------------|-------|
+| --------- | ---- | ----------- | ----- |
+
 {{#each timeline_milestones}}
 | {{milestone}} | {{date}} | {{deliverable}} | {{owner}} |
 {{/each}}
@@ -365,8 +391,9 @@
 
 **Stakeholders & Approvers**
 {{#each stakeholders}}
+
 - **{{name}}** ({{role}}): {{approval_authority}}
-{{/each}}
+  {{/each}}
 
 **Feedback Process**
 {{feedback_process}}
@@ -386,6 +413,7 @@
 {{meeting_cadence}}
 
 **Point of Contact**
+
 - Design Lead: {{design_lead}}
 - Project Manager: {{project_manager}}
 - Stakeholder: {{stakeholder_contact}}
@@ -401,15 +429,18 @@
 
 **Test Variables**
 {{#each test_variables}}
+
 - **{{variable}}**: {{variations}}
-{{/each}}
+  {{/each}}
 
 **Success Metrics**
 {{#each test_metrics}}
+
 - {{metric}}: Target {{target}}
-{{/each}}
+  {{/each}}
 
 **Test Setup**
+
 - Sample Size: {{sample_size}}
 - Test Duration: {{test_duration}}
 - Statistical Significance: {{significance_threshold}}
@@ -417,6 +448,7 @@
 ### 9.2 Quality Assurance Checklist
 
 **Technical QA**
+
 - [ ] Mobile responsiveness across devices
 - [ ] Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
 - [ ] Page load performance meets targets
@@ -424,12 +456,14 @@
 - [ ] Form validation working correctly
 
 **Brand QA**
+
 - [ ] Brand guidelines followed
 - [ ] Messaging approved and accurate
 - [ ] Legal disclaimers included where required
 - [ ] Trademark usage correct
 
 **Accessibility QA**
+
 - [ ] WCAG 2.1 AA compliance
 - [ ] Keyboard navigation functional
 - [ ] Screen reader compatible
@@ -437,6 +471,7 @@
 - [ ] Alt text for all images
 
 **Performance QA**
+
 - [ ] Conversion tracking implemented
 - [ ] Analytics tags in place
 - [ ] UTM parameters correct
@@ -446,13 +481,15 @@
 
 **Primary Success Metrics**
 {{#each primary_metrics}}
+
 - **{{metric}}**: Baseline {{baseline}}, Target {{target}}
-{{/each}}
+  {{/each}}
 
 **Secondary Success Metrics**
 {{#each secondary_metrics}}
+
 - **{{metric}}**: Baseline {{baseline}}, Target {{target}}
-{{/each}}
+  {{/each}}
 
 **Measurement Plan**
 {{measurement_plan}}
@@ -464,8 +501,9 @@
 ### 10.1 Provided Assets
 
 {{#each provided_assets}}
+
 - **{{asset_type}}**: {{asset_location}}
-{{/each}}
+  {{/each}}
 
 ### 10.2 Brand Resources
 
@@ -477,8 +515,9 @@
 ### 10.3 Reference Materials
 
 {{#each reference_materials}}
+
 - **{{material_type}}**: {{material_location}}
-{{/each}}
+  {{/each}}
 
 ---
 
@@ -487,7 +526,8 @@
 ### 11.1 Budget Breakdown
 
 | Item | Cost | Notes |
-|------|------|-------|
+| ---- | ---- | ----- |
+
 {{#each budget_items}}
 | {{item}} | {{cost}} | {{notes}} |
 {{/each}}
@@ -497,28 +537,34 @@
 
 **Internal Team**
 {{#each internal_team}}
+
 - {{role}}: {{name}} ({{allocation}})
-{{/each}}
+  {{/each}}
 
 **External Partners**
 {{#each external_partners}}
+
 - {{partner}}: {{scope}}
-{{/each}}
+  {{/each}}
 
 ---
 
 ## Appendices
 
 ### A. Detailed User Personas
+
 {{user_personas}}
 
 ### B. Competitive Analysis
+
 {{competitive_analysis}}
 
 ### C. Performance Benchmarks
+
 {{performance_benchmarks}}
 
 ### D. Additional References
+
 {{additional_references}}
 
 ---
