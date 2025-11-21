@@ -1,6 +1,7 @@
 # Interview Preparation Checklist
 
 ## Checklist Information
+
 - **Checklist Type:** Interview Preparation and Readiness
 - **Agent:** interview-coach
 - **Task:** interview-preparation.md, conduct-mock-interview.md
@@ -9,6 +10,7 @@
 ## Pre-Interview Research
 
 ### Company Research
+
 - [ ] **Company Overview**: Researched company history, mission, and values
 - [ ] **Industry Position**: Understood company's position in the industry
 - [ ] **Recent News**: Reviewed recent company news, earnings, and developments
@@ -21,6 +23,7 @@
 - [ ] **Challenges**: Identified company challenges and opportunities
 
 ### Role Research
+
 - [ ] **Job Description**: Thoroughly reviewed job description and requirements
 - [ ] **Required Skills**: Identified all required skills and qualifications
 - [ ] **Preferred Skills**: Noted preferred skills and qualifications
@@ -33,6 +36,7 @@
 - [ ] **Salary Range**: Researched typical salary range for the role
 
 ### Interviewer Research
+
 - [ ] **Interviewer Names**: Identified all interviewer names and titles
 - [ ] **Background**: Researched interviewer backgrounds and experience
 - [ ] **LinkedIn Profiles**: Reviewed interviewer LinkedIn profiles
@@ -47,6 +51,7 @@
 ## Personal Preparation
 
 ### Self-Assessment
+
 - [ ] **Skills Inventory**: Completed comprehensive skills self-assessment
 - [ ] **Experience Review**: Reviewed relevant work experience and achievements
 - [ ] **Strengths Identification**: Identified key strengths and unique value proposition
@@ -59,6 +64,7 @@
 - [ ] **Non-Negotiables**: Identified deal-breakers and non-negotiables
 
 ### Story Preparation
+
 - [ ] **Career Narrative**: Developed compelling career story and narrative
 - [ ] **Key Achievements**: Prepared specific examples of key achievements
 - [ ] **Challenge Stories**: Developed stories about overcoming challenges
@@ -71,6 +77,7 @@
 - [ ] **Impact Stories**: Developed stories showing impact and results
 
 ### Technical Preparation
+
 - [ ] **Technical Skills**: Reviewed and practiced technical skills
 - [ ] **Portfolio Review**: Updated and reviewed portfolio or work samples
 - [ ] **Code Samples**: Prepared code samples or technical work examples
@@ -85,6 +92,7 @@
 ## Interview Strategy
 
 ### Question Preparation
+
 - [ ] **Common Questions**: Prepared responses to common interview questions
 - [ ] **Behavioral Questions**: Developed STAR method responses for behavioral questions
 - [ ] **Technical Questions**: Prepared for technical and problem-solving questions
@@ -97,6 +105,7 @@
 - [ ] **Company Questions**: Developed thoughtful questions about the company
 
 ### Questions to Ask
+
 - [ ] **Role Questions**: Prepared questions about the specific role and responsibilities
 - [ ] **Team Questions**: Developed questions about team structure and dynamics
 - [ ] **Project Questions**: Prepared questions about current and future projects
@@ -109,6 +118,7 @@
 - [ ] **Follow-up Questions**: Developed questions based on interview conversation
 
 ### Interview Approach
+
 - [ ] **First Impression**: Planned strong first impression and introduction
 - [ ] **Body Language**: Practiced confident and professional body language
 - [ ] **Communication Style**: Developed clear and concise communication style
@@ -123,6 +133,7 @@
 ## Logistics and Practical Preparation
 
 ### Interview Logistics
+
 - [ ] **Interview Format**: Confirmed interview format (phone, video, in-person)
 - [ ] **Location**: Confirmed interview location and directions
 - [ ] **Time**: Confirmed interview time and timezone
@@ -135,6 +146,7 @@
 - [ ] **Emergency Contact**: Had emergency contact information available
 
 ### Technology Preparation
+
 - [ ] **Video Platform**: Tested video conferencing platform and settings
 - [ ] **Internet Connection**: Ensured stable internet connection
 - [ ] **Audio/Video**: Tested microphone and camera functionality
@@ -147,6 +159,7 @@
 - [ ] **Technical Support**: Had technical support contact information
 
 ### Materials Preparation
+
 - [ ] **Resume Copies**: Had multiple copies of updated resume
 - [ ] **Portfolio**: Prepared portfolio or work samples if relevant
 - [ ] **References**: Had reference list ready if requested
@@ -161,6 +174,7 @@
 ## Mental and Physical Preparation
 
 ### Mental Preparation
+
 - [ ] **Mindset**: Developed positive and confident mindset
 - [ ] **Visualization**: Practiced visualization of successful interview
 - [ ] **Stress Management**: Developed stress management techniques
@@ -173,6 +187,7 @@
 - [ ] **Focus**: Practiced maintaining focus and concentration
 
 ### Physical Preparation
+
 - [ ] **Sleep**: Ensured adequate sleep the night before
 - [ ] **Nutrition**: Planned healthy meals and snacks
 - [ ] **Exercise**: Included light exercise for energy and focus
@@ -187,6 +202,7 @@
 ## Mock Interview Practice
 
 ### Practice Sessions
+
 - [ ] **Mock Interviews**: Conducted multiple mock interview sessions
 - [ ] **Question Practice**: Practiced responses to common questions
 - [ ] **Timing**: Practiced timing and pacing of responses
@@ -199,6 +215,7 @@
 - [ ] **Follow-up**: Practiced post-interview follow-up
 
 ### Feedback and Improvement
+
 - [ ] **Video Recording**: Recorded practice sessions for review
 - [ ] **Self-Assessment**: Conducted honest self-assessment of performance
 - [ ] **Feedback Collection**: Collected feedback from practice partners
@@ -213,6 +230,7 @@
 ## Post-Interview Preparation
 
 ### Immediate Actions
+
 - [ ] **Thank You Notes**: Prepared thank you note templates
 - [ ] **Follow-up Strategy**: Developed follow-up strategy and timeline
 - [ ] **Next Steps**: Understood expected next steps in process
@@ -225,6 +243,7 @@
 - [ ] **Decision Factors**: Identified key factors for decision making
 
 ### Long-term Preparation
+
 - [ ] **Multiple Opportunities**: Continued pursuing multiple opportunities
 - [ ] **Skill Development**: Continued developing relevant skills
 - [ ] **Network Building**: Continued building professional network
@@ -239,6 +258,7 @@
 ## Success Metrics
 
 ### Interview Performance
+
 - [ ] **Confidence Level**: Maintained high confidence throughout interview
 - [ ] **Communication**: Communicated clearly and effectively
 - [ ] **Engagement**: Actively engaged with interviewers
@@ -251,6 +271,7 @@
 - [ ] **Follow-up**: Completed appropriate follow-up actions
 
 ### Outcome Tracking
+
 - [ ] **Interview Invitations**: Tracked interview invitation success rate
 - [ ] **Interview Performance**: Monitored interview performance feedback
 - [ ] **Offer Rate**: Tracked job offer success rate

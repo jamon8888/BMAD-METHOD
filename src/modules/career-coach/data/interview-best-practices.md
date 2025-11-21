@@ -1,6 +1,7 @@
 # Interview Best Practices Data
 
 ## Data Information
+
 - **Data Type:** Interview Best Practices and Professional Guidelines
 - **Agent:** interview-coach
 - **Task:** interview-preparation.md, conduct-mock-interview.md, interview-feedback.md
@@ -9,6 +10,7 @@
 ## Pre-Interview Best Practices
 
 ### Research and Preparation
+
 - **Company Research**
   - Research company history, mission, values, and culture
   - Review recent news, earnings reports, and company developments
@@ -31,6 +33,7 @@
   - Prepare thoughtful questions to ask interviewers
 
 ### Logistics and Planning
+
 - **Interview Logistics**
   - Confirm interview time, location, and format
   - Plan transportation and arrival time (10-15 minutes early)
@@ -48,6 +51,7 @@
 ## Interview Execution Best Practices
 
 ### First Impression
+
 - **Professional Appearance**
   - Dress appropriately for the company culture and role
   - Maintain good posture and confident body language
@@ -63,6 +67,7 @@
   - Demonstrate enthusiasm and interest
 
 ### Question Handling
+
 - **Response Structure**
   - Use the STAR method for behavioral questions
   - Provide specific examples and quantifiable results
@@ -78,6 +83,7 @@
   - Demonstrate relevant skills and competencies
 
 ### Questions to Ask
+
 - **Role-Specific Questions**
   - "What are the key responsibilities and expectations for this role?"
   - "What does success look like in this position?"
@@ -99,6 +105,7 @@
 ## Technical Interview Best Practices
 
 ### Problem-Solving Approach
+
 - **Clarification**
   - Ask clarifying questions to understand requirements
   - Confirm assumptions and constraints
@@ -118,6 +125,7 @@
   - Show willingness to learn and improve
 
 ### Code Quality
+
 - **Clean Code**
   - Write readable and well-structured code
   - Use meaningful variable and function names
@@ -131,6 +139,7 @@
   - Show attention to detail and quality
 
 ### System Design
+
 - **Requirements Analysis**
   - Clarify functional and non-functional requirements
   - Identify scale, performance, and reliability needs
@@ -146,6 +155,7 @@
 ## Behavioral Interview Best Practices
 
 ### STAR Method Implementation
+
 - **Situation (10-20% of response)**
   - Set clear context and background
   - Include relevant details about timing and scope
@@ -171,6 +181,7 @@
   - Demonstrate value and contribution
 
 ### Story Development
+
 - **Achievement Stories**
   - Focus on significant accomplishments and results
   - Include quantifiable metrics and outcomes
@@ -192,6 +203,7 @@
 ## Post-Interview Best Practices
 
 ### Immediate Actions
+
 - **Thank You Notes**
   - Send personalized thank you notes within 24 hours
   - Reference specific points from the interview
@@ -205,6 +217,7 @@
   - Maintain professional communication
 
 ### Reflection and Learning
+
 - **Self-Assessment**
   - Reflect on interview performance honestly
   - Identify strengths and areas for improvement
@@ -220,6 +233,7 @@
 ## Professional Etiquette
 
 ### Communication Standards
+
 - **Professional Language**
   - Use appropriate and respectful language
   - Avoid slang, jargon, or inappropriate comments
@@ -233,6 +247,7 @@
   - Respond appropriately to feedback
 
 ### Body Language
+
 - **Confident Posture**
   - Maintain good posture and eye contact
   - Use appropriate hand gestures
@@ -248,6 +263,7 @@
 ## Industry-Specific Best Practices
 
 ### Technology Industry
+
 - **Technical Communication**
   - Explain technical concepts clearly to non-technical audiences
   - Show understanding of current technologies and trends
@@ -261,6 +277,7 @@
   - Show attention to code quality and best practices
 
 ### Business and Finance
+
 - **Analytical Skills**
   - Show strong analytical and quantitative skills
   - Demonstrate understanding of business concepts
@@ -274,6 +291,7 @@
   - Demonstrate professionalism and trustworthiness
 
 ### Healthcare
+
 - **Patient Care**
   - Show understanding of patient care and safety
   - Demonstrate knowledge of healthcare regulations
@@ -289,6 +307,7 @@
 ## Common Mistakes to Avoid
 
 ### Preparation Mistakes
+
 - **Lack of Research**
   - Not researching the company or role
   - Not preparing specific examples and stories
@@ -302,6 +321,7 @@
   - Not bringing necessary materials
 
 ### Interview Mistakes
+
 - **Poor Communication**
   - Speaking too quickly or unclearly
   - Not listening to questions carefully
@@ -315,6 +335,7 @@
   - Not following up appropriately
 
 ### Technical Interview Mistakes
+
 - **Poor Problem-Solving**
   - Not asking clarifying questions
   - Jumping to solutions without planning
@@ -330,6 +351,7 @@
 ## Success Metrics and Evaluation
 
 ### Interview Performance Indicators
+
 - **Communication Effectiveness**
   - Clear and concise responses
   - Appropriate level of detail
@@ -349,6 +371,7 @@
   - Enthusiasm and motivation
 
 ### Continuous Improvement
+
 - **Skill Development**
   - Regular practice and preparation
   - Learning from feedback and experiences
@@ -364,6 +387,7 @@
 ## Professional Development
 
 ### Long-term Success
+
 - **Career Planning**
   - Setting clear career goals and objectives
   - Developing relevant skills and competencies
@@ -377,6 +401,7 @@
   - Participating in professional communities
 
 ### Networking and Relationships
+
 - **Professional Network**
   - Building and maintaining professional relationships
   - Participating in industry events and groups

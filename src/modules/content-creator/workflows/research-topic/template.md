@@ -33,9 +33,11 @@
 ## Unique Angles & Insights
 
 ### [Angle 1: Title]
+
 [Description of unique perspective]
 
 ### [Angle 2: Title]
+
 [Description of counterintuitive finding]
 
 [2-3 unique angles]
@@ -60,15 +62,18 @@
 ## Content Recommendations
 
 **Recommended Focus:**
+
 - [Focus area 1]
 - [Focus area 2]
 - [Focus area 3]
 
 **Audience Considerations:**
+
 - [Consideration 1]
 - [Consideration 2]
 
 **Potential Controversies:**
+
 - [Controversy or debate to address]
 
 ---

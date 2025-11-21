@@ -6,7 +6,6 @@ default_selected: false # This module will not be selected by default for new in
 
 header: "Deep Research Module"
 subheader: "Enterprise-grade research with multi-source verification and citation tracking."
-
 # Variables from Core Config inserted:
 ## user_name
 ## communication_language

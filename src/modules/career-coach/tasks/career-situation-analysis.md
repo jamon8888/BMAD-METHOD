@@ -47,36 +47,42 @@ If career context has not been provided, ask the user to provide their current j
 ## Analysis Focus Areas
 
 ### Current Position Assessment
+
 - **Role Analysis** - What are your current responsibilities and scope?
 - **Performance Evaluation** - How are you performing in your current role?
 - **Skill Utilization** - Are you using your full range of skills?
 - **Growth Opportunities** - What learning and development opportunities exist?
 
 ### Market Position Analysis
+
 - **Compensation Benchmarking** - How does your compensation compare to market?
 - **Skill Marketability** - How valuable are your skills in the current market?
 - **Industry Trends** - How is your industry evolving?
 - **Geographic Considerations** - How does location affect your market position?
 
 ### Opportunity Identification
+
 - **Internal Opportunities** - What advancement opportunities exist within your organization?
 - **External Opportunities** - What roles are available in the broader market?
 - **Skill Development** - What skills would increase your market value?
 - **Network Opportunities** - Who could help advance your career?
 
 ### Risk Assessment
+
 - **Job Security** - How stable is your current position?
 - **Industry Risks** - What threats exist to your industry or role?
 - **Skill Obsolescence** - Are your skills becoming outdated?
 - **Market Competition** - How competitive is your field?
 
 ### Satisfaction Evaluation
+
 - **Work-Life Balance** - How satisfied are you with your work-life balance?
 - **Career Alignment** - How well does your current role align with your goals?
 - **Company Culture** - How well do you fit with your organization's culture?
 - **Compensation Satisfaction** - Are you satisfied with your compensation?
 
 ### Competitive Analysis
+
 - **Peer Comparison** - How do you compare to colleagues and peers?
 - **Industry Standards** - How do you measure against industry benchmarks?
 - **Unique Value Proposition** - What makes you stand out?

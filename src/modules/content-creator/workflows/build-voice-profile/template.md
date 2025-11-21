@@ -15,6 +15,7 @@
 **Voice Type:** [e.g., "Conversational Expert", "Data-Driven Storyteller", "Professional Educator"]
 
 **Best Described As:**
+
 - [Characteristic 1]
 - [Characteristic 2]
 - [Characteristic 3]
@@ -24,6 +25,7 @@
 ## Voice Characteristics
 
 ### Sentence Structure
+
 - **Average Length:** [X] words per sentence
 - **Length Range:** [Min]-[Max] words
 - **Variance:** [Consistent/Varied/Highly Varied]
@@ -34,6 +36,7 @@
 - **Rhythm:** [Choppy/Flowing/Varied/Dynamic]
 
 ### Vocabulary Profile
+
 - **Sophistication Level:** [X]/10
 - **Lexical Diversity:** [Low/Medium/High]
 - **Technical Jargon:** [Rare/Occasional/Frequent]
@@ -44,6 +47,7 @@
   - "[Phrase 2]"
 
 ### Tone & Personality
+
 - **Formality Level:** [X]/10 ([Very Casual/Conversational/Professional/Formal])
 - **Personality Traits:**
   - Authoritative: [Low/Medium/High]
@@ -57,6 +61,7 @@
   - Vulnerability: [Reserved/Selective/Open]
 
 ### Perspective & Voice
+
 - **First Person (I/we):** [X]%
 - **Second Person (you):** [X]%
 - **Third Person:** [X]%
@@ -64,6 +69,7 @@
 - **Passive Voice:** [X]%
 
 ### Structural Patterns
+
 - **Paragraph Length:** [X] sentences average
 - **Opening Style:** [Description]
 - **Body Organization:** [Linear/Thematic/Narrative/Mix]
@@ -72,6 +78,7 @@
 - **List Preference:** [Bullets/Numbers/Both]
 
 ### Rhetorical Devices
+
 - **Storytelling:** [Rare/Occasional/Frequent]
 - **Personal Anecdotes:** [Never/Rare/Sometimes/Often]
 - **Data/Statistics:** [Rare/Occasional/Frequent]
@@ -86,21 +93,25 @@
 ### DO: Core Voice Elements
 
 **Sentence Construction:**
+
 1. [Guideline 1]
 2. [Guideline 2]
 3. [Guideline 3]
 
 **Word Choice:**
+
 1. [Guideline 1]
 2. [Guideline 2]
 3. [Guideline 3]
 
 **Tone Management:**
+
 1. [Guideline 1]
 2. [Guideline 2]
 3. [Guideline 3]
 
 **Structure & Flow:**
+
 1. [Guideline 1]
 2. [Guideline 2]
 3. [Guideline 3]
@@ -108,11 +119,13 @@
 ### DON'T: Voice Violations
 
 **Avoid:**
+
 - [Anti-pattern 1]
 - [Anti-pattern 2]
 - [Anti-pattern 3]
 
 **Words/Phrases to Avoid:**
+
 - [Word/phrase 1] - Use [alternative] instead
 - [Word/phrase 2] - Use [alternative] instead
 
@@ -129,6 +142,7 @@
 [Same content in authentic voice]
 
 **Voice Elements Applied:**
+
 - [Element 1]
 - [Element 2]
 - [Element 3]
@@ -144,6 +158,7 @@
 [Same content in authentic voice]
 
 **Voice Elements Applied:**
+
 - [Element 1]
 - [Element 2]
 
@@ -158,6 +173,7 @@
 [Same content in authentic voice]
 
 **Voice Elements Applied:**
+
 - [Element 1]
 - [Element 2]
 
@@ -166,34 +182,43 @@
 ## Platform Adaptations
 
 ### Blog/Website
+
 **Voice Adjustments:**
+
 - [Adjustment 1]
 - [Adjustment 2]
-**Example Opening:** "[Example first paragraph]"
+  **Example Opening:** "[Example first paragraph]"
 
 ### LinkedIn
+
 **Voice Adjustments:**
+
 - [Adjustment 1]
 - [Adjustment 2]
-**Example Opening:** "[Example LinkedIn hook]"
+  **Example Opening:** "[Example LinkedIn hook]"
 
 ### Newsletter
+
 **Voice Adjustments:**
+
 - [Adjustment 1]
 - [Adjustment 2]
-**Example Opening:** "[Example newsletter greeting]"
+  **Example Opening:** "[Example newsletter greeting]"
 
 ### Twitter/Social
+
 **Voice Adjustments:**
+
 - [Adjustment 1]
 - [Adjustment 2]
-**Example Post:** "[Example tweet]"
+  **Example Post:** "[Example tweet]"
 
 ---
 
 ## Content Templates
 
 ### Introduction Template
+
 ```
 [Hook pattern]
 
@@ -203,6 +228,7 @@
 ```
 
 ### Body Paragraph Template
+
 ```
 [Topic sentence pattern]
 
@@ -214,6 +240,7 @@
 ```
 
 ### Conclusion Template
+
 ```
 [Summary pattern]
 
@@ -229,6 +256,7 @@
 **Similarity Score:** [X]/100
 
 **Validation Results:**
+
 - ✅ Sentence structure matches
 - ✅ Vocabulary level appropriate
 - ✅ Tone consistent
@@ -239,6 +267,7 @@
 [Paragraph generated using this profile]
 
 **User Feedback:**
+
 - What works: [Feedback]
 - What to adjust: [Feedback]
 - Overall rating: [X]/10
@@ -250,6 +279,7 @@
 ### Activating This Profile
 
 When requesting content creation:
+
 ```
 Use my [profile-name] voice profile for this content.
 Profile: {default_output_file}
@@ -258,6 +288,7 @@ Profile: {default_output_file}
 ### Profile Switching
 
 To switch between profiles:
+
 ```
 Switch to [profile-name] voice profile
 ```
@@ -265,6 +296,7 @@ Switch to [profile-name] voice profile
 ### Profile Updates
 
 To update profile with new samples:
+
 ```
 *train-voice
 Select profile: [profile-name]
@@ -278,12 +310,14 @@ Add new samples: [paths or paste]
 **Next Review Date:** [3 months from creation]
 
 **Update Triggers:**
+
 - Significant voice evolution
 - New content types added
 - Platform expansion
 - User dissatisfaction with output
 
 **Update Process:**
+
 1. Add new writing samples to {writing_examples}
 2. Run `*build-voice-profile` again
 3. Compare old vs new profile
@@ -294,11 +328,13 @@ Add new samples: [paths or paste]
 ## Analysis Data
 
 **Samples Analyzed:**
+
 1. [Sample 1 title/source] - [word count] words
 2. [Sample 2 title/source] - [word count] words
 3. [Sample 3 title/source] - [word count] words
 
 **Total Analysis:**
+
 - Total words: [X]
 - Total sentences: [X]
 - Total paragraphs: [X]
@@ -310,6 +346,7 @@ Add new samples: [paths or paste]
 ## Quick Reference
 
 **Top 5 Voice Characteristics:**
+
 1. [Characteristic 1]
 2. [Characteristic 2]
 3. [Characteristic 3]
@@ -320,11 +357,13 @@ Add new samples: [paths or paste]
 [Single sentence capturing entire voice]
 
 **Key Do's:**
+
 - [Do 1]
 - [Do 2]
 - [Do 3]
 
 **Key Don'ts:**
+
 - [Don't 1]
 - [Don't 2]
 - [Don't 3]

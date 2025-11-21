@@ -39,22 +39,26 @@ Built for marketing teams, agencies, and growth-focused businesses who need prof
 ### 13 Guided Workflows
 
 **Brand & Strategy**
+
 - **Brand Strategy Development** - Complete brand positioning and messaging framework
 - **Brand Analysis** - Comprehensive brand audit and competitive assessment
 - **Brand Launch** - Multi-channel brand launch campaign planning
 - **Content Calendar** - Strategic content planning with themes and distribution
 
 **Performance Marketing**
+
 - **Campaign Planning** - Comprehensive paid campaign strategy
 - **Campaign Optimization** - Performance analysis and improvement recommendations
 - **Budget Planning** - Strategic budget allocation across channels
 
 **Analytics & Insights**
+
 - **Analytics Report** - Comprehensive performance reporting with insights
 - **Attribution Modeling** - Multi-touch attribution setup and analysis
 - **Dashboard Setup** - Performance dashboard design and configuration
 
 **Creative & Design**
+
 - **Design Brief** - Detailed creative project brief creation
 - **Landing Page Design** - Conversion-optimized landing page development
 - **Email Design** - Email marketing template creation
@@ -62,6 +66,7 @@ Built for marketing teams, agencies, and growth-focused businesses who need prof
 ### 20 Specialized Tasks
 
 **Brand Tasks**
+
 - Competitive Research & Analysis
 - Brand Audit & Assessment
 - Content Strategy Development
@@ -69,6 +74,7 @@ Built for marketing teams, agencies, and growth-focused businesses who need prof
 - Brand Design System
 
 **Performance Marketing Tasks**
+
 - Audience Segmentation & Targeting
 - Multi-Channel Strategy Development
 - Bid Strategy Optimization
@@ -76,6 +82,7 @@ Built for marketing teams, agencies, and growth-focused businesses who need prof
 - Attribution Tracking Setup
 
 **Analytics Tasks**
+
 - Marketing Data Analysis
 - Funnel Analysis
 - ROI & ROAS Analysis
@@ -85,6 +92,7 @@ Built for marketing teams, agencies, and growth-focused businesses who need prof
 - Predictive Analytics & Forecasting
 
 **Creative Tasks**
+
 - Social Media Creative Design
 - Paid Ad Creative Development
 - Mobile Design Optimization
@@ -101,6 +109,7 @@ npx bmad-method@alpha install
 ### First Steps
 
 1. **Load an Agent**
+
    ```
    Load Sofia (Brand Marketer) or Marcus (Media Buyer)
    ```
@@ -157,6 +166,7 @@ npx bmad-method@alpha install
 ### Sofia (Brand Marketer)
 
 **Triggers:**
+
 - `*brand-analysis` - Comprehensive brand analysis
 - `*brand-strategy` - Develop complete brand strategy
 - `*content-calendar` - Create strategic content calendar
@@ -170,6 +180,7 @@ npx bmad-method@alpha install
 ### Marcus (Media Buyer)
 
 **Triggers:**
+
 - `*campaign-plan` - Create comprehensive campaign plan
 - `*campaign-optimize` - Optimize campaign performance
 - `*budget-planning` - Strategic budget allocation
@@ -183,6 +194,7 @@ npx bmad-method@alpha install
 ### Elena (Marketing Analyst)
 
 **Triggers:**
+
 - `*analytics-report` - Generate comprehensive analytics report
 - `*attribution-modeling` - Build attribution model
 - `*dashboard-setup` - Create performance dashboards
@@ -198,6 +210,7 @@ npx bmad-method@alpha install
 ### Maya (Marketing Designer)
 
 **Triggers:**
+
 - `*design-brief` - Create comprehensive design brief
 - `*landing-page-design` - Design landing page
 - `*email-design` - Create email templates
@@ -213,7 +226,9 @@ npx bmad-method@alpha install
 The Marketing Ops module includes pre-configured team bundles for different marketing scenarios:
 
 ### Complete Marketing Team (marketing-team.yaml)
+
 **All 4 agents working together** for comprehensive marketing operations
+
 - Sofia (Brand Marketer)
 - Marcus (Media Buyer)
 - Elena (Marketing Analyst)
@@ -222,7 +237,9 @@ The Marketing Ops module includes pre-configured team bundles for different mark
 **Best for:** End-to-end marketing programs, brand launches, major campaigns
 
 ### Brand & Creative Team (brand-creative-team.yaml)
+
 **Sofia + Maya** for brand building and creative excellence
+
 - Brand strategy and positioning
 - Content planning and creative execution
 - Design system development
@@ -230,7 +247,9 @@ The Marketing Ops module includes pre-configured team bundles for different mark
 **Best for:** Brand development, content creation, visual identity projects
 
 ### Performance Marketing Team (performance-team.yaml)
+
 **Marcus + Elena** for data-driven performance optimization
+
 - Campaign planning and execution
 - Analytics and attribution modeling
 - ROI optimization and forecasting
@@ -238,7 +257,9 @@ The Marketing Ops module includes pre-configured team bundles for different mark
 **Best for:** Paid media campaigns, conversion optimization, growth initiatives
 
 ### Campaign Execution Team (campaign-team.yaml)
+
 **Marcus + Maya + Elena** for full campaign lifecycle
+
 - Media buying and channel strategy
 - Creative production and testing
 - Performance tracking and optimization
@@ -246,7 +267,9 @@ The Marketing Ops module includes pre-configured team bundles for different mark
 **Best for:** Multi-channel campaigns, product launches, seasonal promotions
 
 ### Marketing Strategy Team (strategy-team.yaml)
+
 **Sofia + Elena** for strategic planning and insights
+
 - Brand positioning and competitive analysis
 - Market research and customer insights
 - Data-driven strategic recommendations
@@ -264,6 +287,7 @@ Teams enable multi-agent collaboration through party mode. Each agent can still 
 ## 🎯 Use Cases
 
 ### For Marketing Teams
+
 - Streamline campaign planning and execution
 - Standardize marketing operations
 - Improve data-driven decision making
@@ -271,6 +295,7 @@ Teams enable multi-agent collaboration through party mode. Each agent can still 
 - Measure and optimize ROI
 
 ### For Agencies
+
 - Deliver consistent client work
 - Accelerate strategy development
 - Provide comprehensive reporting
@@ -278,6 +303,7 @@ Teams enable multi-agent collaboration through party mode. Each agent can still 
 - Demonstrate clear value and ROI
 
 ### For Growth Teams
+
 - Launch new brands and products
 - Optimize acquisition channels
 - Improve conversion funnels
@@ -285,6 +311,7 @@ Teams enable multi-agent collaboration through party mode. Each agent can still 
 - Build data-driven marketing systems
 
 ### For Solo Marketers
+
 - Access team-level capabilities solo
 - Professional-grade deliverables
 - Data analysis without data science team
@@ -294,24 +321,28 @@ Teams enable multi-agent collaboration through party mode. Each agent can still 
 ## 📊 Key Features
 
 ### Strategic Planning
+
 - Brand positioning and messaging frameworks
 - Multi-channel campaign strategies
 - Budget allocation optimization
 - Competitive analysis and insights
 
 ### Performance Optimization
+
 - Campaign performance analysis
 - A/B testing design and analysis
 - Bid strategy optimization
 - Conversion funnel optimization
 
 ### Data & Analytics
+
 - Comprehensive performance reporting
 - Multi-touch attribution modeling
 - Customer segmentation and cohort analysis
 - Predictive analytics and forecasting
 
 ### Creative Production
+
 - Design brief development
 - Platform-specific creative requirements
 - Mobile optimization guidelines
@@ -392,6 +423,7 @@ src/modules/marketing-ops/
 ## 🤝 Integration with Other Modules
 
 Marketing Ops works great with:
+
 - **Content Creator**: For content writing and multi-platform publishing
 - **ClaudeCode Writer**: For marketing automation scripts
 - **Product Management**: For go-to-market planning
@@ -399,6 +431,7 @@ Marketing Ops works great with:
 ## 📈 Success Metrics
 
 After implementing Marketing Ops, track:
+
 - Time saved on strategic planning (typical: 10-20 hours/month)
 - Consistency of marketing deliverables (all follow best practices)
 - Data-driven decision making (insights → action)
@@ -414,6 +447,7 @@ After implementing Marketing Ops, track:
 ## 📝 Changelog
 
 ### v1.0.0 (Initial Release)
+
 - 4 specialized marketing agents
 - 13 comprehensive workflows
 - 20 specialized tasks

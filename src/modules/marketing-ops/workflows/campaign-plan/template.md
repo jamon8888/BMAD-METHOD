@@ -17,14 +17,14 @@
 
 ### 1.1 Campaign Basics
 
-| Attribute | Details |
-|-----------|---------|
-| **Campaign Name** | {{campaign_name}} |
-| **Campaign Type** | {{campaign_type}} |
-| **Business Type** | {{business_type}} |
-| **Duration** | {{start_date}} to {{end_date}} ({{duration_weeks}} weeks) |
-| **Total Budget** | {{total_budget}} |
-| **Primary Goal** | {{primary_goal}} |
+| Attribute         | Details                                                   |
+| ----------------- | --------------------------------------------------------- |
+| **Campaign Name** | {{campaign_name}}                                         |
+| **Campaign Type** | {{campaign_type}}                                         |
+| **Business Type** | {{business_type}}                                         |
+| **Duration**      | {{start_date}} to {{end_date}} ({{duration_weeks}} weeks) |
+| **Total Budget**  | {{total_budget}}                                          |
+| **Primary Goal**  | {{primary_goal}}                                          |
 
 ### 1.2 Campaign Objectives
 
@@ -33,12 +33,14 @@
 
 **Secondary Objectives**
 {{#each secondary_objectives}}
+
 - {{objective}}
-{{/each}}
+  {{/each}}
 
 ### 1.3 Success Metrics
 
 **Primary KPI**
+
 - **Metric**: {{primary_kpi}}
 - **Target**: {{primary_kpi_target}}
 - **Minimum Acceptable**: {{primary_kpi_minimum}}
@@ -60,9 +62,11 @@
 ### 2.1 Primary Audience Segments
 
 {{#each audience_segments}}
+
 #### Segment {{number}}: {{segment_name}}
 
 **Demographics**
+
 - Age: {{age_range}}
 - Gender: {{gender}}
 - Location: {{location}}
@@ -70,12 +74,14 @@
 - Education: {{education}}
 
 **Psychographics**
+
 - Interests: {{interests}}
 - Values: {{values}}
 - Lifestyle: {{lifestyle}}
 - Pain Points: {{pain_points}}
 
 **Behavioral**
+
 - Online Behavior: {{online_behavior}}
 - Purchase Behavior: {{purchase_behavior}}
 - Device Usage: {{device_usage}}
@@ -83,22 +89,26 @@
 
 **Platform Targeting**
 {{#each platform_targeting}}
+
 - **{{platform}}**: {{targeting_criteria}}
-{{/each}}
+  {{/each}}
 
 **Budget Allocation**: {{budget_percentage}}% ({{budget_amount}})
 **Expected Performance**:
+
 - Estimated Reach: {{estimated_reach}}
 - Expected CAC: {{expected_cac}}
 - Projected ROAS: {{projected_roas}}
 
 ---
+
 {{/each}}
 
 ### 2.2 Audience Prioritization
 
 | Segment | Priority | Budget % | Rationale |
-|---------|----------|----------|-----------|
+| ------- | -------- | -------- | --------- |
+
 {{#each audience_priority}}
 | {{segment}} | {{priority}} | {{budget_pct}} | {{rationale}} |
 {{/each}}
@@ -112,6 +122,7 @@
 **Total Budget**: {{total_budget}}
 
 {{#each channels}}
+
 ### {{channel_name}}
 
 **Budget Allocation**: {{budget_percentage}}% ({{budget_amount}})
@@ -123,13 +134,15 @@
 
 **Specific Tactics**
 {{#each tactics}}
+
 - **{{tactic_name}}**: {{tactic_description}}
-{{/each}}
+  {{/each}}
 
 **Ad Formats**
 {{#each ad_formats}}
+
 - {{format}}: {{usage_strategy}}
-{{/each}}
+  {{/each}}
 
 **Targeting Approach**
 {{targeting_approach}}
@@ -139,16 +152,19 @@
 
 **Success Metrics**
 {{#each success_metrics}}
+
 - {{metric}}: {{target}}
-{{/each}}
+  {{/each}}
 
 ---
+
 {{/each}}
 
 ### 3.2 Budget Allocation Summary
 
 | Channel | Budget | % of Total | Expected ROAS | Expected Conversions |
-|---------|--------|------------|---------------|---------------------|
+| ------- | ------ | ---------- | ------------- | -------------------- |
+
 {{#each budget_summary}}
 | {{channel}} | {{budget}} | {{percentage}} | {{expected_roas}} | {{expected_conversions}} |
 {{/each}}
@@ -165,8 +181,9 @@
 
 **Supporting Themes**
 {{#each supporting_themes}}
+
 - **{{theme_name}}**: {{theme_description}}
-{{/each}}
+  {{/each}}
 
 ### 4.2 Messaging Framework
 
@@ -179,6 +196,7 @@
 {{/each}}
 
 **Call-to-Action (CTA)**
+
 - Primary CTA: {{primary_cta}}
 - Secondary CTA: {{secondary_cta}}
 
@@ -199,36 +217,42 @@
 ### 4.4 Required Creative Assets
 
 {{#each creative_assets}}
+
 #### {{platform}}
 
 **Images**
 {{#each images}}
+
 - {{specification}}: {{quantity}} variations
-{{/each}}
+  {{/each}}
 
 **Videos**
 {{#each videos}}
+
 - {{length}}: {{quantity}} variations - {{content_description}}
-{{/each}}
+  {{/each}}
 
 **Copy**
 {{#each copy}}
+
 - {{type}}: {{character_limit}} chars - {{quantity}} variations
-{{/each}}
+  {{/each}}
 
 ---
+
 {{/each}}
 
 ### 4.5 A/B Testing Plan
 
 {{#each ab_tests}}
 **Test {{number}}: {{test_name}}**
+
 - **Element**: {{element_being_tested}}
 - **Variations**: {{variations}}
 - **Success Metric**: {{success_metric}}
 - **Sample Size Required**: {{sample_size}}
 - **Duration**: {{duration}}
-{{/each}}
+  {{/each}}
 
 ---
 
@@ -238,42 +262,49 @@
 
 **Week -4 to -3: Setup & Planning**
 {{#each pre_launch_setup}}
+
 - [ ] {{task}} (Owner: {{owner}}, Due: {{due_date}})
-{{/each}}
+      {{/each}}
 
 **Week -2 to -1: Creative Production & QA**
 {{#each pre_launch_production}}
+
 - [ ] {{task}} (Owner: {{owner}}, Due: {{due_date}})
-{{/each}}
+      {{/each}}
 
 **Launch Readiness Checklist**
 {{#each launch_checklist}}
+
 - [ ] {{item}}
-{{/each}}
+      {{/each}}
 
 ### 5.2 Launch Phase (Week 1)
 
 **Day 1-2: Campaign Activation**
 {{#each launch_day_1_2}}
+
 - [ ] {{task}} (Owner: {{owner}})
-{{/each}}
+      {{/each}}
 
 **Day 3-7: Close Monitoring & Rapid Iteration**
 {{#each launch_day_3_7}}
+
 - [ ] {{task}} (Owner: {{owner}})
-{{/each}}
+      {{/each}}
 
 ### 5.3 Optimization Phase (Week 2+)
 
 **Daily Actions**
 {{#each daily_actions}}
+
 - {{action}}
-{{/each}}
+  {{/each}}
 
 **Weekly Actions**
 {{#each weekly_actions}}
+
 - {{action}}
-{{/each}}
+  {{/each}}
 
 **Optimization Triggers**
 | Condition | Action |
@@ -296,10 +327,11 @@
 
 **Tracking Implementation**
 {{#each tracking_implementation}}
+
 - **{{platform}}**: {{tracking_method}}
   - Events: {{events}}
   - Values: {{values}}
-{{/each}}
+    {{/each}}
 
 **Tracking Validation**
 {{tracking_validation_plan}}
@@ -311,10 +343,12 @@
 
 **Secondary Attribution Views**
 {{#each secondary_attribution}}
+
 - {{model}}: {{use_case}}
-{{/each}}
+  {{/each}}
 
 **Attribution Window**
+
 - Click-through: {{click_attribution_window}}
 - View-through: {{view_attribution_window}}
 
@@ -322,18 +356,21 @@
 
 **Real-Time Dashboard Metrics**
 {{#each realtime_metrics}}
+
 - {{metric}}
-{{/each}}
+  {{/each}}
 
 **Daily Snapshot Metrics**
 {{#each daily_metrics}}
+
 - {{metric}}
-{{/each}}
+  {{/each}}
 
 **Weekly Review Metrics**
 {{#each weekly_metrics}}
+
 - {{metric}}
-{{/each}}
+  {{/each}}
 
 **Reporting Cadence**
 | Report Type | Frequency | Audience | Contents |
@@ -353,8 +390,9 @@
 
 **Budget Reallocation Rules**
 {{#each reallocation_rules}}
+
 - **{{rule_name}}**: {{rule_description}}
-{{/each}}
+  {{/each}}
 
 ---
 
@@ -364,10 +402,11 @@
 
 {{#each risks}}
 **Risk {{number}}: {{risk_name}}**
+
 - **Likelihood**: {{likelihood}}
 - **Impact**: {{impact}}
 - **Mitigation**: {{mitigation_strategy}}
-{{/each}}
+  {{/each}}
 
 ### 7.2 Contingency Plans
 
@@ -383,9 +422,10 @@
 
 ### 8.1 Budget Breakdown
 
-| Category | Amount | % of Total |
-|----------|--------|------------|
-| **Media Spend** | | |
+| Category        | Amount | % of Total |
+| --------------- | ------ | ---------- |
+| **Media Spend** |        |            |
+
 {{#each media_budget}}
 | {{channel}} | {{amount}} | {{percentage}} |
 {{/each}}
@@ -398,16 +438,19 @@
 ### 8.2 ROI Projections
 
 **Conservative Scenario**
+
 - Projected Revenue: {{conservative_revenue}}
 - ROAS: {{conservative_roas}}
 - Total Conversions: {{conservative_conversions}}
 
 **Expected Scenario**
+
 - Projected Revenue: {{expected_revenue}}
 - ROAS: {{expected_roas}}
 - Total Conversions: {{expected_conversions}}
 
 **Optimistic Scenario**
+
 - Projected Revenue: {{optimistic_revenue}}
 - ROAS: {{optimistic_roas}}
 - Total Conversions: {{optimistic_conversions}}
@@ -417,18 +460,23 @@
 ## Appendices
 
 ### A. Detailed Targeting Parameters
+
 {{detailed_targeting}}
 
 ### B. Creative Briefs
+
 {{creative_briefs}}
 
 ### C. Landing Page Requirements
+
 {{landing_page_requirements}}
 
 ### D. Competitor Campaign Analysis
+
 {{competitor_analysis}}
 
 ### E. Historical Performance Data
+
 {{historical_performance}}
 
 ---

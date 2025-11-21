@@ -13,6 +13,7 @@ This workflow guides the creation of a complete campaign plan including audience
 **Objective**: Understand campaign goals, constraints, and success criteria
 
 **Actions**:
+
 - Define campaign name, type (awareness, consideration, conversion), and objectives
 - Establish budget, timeline, and resource constraints
 - Identify primary and secondary KPIs with target values
@@ -20,6 +21,7 @@ This workflow guides the creation of a complete campaign plan including audience
 - Clarify competitive context and market conditions
 
 **Elicitation Questions**:
+
 - "What is the campaign name and primary objective? (e.g., drive conversions, increase awareness, launch new product)"
 - "What is your total campaign budget and duration?"
 - "What are your target KPIs? (e.g., ROAS target, CAC target, conversion volume)"
@@ -32,6 +34,7 @@ This workflow guides the creation of a complete campaign plan including audience
 **Objective**: Create detailed audience segments with targeting criteria
 
 **Actions**:
+
 - Identify primary and secondary audience segments
 - Define demographics, psychographics, and behavioral characteristics
 - Determine audience size and accessibility across platforms
@@ -41,6 +44,7 @@ This workflow guides the creation of a complete campaign plan including audience
 **Use Task**: audience-analysis.xml
 
 **Key Outputs**:
+
 - 2-4 prioritized audience segments
 - Detailed targeting criteria per segment
 - Budget allocation by segment
@@ -51,6 +55,7 @@ This workflow guides the creation of a complete campaign plan including audience
 **Objective**: Select optimal marketing channels and allocate budget
 
 **Actions**:
+
 - Evaluate channel fit for objectives and audiences
 - Assess historical performance data if available
 - Consider channel-specific strengths and limitations
@@ -60,6 +65,7 @@ This workflow guides the creation of a complete campaign plan including audience
 **Use Task**: channel-strategy.xml
 
 **Channel Considerations**:
+
 - **Google Ads**: Search intent, high-intent keywords, shopping
 - **Facebook/Instagram**: Broad reach, detailed targeting, visual creative
 - **LinkedIn**: B2B, professional targeting, higher CPMs
@@ -72,6 +78,7 @@ This workflow guides the creation of a complete campaign plan including audience
 **Objective**: Define creative themes, messaging, and asset requirements
 
 **Actions**:
+
 - Develop creative themes aligned with campaign objectives
 - Create messaging hierarchy (primary message, supporting messages)
 - Define visual direction and brand alignment
@@ -79,6 +86,7 @@ This workflow guides the creation of a complete campaign plan including audience
 - Plan A/B testing variations for key creative elements
 
 **Creative Asset Planning**:
+
 - Image specifications and quantities by platform
 - Video lengths and formats (6s, 15s, 30s, 60s)
 - Copy variations (headlines, descriptions, CTAs)
@@ -90,6 +98,7 @@ This workflow guides the creation of a complete campaign plan including audience
 **Objective**: Map campaign execution with milestones and ownership
 
 **Actions**:
+
 - Define pre-launch tasks (setup, creative production, tracking)
 - Create launch checklist with technical requirements
 - Plan optimization schedule (daily, weekly monitoring)
@@ -97,6 +106,7 @@ This workflow guides the creation of a complete campaign plan including audience
 - Assign ownership for all tasks and decisions
 
 **Timeline Phases**:
+
 - **Pre-Launch (2-4 weeks)**: Account setup, creative production, tracking implementation, QA
 - **Launch (Week 1)**: Campaign activation, close monitoring, rapid iteration
 - **Optimization (Ongoing)**: Performance analysis, budget reallocation, creative refresh
@@ -107,6 +117,7 @@ This workflow guides the creation of a complete campaign plan including audience
 **Objective**: Establish tracking, attribution, and reporting structure
 
 **Actions**:
+
 - Set up conversion tracking across all platforms
 - Define attribution model (last-click, multi-touch, etc.)
 - Create reporting dashboard with real-time metrics
@@ -114,12 +125,14 @@ This workflow guides the creation of a complete campaign plan including audience
 - Set success criteria and failure thresholds
 
 **Measurement Setup**:
+
 - **Conversion Tracking**: Pixels, events, server-side tracking
 - **Attribution**: Primary attribution model + secondary views
 - **Dashboards**: Real-time performance, historical trends, segment analysis
 - **Reporting Cadence**: Daily snapshots, weekly reviews, monthly deep dives
 
 **Success Metrics**:
+
 - Primary KPI with target and minimum acceptable values
 - Secondary KPIs for full-funnel visibility
 - Platform-specific benchmarks
@@ -130,6 +143,7 @@ This workflow guides the creation of a complete campaign plan including audience
 **Objective**: Define budget pacing and optimization decision rules
 
 **Actions**:
+
 - Allocate budget across channels with rationale
 - Set daily/weekly pacing guidelines
 - Define optimization rules (when to increase/decrease/pause)
@@ -137,6 +151,7 @@ This workflow guides the creation of a complete campaign plan including audience
 - Plan budget reserve for top performers
 
 **Budget Allocation Example**:
+
 ```
 Total Budget: $50,000
 - Google Search: $20,000 (40%) - High intent, proven ROAS
@@ -146,6 +161,7 @@ Total Budget: $50,000
 ```
 
 **Optimization Rules**:
+
 - Increase budget: ROAS > 4x target for 3 consecutive days
 - Decrease budget: ROAS < 2x target for 2 consecutive days
 - Pause: ROAS < 1x target after optimization attempts
@@ -156,6 +172,7 @@ Total Budget: $50,000
 **Objective**: Create comprehensive campaign plan document
 
 **Actions**:
+
 - Use campaign-plan-tmpl.md template to structure output
 - Fill all sections with specific, actionable details
 - Include visual examples and mockups where helpful

@@ -5,13 +5,17 @@
 Every effective Perplexity prompt should include these fundamental components:
 
 ### 1. Clear Instruction
+
 What you want Perplexity to do. Be specific and actionable.
+
 - Use clear action verbs: analyze, summarize, compare, find, explain, list
 - State the desired outcome explicitly
 - Example: "Analyze the current trends in..." vs. "Tell me about..."
 
 ### 2. Relevant Context
+
 Background information to help Perplexity understand your needs.
+
 - Industry or field context
 - Why you're asking (use case)
 - Any assumptions or constraints
@@ -19,7 +23,9 @@ Background information to help Perplexity understand your needs.
 - Example: "For a product manager in the SaaS industry..."
 
 ### 3. Specific Input
+
 The subject, topic, or data to analyze.
+
 - Precise topic definition
 - Relevant time frames ("in the last 6 months")
 - Geographic or domain boundaries
@@ -27,7 +33,9 @@ The subject, topic, or data to analyze.
 - Example: "...sustainable packaging solutions for e-commerce..."
 
 ### 4. Key Keywords
+
 Important terms to focus the search.
+
 - 3-5 critical search terms
 - Industry-specific terminology
 - Alternative terms to consider
@@ -35,7 +43,9 @@ Important terms to focus the search.
 - Example: "Focus on: biodegradable materials, consumer adoption, cost analysis"
 
 ### 5. Output Format
+
 How results should be structured.
+
 - List, table, narrative, comparison matrix
 - Sections or categories needed
 - Level of detail per section
@@ -45,15 +55,18 @@ How results should be structured.
 ## Three Main Prompt Categories
 
 ### Informational Queries
+
 Gathering facts and current information.
 
 **Structure**:
+
 - Direct, specific questions
 - Request for real-time or current data
 - Multiple source verification
 - Citation requirements
 
 **Example**:
+
 ```
 Find the top 5 emerging trends in AI-powered customer service for 2025.
 Focus on technologies being adopted by Fortune 500 companies. Include
@@ -62,15 +75,18 @@ with trend name, description, key adopters, and potential impact.
 ```
 
 ### Instructional Prompts
+
 Step-by-step guidance and how-tos.
 
 **Structure**:
+
 - Clear goal statement
 - Specific scenario or context
 - Desired outcome definition
 - Step-by-step format request
 
 **Example**:
+
 ```
 As an expert product manager, explain how to conduct effective user
 research for a new mobile app. Include the process from planning through
@@ -79,15 +95,18 @@ as numbered steps with practical examples.
 ```
 
 ### Interactive Prompts
+
 Expert consultation and role-based conversations.
 
 **Structure**:
+
 - Define expert persona
 - Provide scenario details
 - Ask for analysis or recommendations
 - Request specific deliverable
 
 **Example**:
+
 ```
 As a financial analyst specializing in tech startups, analyze the
 current state of the AI infrastructure market. Compare the top 3
@@ -99,9 +118,11 @@ and market share statistics.
 ## Professional Applications
 
 ### Education
+
 **Use Case**: Curriculum research, learning resources, topic exploration
 
 **Template**:
+
 ```
 For [education level/subject area], research [specific topic].
 Find [number] of high-quality learning resources including
@@ -111,9 +132,11 @@ and URLs for each resource.
 ```
 
 ### Product Management
+
 **Use Case**: Market research, user needs, competitive analysis
 
 **Template**:
+
 ```
 Research [product/market space] for [target audience]. Identify
 current market leaders, emerging competitors, and user pain points.
@@ -123,9 +146,11 @@ Present as competitive analysis matrix.
 ```
 
 ### Financial Analysis
+
 **Use Case**: Market trends, company research, economic indicators
 
 **Template**:
+
 ```
 Analyze [company/market/sector] financial performance and outlook.
 Include recent [specific metrics: revenue growth, market cap, key
@@ -135,9 +160,11 @@ table format with source citations.
 ```
 
 ### Marketing Intelligence
+
 **Use Case**: Audience insights, campaign research, trend analysis
 
 **Template**:
+
 ```
 Research current [marketing channel/tactic] trends for [industry/
 audience]. Identify successful campaigns, engagement metrics, and
@@ -210,12 +237,14 @@ Before submitting your prompt, verify:
 **Real-time web search with verified sources**
 
 Always structure prompts to leverage:
+
 - Current information and latest trends
 - Verified, credible sources
 - Multiple source perspectives
 - Recent data and developments
 
 Add to prompts:
+
 - "Include citations for all claims"
 - "Focus on sources from the last [timeframe]"
 - "Provide a mix of academic and industry sources"

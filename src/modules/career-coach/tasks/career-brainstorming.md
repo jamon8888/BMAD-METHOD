@@ -49,24 +49,28 @@ If career context has not been provided, ask the user to provide their career ba
 ## Brainstorming Focus Areas
 
 ### Professional Achievements
+
 - **Quantified Results** - Revenue increases, cost savings, efficiency improvements
 - **Project Leadership** - Team size, project scope, stakeholder management
 - **Process Improvements** - Systems implemented, workflows optimized, automation
 - **Client/Customer Impact** - Satisfaction scores, retention rates, new business
 
 ### Technical Achievements
+
 - **Technology Implementation** - Systems deployed, platforms migrated, tools adopted
 - **Problem Solving** - Complex issues resolved, technical challenges overcome
 - **Innovation** - New solutions developed, patents, proprietary systems
 - **Performance Optimization** - Speed improvements, scalability enhancements
 
 ### Leadership Achievements
+
 - **Team Development** - Mentoring, training, career development of others
 - **Strategic Initiatives** - Business strategy, market expansion, organizational change
 - **Cross-functional Collaboration** - Interdepartmental projects, stakeholder alignment
 - **Crisis Management** - Emergency response, risk mitigation, business continuity
 
 ### Industry Recognition
+
 - **Awards and Honors** - Industry awards, company recognition, certifications
 - **Speaking and Publications** - Conference presentations, articles, thought leadership
 - **Professional Development** - Advanced degrees, certifications, continuous learning

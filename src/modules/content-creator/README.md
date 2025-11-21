@@ -31,16 +31,14 @@ The Content Creator module is a comprehensive content creation suite that learns
 ### 8 Core Workflows
 
 **Content Creation:**
+
 1. **Article Pipeline** - Complete article creation from research to multi-platform publish
 2. **Research Topic** - Deep research with trend analysis and unique angles
 3. **Extract Themes** - Pattern recognition from raw notes and ideas
 4. **Quick Post** - Fast social media and short-form content creation
 5. **Optimize Content** - Improve existing content for SEO and engagement
 
-**Voice & Style System:**
-6. **Build Voice Profile** - Create comprehensive voice profile from writing samples
-7. **Train Voice** - Refine and update voice profile with new samples
-8. **Create Style Guide** - Generate complete custom style guide
+**Voice & Style System:** 6. **Build Voice Profile** - Create comprehensive voice profile from writing samples 7. **Train Voice** - Refine and update voice profile with new samples 8. **Create Style Guide** - Generate complete custom style guide
 
 ### Advanced Voice & Style Features
 
@@ -71,6 +69,7 @@ Select "Content Creator" during module selection.
 ### 2. Configure Your Settings
 
 During installation, you'll configure:
+
 - Content output folder
 - Default writing style
 - Target platforms (Blog, LinkedIn, Newsletter, Twitter, etc.)
@@ -84,6 +83,7 @@ During installation, you'll configure:
 After installation, add writing samples to `.bmad/content-creator/data/writing-examples.md`
 
 **Option B: Advanced Voice Profiling (Recommended)**
+
 ```
 Load Content Writer agent
 Run: *build-voice-profile
@@ -94,6 +94,7 @@ Review and approve generated profile
 ```
 
 This creates a comprehensive voice profile with:
+
 - Detailed sentence structure analysis
 - Vocabulary and tone characteristics
 - Rhetorical device patterns
@@ -105,9 +106,11 @@ This creates a comprehensive voice profile with:
 Update these files in `.bmad/content-creator/data/`:
 
 **Required:**
+
 - `research-sources.md` - List your trusted research sources
 
 **Optional but Recommended:**
+
 - `brand-guidelines.md` - Define your brand voice and style guidelines
 - `seo-keywords.md` - Add your target keywords and phrases
 
@@ -116,6 +119,7 @@ Update these files in `.bmad/content-creator/data/`:
 Load the Content Writer agent and try these commands:
 
 **Content Creation:**
+
 ```
 *write              # Complete article pipeline
 *research           # Deep research on a topic
@@ -125,6 +129,7 @@ Load the Content Writer agent and try these commands:
 ```
 
 **Voice & Style:**
+
 ```
 *build-voice-profile  # Create comprehensive voice profile
 *train-voice          # Update profile with new samples
@@ -146,6 +151,7 @@ Goal: Educate and inform
 ```
 
 **Result:** Creates:
+
 - Main article (1200-1500 words)
 - LinkedIn professional post
 - Newsletter version with subject lines
@@ -162,6 +168,7 @@ Topic: "AI in Content Creation"
 ```
 
 **Result:** Research brief with:
+
 - 5-7 key insights with sources
 - 3-5 current data points
 - 2-3 unique angles
@@ -175,6 +182,7 @@ Topic: "AI in Content Creation"
 ```
 
 **Result:** Theme analysis report:
+
 - Major themes identified from your raw notes
 - Content opportunities ranked by potential
 - Recommended article topics
@@ -197,6 +205,7 @@ Style: Professional but personal
 ### Voice Profile
 
 Update `data/writing-examples.md` with your writing samples. The AI will analyze:
+
 - Sentence structure patterns
 - Vocabulary level
 - Use of humor and metaphors
@@ -206,6 +215,7 @@ Update `data/writing-examples.md` with your writing samples. The AI will analyze
 ### Research Sources
 
 Customize `data/research-sources.md` with your trusted sources:
+
 - Industry publications
 - Expert thought leaders
 - Data sources
@@ -214,6 +224,7 @@ Customize `data/research-sources.md` with your trusted sources:
 ### SEO Keywords
 
 Define target keywords in `data/seo-keywords.md`:
+
 - Primary keywords by topic
 - Long-tail variations
 - Semantic keywords
@@ -222,6 +233,7 @@ Define target keywords in `data/seo-keywords.md`:
 ### Brand Guidelines
 
 Set brand standards in `data/brand-guidelines.md`:
+
 - Brand voice and tone
 - Writing style preferences
 - Language guidelines
@@ -234,6 +246,7 @@ Set brand standards in `data/brand-guidelines.md`:
 **Main orchestrator for content creation**
 
 Commands:
+
 - `*write` - Complete article pipeline
 - `*research` - Deep topic research
 - `*extract-themes` - Analyze raw notes
@@ -247,6 +260,7 @@ Commands:
 **Quality and SEO expert**
 
 Commands:
+
 - `*analyze` - Comprehensive 5-dimension analysis
 - `*seo-check` - Deep SEO analysis
 - `*readability` - Readability assessment
@@ -257,6 +271,7 @@ Commands:
 **Research and trends**
 
 Commands:
+
 - `*research` - Deep research workflow
 - `*extract-themes` - Pattern extraction
 - `*quick-research` - Fast research brief
@@ -267,6 +282,7 @@ Commands:
 **Voice consistency guardian**
 
 Commands:
+
 - `*check-voice` - Voice consistency check
 - `*analyze-style` - Style pattern analysis
 - `*optimize-voice` - Voice optimization
@@ -277,6 +293,7 @@ Commands:
 **Professional content expert**
 
 Commands:
+
 - `*repurpose-linkedin` - Transform to LinkedIn
 - `*linkedin-post` - Create LinkedIn post
 - `*optimize-linkedin` - Optimize for engagement
@@ -286,6 +303,7 @@ Commands:
 **Email content specialist**
 
 Commands:
+
 - `*repurpose-newsletter` - Transform to newsletter
 - `*newsletter-create` - Create newsletter issue
 - `*subject-lines` - Generate subject lines
@@ -295,6 +313,7 @@ Commands:
 **Social media expert**
 
 Commands:
+
 - `*repurpose-social` - Transform to social
 - `*twitter-thread` - Create Twitter thread
 - `*podcast-script` - Create podcast segment
@@ -305,6 +324,7 @@ Commands:
 **Search optimization**
 
 Commands:
+
 - `*optimize-seo` - Full SEO optimization
 - `*keyword-research` - Keyword suggestions
 - `*meta-optimize` - Meta tag optimization
@@ -317,6 +337,7 @@ Commands:
 **Duration:** 10-15 minutes
 
 **Steps:**
+
 1. Research & Topic Development
 2. Article Outline Creation
 3. Article Drafting with Voice Matching
@@ -327,6 +348,7 @@ Commands:
 8. Workflow Summary
 
 **Outputs:**
+
 - Main article
 - LinkedIn version
 - Newsletter version
@@ -340,6 +362,7 @@ Commands:
 **Duration:** 5-10 minutes
 
 **Process:**
+
 - Topic definition and scope
 - Priority source checking
 - Trend analysis
@@ -354,6 +377,7 @@ Commands:
 **Duration:** 5-10 minutes
 
 **Process:**
+
 - Gather raw notes
 - Pattern recognition
 - Theme categorization
@@ -436,6 +460,7 @@ Content is organized in your output folder:
 ### Quality Scores Too Low
 
 **Solution:**
+
 - Check readability target matches your audience
 - Ensure content has clear structure
 - Add more examples and data
@@ -444,6 +469,7 @@ Content is organized in your output folder:
 ### SEO Not Working
 
 **Solution:**
+
 - Verify `enable_seo_optimization: yes` in config
 - Update `data/seo-keywords.md` with target keywords
 - Check keyword density (target: 0.5-2.5%)
@@ -451,6 +477,7 @@ Content is organized in your output folder:
 ### Platform Versions Feel Off
 
 **Solution:**
+
 - Review writing examples for platform-specific content
 - Check brand guidelines for platform-specific instructions
 - Manually refine and provide feedback

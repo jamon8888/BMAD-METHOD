@@ -1,6 +1,7 @@
 # Job Search Checklist
 
 ## Checklist Information
+
 - **Checklist Type:** Job Search Strategy
 - **Agent:** career-coach
 - **Task:** job-search-strategy.md
@@ -9,6 +10,7 @@
 ## Job Search Preparation
 
 ### Self-Assessment
+
 - [ ] **Career Goals**: Clear career goals and objectives defined
 - [ ] **Target Roles**: Specific target roles and job titles identified
 - [ ] **Industry Focus**: Target industries and sectors identified
@@ -19,6 +21,7 @@
 - [ ] **Gap Analysis**: Skills gaps and development needs identified
 
 ### Market Research
+
 - [ ] **Industry Trends**: Current industry trends and market conditions researched
 - [ ] **Job Market**: Job market conditions in target industries analyzed
 - [ ] **Salary Research**: Salary ranges for target roles researched
@@ -29,6 +32,7 @@
 - [ ] **Networking Opportunities**: Networking opportunities in target industries identified
 
 ### Personal Branding
+
 - [ ] **Resume**: Professional, targeted resume prepared
 - [ ] **Cover Letter**: Compelling cover letter template created
 - [ ] **LinkedIn Profile**: Complete, professional LinkedIn profile
@@ -41,6 +45,7 @@
 ## Application Strategy
 
 ### Job Search Channels
+
 - [ ] **Job Boards**: Primary job boards identified and accounts created
 - [ ] **Company Websites**: Target company career pages bookmarked
 - [ ] **Professional Networks**: Professional networking platforms identified
@@ -51,6 +56,7 @@
 - [ ] **Direct Applications**: Direct application strategy developed
 
 ### Application Process
+
 - [ ] **Application Tracking**: Application tracking system established
 - [ ] **Customization Strategy**: Resume and cover letter customization approach
 - [ ] **Quality vs Quantity**: Balance between quality and quantity determined
@@ -61,6 +67,7 @@
 - [ ] **Application Materials**: All application materials prepared and ready
 
 ### Target Company Strategy
+
 - [ ] **Dream Companies**: List of dream companies identified
 - [ ] **Realistic Targets**: List of realistic target companies identified
 - [ ] **Company Research**: Comprehensive research on target companies
@@ -73,6 +80,7 @@
 ## Networking Strategy
 
 ### Network Assessment
+
 - [ ] **Current Network**: Current professional network assessed
 - [ ] **Network Strength**: Strength of current network evaluated
 - [ ] **Gap Analysis**: Network gaps and opportunities identified
@@ -83,6 +91,7 @@
 - [ ] **Network Maintenance**: Plan for maintaining existing relationships
 
 ### Networking Activities
+
 - [ ] **LinkedIn Strategy**: LinkedIn networking strategy developed
 - [ ] **Industry Events**: Industry events and conferences identified
 - [ ] **Professional Associations**: Professional association memberships
@@ -93,6 +102,7 @@
 - [ ] **Volunteer Opportunities**: Volunteer opportunities for networking
 
 ### Relationship Management
+
 - [ ] **Contact Database**: Contact management system established
 - [ ] **Follow-up System**: System for following up with contacts
 - [ ] **Value Exchange**: Strategy for providing value to network
@@ -105,6 +115,7 @@
 ## Interview Preparation
 
 ### Interview Skills
+
 - [ ] **Behavioral Questions**: Preparation for behavioral interview questions
 - [ ] **Technical Questions**: Preparation for technical questions (if applicable)
 - [ ] **Company Research**: Thorough company research for interviews
@@ -115,6 +126,7 @@
 - [ ] **Body Language**: Professional body language and presentation skills
 
 ### Interview Logistics
+
 - [ ] **Interview Attire**: Professional interview attire prepared
 - [ ] **Technology Setup**: Technology setup for virtual interviews
 - [ ] **Interview Location**: Quiet, professional interview location identified
@@ -125,6 +137,7 @@
 - [ ] **Pre-interview Routine**: Pre-interview routine and preparation
 
 ### Company Knowledge
+
 - [ ] **Company History**: Understanding of company history and background
 - [ ] **Company Mission**: Understanding of company mission and values
 - [ ] **Company Products/Services**: Knowledge of company products/services
@@ -137,6 +150,7 @@
 ## Skill Development
 
 ### Skill Assessment
+
 - [ ] **Current Skills**: Current skills and competencies assessed
 - [ ] **Target Skills**: Skills required for target roles identified
 - [ ] **Skill Gaps**: Gaps between current and required skills identified
@@ -147,6 +161,7 @@
 - [ ] **Skill Demonstration**: Strategy for demonstrating skills
 
 ### Learning Resources
+
 - [ ] **Online Courses**: Online learning platforms and courses identified
 - [ ] **Books and Materials**: Relevant books and learning materials
 - [ ] **Workshops and Seminars**: Workshops and seminars identified
@@ -157,6 +172,7 @@
 - [ ] **Skill Validation**: Methods for validating skill development
 
 ### Continuous Learning
+
 - [ ] **Learning Schedule**: Regular learning schedule established
 - [ ] **Industry Trends**: Staying current with industry trends
 - [ ] **Technology Updates**: Keeping up with technology changes
@@ -169,6 +185,7 @@
 ## Application Tracking
 
 ### Tracking System
+
 - [ ] **Tracking Tool**: Application tracking tool or system established
 - [ ] **Data Fields**: Key data fields for tracking identified
 - [ ] **Update Schedule**: Regular update schedule for tracking system
@@ -179,6 +196,7 @@
 - [ ] **Success Metrics**: Success metrics and KPIs defined
 
 ### Performance Analysis
+
 - [ ] **Application Success Rate**: Tracking application success rates
 - [ ] **Interview Conversion Rate**: Tracking interview conversion rates
 - [ ] **Response Time Analysis**: Analysis of response times
@@ -189,6 +207,7 @@
 - [ ] **Improvement Areas**: Identification of areas for improvement
 
 ### Strategy Adjustment
+
 - [ ] **Regular Review**: Regular review of job search strategy
 - [ ] **Performance Assessment**: Assessment of strategy performance
 - [ ] **Market Adaptation**: Adaptation to changing market conditions
@@ -201,6 +220,7 @@
 ## Financial Planning
 
 ### Budget Planning
+
 - [ ] **Job Search Budget**: Budget for job search activities established
 - [ ] **Expense Categories**: Job search expense categories identified
 - [ ] **Cost Tracking**: System for tracking job search costs
@@ -211,6 +231,7 @@
 - [ ] **Income Planning**: Planning for income during job search
 
 ### Resource Allocation
+
 - [ ] **Time Allocation**: Allocation of time across job search activities
 - [ ] **Priority Activities**: Identification of priority activities
 - [ ] **Resource Investment**: Investment in job search resources
@@ -221,6 +242,7 @@
 - [ ] **Technology Investment**: Investment in technology and equipment
 
 ### Financial Management
+
 - [ ] **Expense Monitoring**: Regular monitoring of job search expenses
 - [ ] **Budget Adjustments**: Adjustments to budget as needed
 - [ ] **Cost Optimization**: Optimization of job search costs
@@ -233,6 +255,7 @@
 ## Mental Health and Well-being
 
 ### Stress Management
+
 - [ ] **Stress Recognition**: Recognition of job search stress
 - [ ] **Stress Management Techniques**: Stress management techniques identified
 - [ ] **Work-Life Balance**: Maintenance of work-life balance
@@ -243,6 +266,7 @@
 - [ ] **Positive Mindset**: Maintenance of positive mindset
 
 ### Motivation and Persistence
+
 - [ ] **Goal Clarity**: Clear, motivating goals established
 - [ ] **Progress Tracking**: Regular tracking of progress
 - [ ] **Celebration**: Celebration of small wins and progress
@@ -253,6 +277,7 @@
 - [ ] **Adaptability**: Maintaining adaptability and flexibility
 
 ### Support and Community
+
 - [ ] **Family Support**: Support from family and friends
 - [ ] **Professional Support**: Professional support and guidance
 - [ ] **Peer Support**: Support from job search peers
@@ -265,6 +290,7 @@
 ## Success Metrics
 
 ### Quantitative Metrics
+
 - [ ] **Applications Submitted**: Number of applications submitted
 - [ ] **Response Rate**: Response rate from applications
 - [ ] **Interview Rate**: Interview rate from applications
@@ -275,6 +301,7 @@
 - [ ] **Skill Development**: Progress in skill development
 
 ### Qualitative Metrics
+
 - [ ] **Job Satisfaction**: Satisfaction with job search process
 - [ ] **Career Alignment**: Alignment with career goals
 - [ ] **Learning and Growth**: Learning and growth during job search
@@ -285,6 +312,7 @@
 - [ ] **Professional Reputation**: Enhancement of professional reputation
 
 ### Long-term Success
+
 - [ ] **Career Progression**: Progress toward long-term career goals
 - [ ] **Skill Advancement**: Advancement of professional skills
 - [ ] **Network Value**: Value of professional network
@@ -297,6 +325,7 @@
 ## Action Items
 
 ### Immediate Actions (Next 7 Days)
+
 - [ ] **Resume Update**: Update resume with latest information
 - [ ] **LinkedIn Profile**: Complete LinkedIn profile optimization
 - [ ] **Job Search Plan**: Develop comprehensive job search plan
@@ -305,6 +334,7 @@
 - [ ] **Networking Plan**: Develop networking strategy and plan
 
 ### Short-term Actions (Next 30 Days)
+
 - [ ] **Skill Development**: Begin skill development activities
 - [ ] **Networking Events**: Attend networking events and activities
 - [ ] **Application Submissions**: Begin submitting applications
@@ -313,6 +343,7 @@
 - [ ] **Financial Planning**: Complete financial planning for job search
 
 ### Long-term Actions (Next 90 Days)
+
 - [ ] **Interview Practice**: Regular interview practice and preparation
 - [ ] **Skill Certification**: Obtain relevant certifications
 - [ ] **Network Expansion**: Significant expansion of professional network
@@ -323,6 +354,7 @@
 ## Review Schedule
 
 ### Weekly Review
+
 - [ ] **Progress Check**: Check progress on weekly goals
 - [ ] **Application Review**: Review application submissions and responses
 - [ ] **Networking Review**: Review networking activities and outcomes
@@ -330,6 +362,7 @@
 - [ ] **Next Week Planning**: Plan activities for next week
 
 ### Monthly Review
+
 - [ ] **Comprehensive Assessment**: Complete comprehensive job search assessment
 - [ ] **Goal Achievement**: Review progress toward monthly goals
 - [ ] **Strategy Effectiveness**: Assess effectiveness of current strategy
@@ -337,6 +370,7 @@
 - [ ] **Next Month Planning**: Plan activities for next month
 
 ### Quarterly Review
+
 - [ ] **Strategic Review**: Complete strategic job search review
 - [ ] **Performance Analysis**: Analyze overall job search performance
 - [ ] **Market Assessment**: Assess market and industry changes

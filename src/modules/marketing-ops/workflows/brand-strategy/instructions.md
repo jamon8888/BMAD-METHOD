@@ -13,6 +13,7 @@ This workflow guides the creation of a complete brand strategy document includin
 **Objective**: Understand the brand's current state and business objectives
 
 **Actions**:
+
 - Ask about the brand name, industry, target market size
 - Understand current mission, vision, and value proposition
 - Identify business goals and growth objectives
@@ -20,6 +21,7 @@ This workflow guides the creation of a complete brand strategy document includin
 - Review any existing brand guidelines or assets
 
 **Elicitation Questions**:
+
 - "What is your brand name and what industry do you operate in?"
 - "Describe your current mission and vision. What change do you want to create?"
 - "Who is your ideal customer? Describe their demographics and psychographics."
@@ -31,6 +33,7 @@ This workflow guides the creation of a complete brand strategy document includin
 **Objective**: Understand the competitive landscape and identify positioning opportunities
 
 **Actions**:
+
 - Identify 3-5 direct competitors and analyze their positioning
 - Map competitive advantages and gaps in the market
 - Identify unoccupied market positions
@@ -44,6 +47,7 @@ This workflow guides the creation of a complete brand strategy document includin
 **Objective**: Create the core brand strategy components
 
 **Actions**:
+
 - Develop positioning statement (Target + Need + Category + Differentiation)
 - Define brand personality traits (3-5 core traits)
 - Establish brand voice and tone guidelines
@@ -51,6 +55,7 @@ This workflow guides the creation of a complete brand strategy document includin
 - Develop proof points for key claims
 
 **Key Deliverables**:
+
 - Positioning Statement
 - Brand Personality (3-5 traits with descriptions)
 - Voice & Tone Guidelines
@@ -62,6 +67,7 @@ This workflow guides the creation of a complete brand strategy document includin
 **Objective**: Define how the brand strategy will be executed across touchpoints
 
 **Actions**:
+
 - Identify key brand touchpoints (digital and physical)
 - Define content pillars (3-5 themes)
 - Establish visual identity guidelines
@@ -69,6 +75,7 @@ This workflow guides the creation of a complete brand strategy document includin
 - Define success metrics (awareness, perception, engagement)
 
 **Implementation Areas**:
+
 - Website and digital properties
 - Social media presence
 - Marketing campaigns
@@ -81,6 +88,7 @@ This workflow guides the creation of a complete brand strategy document includin
 **Objective**: Provide concrete next steps for implementation
 
 **Actions**:
+
 - Break implementation into 3 phases (Foundation, Implementation, Optimization)
 - Define weekly actions with owners and deadlines
 - Identify required resources and budget
@@ -88,6 +96,7 @@ This workflow guides the creation of a complete brand strategy document includin
 - Create measurement and reporting plan
 
 **90-Day Structure**:
+
 - **Days 1-30 (Foundation)**: Internal alignment, guideline creation, asset audit
 - **Days 31-60 (Implementation)**: Rollout across channels, training, content creation
 - **Days 61-90 (Optimization)**: Monitor performance, gather feedback, refine approach
@@ -97,6 +106,7 @@ This workflow guides the creation of a complete brand strategy document includin
 **Objective**: Ensure strategy is comprehensive and actionable
 
 **Actions**:
+
 - Use brand-audit.xml task to validate completeness
 - Ensure all sections are filled with specific, actionable content
 - Verify consistency across positioning, messaging, and voice
@@ -108,6 +118,7 @@ This workflow guides the creation of a complete brand strategy document includin
 **Objective**: Create polished brand strategy document
 
 **Actions**:
+
 - Use brand-strategy-tmpl.md template to structure output
 - Fill all template sections with gathered insights
 - Include visual examples where helpful

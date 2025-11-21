@@ -47,36 +47,42 @@ If career context has not been provided, ask the user to provide their current r
 ## Skills Assessment Focus Areas
 
 ### Technical Skills Assessment
+
 - **Programming Languages** - What programming languages do you know?
 - **Tools and Technologies** - What tools and platforms are you proficient with?
 - **Methodologies** - What development or project management methodologies do you use?
 - **Domain Knowledge** - What industry-specific technical knowledge do you have?
 
 ### Soft Skills Evaluation
+
 - **Communication Skills** - How effectively do you communicate verbally and in writing?
 - **Leadership Abilities** - How well do you lead teams and influence others?
 - **Problem Solving** - How effectively do you analyze and solve complex problems?
 - **Adaptability** - How well do you handle change and uncertainty?
 
 ### Industry-Specific Skills
+
 - **Market Knowledge** - How well do you understand your industry and market?
 - **Regulatory Knowledge** - What compliance and regulatory knowledge do you have?
 - **Best Practices** - How familiar are you with industry best practices?
 - **Emerging Trends** - How current are you with industry trends and innovations?
 
 ### Transferable Skills
+
 - **Project Management** - How well do you plan, execute, and manage projects?
 - **Data Analysis** - How effectively do you analyze and interpret data?
 - **Customer Service** - How well do you understand and serve customer needs?
 - **Financial Acumen** - How well do you understand business and financial concepts?
 
 ### Leadership and Management
+
 - **Team Building** - How effectively do you build and develop teams?
 - **Strategic Thinking** - How well do you think strategically and long-term?
 - **Decision Making** - How effectively do you make complex decisions?
 - **Change Management** - How well do you manage organizational change?
 
 ### Digital and Modern Skills
+
 - **Digital Literacy** - How comfortable are you with digital tools and platforms?
 - **Remote Work** - How effectively do you work in remote or hybrid environments?
 - **Collaboration Tools** - How proficient are you with modern collaboration platforms?

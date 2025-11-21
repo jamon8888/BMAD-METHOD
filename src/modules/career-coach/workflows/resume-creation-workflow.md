@@ -31,6 +31,7 @@ graph TD
 ## Workflow Steps
 
 ### Phase 1: Career Assessment & Planning
+
 **Agent: Career Coach**
 
 1. **Career Goals Analysis**
@@ -49,6 +50,7 @@ graph TD
    - Develop networking strategy
 
 ### Phase 2: Information Gathering
+
 **Agent: Resume Writer**
 
 1. **Career Information Collection**
@@ -67,6 +69,7 @@ graph TD
    - Understand role-specific requirements
 
 ### Phase 3: Resume Creation
+
 **Agent: Resume Writer**
 
 1. **Initial Resume Draft**
@@ -82,6 +85,7 @@ graph TD
    - Optimize for target roles
 
 ### Phase 4: Quality Assurance
+
 **Agent: Resume Writer**
 
 1. **Resume Quality Review**
@@ -96,6 +100,7 @@ graph TD
    - Optimize skills presentation
 
 ### Phase 5: ATS Optimization
+
 **Agent: Resume Writer**
 
 1. **Keyword Analysis**
@@ -109,6 +114,7 @@ graph TD
    - Ensure parseable content
 
 ### Phase 6: Final Review
+
 **Agent: Resume Writer**
 
 1. **Comprehensive Review**
@@ -124,6 +130,7 @@ graph TD
 ## Agent Responsibilities
 
 ### Career Coach
+
 - **Primary Role**: Career strategy and planning
 - **Key Tasks**:
   - Career goals analysis
@@ -132,6 +139,7 @@ graph TD
   - Networking guidance
 
 ### Resume Writer
+
 - **Primary Role**: Resume creation and optimization
 - **Key Tasks**:
   - Information gathering
@@ -141,6 +149,7 @@ graph TD
   - ATS optimization
 
 ### Interview Coach
+
 - **Primary Role**: Interview preparation (separate workflow)
 - **Support Tasks**:
   - Resume-based interview preparation
@@ -150,36 +159,42 @@ graph TD
 ## Quality Gates
 
 ### Gate 1: Career Assessment Complete
+
 - [ ] Career goals clearly defined
 - [ ] Target roles identified
 - [ ] Skills assessment completed
 - [ ] Career strategy developed
 
 ### Gate 2: Information Gathering Complete
+
 - [ ] Work history documented
 - [ ] Achievements quantified
 - [ ] Skills inventory completed
 - [ ] Industry research conducted
 
 ### Gate 3: Initial Resume Complete
+
 - [ ] Professional summary written
 - [ ] Work experience documented
 - [ ] Skills section organized
 - [ ] Education included
 
 ### Gate 4: Quality Review Passed
+
 - [ ] Resume quality score ≥ 80%
 - [ ] All critical sections complete
 - [ ] Professional standards met
 - [ ] Content optimized
 
 ### Gate 5: ATS Optimization Complete
+
 - [ ] ATS compatibility score ≥ 90%
 - [ ] Keywords integrated
 - [ ] Format optimized
 - [ ] Parseable content verified
 
 ### Gate 6: Final Approval
+
 - [ ] User approval received
 - [ ] Final adjustments made
 - [ ] Document ready for use
@@ -187,18 +202,21 @@ graph TD
 ## Success Criteria
 
 ### Resume Quality
+
 - **Content**: Achievement-focused, quantified results
 - **Format**: Professional, ATS-compatible
 - **Length**: Appropriate for experience level
 - **Accuracy**: All information verified
 
 ### ATS Optimization
+
 - **Keywords**: Relevant terms integrated
 - **Format**: Parseable by ATS systems
 - **Compatibility**: Works with major ATS platforms
 - **Score**: 90%+ ATS compatibility
 
 ### User Satisfaction
+
 - **Alignment**: Meets career goals
 - **Confidence**: User feels prepared
 - **Readiness**: Ready for job applications
@@ -207,12 +225,14 @@ graph TD
 ## Risk Mitigation
 
 ### Common Issues
+
 - **Incomplete Information**: Ensure thorough information gathering
 - **Weak Achievements**: Focus on quantification and impact
 - **ATS Issues**: Regular compatibility testing
 - **User Dissatisfaction**: Regular feedback and iteration
 
 ### Mitigation Strategies
+
 - **Iterative Process**: Regular reviews and updates
 - **Quality Gates**: Multiple checkpoints for quality
 - **User Feedback**: Continuous user involvement
@@ -221,15 +241,18 @@ graph TD
 ## Timeline
 
 ### Standard Process: 2-3 Sessions
+
 - **Session 1**: Career assessment and information gathering
 - **Session 2**: Resume creation and initial optimization
 - **Session 3**: Quality review and finalization
 
 ### Expedited Process: 1-2 Sessions
+
 - **Session 1**: Quick assessment and resume creation
 - **Session 2**: Quality review and optimization
 
 ### Comprehensive Process: 3-4 Sessions
+
 - **Session 1**: Detailed career assessment
 - **Session 2**: Information gathering and brainstorming
 - **Session 3**: Resume creation and optimization
@@ -238,15 +261,18 @@ graph TD
 ## Deliverables
 
 ### Primary Deliverable
+
 - **Professional Resume**: ATS-optimized, achievement-focused resume
 
 ### Supporting Deliverables
+
 - **Career Assessment**: Career goals and strategy document
 - **Skills Inventory**: Comprehensive skills assessment
 - **Achievement List**: Quantified accomplishments
 - **Keyword Analysis**: Industry-specific keywords
 
 ### Optional Deliverables
+
 - **Cover Letter**: Tailored cover letter template
 - **LinkedIn Profile**: Optimized LinkedIn summary
 - **Interview Preparation**: Resume-based interview guidance

@@ -15,6 +15,7 @@ The Deep Research module provides specialized agents for conducting comprehensiv
 **Model Compatibility:** ✅ ALL AI models (ChatGPT, Claude, Gemini, etc.)
 
 **Expertise:**
+
 - 15+ years conducting comprehensive multi-source investigations
 - Expert in research methodologies and citation validation
 - Source credibility assessment and evidence synthesis
@@ -25,6 +26,7 @@ The Deep Research module provides specialized agents for conducting comprehensiv
 Talks like a meticulous academic investigator - methodical, evidence-driven, precise with citations, celebrates discovery. Balances thoroughness with clarity. **Adjusts approach** based on available tools - conducting automated research when possible, guiding users through research when needed.
 
 **Core Principles:**
+
 - Every claim needs verification
 - Multiple sources reveal truth
 - Quality research takes time
@@ -33,6 +35,7 @@ Talks like a meticulous academic investigator - methodical, evidence-driven, pre
 - **Never hallucinate sources**
 
 **Primary Capabilities:**
+
 - 8-phase research pipeline execution
 - **Automated Mode**: Direct web search and analysis (when available)
 - **Guided Mode**: User-assisted research with AI synthesis (always available)
@@ -48,21 +51,25 @@ Talks like a meticulous academic investigator - methodical, evidence-driven, pre
 ### Research Commands
 
 **\*research** - Standard research mode (5-10 minutes, 15-30 sources)
+
 - Most common research needs
 - Balanced depth and speed
 - Multi-source comparison
 
 **\*quick-research** - Quick mode (2-5 minutes, 2-5 sources)
+
 - Initial exploration
 - Fast answers
 - Basic fact-checking
 
 **\*deep-research** - Deep mode (10-20 minutes, 30+ sources)
+
 - Important decisions
 - Verified claims (3+ sources)
 - Comprehensive understanding
 
 **\*ultra-research** - Ultra-deep mode (20-45+ minutes, 50+ sources)
+
 - Enterprise critical analysis
 - Maximum rigor
 - Exhaustive investigation
@@ -70,11 +77,13 @@ Talks like a meticulous academic investigator - methodical, evidence-driven, pre
 ### Collaboration Commands
 
 **\*party-mode** - Consult with other expert agents
+
 - Multi-disciplinary perspectives
 - Complex research challenges
 - Cross-domain synthesis
 
 **\*advanced-elicitation** - Enhanced research techniques
+
 - Challenge assumptions
 - Deeper analysis
 - Better LLM results
@@ -143,6 +152,7 @@ Dr. Morgan embodies the ideal of rigorous academic research combined with practi
 ## Integration
 
 Works seamlessly with:
+
 - **BMM Agents** (PM, Architect, Developer) - Research for project planning
 - **CIS Agents** (Innovation, Problem-Solving) - Creative research needs
 - **Content Creator** - Research-backed content creation
@@ -151,6 +161,7 @@ Works seamlessly with:
 ## Customization
 
 Edit `research-specialist.agent.yaml` to customize:
+
 - Persona and communication style
 - Default research modes
 - Command triggers
@@ -166,4 +177,4 @@ Edit `research-specialist.agent.yaml` to customize:
 
 ---
 
-*Part of the BMad Deep Research module - Enterprise-grade intelligence gathering for AI collaboration.*
+_Part of the BMad Deep Research module - Enterprise-grade intelligence gathering for AI collaboration._

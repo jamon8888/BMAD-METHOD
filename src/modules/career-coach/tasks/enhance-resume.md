@@ -50,18 +50,21 @@ If a resume has not been provided, ask the user to provide their current resume 
 ## Enhancement Focus Areas
 
 ### Content Improvements
+
 - **Achievement Quantification** - Add metrics, percentages, and measurable results
 - **Action Verbs** - Replace weak verbs with strong, industry-specific action words
 - **Keyword Optimization** - Align with job requirements and industry terminology
 - **Professional Summary** - Create compelling value proposition
 
 ### Formatting Improvements
+
 - **ATS Compatibility** - Ensure proper formatting for Applicant Tracking Systems
 - **Consistency** - Standardize formatting, dates, and presentation
 - **Readability** - Improve scannability and visual hierarchy
 - **Length Optimization** - Ensure appropriate length for experience level
 
 ### Industry Alignment
+
 - **Role-Specific Keywords** - Include relevant technical skills and certifications
 - **Industry Standards** - Follow current best practices for target industry
 - **Company Research** - Tailor content to specific company culture and values

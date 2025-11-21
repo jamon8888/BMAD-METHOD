@@ -32,8 +32,9 @@
 
 **Core Values**
 {{#each core_values}}
+
 - **{{name}}**: {{description}}
-{{/each}}
+  {{/each}}
 
 ### 1.3 Current Positioning
 
@@ -54,21 +55,23 @@
 
 **Target Segments**
 {{#each target_segments}}
+
 - **{{segment_name}}**: {{segment_description}}
   - Size: {{segment_size}}
   - Priority: {{priority}}
-{{/each}}
+    {{/each}}
 
 ### 2.2 Competitive Landscape
 
 **Direct Competitors**
 {{#each competitors}}
+
 - **{{competitor_name}}**
   - Positioning: {{positioning}}
   - Strengths: {{strengths}}
   - Weaknesses: {{weaknesses}}
   - Market Share: {{market_share}}
-{{/each}}
+    {{/each}}
 
 **Competitive Advantages**
 {{competitive_advantages}}
@@ -87,6 +90,7 @@
 For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}} that {{differentiation}} because {{reason_to_believe}}.
 
 **Positioning Breakdown**:
+
 - **Target Customer**: {{target_customer}}
 - **Customer Need**: {{customer_need}}
 - **Category**: {{category}}
@@ -99,15 +103,16 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 **{{trait_name}}**
 {{trait_description}}
 
-*Expressed as*: {{trait_expression}}
+_Expressed as_: {{trait_expression}}
 {{/each}}
 
 ### 3.3 Brand Voice & Tone
 
 **Voice Characteristics**
 {{#each voice_characteristics}}
+
 - **{{characteristic}}**: {{description}}
-{{/each}}
+  {{/each}}
 
 **Tone Variations by Context**
 | Context | Tone Approach | Example |
@@ -131,8 +136,8 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 **Supporting Messages**
 {{#each supporting_messages}}
 {{number}}. **{{headline}}**
-   {{message}}
-   *Proof Points*: {{proof_points}}
+{{message}}
+_Proof Points_: {{proof_points}}
 {{/each}}
 
 **Value Proposition**
@@ -146,13 +151,15 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 
 **Digital**
 {{#each digital_touchpoints}}
+
 - **{{touchpoint}}**: {{strategy}}
-{{/each}}
+  {{/each}}
 
 **Physical**
 {{#each physical_touchpoints}}
+
 - **{{touchpoint}}**: {{strategy}}
-{{/each}}
+  {{/each}}
 
 ### 4.2 Content Pillars
 
@@ -160,8 +167,8 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 **{{pillar_number}}. {{pillar_name}}**
 {{pillar_description}}
 
-*Topics*: {{topics}}
-*Goals*: {{goals}}
+_Topics_: {{topics}}
+_Goals_: {{goals}}
 {{/each}}
 
 ### 4.3 Visual Identity Guidelines
@@ -182,18 +189,21 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 
 **Brand Awareness**
 {{#each awareness_metrics}}
+
 - {{metric}}: Current {{current}}, Target {{target}} by {{date}}
-{{/each}}
+  {{/each}}
 
 **Brand Perception**
 {{#each perception_metrics}}
+
 - {{metric}}: Current {{current}}, Target {{target}} by {{date}}
-{{/each}}
+  {{/each}}
 
 **Engagement**
 {{#each engagement_metrics}}
+
 - {{metric}}: Current {{current}}, Target {{target}} by {{date}}
-{{/each}}
+  {{/each}}
 
 ---
 
@@ -203,13 +213,15 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 
 **Week 1-2: Internal Alignment**
 {{#each phase1_weeks_1_2}}
+
 - {{action}} (Owner: {{owner}}, Budget: {{budget}})
-{{/each}}
+  {{/each}}
 
 **Week 3-4: Guidelines & Assets**
 {{#each phase1_weeks_3_4}}
+
 - {{action}} (Owner: {{owner}}, Budget: {{budget}})
-{{/each}}
+  {{/each}}
 
 **Milestone**: {{phase1_milestone}}
 
@@ -217,13 +229,15 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 
 **Week 5-6: Channel Rollout**
 {{#each phase2_weeks_5_6}}
+
 - {{action}} (Owner: {{owner}}, Budget: {{budget}})
-{{/each}}
+  {{/each}}
 
 **Week 7-8: Content & Training**
 {{#each phase2_weeks_7_8}}
+
 - {{action}} (Owner: {{owner}}, Budget: {{budget}})
-{{/each}}
+  {{/each}}
 
 **Milestone**: {{phase2_milestone}}
 
@@ -231,24 +245,26 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 
 **Week 9-10: Monitor & Measure**
 {{#each phase3_weeks_9_10}}
+
 - {{action}} (Owner: {{owner}}, Budget: {{budget}})
-{{/each}}
+  {{/each}}
 
 **Week 11-12: Refine & Scale**
 {{#each phase3_weeks_11_12}}
+
 - {{action}} (Owner: {{owner}}, Budget: {{budget}})
-{{/each}}
+  {{/each}}
 
 **Milestone**: {{phase3_milestone}}
 
 ### Budget Summary
 
-| Phase | Budget | Key Investments |
-|-------|--------|-----------------|
-| Phase 1 | {{phase1_budget}} | {{phase1_key_investments}} |
-| Phase 2 | {{phase2_budget}} | {{phase2_key_investments}} |
-| Phase 3 | {{phase3_budget}} | {{phase3_key_investments}} |
-| **Total** | **{{total_budget}}** | |
+| Phase     | Budget               | Key Investments            |
+| --------- | -------------------- | -------------------------- |
+| Phase 1   | {{phase1_budget}}    | {{phase1_key_investments}} |
+| Phase 2   | {{phase2_budget}}    | {{phase2_key_investments}} |
+| Phase 3   | {{phase3_budget}}    | {{phase3_key_investments}} |
+| **Total** | **{{total_budget}}** |                            |
 
 ---
 
@@ -259,8 +275,9 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 
 **Key Reports**
 {{#each key_reports}}
+
 - **{{report_name}}**: {{frequency}} - {{contents}}
-{{/each}}
+  {{/each}}
 
 **Dashboard Metrics**
 {{dashboard_metrics}}
@@ -270,15 +287,19 @@ For {{target_customer}} who {{customer_need}}, {{brand_name}} is the {{category}
 ## Appendices
 
 ### A. Competitive Analysis Details
+
 {{competitive_analysis_details}}
 
 ### B. Customer Research Insights
+
 {{customer_research_insights}}
 
 ### C. Brand Guidelines Summary
+
 {{brand_guidelines_summary}}
 
 ### D. Stakeholder Feedback
+
 {{stakeholder_feedback}}
 
 ---

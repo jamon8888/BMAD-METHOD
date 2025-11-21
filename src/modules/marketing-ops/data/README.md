@@ -11,6 +11,7 @@ This directory contains marketing knowledge bases, benchmarks, and reference dat
 ## Usage
 
 Reference these files when:
+
 - Setting performance targets
 - Benchmarking performance
 - Planning campaigns

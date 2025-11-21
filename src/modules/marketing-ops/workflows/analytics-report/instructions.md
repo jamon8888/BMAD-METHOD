@@ -13,6 +13,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 **Objective**: Understand report purpose, time period, and key questions to answer
 
 **Actions**:
+
 - Identify report purpose (monthly review, campaign analysis, board presentation)
 - Define time period and comparison periods
 - List key business questions to answer
@@ -20,6 +21,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 - Clarify available data sources and access
 
 **Elicitation Questions**:
+
 - "What is the purpose of this report? (e.g., monthly performance review, campaign post-mortem, strategic planning)"
 - "What time period should the report cover? What comparison periods? (e.g., month-over-month, year-over-year)"
 - "What are the top 3-5 business questions this report needs to answer?"
@@ -32,6 +34,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 **Objective**: Collect all necessary data and ensure quality and completeness
 
 **Actions**:
+
 - Extract data from all specified sources
 - Validate data completeness and accuracy
 - Identify and document any data gaps or anomalies
@@ -39,6 +42,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 - Prepare data for analysis (cleaning, formatting, enrichment)
 
 **Data Sources Checklist**:
+
 - [ ] Website analytics (GA4, Adobe Analytics)
 - [ ] Advertising platforms (Google Ads, Facebook, LinkedIn, etc.)
 - [ ] CRM and sales data
@@ -54,6 +58,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 **Objective**: Analyze key metrics, trends, and performance drivers
 
 **Actions**:
+
 - Calculate primary KPIs and compare to targets
 - Identify trends over time (growth, seasonality, anomalies)
 - Analyze performance by channel, campaign, audience segment
@@ -61,6 +66,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 - Identify top performers and underperformers
 
 **Analysis Areas**:
+
 - **Traffic & Engagement**: Sessions, users, engagement rate, bounce rate
 - **Conversion Funnel**: Conversion rate by stage, drop-off points
 - **Acquisition**: Channel performance, CAC, traffic sources
@@ -74,6 +80,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 **Objective**: Understand audience behavior and identify high-value segments
 
 **Actions**:
+
 - Analyze cohort retention and engagement patterns
 - Segment customers by behavior, value, channel
 - Identify characteristics of high-performing segments
@@ -81,6 +88,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 - Spot trends in customer acquisition quality over time
 
 **Key Questions**:
+
 - Which cohorts have the highest retention and LTV?
 - Are newer cohorts performing better or worse than older ones?
 - Which acquisition channels bring the highest quality customers?
@@ -91,6 +99,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 **Objective**: Surface actionable insights from the data
 
 **Actions**:
+
 - Identify performance drivers (what's working well and why)
 - Pinpoint problem areas (what's underperforming and why)
 - Spot trends and patterns in customer behavior
@@ -98,12 +107,14 @@ This workflow guides the creation of a data-driven marketing analytics report in
 - Benchmark against industry standards where available
 
 **Insight Framework**:
+
 - **What Happened**: Describe the trend or observation
 - **Why It Matters**: Explain business impact
 - **What's Driving It**: Root cause analysis
 - **What To Do About It**: Actionable recommendation
 
 **Example Insight**:
+
 > **What Happened**: Mobile conversion rate decreased 15% month-over-month
 > **Why It Matters**: Mobile represents 60% of traffic, impacting overall revenue
 > **What's Driving It**: New checkout flow introduced 3 weeks ago has 40% drop-off on mobile
@@ -114,6 +125,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 **Objective**: Create specific, prioritized, actionable recommendations
 
 **Actions**:
+
 - Translate insights into concrete actions
 - Prioritize recommendations by impact and effort
 - Estimate expected outcomes and ROI where possible
@@ -121,6 +133,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 - Create implementation timeline
 
 **Recommendation Structure**:
+
 - **Recommendation**: Clear action to take
 - **Rationale**: Data-backed reasoning
 - **Expected Impact**: Projected improvement
@@ -133,6 +146,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 **Objective**: Design clear, compelling visualizations to support insights
 
 **Actions**:
+
 - Select appropriate chart types for each insight
 - Create performance dashboards and scorecards
 - Design trend charts showing performance over time
@@ -140,6 +154,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 - Ensure visualizations are clear and accessible
 
 **Visualization Best Practices**:
+
 - Start with high-level summary metrics
 - Show trends over time for context
 - Compare to benchmarks and targets
@@ -152,6 +167,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 **Objective**: Create comprehensive, well-structured analytics report
 
 **Actions**:
+
 - Use analytics-report-tmpl.md template
 - Write executive summary highlighting key findings
 - Include all performance sections with visualizations
@@ -161,6 +177,7 @@ This workflow guides the creation of a data-driven marketing analytics report in
 - Save to configured output location
 
 **Report Structure**:
+
 1. Executive Summary (1-2 pages)
 2. Key Metrics Dashboard
 3. Performance Analysis (by channel, campaign, audience)

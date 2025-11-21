@@ -11,11 +11,13 @@
 [3-5 sentence synthesis of overall assessment, key findings, and recommendation rationale]
 
 **Critical Decision Factors:**
+
 - [Key factor 1]
 - [Key factor 2]
 - [Key factor 3]
 
 **Immediate Next Steps:**
+
 1. [Action 1]
 2. [Action 2]
 3. [Action 3]
@@ -48,15 +50,18 @@
 **Assessment:** [VALIDATED | NEEDS VALIDATION | INVALIDATED]
 
 **Key Findings:**
+
 - [Finding 1]
 - [Finding 2]
 - [Finding 3]
 
 **Evidence:**
+
 - [Evidence point with source]
 - [Evidence point with source]
 
 **Concerns:**
+
 - [Concern 1 if any]
 - [Concern 2 if any]
 
@@ -67,15 +72,18 @@
 **Assessment:** [VALIDATED | NEEDS VALIDATION | INVALIDATED]
 
 **Key Findings:**
+
 - [Finding 1]
 - [Finding 2]
 - [Finding 3]
 
 **Strengths:**
+
 - [Strength 1]
 - [Strength 2]
 
 **Gaps:**
+
 - [Gap 1 and mitigation]
 - [Gap 2 and mitigation]
 
@@ -86,15 +94,18 @@
 **Assessment:** [VALIDATED | NEEDS VALIDATION | INVALIDATED]
 
 **Key Findings:**
+
 - [Finding 1]
 - [Finding 2]
 - [Finding 3]
 
 **Viable Channels:**
+
 - [Channel 1 with CAC estimate]
 - [Channel 2 with CAC estimate]
 
 **Concerns:**
+
 - [Concern 1 if any]
 - [Concern 2 if any]
 
@@ -103,12 +114,15 @@
 ## Cross-Pillar Synthesis
 
 **Reinforcing Strengths:**
+
 - [How pillars support each other]
 
 **Compounding Concerns:**
+
 - [Where risks align across pillars]
 
 **Surprising Insights:**
+
 - [Unexpected findings]
 
 ---
@@ -127,14 +141,17 @@
 ### [For BUILD NOW]
 
 **Phase 1: MVP (0-3 months)**
+
 1. [Action with deadline]
 2. [Action with deadline]
 
 **Phase 2: Launch (3-6 months)**
+
 1. [Action with deadline]
 2. [Action with deadline]
 
 **Key Metrics to Track:**
+
 - [Metric 1 and target]
 - [Metric 2 and target]
 
@@ -144,10 +161,10 @@
 
 **High-Priority Validations:**
 
-| Test | Method | Success Criteria | Timeline |
-|------|--------|------------------|----------|
-| [Test 1] | [How to test] | [What validates it] | [When] |
-| [Test 2] | [How to test] | [What validates it] | [When] |
+| Test     | Method        | Success Criteria    | Timeline |
+| -------- | ------------- | ------------------- | -------- |
+| [Test 1] | [How to test] | [What validates it] | [When]   |
+| [Test 2] | [How to test] | [What validates it] | [When]   |
 
 **Decision Point:**
 After completing validations, reassess whether to BUILD, PIVOT, or DON'T PURSUE.
@@ -169,6 +186,7 @@ After completing validations, reassess whether to BUILD, PIVOT, or DON'T PURSUE.
    - Effort required: [Low/Medium/High]
 
 **Next Steps:**
+
 1. [Evaluate pivot options]
 2. [Choose direction]
 3. [Re-validate with new approach]
@@ -178,14 +196,17 @@ After completing validations, reassess whether to BUILD, PIVOT, or DON'T PURSUE.
 ### [For DON'T PURSUE]
 
 **Why This Isn't Viable:**
+
 - [Reason 1]
 - [Reason 2]
 
 **Learnings to Apply:**
+
 - [Learning 1]
 - [Learning 2]
 
 **Alternative Directions:**
+
 - [Suggestion 1]
 - [Suggestion 2]
 
@@ -197,15 +218,17 @@ After completing validations, reassess whether to BUILD, PIVOT, or DON'T PURSUE.
 
 **Competitive Landscape:**
 
-| Competitor | Pricing | Position | Differentiation |
-|------------|---------|----------|-----------------|
-| [Name] | [$] | [Description] | [How they differ] |
+| Competitor | Pricing | Position      | Differentiation   |
+| ---------- | ------- | ------------- | ----------------- |
+| [Name]     | [$]     | [Description] | [How they differ] |
 
 **Demand Signals:**
+
 - [Source 1]: [Finding with link]
 - [Source 2]: [Finding with link]
 
 **Market Size:**
+
 - TAM: [$ estimate with methodology]
 - SAM: [$ estimate with methodology]
 - SOM: [$ estimate with methodology]
@@ -216,11 +239,12 @@ After completing validations, reassess whether to BUILD, PIVOT, or DON'T PURSUE.
 
 **Skills Inventory:**
 
-| Required Skill | Current Level | Gap | Mitigation |
-|----------------|---------------|-----|------------|
-| [Skill] | [Level] | [Gap description] | [How to fill] |
+| Required Skill | Current Level | Gap               | Mitigation    |
+| -------------- | ------------- | ----------------- | ------------- |
+| [Skill]        | [Level]       | [Gap description] | [How to fill] |
 
 **Resource Summary:**
+
 - Time: [hours/week available]
 - Budget: [monthly/total available]
 - Timeline: [expected launch date]
@@ -231,11 +255,12 @@ After completing validations, reassess whether to BUILD, PIVOT, or DON'T PURSUE.
 
 **Channel Analysis:**
 
-| Channel | CAC Estimate | Time to Scale | Fit | Priority |
-|---------|--------------|---------------|-----|----------|
-| [Channel] | [$] | [Timeline] | [High/Med/Low] | [1-5] |
+| Channel   | CAC Estimate | Time to Scale | Fit            | Priority |
+| --------- | ------------ | ------------- | -------------- | -------- |
+| [Channel] | [$]          | [Timeline]    | [High/Med/Low] | [1-5]    |
 
 **Existing Advantages:**
+
 - [Advantage 1]
 - [Advantage 2]
 
@@ -246,7 +271,7 @@ After completing validations, reassess whether to BUILD, PIVOT, or DON'T PURSUE.
 1. [Source 1 with URL]
 2. [Source 2 with URL]
 3. [Source 3 with URL]
-[...]
+   [...]
 
 ---
 
@@ -266,6 +291,7 @@ After completing validations, reassess whether to BUILD, PIVOT, or DON'T PURSUE.
 ---
 
 **Commands Available:**
+
 - `help` - Display available commands
 - `regenerate` - Recreate report with different emphasis
 - `export` - Provide report in copyable markdown format
@@ -275,4 +301,4 @@ After completing validations, reassess whether to BUILD, PIVOT, or DON'T PURSUE.
 
 ---
 
-*This validation report is based on available data and founder inputs. It provides directional guidance for decision-making but should be supplemented with direct customer conversations and real-world testing.*
+_This validation report is based on available data and founder inputs. It provides directional guidance for decision-making but should be supplemented with direct customer conversations and real-world testing._

@@ -25,6 +25,7 @@ This workflow guides you through complex content projects that leverage multiple
 **Goal**: Establish overall creative direction
 
 **Actions**:
+
 1. Define project purpose and goals
 2. Identify all required content types
 3. Establish brand guidelines and constraints
@@ -32,6 +33,7 @@ This workflow guides you through complex content projects that leverage multiple
 5. Map content dependencies
 
 **Questions**:
+
 - What's the core message or story?
 - What content formats are needed?
 - Who is the target audience?
@@ -39,6 +41,7 @@ This workflow guides you through complex content projects that leverage multiple
 - What's the distribution plan?
 
 **Output**: Project Brief Document
+
 - Purpose and objectives
 - Target audience
 - Required deliverables
@@ -53,6 +56,7 @@ This workflow guides you through complex content projects that leverage multiple
 **Use**: Perplexity Specialist
 
 **Research Areas**:
+
 - **Audience Insights**: Demographics, preferences, pain points
 - **Competitive Analysis**: What others are doing, gaps to fill
 - **Trend Research**: Current movements, popular aesthetics
@@ -60,12 +64,14 @@ This workflow guides you through complex content projects that leverage multiple
 - **Technical Research**: Platform specs, best practices
 
 **Workflow**: Follow Research Workflow
+
 - Define research needs
 - Create comprehensive Perplexity prompts
 - Gather and document findings
 - Extract key insights for creative direction
 
 **Output**: Research Brief
+
 - Key audience insights
 - Competitive landscape
 - Trend analysis
@@ -78,6 +84,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/research/`
 **Goal**: Establish unified visual and tonal direction
 
 **Actions**:
+
 1. Define visual style and aesthetic
 2. Establish color palettes (3-5 colors across all assets)
 3. Determine mood and emotional tone
@@ -85,6 +92,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/research/`
 5. Align with brand guidelines
 
 **Visual Direction Elements**:
+
 - **Color Palette**: Specific colors used across all media
 - **Style References**: Art movements, film aesthetics, design periods
 - **Mood**: Emotional tone and atmosphere
@@ -92,12 +100,14 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/research/`
 - **Photography Style**: If using photorealistic images
 
 **Musical Direction Elements**:
+
 - **Genre**: Music style and influences
 - **Tempo/Energy**: Pacing and intensity
 - **Instrumentation**: Key sounds and textures
 - **Mood Alignment**: Match visual emotional tone
 
 **Output**: Creative Direction Document
+
 - Visual style guide
 - Color palettes
 - Style references and examples
@@ -110,15 +120,16 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/research/`
 
 **Content Matrix**:
 
-| Asset Type | Purpose | Dependencies | Agent | Priority |
-|------------|---------|--------------|-------|----------|
-| Research | Foundation | None | Perplexity | 1 |
-| Hero Image | Landing page | Research, creative direction | Image Prompter | 2 |
-| Video | Social media | Hero image (style ref) | Sora Director | 3 |
-| Music | Video soundtrack | Video timing | Suno Composer | 3 |
-| Supporting Images | Content pieces | Creative direction | Image Prompter | 4 |
+| Asset Type        | Purpose          | Dependencies                 | Agent          | Priority |
+| ----------------- | ---------------- | ---------------------------- | -------------- | -------- |
+| Research          | Foundation       | None                         | Perplexity     | 1        |
+| Hero Image        | Landing page     | Research, creative direction | Image Prompter | 2        |
+| Video             | Social media     | Hero image (style ref)       | Sora Director  | 3        |
+| Music             | Video soundtrack | Video timing                 | Suno Composer  | 3        |
+| Supporting Images | Content pieces   | Creative direction           | Image Prompter | 4        |
 
 **Identify**:
+
 - Execution sequence
 - Asset dependencies
 - Style consistency requirements
@@ -131,6 +142,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/research/`
 **Use**: Image Prompter
 
 **Process**:
+
 1. Start with hero/primary images
 2. Apply creative direction (colors, style, mood)
 3. Generate variations
@@ -138,6 +150,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/research/`
 5. Use successful images as style references for other assets
 
 **Workflow**: Follow Image Generation Workflow
+
 - Analyze concept
 - Choose template type
 - Build scene descriptions
@@ -145,6 +158,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/research/`
 - Generate and iterate
 
 **Output**: Primary Visual Assets
+
 - Hero images
 - Key supporting visuals
 - Style-establishing imagery
@@ -158,6 +172,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/images/`
 **Use**: Sora Director
 
 **Process**:
+
 1. Reference creative direction and color palettes
 2. Use generated images as style references (`input_reference`)
 3. Match cinematographic mood to overall tone
@@ -165,6 +180,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/images/`
 5. Plan for music synchronization
 
 **Workflow**: Follow Video Creation Workflow
+
 - Define video concept (aligned with project)
 - Build cinematic prompts
 - Apply consistent style anchors
@@ -172,11 +188,13 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/images/`
 - Remix for refinement
 
 **Synchronization Considerations**:
+
 - Video duration matches music composition
 - Key visual moments align with musical beats
 - Pacing supports narrative flow
 
 **Output**: Video Assets
+
 - Primary video content
 - B-roll and supporting footage
 - Variations for different platforms
@@ -190,6 +208,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/video/`
 **Use**: Suno Composer
 
 **Process**:
+
 1. Match mood to visual content
 2. Align tempo to video pacing
 3. Structure music for video timing
@@ -197,6 +216,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/video/`
 5. Ensure professional production quality
 
 **Workflow**: Follow Music Composition Workflow
+
 - Analyze musical needs (aligned with video)
 - Apply Four Pillars Framework
 - Structure with meta tags for video sync
@@ -204,12 +224,14 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/video/`
 - Remaster for quality
 
 **Video Sync Considerations**:
+
 - Match duration to video length
 - Build intensity at visual climaxes
 - Support narrative with musical arc
 - Time transitions to visual cuts
 
 **Output**: Musical Assets
+
 - Primary soundtrack
 - Alternative versions (short, loop, extended)
 - Stems for mixing (if needed)
@@ -221,6 +243,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/music/`
 **Goal**: Complete content package with all required pieces
 
 **Additional Assets May Include**:
+
 - **Images**: Social media graphics, thumbnails, banners
 - **Videos**: Platform-specific cuts, teases, snippets
 - **Text**: Captions, descriptions (from research)
@@ -228,6 +251,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/music/`
 - **Variations**: Platform-optimized versions
 
 **Consistency Checks**:
+
 - ✅ All assets share color palette
 - ✅ Style and mood consistent across media
 - ✅ Brand guidelines followed
@@ -241,30 +265,35 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/music/`
 **Review Checklist**:
 
 **Visual Consistency**:
+
 - ✅ Color palettes match across all assets
 - ✅ Style references consistently applied
 - ✅ Mood and tone aligned
 - ✅ Brand guidelines followed
 
 **Technical Quality**:
+
 - ✅ Image resolutions appropriate
 - ✅ Video specifications met
 - ✅ Music production professional
 - ✅ No artifacts or quality issues
 
 **Narrative Coherence**:
+
 - ✅ Story flows logically
 - ✅ Research insights reflected
 - ✅ Message clear and consistent
 - ✅ Target audience appropriately addressed
 
 **Platform Optimization**:
+
 - ✅ Aspect ratios correct for platforms
 - ✅ File formats compatible
 - ✅ Durations appropriate
 - ✅ Accessibility considered
 
 **Refinement Process**:
+
 - Identify any inconsistencies
 - Refine specific assets using individual workflows
 - Ensure cohesion across all content
@@ -275,6 +304,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/music/`
 **Goal**: Organize deliverables and document process
 
 **Final Package Structure**:
+
 ```
 {{multimodal_projects_folder}}/[project-name]/
 ├── project-brief.md
@@ -301,6 +331,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/music/`
 ```
 
 **Documentation Includes**:
+
 - All prompt files (for reproducibility)
 - Creative direction documents
 - Research summaries
@@ -311,6 +342,7 @@ Saved to: `{{multimodal_projects_folder}}/[project-name]/music/`
 ## Success Criteria
 
 A successful multi-modal project delivers:
+
 - ✅ Complete content package addressing all requirements
 - ✅ Visual and tonal consistency across all assets
 - ✅ Research-informed creative decisions
@@ -336,30 +368,35 @@ A successful multi-modal project delivers:
 ## Common Project Types
 
 ### Product Launch Package
+
 - Perplexity: Market research, competitor analysis
 - Images: Product shots, lifestyle images, social graphics
 - Video: Product demo, story video
 - Music: Energetic, modern soundtrack
 
 ### Educational Content Series
+
 - Perplexity: Topic research, accuracy verification
 - Images: Diagrams, concept illustrations, thumbnails
 - Video: Explanatory content, visual examples
 - Music: Focus-friendly, non-distracting background
 
 ### Marketing Campaign
+
 - Perplexity: Audience insights, trend analysis
 - Images: Ad creatives, social posts, banners
 - Video: Story-driven promotional content
 - Music: Brand-aligned, emotionally resonant
 
 ### Brand Storytelling
+
 - Perplexity: Brand values, audience connection
 - Images: Lifestyle, emotive visuals
 - Video: Narrative-driven, cinematic
 - Music: Mood-setting, atmospheric
 
 ### Social Media Content Package
+
 - Perplexity: Trend research, audience preferences
 - Images: Multiple platform-optimized graphics
 - Video: Short-form, attention-grabbing
@@ -367,4 +404,4 @@ A successful multi-modal project delivers:
 
 ---
 
-*Master multi-modal content creation to produce comprehensive, cohesive creative projects that leverage the full power of AI creative tools.*
+_Master multi-modal content creation to produce comprehensive, cohesive creative projects that leverage the full power of AI creative tools._

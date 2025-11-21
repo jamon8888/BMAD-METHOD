@@ -11,13 +11,16 @@ List your primary keywords, related terms, and semantic variations. Organize by 
 ## Primary Keywords (Core Topics)
 
 ### [Topic/Content Pillar 1]
+
 **Primary Keyword:** [main keyword phrase]
 **Related Keywords:**
+
 - [variation 1]
 - [variation 2]
 - [variation 3]
 
 **Semantic Variations:**
+
 - [related concept 1]
 - [related concept 2]
 
@@ -27,12 +30,15 @@ List your primary keywords, related terms, and semantic variations. Organize by 
 ---
 
 ### [Topic/Content Pillar 2]
+
 **Primary Keyword:** [main keyword phrase]
 **Related Keywords:**
+
 - [variation 1]
 - [variation 2]
 
 **Semantic Variations:**
+
 - [related concept 1]
 - [related concept 2]
 
@@ -44,6 +50,7 @@ List your primary keywords, related terms, and semantic variations. Organize by 
 ## Long-Tail Keywords
 
 ### [Category]
+
 - [long-tail phrase 1] - Monthly searches: [estimate]
 - [long-tail phrase 2] - Monthly searches: [estimate]
 - [long-tail phrase 3] - Monthly searches: [estimate]
@@ -53,6 +60,7 @@ List your primary keywords, related terms, and semantic variations. Organize by 
 ## Competitor Keywords
 
 ### Competitors to Monitor
+
 - **[Competitor Name]:** Ranking for: [keywords they rank for]
 - **[Competitor Name]:** Ranking for: [keywords they rank for]
 
@@ -61,6 +69,7 @@ List your primary keywords, related terms, and semantic variations. Organize by 
 ## Seasonal Keywords
 
 ### [Season/Time Period]
+
 - [seasonal keyword 1]
 - [seasonal keyword 2]
 
@@ -77,6 +86,7 @@ List your primary keywords, related terms, and semantic variations. Organize by 
 ## Excluded Keywords (Negative Keywords)
 
 Keywords to avoid or not target:
+
 - [keyword to avoid] - Reason: [why]
 - [keyword to avoid] - Reason: [why]
 

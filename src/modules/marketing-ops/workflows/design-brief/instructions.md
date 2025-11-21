@@ -13,6 +13,7 @@ This workflow guides the creation of a complete design brief including project o
 **Objective**: Understand the project purpose, context, and business objectives
 
 **Actions**:
+
 - Define project name, type, and deliverables
 - Understand business objectives and marketing goals
 - Identify target launch date and timeline
@@ -20,6 +21,7 @@ This workflow guides the creation of a complete design brief including project o
 - Understand where/how assets will be used
 
 **Elicitation Questions**:
+
 - "What is the project name and what type of creative work is needed? (e.g., landing page, email campaign, social ads, brand refresh)"
 - "What are the business objectives? What problem are we solving?"
 - "What is the target launch date? What is the project timeline?"
@@ -32,6 +34,7 @@ This workflow guides the creation of a complete design brief including project o
 **Objective**: Create detailed profile of who the design is targeting
 
 **Actions**:
+
 - Identify primary and secondary audiences
 - Define demographics, psychographics, and behaviors
 - Understand audience preferences and pain points
@@ -39,6 +42,7 @@ This workflow guides the creation of a complete design brief including project o
 - Clarify audience sophistication and familiarity with brand
 
 **Audience Profile Elements**:
+
 - **Demographics**: Age, gender, location, income, education
 - **Psychographics**: Values, interests, lifestyle, motivations
 - **Behaviors**: Online habits, purchase behavior, content consumption
@@ -50,6 +54,7 @@ This workflow guides the creation of a complete design brief including project o
 **Objective**: Ensure design aligns with brand identity and requirements
 
 **Actions**:
+
 - Review existing brand guidelines (colors, fonts, logo usage)
 - Identify any mandatory brand elements
 - Clarify tone, voice, and personality expectations
@@ -59,6 +64,7 @@ This workflow guides the creation of a complete design brief including project o
 **Use Task**: brand-system.xml
 
 **Brand Alignment Checklist**:
+
 - [ ] Brand colors and their usage rules
 - [ ] Typography hierarchy and font families
 - [ ] Logo variations and minimum sizes
@@ -72,6 +78,7 @@ This workflow guides the creation of a complete design brief including project o
 **Objective**: Clarify what the design needs to accomplish
 
 **Actions**:
+
 - Define primary creative objective (awareness, consideration, conversion)
 - Establish key message and supporting messages
 - Determine desired emotional response
@@ -79,6 +86,7 @@ This workflow guides the creation of a complete design brief including project o
 - Clarify success metrics for creative performance
 
 **Creative Objectives**:
+
 - **Primary Goal**: What is the #1 thing this design needs to accomplish?
 - **Key Message**: What is the main message to communicate?
 - **Emotional Response**: How should the audience feel?
@@ -90,6 +98,7 @@ This workflow guides the creation of a complete design brief including project o
 **Objective**: Define exactly what assets are needed with specifications
 
 **Actions**:
+
 - List all required deliverables with quantities
 - Specify dimensions, file formats, and file sizes
 - Define color modes (RGB, CMYK) and resolution requirements
@@ -98,6 +107,7 @@ This workflow guides the creation of a complete design brief including project o
 
 **Deliverables Template**:
 For each deliverable:
+
 - **Asset Name**: Clear description
 - **Dimensions**: Exact size in pixels or inches
 - **File Format**: JPG, PNG, SVG, MP4, etc.
@@ -108,6 +118,7 @@ For each deliverable:
 - **Special Requirements**: Animation, interactivity, accessibility
 
 **Platform-Specific Specs**:
+
 - **Web/Landing Pages**: Responsive breakpoints, load time requirements
 - **Social Media**: Platform-specific sizes and specs
 - **Paid Ads**: Ad network requirements and character limits
@@ -119,6 +130,7 @@ For each deliverable:
 **Objective**: Give designers clear direction while allowing creative freedom
 
 **Actions**:
+
 - Describe desired visual style and aesthetic
 - Provide reference examples (both aspirational and competitive)
 - Clarify mood and tone (modern, playful, luxurious, etc.)
@@ -126,6 +138,7 @@ For each deliverable:
 - Define what to avoid (competitor styles, overused approaches)
 
 **Creative Direction Framework**:
+
 - **Visual Style**: Minimalist, bold, illustrative, photographic, etc.
 - **Mood/Tone**: Professional, friendly, edgy, sophisticated, fun
 - **Color Approach**: Vibrant, muted, monochromatic, high contrast
@@ -134,6 +147,7 @@ For each deliverable:
 - **Layout**: Grid-based, asymmetric, centered, dynamic
 
 **Inspiration References**:
+
 - Links to aspirational examples
 - Competitor examples (what to emulate or avoid)
 - Brand's existing assets that are successful
@@ -144,6 +158,7 @@ For each deliverable:
 **Objective**: Establish clear timeline and approval workflow
 
 **Actions**:
+
 - Create project timeline with key milestones
 - Define review and feedback process
 - Identify stakeholders and approvers
@@ -151,6 +166,7 @@ For each deliverable:
 - Clarify final delivery requirements
 
 **Timeline Structure**:
+
 - **Kickoff**: {{kickoff_date}}
 - **Initial Concepts**: {{concept_date}} (2-3 options)
 - **First Review**: {{review_1_date}}
@@ -162,6 +178,7 @@ For each deliverable:
 - **Launch**: {{launch_date}}
 
 **Review Process**:
+
 - Number of revision rounds included
 - Feedback consolidation process
 - Approval authority and decision makers
@@ -172,6 +189,7 @@ For each deliverable:
 **Objective**: Plan for creative testing and performance measurement
 
 **Actions**:
+
 - Identify if A/B testing is required
 - Define test variables (headline, image, CTA, layout)
 - Specify success metrics and measurement approach
@@ -179,6 +197,7 @@ For each deliverable:
 - Consider accessibility requirements (WCAG compliance)
 
 **Testing Plan**:
+
 - **A/B Test Variables**: What elements to test
 - **Test Setup**: How variations will be structured
 - **Success Metrics**: CTR, conversion rate, engagement
@@ -186,6 +205,7 @@ For each deliverable:
 - **Test Duration**: How long to run tests
 
 **Quality Standards**:
+
 - [ ] Mobile responsiveness
 - [ ] Cross-browser compatibility
 - [ ] Page load performance
@@ -197,6 +217,7 @@ For each deliverable:
 **Objective**: Create comprehensive, actionable design brief document
 
 **Actions**:
+
 - Use design-brief-tmpl.md template
 - Fill all sections with specific details
 - Include visual examples and references
@@ -205,6 +226,7 @@ For each deliverable:
 - Save to configured output location
 
 **Brief Validation Checklist**:
+
 - [ ] Project objectives are clear and measurable
 - [ ] Target audience is well-defined
 - [ ] Deliverables are specific with technical specs

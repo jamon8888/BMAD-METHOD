@@ -11,6 +11,7 @@ This workflow guides users through a comprehensive interview preparation process
 **Objective**: Understand the interview context and requirements.
 
 **Activities**:
+
 1. **Interview Type Identification**
    - Determine interview format (phone, video, in-person, panel)
    - Identify interview stage (screening, technical, final, behavioral)
@@ -30,6 +31,7 @@ This workflow guides users through a comprehensive interview preparation process
    - Prepare for different interviewer styles and approaches
 
 **Deliverables**:
+
 - Interview context analysis report
 - Company and role research summary
 - Interviewer profiles and insights
@@ -41,6 +43,7 @@ This workflow guides users through a comprehensive interview preparation process
 **Objective**: Assess qualifications and prepare positioning strategy.
 
 **Activities**:
+
 1. **Qualifications Analysis**
    - Review job requirements against qualifications
    - Identify strengths and competitive advantages
@@ -60,6 +63,7 @@ This workflow guides users through a comprehensive interview preparation process
    - Develop questions about company and role
 
 **Deliverables**:
+
 - Qualifications assessment report
 - Value proposition and positioning strategy
 - Motivation and fit analysis
@@ -71,6 +75,7 @@ This workflow guides users through a comprehensive interview preparation process
 **Objective**: Prepare comprehensive responses to common and specific interview questions.
 
 **Activities**:
+
 1. **Common Question Preparation**
    - Prepare responses to standard interview questions
    - Develop STAR method responses for behavioral questions
@@ -90,6 +95,7 @@ This workflow guides users through a comprehensive interview preparation process
    - Practice responses about company challenges and opportunities
 
 **Deliverables**:
+
 - Comprehensive question response guide
 - STAR method response examples
 - Company-specific question preparation
@@ -101,6 +107,7 @@ This workflow guides users through a comprehensive interview preparation process
 **Objective**: Prepare for technical assessments and demonstrations.
 
 **Activities**:
+
 1. **Technical Skills Review**
    - Review technical skills required for the role
    - Practice coding problems and algorithms
@@ -120,6 +127,7 @@ This workflow guides users through a comprehensive interview preparation process
    - Review technical concepts and best practices
 
 **Deliverables**:
+
 - Technical skills assessment and preparation plan
 - Portfolio and work sample organization
 - Technical question practice guide
@@ -131,6 +139,7 @@ This workflow guides users through a comprehensive interview preparation process
 **Objective**: Practice interview skills and receive feedback.
 
 **Activities**:
+
 1. **Mock Interview Sessions**
    - Conduct realistic mock interviews
    - Practice different interview formats and styles
@@ -150,6 +159,7 @@ This workflow guides users through a comprehensive interview preparation process
    - Build confidence through repetition
 
 **Deliverables**:
+
 - Mock interview feedback and improvement plan
 - Refined interview responses and delivery
 - Confidence-building practice sessions
@@ -161,6 +171,7 @@ This workflow guides users through a comprehensive interview preparation process
 **Objective**: Ensure smooth interview logistics and professional presentation.
 
 **Activities**:
+
 1. **Interview Logistics**
    - Confirm interview details and requirements
    - Prepare for different interview formats
@@ -180,6 +191,7 @@ This workflow guides users through a comprehensive interview preparation process
    - Prepare for unexpected situations and challenges
 
 **Deliverables**:
+
 - Interview logistics plan
 - Professional presentation checklist
 - Mental and physical preparation strategy
@@ -191,6 +203,7 @@ This workflow guides users through a comprehensive interview preparation process
 **Objective**: Execute the interview with confidence and professionalism.
 
 **Activities**:
+
 1. **Interview Day Preparation**
    - Follow pre-interview routine and checklist
    - Arrive early and prepare for interview environment
@@ -210,6 +223,7 @@ This workflow guides users through a comprehensive interview preparation process
    - Plan next steps and follow-up actions
 
 **Deliverables**:
+
 - Interview performance assessment
 - Interview documentation and notes
 - Follow-up action plan
@@ -221,6 +235,7 @@ This workflow guides users through a comprehensive interview preparation process
 **Objective**: Maintain momentum and demonstrate continued interest.
 
 **Activities**:
+
 1. **Thank You Communication**
    - Send personalized thank you notes
    - Reference specific interview discussions
@@ -240,6 +255,7 @@ This workflow guides users through a comprehensive interview preparation process
    - Continue job search activities
 
 **Deliverables**:
+
 - Thank you communications
 - Interview reflection and learning summary
 - Follow-up strategy and action plan
@@ -249,6 +265,7 @@ This workflow guides users through a comprehensive interview preparation process
 ## Workflow Roles and Responsibilities
 
 ### Interview Coach (Primary)
+
 - **Responsibilities**:
   - Guide users through the entire preparation process
   - Provide expertise and insights on interview strategies
@@ -257,6 +274,7 @@ This workflow guides users through a comprehensive interview preparation process
 - **Time Commitment**: 8-12 hours per user
 
 ### User (Active Participant)
+
 - **Responsibilities**:
   - Complete all preparation activities and assignments
   - Practice interview skills and responses
@@ -265,6 +283,7 @@ This workflow guides users through a comprehensive interview preparation process
 - **Time Commitment**: 15-25 hours total
 
 ### Mock Interview Partners (Support)
+
 - **Responsibilities**:
   - Conduct realistic mock interviews
   - Provide constructive feedback and suggestions
@@ -275,6 +294,7 @@ This workflow guides users through a comprehensive interview preparation process
 ## Quality Assurance
 
 ### Preparation Quality Standards
+
 - **Completeness**: All interview aspects thoroughly prepared
 - **Relevance**: Preparation aligned with specific role and company
 - **Confidence**: User demonstrates confidence and professionalism
@@ -282,6 +302,7 @@ This workflow guides users through a comprehensive interview preparation process
 - **Authenticity**: Responses genuine and aligned with user's background
 
 ### Success Metrics
+
 - **Interview Performance**: Strong performance in actual interviews
 - **Confidence Level**: High confidence and comfort during interviews
 - **Response Quality**: Clear, compelling, and relevant responses
@@ -291,6 +312,7 @@ This workflow guides users through a comprehensive interview preparation process
 ## Workflow Customization
 
 ### Interview Type Adaptations
+
 - **Phone Interviews**: Focus on voice quality, clear communication, and concise responses
 - **Video Interviews**: Emphasize technology preparation, visual presence, and environment setup
 - **In-Person Interviews**: Include logistics planning, professional appearance, and body language
@@ -298,6 +320,7 @@ This workflow guides users through a comprehensive interview preparation process
 - **Technical Interviews**: Include extensive technical preparation and problem-solving practice
 
 ### Industry-Specific Adjustments
+
 - **Technology**: Focus on technical skills, coding problems, and system design
 - **Finance**: Emphasize analytical skills, market knowledge, and regulatory understanding
 - **Healthcare**: Include clinical knowledge, patient care, and healthcare systems
@@ -305,6 +328,7 @@ This workflow guides users through a comprehensive interview preparation process
 - **Education**: Emphasize teaching skills, curriculum development, and student outcomes
 
 ### Experience Level Considerations
+
 - **Entry Level**: Focus on enthusiasm, potential, and learning ability
 - **Mid-Career**: Emphasize experience, achievements, and leadership potential
 - **Senior Level**: Focus on strategic thinking, executive presence, and business impact
@@ -313,6 +337,7 @@ This workflow guides users through a comprehensive interview preparation process
 ## Workflow Tools and Resources
 
 ### Required Tools
+
 - **Interview Preparation Templates**: Structured templates for each step
 - **Mock Interview Guides**: Comprehensive mock interview frameworks
 - **Question Response Libraries**: Common and industry-specific questions
@@ -320,6 +345,7 @@ This workflow guides users through a comprehensive interview preparation process
 - **Feedback Systems**: Structured feedback collection and analysis
 
 ### Recommended Resources
+
 - **Company Research**: Company websites, news, and industry reports
 - **Interview Practice**: Mock interview platforms and practice partners
 - **Technical Preparation**: Coding platforms, technical tutorials, and practice problems
@@ -329,12 +355,14 @@ This workflow guides users through a comprehensive interview preparation process
 ## Workflow Outcomes
 
 ### Immediate Outcomes
+
 - **Comprehensive Preparation**: Thorough preparation for all interview aspects
 - **Confidence Building**: High confidence and comfort during interviews
 - **Professional Presence**: Professional appearance and communication
 - **Strategic Positioning**: Clear value proposition and competitive positioning
 
 ### Long-term Outcomes
+
 - **Interview Success**: Improved interview performance and success rates
 - **Career Advancement**: Better job opportunities and career progression
 - **Skill Development**: Enhanced communication and presentation skills
@@ -343,18 +371,21 @@ This workflow guides users through a comprehensive interview preparation process
 ## Workflow Success Factors
 
 ### User Commitment
+
 - **Active Participation**: Full engagement in preparation activities
 - **Practice Dedication**: Consistent practice and skill development
 - **Research Thoroughness**: Comprehensive company and role research
 - **Feedback Integration**: Willingness to incorporate feedback and improve
 
 ### Quality Support
+
 - **Expert Guidance**: Access to knowledgeable interview coaches and mentors
 - **Comprehensive Resources**: Availability of quality preparation materials
 - **Realistic Practice**: Authentic mock interview experiences
 - **Constructive Feedback**: Helpful and actionable feedback for improvement
 
 ### Realistic Expectations
+
 - **Preparation Time**: Adequate time for thorough preparation
 - **Skill Development**: Realistic expectations for skill improvement
 - **Interview Outcomes**: Understanding that preparation improves but doesn't guarantee success

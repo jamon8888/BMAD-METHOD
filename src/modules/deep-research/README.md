@@ -20,15 +20,15 @@ Enterprise-grade research automation with multi-source verification, citation va
 
 ✅ **Works with ALL AI models:**
 
-| AI Model | Mode | Capability |
-|----------|------|------------|
-| **Claude Code** | Automated | Full web search + real-time research |
-| **ChatGPT Plus** (with browsing) | Automated | Full web search + real-time research |
-| **Gemini** (with search) | Automated | Full web search + real-time research |
-| **ChatGPT** (standard) | Guided | User-assisted research with AI synthesis |
-| **Claude** (standard) | Guided | User-assisted research with AI synthesis |
-| **Gemini** (standard) | Guided | User-assisted research with AI synthesis |
-| **Any AI** | Hybrid | Training knowledge + user sources |
+| AI Model                         | Mode      | Capability                               |
+| -------------------------------- | --------- | ---------------------------------------- |
+| **Claude Code**                  | Automated | Full web search + real-time research     |
+| **ChatGPT Plus** (with browsing) | Automated | Full web search + real-time research     |
+| **Gemini** (with search)         | Automated | Full web search + real-time research     |
+| **ChatGPT** (standard)           | Guided    | User-assisted research with AI synthesis |
+| **Claude** (standard)            | Guided    | User-assisted research with AI synthesis |
+| **Gemini** (standard)            | Guided    | User-assisted research with AI synthesis |
+| **Any AI**                       | Hybrid    | Training knowledge + user sources        |
 
 ### Three Operational Modes
 
@@ -157,31 +157,33 @@ Dr. Morgan: Perfect! I have enough information. Let me synthesize this into a co
 
 ### Automated Mode (With Web Search)
 
-| Mode | Duration | Sources | Verification | Best For |
-|------|----------|---------|--------------|----------|
-| **Quick** | 2-5 min | 2-5 | Basic fact-checking | Initial exploration, quick answers |
-| **Standard** | 5-10 min | 15-30 | Multi-source comparison | Most general research needs |
-| **Deep** | 10-20 min | 30+ | 3+ sources per claim | Important decisions, comprehensive understanding |
-| **UltraDeep** | 20-45+ min | 50+ | Maximum rigor | Enterprise decisions, critical analysis |
+| Mode          | Duration   | Sources | Verification            | Best For                                         |
+| ------------- | ---------- | ------- | ----------------------- | ------------------------------------------------ |
+| **Quick**     | 2-5 min    | 2-5     | Basic fact-checking     | Initial exploration, quick answers               |
+| **Standard**  | 5-10 min   | 15-30   | Multi-source comparison | Most general research needs                      |
+| **Deep**      | 10-20 min  | 30+     | 3+ sources per claim    | Important decisions, comprehensive understanding |
+| **UltraDeep** | 20-45+ min | 50+     | Maximum rigor           | Enterprise decisions, critical analysis          |
 
 ### Guided Mode (Without Web Search)
 
-| Mode | Duration | Target Sources | Verification | Best For |
-|------|----------|----------------|--------------|----------|
-| **Quick** | 15-20 min | 2-5 | Basic fact-checking | Initial exploration |
-| **Standard** | 30-45 min | 10-15 | Multi-source synthesis | Most research needs |
-| **Deep** | 1-2 hours | 20+ | Comprehensive verification | Important decisions |
-| **UltraDeep** | 2-4 hours | 30+ | Multi-session deep dive | Enterprise critical analysis |
+| Mode          | Duration  | Target Sources | Verification               | Best For                     |
+| ------------- | --------- | -------------- | -------------------------- | ---------------------------- |
+| **Quick**     | 15-20 min | 2-5            | Basic fact-checking        | Initial exploration          |
+| **Standard**  | 30-45 min | 10-15          | Multi-source synthesis     | Most research needs          |
+| **Deep**      | 1-2 hours | 20+            | Comprehensive verification | Important decisions          |
+| **UltraDeep** | 2-4 hours | 30+            | Multi-session deep dive    | Enterprise critical analysis |
 
 ## Key Features
 
 ### Citation Validation (CiteGuard)
+
 - Every factual claim must cite specific source immediately
 - Format: "According to [1], finding..."
 - No hallucinated or approximate citations
 - Complete bibliography with no truncation
 
 ### Source Credibility Assessment
+
 - Authority evaluation
 - Recency checking
 - Methodology assessment
@@ -189,24 +191,28 @@ Dr. Morgan: Perfect! I have enough information. Let me synthesize this into a co
 - Credibility ratings (A-D scale)
 
 ### Multi-Source Verification
+
 - Major claims: 3+ source requirement
 - Statistics: Cross-checked across sources
 - Contradictions: Documented and analyzed
 - Confidence levels: Explicitly stated
 
 ### Dynamic Outlining (WebWeaver)
+
 - Structure adapts to discovered evidence
 - Logical organization emerges from findings
 - Flexible theme development
 - Complete coverage assurance
 
 ### Progressive Assembly
+
 - Handle reports of unlimited length
 - Incremental file writing
 - Section-by-section completion
 - Prevents token limit issues
 
 ### Parallel Retrieval
+
 - Concurrent search execution
 - 3-5x faster information gathering
 - First Finish Search patterns
@@ -215,6 +221,7 @@ Dr. Morgan: Perfect! I have enough information. Let me synthesize this into a co
 ## Quality Standards
 
 ### Output Requirements
+
 - **Executive Summary**: Under 250 words
 - **Narrative Prose**: 80%+ flowing paragraphs (not bullets)
 - **Citations**: Every claim sourced immediately
@@ -223,6 +230,7 @@ Dr. Morgan: Perfect! I have enough information. Let me synthesize this into a co
 - **Methodology**: Transparent process documentation
 
 ### Anti-Hallucination Safeguards
+
 1. No citation without actual source
 2. Explicit attribution with source names
 3. Complete bibliography entries (no "..." or ranges)
@@ -230,6 +238,7 @@ Dr. Morgan: Perfect! I have enough information. Let me synthesize this into a co
 5. Explicit gap acknowledgment
 
 ### Source Diversity
+
 - Minimum 10+ distinct sources (Standard mode)
 - Multiple types: academic, industry, news, official data
 - Credibility assessment for each source
@@ -241,10 +250,10 @@ Edit `/deep-research/config.yaml`:
 
 ```yaml
 # Default research mode
-default_research_mode: "standard"  # quick, standard, deep, ultra
+default_research_mode: 'standard' # quick, standard, deep, ultra
 
 # Output configuration
-output_folder: "{{output_folder}}/research"
+output_folder: '{{output_folder}}/research'
 
 # Quality standards
 executive_summary_max_words: 250
@@ -294,30 +303,35 @@ Deep Research integrates seamlessly with:
 ## Use Cases
 
 ### Business Intelligence
+
 - Market research and sizing
 - Competitive landscape analysis
 - Industry trend investigation
 - Due diligence research
 
 ### Product Development
+
 - User research and needs analysis
 - Technology evaluation
 - Feature validation
 - Market positioning
 
 ### Content Creation
+
 - Fact-checking and verification
 - Background research
 - Expert source identification
 - Topic exploration
 
 ### Academic & Scientific
+
 - Literature reviews
 - State-of-the-art surveys
 - Citation tracking
 - Methodology research
 
 ### Strategic Planning
+
 - Technology trend analysis
 - Best practice research
 - Risk assessment
@@ -326,18 +340,21 @@ Deep Research integrates seamlessly with:
 ## Best Practices
 
 ### Research Preparation
+
 1. **Define clear questions** - Specific scope yields better results
 2. **Choose appropriate mode** - Match depth to decision importance
 3. **Provide context** - Background information improves relevance
 4. **Set expectations** - Understand time/depth tradeoffs
 
 ### During Research
+
 1. **Trust the process** - Let the 8-phase pipeline work
 2. **Review progress** - Check phase transition updates
 3. **Note discoveries** - Pay attention to interesting findings
 4. **Ask questions** - Clarify scope or direction as needed
 
 ### After Research
+
 1. **Review sources** - Check credibility assessments in appendix
 2. **Verify citations** - Spot-check key claims and sources
 3. **Acknowledge limitations** - Understand gaps and constraints
@@ -403,7 +420,7 @@ Part of BMad Method - See main repository LICENSE
 
 **Deep Research Module** - Enterprise-grade intelligence gathering for AI collaboration.
 
-*"Quality research takes time. Every verified fact builds trust. Every acknowledged limitation demonstrates integrity."*
+_"Quality research takes time. Every verified fact builds trust. Every acknowledged limitation demonstrates integrity."_
 
 ---
 

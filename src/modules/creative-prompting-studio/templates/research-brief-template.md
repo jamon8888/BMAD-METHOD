@@ -21,21 +21,26 @@
 ## Framework Components
 
 ### 1. Clear Instruction
+
 [What you want Perplexity to do]
 
 ### 2. Relevant Context
+
 [Background information and use case]
 
 ### 3. Specific Input
+
 [The subject, topic, or data to analyze]
 
 ### 4. Key Keywords
-[3-5 critical search terms]
--
+
+## [3-5 critical search terms]
+
 -
 -
 
 ### 5. Output Format
+
 [How results should be structured]
 
 ## Metadata
@@ -49,15 +54,15 @@
 
 ## Expected Outputs
 
-What you expect to receive from this research:
--
+## What you expect to receive from this research:
+
 -
 -
 
 ## Success Criteria
 
-How will you know this research was successful?
--
+## How will you know this research was successful?
+
 -
 -
 
@@ -66,12 +71,15 @@ How will you know this research was successful?
 [After running the prompt, summarize key findings here]
 
 ### Key Insights
+
 -
 
 ### Sources Cited
+
 -
 
 ### Quality Assessment
+
 - **Depth Appropriate**: [Yes/No - Notes]
 - **Sources Credible**: [Yes/No - Notes]
 - **Format Usable**: [Yes/No - Notes]
@@ -79,13 +87,11 @@ How will you know this research was successful?
 
 ## Refinements Needed
 
-[Note any adjustments to make for future similar prompts]
--
+## [Note any adjustments to make for future similar prompts]
 
 ## Follow-Up Research
 
-[Additional questions or research needs that emerged]
--
+## [Additional questions or research needs that emerged]
 
 ---
 

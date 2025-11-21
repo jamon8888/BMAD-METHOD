@@ -5,6 +5,7 @@ This file contains your curated list of trusted sources for content research. Th
 ## Instructions
 
 Add your preferred sources below, organized by category. Include:
+
 - Websites and blogs you trust
 - Industry publications
 - Academic sources
@@ -18,14 +19,17 @@ The more specific you are, the better the AI can find relevant, high-quality inf
 ## Industry News & Trends
 
 ### Technology
+
 - [Source Name](URL) - Brief description
 - [Source Name](URL) - Brief description
 
 ### Business
+
 - [Source Name](URL) - Brief description
 - [Source Name](URL) - Brief description
 
 ### [Your Industry]
+
 - [Source Name](URL) - Brief description
 - [Source Name](URL) - Brief description
 
@@ -34,6 +38,7 @@ The more specific you are, the better the AI can find relevant, high-quality inf
 ## Thought Leaders & Experts
 
 ### [Category or Topic Area]
+
 - **[Expert Name]** - [Twitter/LinkedIn handle] - Expertise: [Description]
 - **[Expert Name]** - [Website/Platform] - Expertise: [Description]
 
@@ -42,10 +47,12 @@ The more specific you are, the better the AI can find relevant, high-quality inf
 ## Data Sources & Research
 
 ### Statistics & Studies
+
 - [Source Name](URL) - Type: [Government/Academic/Industry]
 - [Source Name](URL) - Type: [Government/Academic/Industry]
 
 ### Market Research
+
 - [Source Name](URL) - Focus: [Description]
 - [Source Name](URL) - Focus: [Description]
 
@@ -54,10 +61,12 @@ The more specific you are, the better the AI can find relevant, high-quality inf
 ## Publications & Journals
 
 ### General
+
 - [Publication Name](URL) - Focus: [Description]
 - [Publication Name](URL) - Focus: [Description]
 
 ### Academic
+
 - [Journal Name](URL) - Field: [Description]
 - [Journal Name](URL) - Field: [Description]
 
@@ -66,6 +75,7 @@ The more specific you are, the better the AI can find relevant, high-quality inf
 ## Specialized Sources
 
 ### [Your Specific Niche]
+
 - [Source Name](URL) - Why valuable: [Description]
 - [Source Name](URL) - Why valuable: [Description]
 
@@ -74,12 +84,15 @@ The more specific you are, the better the AI can find relevant, high-quality inf
 ## Content Inspiration
 
 ### Newsletters
+
 - [Newsletter Name](URL) - What to learn from them: [Description]
 
 ### Podcasts
+
 - [Podcast Name](URL) - Key insights: [Description]
 
 ### YouTube Channels
+
 - [Channel Name](URL) - Content type: [Description]
 
 ---

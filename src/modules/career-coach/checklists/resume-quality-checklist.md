@@ -50,6 +50,7 @@ If a resume has not been provided, ask the user to provide their current resume 
 ## Resume Quality Assessment
 
 ### Contact Information
+
 - [ ] **Complete Contact Details**: Name, email, phone, location included
 - [ ] **Professional Email**: Uses professional email address (not personal/nickname)
 - [ ] **LinkedIn Profile**: Includes LinkedIn URL if available
@@ -57,6 +58,7 @@ If a resume has not been provided, ask the user to provide their current resume 
 - [ ] **Consistent Formatting**: Contact information is properly formatted
 
 ### Professional Summary
+
 - [ ] **Clear Value Proposition**: Summarizes key value and career highlights
 - [ ] **Appropriate Length**: 2-3 sentences maximum
 - [ ] **Industry Keywords**: Includes relevant industry terminology
@@ -64,6 +66,7 @@ If a resume has not been provided, ask the user to provide their current resume 
 - [ ] **Target Role Alignment**: Tailored to specific job requirements
 
 ### Work Experience
+
 - [ ] **Chronological Order**: Most recent experience listed first
 - [ ] **Complete Information**: Company, title, dates, location included
 - [ ] **Achievement-Focused**: Bullet points focus on accomplishments, not just duties
@@ -73,6 +76,7 @@ If a resume has not been provided, ask the user to provide their current resume 
 - [ ] **Consistent Formatting**: Uniform formatting throughout experience section
 
 ### Skills Section
+
 - [ ] **Technical Skills**: Includes relevant technical skills and tools
 - [ ] **Soft Skills**: Includes leadership, communication, and problem-solving skills
 - [ ] **Industry Alignment**: Skills match target role and industry requirements
@@ -80,6 +84,7 @@ If a resume has not been provided, ask the user to provide their current resume 
 - [ ] **Organized Presentation**: Skills are logically grouped and presented
 
 ### Education
+
 - [ ] **Complete Information**: Degree, institution, graduation date included
 - [ ] **GPA Inclusion**: Includes GPA if 3.5 or higher
 - [ ] **Relevant Coursework**: Includes coursework directly related to target role
@@ -87,6 +92,7 @@ If a resume has not been provided, ask the user to provide their current resume 
 - [ ] **Current Information**: Education details are accurate and current
 
 ### Formatting and Presentation
+
 - [ ] **Clean Layout**: Professional, easy-to-read formatting
 - [ ] **Consistent Spacing**: Uniform spacing throughout document
 - [ ] **Standard Font**: Uses professional font (Arial, Calibri, Times New Roman)
@@ -95,6 +101,7 @@ If a resume has not been provided, ask the user to provide their current resume 
 - [ ] **ATS Compatible**: Format is compatible with Applicant Tracking Systems
 
 ### Content Quality
+
 - [ ] **No Spelling Errors**: Document is free of spelling mistakes
 - [ ] **No Grammar Errors**: Document is free of grammatical errors
 - [ ] **Consistent Tense**: Uses consistent verb tense throughout
@@ -102,6 +109,7 @@ If a resume has not been provided, ask the user to provide their current resume 
 - [ ] **Accurate Information**: All information is truthful and verifiable
 
 ### ATS Optimization
+
 - [ ] **Keyword Alignment**: Includes relevant keywords from job descriptions
 - [ ] **Standard Headers**: Uses standard section headers (Experience, Education, Skills)
 - [ ] **Parseable Format**: Text can be easily read by ATS systems
@@ -109,6 +117,7 @@ If a resume has not been provided, ask the user to provide their current resume 
 - [ ] **Compatible File Format**: Saved in .docx or .pdf format
 
 ### Industry-Specific Requirements
+
 - [ ] **Industry Keywords**: Includes industry-specific terminology
 - [ ] **Relevant Experience**: Experience aligns with industry standards
 - [ ] **Professional Standards**: Follows industry-specific resume conventions
@@ -138,24 +147,28 @@ After user selects elicitation method (2-9):
 ## Quality Scoring
 
 ### Excellent (90-100%)
+
 - All critical items checked
 - Strong achievement focus
 - Excellent ATS optimization
 - Professional presentation
 
 ### Good (80-89%)
+
 - Most critical items checked
 - Good achievement focus
 - Good ATS optimization
 - Professional presentation
 
 ### Needs Improvement (70-79%)
+
 - Some critical items missing
 - Limited achievement focus
 - Basic ATS optimization
 - Some formatting issues
 
 ### Requires Significant Work (Below 70%)
+
 - Many critical items missing
 - Weak achievement focus
 - Poor ATS optimization

@@ -41,24 +41,28 @@ Based on the proven **CTO OS Skills** methodology by Rinaldo Festa, refined thro
 ### 15+ Guided Workflows
 
 **Architecture & Decisions**
+
 - **Architecture Decision Record** - Create structured ADRs for major decisions
 - **Technical Debt Assessment** - Quantify and prioritize technical debt
 - **Technology Evaluation** - Systematic evaluation of technology options
 - **Migration Planning** - Plan and execute major migrations
 
 **Engineering Metrics**
+
 - **DORA Metrics Setup** - Implement industry-standard DevOps metrics
 - **Executive Dashboard** - Create board-ready engineering reports
 - **Team Health Assessment** - Measure and improve team wellbeing
 - **Productivity Analysis** - Diagnose and improve engineering velocity
 
 **Technology Roadmap**
+
 - **Strategic Roadmap** - Create 12-month technology roadmap
 - **Quarterly Planning** - Align engineering with business goals
 - **Capacity Planning** - Realistic resource and capacity planning
 - **OKR Development** - Engineering objectives and key results
 
 **Risk & Resilience**
+
 - **Risk Assessment** - Comprehensive risk identification and scoring
 - **Compliance Roadmap** - Plan SOC 2, ISO 27001, GDPR certification
 - **Incident Response** - Design incident management frameworks
@@ -67,6 +71,7 @@ Based on the proven **CTO OS Skills** methodology by Rinaldo Festa, refined thro
 ### 25+ Specialized Tasks
 
 **Architecture Tasks**
+
 - ADR Creation
 - Trade-off Analysis
 - Build vs Buy Analysis
@@ -74,6 +79,7 @@ Based on the proven **CTO OS Skills** methodology by Rinaldo Festa, refined thro
 - Technical Debt Scoring
 
 **Metrics Tasks**
+
 - DORA Metrics Calculation
 - Developer Satisfaction Survey
 - Team Velocity Analysis
@@ -81,6 +87,7 @@ Based on the proven **CTO OS Skills** methodology by Rinaldo Festa, refined thro
 - Benchmark Comparison
 
 **Roadmap Tasks**
+
 - Strategic Theme Development
 - Portfolio Balancing
 - Technology Radar Update
@@ -88,6 +95,7 @@ Based on the proven **CTO OS Skills** methodology by Rinaldo Festa, refined thro
 - Initiative Prioritization
 
 **Risk Tasks**
+
 - Risk Matrix Creation
 - Security Control Assessment
 - On-Call Framework Design
@@ -106,6 +114,7 @@ npx bmad-method@alpha install
 ### First Steps
 
 1. **Load an Advisor**
+
    ```
    Load Alex (Architecture Advisor) or Morgan (Metrics Advisor)
    ```
@@ -162,6 +171,7 @@ npx bmad-method@alpha install
 ### Alex (Architecture Advisor)
 
 **Triggers:**
+
 - `*adr-create` - Create Architecture Decision Record
 - `*tech-debt-assess` - Assess and prioritize technical debt
 - `*tech-eval` - Evaluate technology options systematically
@@ -174,6 +184,7 @@ npx bmad-method@alpha install
 ### Morgan (Metrics Advisor)
 
 **Triggers:**
+
 - `*dora-setup` - Implement DORA metrics
 - `*exec-dashboard` - Create executive dashboard
 - `*team-health` - Assess team health and satisfaction
@@ -186,6 +197,7 @@ npx bmad-method@alpha install
 ### Jordan (Roadmap Advisor)
 
 **Triggers:**
+
 - `*roadmap-12month` - Create 12-month strategic roadmap
 - `*quarterly-plan` - Plan quarterly initiatives
 - `*capacity-planning` - Calculate and allocate capacity
@@ -198,6 +210,7 @@ npx bmad-method@alpha install
 ### Riley (Risk Advisor)
 
 **Triggers:**
+
 - `*risk-assessment` - Conduct comprehensive risk assessment
 - `*compliance-plan` - Plan compliance certification
 - `*incident-framework` - Design incident response
@@ -212,7 +225,9 @@ npx bmad-method@alpha install
 The CTO OS module includes pre-configured team bundles for different leadership scenarios:
 
 ### Complete CTO Advisory Team (cto-team.yaml)
+
 **All 4 advisors working together** for comprehensive technology leadership
+
 - Alex (Architecture Advisor)
 - Morgan (Metrics Advisor)
 - Jordan (Roadmap Advisor)
@@ -221,7 +236,9 @@ The CTO OS module includes pre-configured team bundles for different leadership 
 **Best for:** Board presentations, annual planning, major strategic decisions
 
 ### Architecture & Planning Team (arch-planning-team.yaml)
+
 **Alex + Jordan** for strategic technical planning
+
 - Architecture decisions with roadmap alignment
 - Migration planning with resource allocation
 - Technical vision with execution plan
@@ -229,7 +246,9 @@ The CTO OS module includes pre-configured team bundles for different leadership 
 **Best for:** Major architectural changes, multi-quarter initiatives
 
 ### Performance & Risk Team (perf-risk-team.yaml)
+
 **Morgan + Riley** for operational excellence
+
 - Metrics tracking with risk management
 - Incident analysis with preventive measures
 - Team health with security culture
@@ -237,7 +256,9 @@ The CTO OS module includes pre-configured team bundles for different leadership 
 **Best for:** Operational improvements, compliance initiatives, incident response
 
 ### Strategic Leadership Team (strategic-team.yaml)
+
 **Jordan + Morgan + Riley** for executive communication
+
 - Roadmap presentation with metrics backing
 - Strategic planning with risk awareness
 - Board-ready comprehensive updates
@@ -255,24 +276,28 @@ Teams enable multi-advisor collaboration through party mode. Each advisor can st
 ## 🎯 Use Cases
 
 ### For CTOs
+
 - Make better architectural decisions with structured frameworks
 - Demonstrate engineering value to board and executives
 - Plan multi-year technology strategy
 - Manage technical and operational risks systematically
 
 ### For VPs of Engineering
+
 - Implement industry-standard engineering metrics
 - Create data-driven team improvement plans
 - Align engineering roadmap with business goals
 - Build resilient engineering processes
 
 ### For Engineering Directors
+
 - Document technical decisions for team alignment
 - Track and communicate team performance
 - Plan quarterly engineering initiatives
 - Assess and mitigate operational risks
 
 ### For Technical Leads
+
 - Evaluate technology options objectively
 - Manage technical debt strategically
 - Measure and improve team velocity
@@ -281,24 +306,28 @@ Teams enable multi-advisor collaboration through party mode. Each advisor can st
 ## 📊 Key Features
 
 ### Systematic Decision Making
+
 - Architecture Decision Records (ADRs)
 - Trade-off analysis frameworks
 - Build vs buy evaluations
 - Technology pattern comparisons
 
 ### Performance Measurement
+
 - DORA metrics implementation
 - Team health indicators
 - Developer productivity analysis
 - Executive-ready dashboards
 
 ### Strategic Planning
+
 - Multi-horizon roadmaps (tactical/strategic/visionary)
 - Business-engineering alignment
 - Resource and capacity planning
 - Technology radar and trend tracking
 
 ### Risk Management
+
 - Comprehensive risk assessment
 - Security controls framework
 - Compliance certification roadmaps
@@ -388,6 +417,7 @@ src/modules/cto-os/
 ## 🤝 Integration with Other Modules
 
 CTO OS works great with:
+
 - **BMB**: For creating custom agent workflows
 - **Deep Research**: For technology evaluation research
 - **Marketing Ops**: For go-to-market alignment
@@ -395,6 +425,7 @@ CTO OS works great with:
 ## 📈 Success Metrics
 
 After implementing CTO OS, track:
+
 - Architecture decisions documented (ADRs created)
 - DORA metrics baseline and improvements
 - Strategic initiatives completed vs planned
@@ -411,6 +442,7 @@ After implementing CTO OS, track:
 ## 📝 Changelog
 
 ### v1.0.0 (Initial Release)
+
 - 4 expert CTO advisors
 - 15+ comprehensive workflows
 - 25+ specialized tasks

@@ -48,6 +48,7 @@ If checklist context has not been provided, ask the user to specify which checkl
 ## Available Checklists
 
 ### Career Planning Checklists
+
 - **Career Planning Checklist** - Comprehensive career development plan validation
 - **Skills Assessment Checklist** - Skills evaluation and development planning
 - **Networking Strategy Checklist** - Professional networking plan validation
@@ -55,6 +56,7 @@ If checklist context has not been provided, ask the user to specify which checkl
 - **Job Search Checklist** - Job search strategy and preparation
 
 ### Document Quality Checklists
+
 - **Resume Quality Checklist** - Resume effectiveness and ATS optimization
 - **Cover Letter Checklist** - Cover letter quality and targeting
 - **LinkedIn Profile Checklist** - Professional online presence optimization
@@ -62,6 +64,7 @@ If checklist context has not been provided, ask the user to specify which checkl
 - **Career Document Checklist** - Professional document standards
 
 ### Interview Preparation Checklists
+
 - **Interview Preparation Checklist** - Comprehensive interview readiness
 - **Behavioral Questions Checklist** - STAR method response preparation
 - **Technical Interview Checklist** - Technical assessment preparation
@@ -71,6 +74,7 @@ If checklist context has not been provided, ask the user to specify which checkl
 ## Checklist Execution Focus Areas
 
 ### Systematic Evaluation
+
 - **Item-by-Item Review** - Evaluate each checklist item individually
 - **Evidence Assessment** - Look for specific evidence to support each item
 - **Quality Standards** - Apply appropriate quality standards for each item
@@ -78,6 +82,7 @@ If checklist context has not been provided, ask the user to specify which checkl
 - **Accuracy Verification** - Verify that information is accurate and current
 
 ### Gap Analysis
+
 - **Missing Elements** - Identify items that are not addressed
 - **Incomplete Implementation** - Note partially completed items
 - **Quality Issues** - Identify areas where quality can be improved
@@ -85,6 +90,7 @@ If checklist context has not been provided, ask the user to specify which checkl
 - **Resource Gaps** - Identify missing resources or support
 
 ### Action Planning
+
 - **Priority Setting** - Determine which gaps are most critical
 - **Resource Allocation** - Plan how to address identified gaps
 - **Timeline Development** - Create realistic timelines for improvements
@@ -114,6 +120,7 @@ After user selects elicitation method (2-9):
 ## Checklist Execution Guidelines
 
 ### Evaluation Process
+
 1. **Preparation** - Review checklist purpose and context
 2. **Systematic Review** - Go through each item methodically
 3. **Evidence Collection** - Gather evidence to support evaluations
@@ -123,6 +130,7 @@ After user selects elicitation method (2-9):
 7. **Reporting** - Compile comprehensive evaluation report
 
 ### Quality Standards
+
 - **Thoroughness** - Evaluate all checklist items completely
 - **Objectivity** - Maintain impartial evaluation standards
 - **Evidence-Based** - Base evaluations on specific evidence
@@ -132,12 +140,14 @@ After user selects elicitation method (2-9):
 ## Checklist Scoring and Assessment
 
 ### Scoring Methodology
+
 - **Excellent (90-100%)**: All critical items completed, high quality implementation
 - **Good (80-89%)**: Most critical items completed, good quality implementation
 - **Needs Improvement (70-79%)**: Some critical items missing or incomplete
 - **Requires Significant Work (Below 70%)**: Many critical items missing or poor quality
 
 ### Assessment Criteria
+
 - **Completeness**: Are all required items addressed?
 - **Quality**: Is the implementation of high quality?
 - **Accuracy**: Is the information accurate and current?
@@ -147,6 +157,7 @@ After user selects elicitation method (2-9):
 ## Action Planning and Follow-up
 
 ### Immediate Actions
+
 - **Critical Gaps**: Address high-priority gaps immediately
 - **Quick Wins**: Implement easy improvements for immediate impact
 - **Resource Planning**: Secure resources needed for improvements
@@ -154,6 +165,7 @@ After user selects elicitation method (2-9):
 - **Accountability**: Establish responsibility for implementing improvements
 
 ### Long-term Planning
+
 - **Continuous Improvement**: Plan for ongoing quality enhancement
 - **Regular Reviews**: Schedule periodic checklist re-evaluations
 - **Progress Tracking**: Establish metrics to track improvement progress

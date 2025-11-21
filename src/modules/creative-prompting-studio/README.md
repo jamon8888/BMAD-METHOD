@@ -11,24 +11,28 @@ The Creative AI Prompting Studio is a comprehensive BMAD module that transforms 
 ### 🤖 Four Specialized Agents
 
 **Perplexity Specialist** - Research and information gathering expert
+
 - Perfect Prompt Framework (5 components)
 - Informational, instructional, and interactive prompting
 - Professional templates for education, product management, finance, and marketing
 - Real-time data and citation optimization
 
 **Sora Director** - AI video generation cinematographer
+
 - Cinematic prompting with technical precision
 - Camera, lighting, and composition expertise
 - Action beats and visual storytelling
 - Style anchors and remix strategies
 
 **Suno Composer** - AI music composition producer
+
 - Four Pillars Framework (genre, mood, instrumentation, structure)
 - Instrumental-only configuration mastery
 - Meta tags and advanced settings optimization
 - Genre-specific templates and quality enhancement
 
 **Image Prompter** - Multi-platform AI image generation expert
+
 - Five essential templates (photorealistic, stylized, logos, mockups, minimalist)
 - Scene description over keyword listing
 - Platform-specific optimization (Gemini, DALL-E, Midjourney, SD)
@@ -37,30 +41,35 @@ The Creative AI Prompting Studio is a comprehensive BMAD module that transforms 
 ### 📋 Five Comprehensive Workflows
 
 **Research Workflow** - Perplexity prompting for information gathering
+
 - Perfect Prompt Framework application
 - Professional templates and use cases
 - Citation and source verification
 - Quality checklist and iteration
 
 **Video Creation Workflow** - Sora 2 cinematic prompting
+
 - Cinematographic element breakdown
 - Technical parameter configuration
 - Detail level selection
 - Remix and iteration strategies
 
 **Music Composition Workflow** - Suno instrumental creation
+
 - Four Pillars Framework implementation
 - Instrumental-only activation methods
 - Meta tags and structure
 - Advanced settings optimization
 
 **Image Generation Workflow** - AI image prompting across platforms
+
 - Template selection and scene description
 - Visual specificity and detail
 - Platform optimization
 - Progressive iteration
 
 **Multi-Modal Content Creation** - Integrated project workflow
+
 - Research foundation → Creative direction → Assets
 - Cross-platform consistency
 - Synchronized video and music
@@ -69,6 +78,7 @@ The Creative AI Prompting Studio is a comprehensive BMAD module that transforms 
 ### 📚 Professional Resources
 
 **Data & Guides**
+
 - Perplexity Perfect Prompt Guide
 - Sora 2 Cinematography Techniques
 - Suno Instrumental Composition Guide
@@ -76,6 +86,7 @@ The Creative AI Prompting Studio is a comprehensive BMAD module that transforms 
 - Cross-platform optimization tips
 
 **Templates**
+
 - Research brief templates
 - Video scene templates
 - Music composition briefs
@@ -97,6 +108,7 @@ Select "Creative AI Prompting Studio" during module selection.
 ### Configuration
 
 During installation, you'll configure:
+
 - **Output folder**: Where prompts and projects are saved
 - **Primary tools**: Which AI platforms you use
 - **Content focus**: Your main content creation type
@@ -112,6 +124,7 @@ During installation, you'll configure:
    - Image Prompter for visuals
 
 2. **Run a workflow** to create your first prompt:
+
    ```
    *research-workflow    # For Perplexity research prompts
    *video-workflow       # For Sora video prompts
@@ -143,6 +156,7 @@ Each creative domain has a proven framework:
 ### Quality Over Keywords
 
 The module emphasizes:
+
 - **Descriptive narratives** over keyword lists
 - **Specific details** over vague adjectives
 - **Concrete visuals** over abstract concepts
@@ -151,6 +165,7 @@ The module emphasizes:
 ### Iterative Refinement
 
 All workflows support progressive improvement:
+
 - Start with framework-based foundation
 - Generate initial results
 - Refine ONE element at a time
@@ -160,30 +175,35 @@ All workflows support progressive improvement:
 ## Use Cases
 
 ### Content Creators
+
 - Research trending topics with Perplexity
 - Generate video content with Sora
 - Create custom soundtracks with Suno
 - Design graphics and visuals across platforms
 
 ### Marketing Teams
+
 - Competitive intelligence and market research
 - Video ads and promotional content
 - Brand-aligned music and audio
 - Multi-platform visual campaigns
 
 ### Educators
+
 - Research and fact-checking
 - Educational video content
 - Instructional visuals and diagrams
 - Comprehensive learning materials
 
 ### Product Teams
+
 - User research and competitive analysis
 - Product demo videos
 - Marketing assets and mockups
 - Launch campaign materials
 
 ### Creative Professionals
+
 - Multi-modal art projects
 - Experimental video and music
 - Concept visualization
@@ -235,6 +255,7 @@ These are set during installation and available in all agents:
 ### Output Folders
 
 Organized by content type:
+
 - `{{research_prompts_folder}}` - Perplexity research
 - `{{video_prompts_folder}}` - Sora video
 - `{{music_prompts_folder}}` - Suno music
@@ -254,24 +275,28 @@ Organized by content type:
 ### Platform-Specific
 
 **Perplexity**:
+
 - Request citations and verified sources
 - Leverage real-time capabilities
 - Define output format clearly
 - Specify appropriate depth
 
 **Sora**:
+
 - Be cinematically precise
 - Match action to duration
 - Use style anchors
 - Remix for refinement
 
 **Suno**:
+
 - Exclude vocals explicitly
 - Use meta tags for structure
 - Keep Weirdness 40-60%
 - Remaster strategically (1-2 passes)
 
 **Image Generation**:
+
 - Describe scenes, not keyword lists
 - Name 3-5 specific colors
 - Keep text under 25 characters
@@ -289,18 +314,21 @@ The Creative AI Prompting Studio integrates seamlessly with other BMAD modules:
 ## Learning Path
 
 ### Beginner
+
 1. Start with single-domain workflows (research OR video OR music OR images)
 2. Use agent commands with default settings
 3. Follow framework checklists carefully
 4. Experiment with templates
 
 ### Intermediate
+
 3. Combine multiple domains in multi-modal workflow
 4. Customize prompt detail levels
 5. Develop personal prompt libraries
 6. Master platform-specific optimizations
 
 ### Advanced
+
 7. Create custom workflows for specific use cases
 8. Build systematic prompt refinement processes
 9. Develop cross-platform consistency strategies
@@ -311,12 +339,14 @@ The Creative AI Prompting Studio integrates seamlessly with other BMAD modules:
 This BMAD module is based on the excellent work from the [claude-skills repository](https://github.com/saren-ai/claude-skills) by saren-ai, which provides comprehensive prompt engineering frameworks for creative AI tools. We've transformed their guides into a structured, workflow-driven BMAD module with specialized agents and systematic processes.
 
 **Original Guides**:
+
 - Perplexity Perfect Prompt Guide
 - Sora 2 Prompting Guide
 - Suno Instrumental Music Guide
 - Gemini Image Prompt Guide
 
 **BMAD Enhancements**:
+
 - Specialized AI agents for each domain
 - Structured multi-step workflows
 - Cross-platform integration
@@ -327,17 +357,20 @@ This BMAD module is based on the excellent work from the [claude-skills reposito
 ## Support & Resources
 
 ### Within This Module
+
 - Agent documentation (see agents/ folder)
 - Workflow guides (see workflows/ folder)
 - Complete guides (see data/ folder)
 - Templates (see templates/ folder)
 
 ### External Resources
+
 - [claude-skills Repository](https://github.com/saren-ai/claude-skills) - Original frameworks
 - [BMAD Method Documentation](../../bmm/docs/README.md) - BMAD framework
 - [BMad Builder](../../bmb/README.md) - Create custom modules
 
 ### Getting Help
+
 - Review workflow documentation for step-by-step guidance
 - Check agent commands for quick tasks
 - Reference data guides for comprehensive frameworks
@@ -346,6 +379,7 @@ This BMAD module is based on the excellent work from the [claude-skills reposito
 ## Version History
 
 **v1.0.0** - Initial Release
+
 - Four specialized agents (Perplexity, Sora, Suno, Image)
 - Five comprehensive workflows
 - Complete frameworks from claude-skills
@@ -356,4 +390,4 @@ This BMAD module is based on the excellent work from the [claude-skills reposito
 
 **Transform your AI creative workflow with systematic, professional prompt engineering across all major platforms.**
 
-*Part of the BMAD Method v6 ecosystem - Build More, Architect Dreams*
+_Part of the BMAD Method v6 ecosystem - Build More, Architect Dreams_

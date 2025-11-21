@@ -26,6 +26,7 @@ You are an expert content writer executing a comprehensive article creation work
 ### 1.1 Topic Analysis
 
 Ask the user for:
+
 - Primary topic or research brief
 - Target audience and their level of expertise
 - Content goals (educate, persuade, inspire, inform)
@@ -37,6 +38,7 @@ Ask the user for:
 **Priority Research Sources:** Always check {research_sources} FIRST for curated, priority sources.
 
 For each topic:
+
 1. **Current Trends** - What's happening NOW in this space?
 2. **Data Points** - Find recent statistics, studies, research
 3. **Expert Insights** - Locate quotes, opinions, perspectives from recognized authorities
@@ -44,6 +46,7 @@ For each topic:
 5. **Real-World Examples** - Case studies, success/failure stories, practical applications
 
 **Research Brief Output:** Create a 300-500 word research brief documenting:
+
 - 5-7 key insights with sources
 - 3-5 relevant data points
 - 2-3 unique angles or counterintuitive findings
@@ -61,17 +64,20 @@ Save research brief to: `{content_output_folder}/research/research-{{topic-slug}
 Create compelling outline with:
 
 **Hook/Opening** (100-150 words)
+
 - Counterintuitive truth, transformation story, industry secret, mistake confession, OR data revelation
 - Must grab attention in first 2 sentences
 - Establish credibility and relevance
 
 **Body Sections** (3-5 main sections, 900-1200 words total)
+
 - Each section: Clear heading, 2-3 subsections
 - Logical flow with smooth transitions
 - Mix of: insights, data, examples, stories
 - Include: bullet points, numbered lists for scannability
 
 **Conclusion** (100-150 words)
+
 - Synthesize key takeaways
 - Provide clear next action
 - Forward-looking perspective or thought-provoking question
@@ -81,6 +87,7 @@ Create compelling outline with:
 **CRITICAL:** Review {writing_examples} to calibrate voice before writing.
 
 Identify and match:
+
 - Sentence structure patterns (short vs. long, simple vs. complex)
 - Vocabulary level and word choices
 - Use of humor, metaphors, analogies
@@ -99,6 +106,7 @@ Identify and match:
 Write the complete article following these principles:
 
 **Content Integration:**
+
 - Weave in current trends from research
 - Include 3-5 specific data points with sources
 - Add 2-3 real-world examples or case studies
@@ -106,12 +114,14 @@ Write the complete article following these principles:
 - Challenge 1-2 conventional assumptions
 
 **Voice Consistency:**
+
 - Match patterns from {writing_examples}
 - Maintain authentic voice throughout
 - Let personality shine through
 - Don't force voice - let it flow naturally
 
 **Readability Optimization:**
+
 - Target Grade {readability_target} reading level
 - Average 15-20 words per sentence
 - Mix short punchy sentences with longer complex ones
@@ -119,6 +129,7 @@ Write the complete article following these principles:
 - Break up long paragraphs (3-5 sentences max)
 
 **Structure Enhancement:**
+
 - Add subheadings every 200-300 words
 - Use bullet points for lists
 - Bold key phrases (sparingly)
@@ -127,6 +138,7 @@ Write the complete article following these principles:
 ### 3.2 Draft Review
 
 Self-check against these criteria:
+
 - ✅ Hook grabs attention immediately
 - ✅ Clear value proposition in first 100 words
 - ✅ Logical flow and smooth transitions
@@ -150,28 +162,33 @@ Reference: {seo_keywords}
 Optimize for:
 
 **Title Optimization** (50-60 characters)
+
 - Include primary keyword
 - Make compelling and click-worthy
 - Front-load important words
 
 **Meta Description** (150-160 characters)
+
 - Summarize value proposition
 - Include primary keyword naturally
 - Include call-to-action
 
 **Heading Structure**
+
 - H1: Article title (only one)
 - H2: Main section headings (3-5)
 - H3: Subsections as needed
 - Include keywords naturally in H2s
 
 **Keyword Integration** (Target: 0.5-2.5% density)
+
 - Primary keyword: 3-5 mentions
 - Related keywords: 5-10 mentions
 - Semantic variations throughout
 - NEVER force keywords unnaturally
 
 **Internal/External Links**
+
 - 2-3 relevant external authority links
 - 1-2 internal links (if applicable)
 - Descriptive anchor text
@@ -179,6 +196,7 @@ Optimize for:
 ### 4.2 SEO Quality Check
 
 Run SEO analysis and document:
+
 - Keyword density score
 - Title/meta optimization score
 - Heading structure score
@@ -200,29 +218,34 @@ Run SEO analysis and document:
 Evaluate across 5 dimensions:
 
 **Readability** (Target: 60-70 Flesch Score)
+
 - Check reading level matches target
 - Verify sentence complexity
 - Assess paragraph flow
 
 **Structure** (Target: 80+)
+
 - Strong hook present
 - Logical section flow
 - Clear transitions
 - Impactful conclusion
 
 **Engagement** (Target: 75+)
+
 - Compelling opening
 - Value density throughout
 - Emotional resonance
 - Scannable format
 
 **Technical Quality** (Target: 90+)
+
 - No grammar/spelling errors
 - Consistent formatting
 - Proper punctuation
 - Strong word choices
 
 **Voice Consistency** (Target: 65+)
+
 - Matches {writing_examples}
 - Authentic throughout
 - Appropriate for audience
@@ -231,6 +254,7 @@ Evaluate across 5 dimensions:
 ### 5.2 Revision Process
 
 If score < 70:
+
 - Document specific issues
 - Prioritize critical fixes
 - Revise and re-check
@@ -249,6 +273,7 @@ For each selected platform in {content_platforms}:
 #### LinkedIn Version (if "linkedin" in platforms)
 
 **Transformation Strategy:**
+
 - Extract 1-2 core insights from article
 - Create professional storytelling hook
 - Include 900-1300 characters
@@ -257,6 +282,7 @@ For each selected platform in {content_platforms}:
 - Maintain professional yet personal tone
 
 **Formatting:**
+
 - Short paragraphs (1-2 sentences)
 - Use line breaks generously
 - Include bullet points for key points
@@ -267,6 +293,7 @@ For each selected platform in {content_platforms}:
 #### Newsletter Version (if "newsletter" in platforms)
 
 **Transformation Strategy:**
+
 - Create compelling subject line (30-50 chars)
 - Add personal opening greeting
 - Break into scannable sections with headers
@@ -275,6 +302,7 @@ For each selected platform in {content_platforms}:
 - More conversational than article
 
 **Structure:**
+
 - Subject line + 2 alternative options
 - Personal greeting
 - 2-3 key sections with headers
@@ -286,12 +314,14 @@ For each selected platform in {content_platforms}:
 #### Social Media Version (if "twitter" OR "social" in platforms)
 
 **Transformation Strategy:**
+
 - Twitter thread: 5-8 tweets, hook-driven
 - Each tweet: self-contained but builds narrative
 - Include thread numbers (1/8, 2/8, etc.)
 - Final tweet: CTA or thought-provoking question
 
 **Alternative Social Formats:**
+
 - Instagram caption version
 - Short-form video script (TikTok/Reels)
 - Podcast talking points
@@ -301,6 +331,7 @@ For each selected platform in {content_platforms}:
 ### 6.2 Repurposing Quality Check
 
 For each platform version:
+
 - ✅ Maintains core message and insights
 - ✅ Optimized for platform conventions
 - ✅ Maintains authentic voice
@@ -314,6 +345,7 @@ For each platform version:
 ### 7.1 Asset Suggestions
 
 Recommend supporting assets:
+
 - **Featured Image:** Style/subject suggestions
 - **In-Article Images:** 2-3 visual break points
 - **Social Graphics:** Quote cards, stat cards
@@ -322,6 +354,7 @@ Recommend supporting assets:
 ### 7.2 Publishing Schedule
 
 Suggest optimal publishing timeline:
+
 - **Blog/Main Article:** Best day/time based on audience
 - **LinkedIn:** Within 24-48 hours of blog
 - **Newsletter:** Next scheduled send date
@@ -330,6 +363,7 @@ Suggest optimal publishing timeline:
 ### 7.3 Analytics Setup
 
 Define success metrics:
+
 - **Traffic:** Target page views, time on page
 - **Engagement:** Comments, shares, saves
 - **SEO:** Target keyword rankings
@@ -344,6 +378,7 @@ Define success metrics:
 Provide complete summary:
 
 **Created Files:**
+
 - Main article: [link]
 - LinkedIn version: [link]
 - Newsletter version: [link]
@@ -353,6 +388,7 @@ Provide complete summary:
 - SEO report: [link] (if applicable)
 
 **Quality Scores:**
+
 - Overall quality: X/100
 - Readability: X/100
 - SEO: X/100 (if applicable)

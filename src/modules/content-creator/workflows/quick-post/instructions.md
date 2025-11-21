@@ -10,19 +10,24 @@ Create fast, engaging content for social media and short-form platforms.
 ## Process
 
 ### 1. Post Requirements
+
 Ask user:
+
 - Platform (LinkedIn, Twitter, Instagram, etc.)
 - Topic or main idea
 - Goal (educate, inspire, entertain, promote)
 - Length preference
 
 ### 2. Voice Calibration
+
 - Review {writing_examples}
 - Match tone and style
 - Adapt for platform
 
 ### 3. Hook Creation
+
 Create compelling hook:
+
 - Counterintuitive statement
 - Provocative question
 - Surprising data point
@@ -30,18 +35,21 @@ Create compelling hook:
 - Bold claim
 
 ### 4. Content Development
+
 - Build on hook naturally
 - Include 1-2 key points
 - Add value in every line
 - Keep scannable
 
 ### 5. Engagement Optimization
+
 - Add call-to-action or question
 - Include relevant hashtags (if applicable)
 - Optimize formatting for platform
 - Check length requirements
 
 ### 6. Quality Check
+
 - Matches voice
 - Hook grabs attention
 - Value clearly delivered

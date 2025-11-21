@@ -48,6 +48,7 @@ The Career Coach module transforms your career journey with three specialized AI
 Strategic career advisor helping you navigate your professional journey.
 
 **Specializations:**
+
 - Career goal analysis and planning
 - Skills assessment and gap analysis
 - Job search strategy development
@@ -55,6 +56,7 @@ Strategic career advisor helping you navigate your professional journey.
 - Career transition guidance
 
 **Key Commands:**
+
 - `*help` - Display available commands
 - `*plan` - Start career planning workflow
 - `*assess` - Conduct skills assessment
@@ -67,6 +69,7 @@ Strategic career advisor helping you navigate your professional journey.
 Professional resume writer and career document specialist.
 
 **Specializations:**
+
 - ATS-optimized resume creation
 - Cover letter writing
 - LinkedIn profile optimization
@@ -74,6 +77,7 @@ Professional resume writer and career document specialist.
 - Industry-specific customization
 
 **Key Commands:**
+
 - `*help` - Display available commands
 - `*create` - Create new resume/document
 - `*enhance` - Enhance existing resume
@@ -86,6 +90,7 @@ Professional resume writer and career document specialist.
 Expert interview coach for comprehensive interview preparation.
 
 **Specializations:**
+
 - Behavioral interview preparation
 - Technical interview coaching
 - Mock interview sessions
@@ -93,6 +98,7 @@ Expert interview coach for comprehensive interview preparation.
 - Interview feedback and improvement
 
 **Key Commands:**
+
 - `*help` - Display available commands
 - `*prepare` - Start interview prep workflow
 - `*mock` - Conduct mock interview
@@ -107,6 +113,7 @@ Expert interview coach for comprehensive interview preparation.
 Comprehensive resume development from assessment to final optimization.
 
 **Phases:**
+
 1. Career Assessment & Planning (Career Coach)
 2. Information Gathering (Resume Writer)
 3. Resume Creation (Resume Writer)
@@ -115,6 +122,7 @@ Comprehensive resume development from assessment to final optimization.
 6. Final Review & Approval
 
 **Deliverables:**
+
 - ATS-optimized resume (multiple formats)
 - Career assessment summary
 - Skills inventory
@@ -128,6 +136,7 @@ Comprehensive resume development from assessment to final optimization.
 Strategic career development and goal achievement planning.
 
 **Phases:**
+
 1. Assessment & Goal Setting
 2. Skills Evaluation
 3. Strategy Development
@@ -136,6 +145,7 @@ Strategic career development and goal achievement planning.
 6. Implementation & Monitoring
 
 **Deliverables:**
+
 - Comprehensive career plan
 - Skills gap analysis
 - Job search strategy
@@ -149,6 +159,7 @@ Strategic career development and goal achievement planning.
 Complete interview readiness from research to execution.
 
 **Phases:**
+
 1. Interview Context Analysis
 2. Self-Assessment
 3. Question Preparation
@@ -159,6 +170,7 @@ Complete interview readiness from research to execution.
 8. Post-Interview Follow-up
 
 **Deliverables:**
+
 - Interview preparation plan
 - Prepared behavioral responses (STAR method)
 - Technical prep materials
@@ -179,6 +191,7 @@ npx bmad-method@alpha install
 ```
 
 During installation, you'll be prompted to:
+
 - Set your career output folder location
 - Define your career focus and target industry
 - Configure your experience level
@@ -193,6 +206,7 @@ During installation, you'll be prompted to:
    - Interview prep: Load Interview Coach (Jennifer)
 
 2. **Start with a workflow** for guided assistance:
+
    ```
    *workflow resume-creation
    *workflow career-planning
@@ -213,6 +227,7 @@ During installation, you'll be prompted to:
 **Scenario:** Actively seeking new opportunities
 
 **Recommended Path:**
+
 1. Start with Career Coach - `*strategy` to develop job search plan
 2. Use Resume Writer - `*create` to build targeted resume
 3. Use Interview Coach - `*prepare` for upcoming interviews
@@ -222,6 +237,7 @@ During installation, you'll be prompted to:
 **Scenario:** Seeking promotion or advancement in current role
 
 **Recommended Path:**
+
 1. Career Coach - `*assess` for skills gap analysis
 2. Career Coach - `*plan` to map advancement strategy
 3. Resume Writer - `*enhance` to update accomplishments
@@ -231,6 +247,7 @@ During installation, you'll be prompted to:
 **Scenario:** Changing industries or career paths
 
 **Recommended Path:**
+
 1. Career Coach - Complete career planning workflow
 2. Resume Writer - Create transition-focused resume
 3. Interview Coach - Prepare for transition-specific questions
@@ -240,6 +257,7 @@ During installation, you'll be prompted to:
 **Scenario:** Continuous learning and networking
 
 **Recommended Path:**
+
 1. Career Coach - `*assess` for skill development priorities
 2. Career Coach - `*brand` for networking strategy
 3. Resume Writer - `*enhance` to reflect new skills

@@ -11,14 +11,14 @@
 
 ## Risk Summary
 
-| Category    | Critical (15-25) | High (10-14) | Medium (6-9) | Low (1-5) | Total |
-| ----------- | ---------------- | ------------ | ------------ | --------- | ----- |
-| Security    | [X]              | [X]          | [X]          | [X]       | [X]   |
-| Availability| [X]              | [X]          | [X]          | [X]       | [X]   |
-| Compliance  | [X]              | [X]          | [X]          | [X]       | [X]   |
-| Operational | [X]              | [X]          | [X]          | [X]       | [X]   |
-| Business    | [X]              | [X]          | [X]          | [X]       | [X]   |
-| **Total**   | **[X]**          | **[X]**      | **[X]**      | **[X]**   | **[X]** |
+| Category     | Critical (15-25) | High (10-14) | Medium (6-9) | Low (1-5) | Total   |
+| ------------ | ---------------- | ------------ | ------------ | --------- | ------- |
+| Security     | [X]              | [X]          | [X]          | [X]       | [X]     |
+| Availability | [X]              | [X]          | [X]          | [X]       | [X]     |
+| Compliance   | [X]              | [X]          | [X]          | [X]       | [X]     |
+| Operational  | [X]              | [X]          | [X]          | [X]       | [X]     |
+| Business     | [X]              | [X]          | [X]          | [X]       | [X]     |
+| **Total**    | **[X]**          | **[X]**      | **[X]**      | **[X]**   | **[X]** |
 
 ---
 
@@ -39,23 +39,27 @@
 **Risk Score**: [Probability × Impact = XX]
 
 **Existing Controls**:
+
 - [Control 1]
 - [Control 2]
 
 **Control Effectiveness**: Effective / Partially Effective / Ineffective / None
 
 **Mitigation Strategy**:
+
 1. [Action 1] - [Owner] - [Deadline]
 2. [Action 2] - [Owner] - [Deadline]
 
 **Estimated Cost**: [$X] or [Y engineer-weeks]
 
 **Risk After Mitigation**:
+
 - Probability: [New score]
 - Impact: [New score]
 - Residual Risk Score: [New total]
 
 **Progress**:
+
 - [X%] Complete
 - Last Update: [Date]
 - Next Review: [Date]
@@ -98,23 +102,24 @@ IMPACT →
 
 ## Closed/Mitigated Risks This Period
 
-| Risk ID | Risk Name               | Original Score | Final Score | Date Closed | Impact            |
-| ------- | ----------------------- | -------------- | ----------- | ----------- | ----------------- |
-| R-XXX   | [Name]                  | 20             | 3           | YYYY-MM-DD  | [Brief impact]    |
+| Risk ID | Risk Name | Original Score | Final Score | Date Closed | Impact         |
+| ------- | --------- | -------------- | ----------- | ----------- | -------------- |
+| R-XXX   | [Name]    | 20             | 3           | YYYY-MM-DD  | [Brief impact] |
 
 ---
 
 ## New Risks Identified This Period
 
-| Risk ID | Risk Name               | Score | Category    | Owner       | Status      |
-| ------- | ----------------------- | ----- | ----------- | ----------- | ----------- |
-| R-XXX   | [Name]                  | [XX]  | [Category]  | [Name]      | [Status]    |
+| Risk ID | Risk Name | Score | Category   | Owner  | Status   |
+| ------- | --------- | ----- | ---------- | ------ | -------- |
+| R-XXX   | [Name]    | [XX]  | [Category] | [Name] | [Status] |
 
 ---
 
 ## Trend Analysis
 
 **Quarter-over-Quarter**:
+
 - Total Risks: [Previous QTR] → [Current QTR] (↑/↓/→)
 - Critical Risks: [Previous QTR] → [Current QTR] (↑/↓/→)
 - Mitigated Risks: [Count]
@@ -123,6 +128,7 @@ IMPACT →
 **Overall Risk Posture**: Improving / Stable / Worsening
 
 **Key Trends**:
+
 1. [Trend observation]
 2. [Trend observation]
 
@@ -130,9 +136,9 @@ IMPACT →
 
 ## Action Items Due This Month
 
-| Risk ID | Action                                | Owner       | Due Date   | Status      |
-| ------- | ------------------------------------- | ----------- | ---------- | ----------- |
-| R-XXX   | [Specific action]                     | [Name]      | YYYY-MM-DD | [Status]    |
+| Risk ID | Action            | Owner  | Due Date   | Status   |
+| ------- | ----------------- | ------ | ---------- | -------- |
+| R-XXX   | [Specific action] | [Name] | YYYY-MM-DD | [Status] |
 
 ---
 
@@ -143,6 +149,7 @@ IMPACT →
 **Remaining**: [$Z]
 
 **FTE Allocation**:
+
 - Security: [X FTE]
 - Platform/Infrastructure: [X FTE]
 - Compliance: [X FTE]
@@ -154,16 +161,19 @@ IMPACT →
 **Risk Status**: 🟢 Low / 🟡 Medium / 🔴 High
 
 **Top 3 Risks**:
+
 1. [Risk Name] (Score: XX) - [Status]
 2. [Risk Name] (Score: XX) - [Status]
 3. [Risk Name] (Score: XX) - [Status]
 
 **Key Actions This Quarter**:
+
 - [Action 1]
 - [Action 2]
 - [Action 3]
 
 **Resource Needs**:
+
 - [Need 1]
 - [Need 2]
 
@@ -172,6 +182,7 @@ IMPACT →
 ## Appendix: Risk Assessment Criteria
 
 ### Probability Scale
+
 - **5 - High**: Very likely, could happen anytime (monthly or more frequent)
 - **4 - Medium-High**: Likely to occur (quarterly)
 - **3 - Medium**: Possible but not certain (annually)
@@ -179,6 +190,7 @@ IMPACT →
 - **1 - Low**: Very unlikely (once in 5+ years)
 
 ### Impact Scale
+
 - **5 - Critical**: Catastrophic business impact (>$1M loss, existential threat)
 - **4 - High**: Severe impact ($100K-$1M loss, major disruption)
 - **3 - Medium**: Moderate impact ($10K-$100K loss, minor disruption)
@@ -186,6 +198,7 @@ IMPACT →
 - **1 - Low**: Minimal impact (no revenue loss, internal inconvenience)
 
 ### Risk Priority
+
 - **Critical (15-25)**: Address immediately (within 30 days)
 - **High (10-14)**: Plan mitigation (within 90 days)
 - **Medium (6-9)**: Plan mitigation (within 6 months)
