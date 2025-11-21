@@ -1,0 +1,188 @@
+# Founder Idea Validator Module Configuration
+
+# Module Information
+module_code: founder-idea-validator
+module_name: "Founder Idea Validator - Business Idea Validation System"
+version: "1.0.0"
+description: "Rigorous, evidence-based validation of business ideas across three critical pillars: Market Demand, Founder Capability, and Distribution Feasibility"
+
+# User Configuration (inherited from core config)
+user_name: "{{user_name}}"
+communication_language: "{{communication_language}}"
+
+# Output Configuration
+validator_output_path: "{{validator_output_path}}"
+
+# Validation Settings
+validation_duration: "30-45 minutes"
+research_time_per_pillar: "10-15 minutes"
+
+# Module Settings
+bmad_folder: "{{bmad_folder}}"
+
+# Agent Capabilities
+agents:
+  validator_analyst:
+    name: "Lisa"
+    role: "Idea Refinement Specialist"
+    specialties: ["idea_crystallization", "scope_definition", "unit_economics", "mvp_scoping"]
+    duration: "5-20 minutes"
+
+  market_fit_validator:
+    name: "Alex"
+    role: "Market Research & Validation Specialist"
+    specialties: ["competitive_analysis", "demand_signals", "market_sizing", "pricing_research"]
+    duration: "10-15 minutes"
+
+  founder_alignment_validator:
+    name: "Marcus"
+    role: "Founder Capability Assessor"
+    specialties: ["skills_assessment", "resource_evaluation", "motivation_analysis", "gap_identification"]
+    duration: "10-15 minutes"
+
+  distribution_strategy_validator:
+    name: "Sarah"
+    role: "Distribution Strategy Assessor"
+    specialties: ["channel_analysis", "cac_research", "customer_acquisition", "execution_capability"]
+    duration: "10-15 minutes"
+
+  report_generator:
+    name: "Jordan"
+    role: "Strategic Synthesizer"
+    specialties: ["cross_pillar_analysis", "recommendation_synthesis", "action_planning", "report_generation"]
+    duration: "3-5 minutes"
+
+# Validation Framework
+three_pillars:
+  demand:
+    name: "Market Fit"
+    assesses: "Will people pay enough to make this financially viable?"
+    key_questions:
+      - "Is there evidence of demand?"
+      - "What's the competitive landscape?"
+      - "Can you price this profitably?"
+      - "Are there strong demand signals?"
+    outcomes: ["validated", "needs_validation", "invalidated"]
+
+  supply:
+    name: "Founder Alignment"
+    assesses: "Can YOU build and deliver this?"
+    key_questions:
+      - "Do you have the skills?"
+      - "Is scope realistic for your resources?"
+      - "Can you sustain this operationally?"
+      - "What critical gaps exist?"
+    outcomes: ["validated", "needs_validation", "invalidated"]
+
+  distribution:
+    name: "Distribution Strategy"
+    assesses: "Can you reach and acquire your target customers?"
+    key_questions:
+      - "How will you acquire customers?"
+      - "Do you have distribution advantages?"
+      - "Can you afford customer acquisition?"
+      - "Is your plan realistic?"
+    outcomes: ["validated", "needs_validation", "invalidated"]
+
+# Recommendation Levels
+recommendations:
+  build_now:
+    emoji: "✅"
+    description: "All three pillars validated with clear execution path"
+    criteria: "All pillars validated, no critical concerns, low-risk proceed"
+
+  validate_first:
+    emoji: "⚠️"
+    description: "Mixed results - test key assumptions before building"
+    criteria: "At least two pillars validated/needs_validation, uncertainties testable"
+
+  pivot_required:
+    emoji: "❌"
+    description: "Fundamental issues require significant modifications"
+    criteria: "One or more pillars invalidated but addressable with changes"
+
+  dont_pursue:
+    emoji: "🛑"
+    description: "Multiple critical failures - pursue different idea"
+    criteria: "Two or more pillars invalidated, no viable pivot paths"
+
+# Research Quality Standards
+research_standards:
+  source_requirements:
+    minimum_sources: 3
+    url_citations: true
+    data_recency: "< 2 years preferred"
+
+  source_tiers:
+    tier_1:
+      - "Company websites"
+      - "Government data"
+      - "Official reports"
+      - "Academic research"
+    tier_2:
+      - "Reputable news outlets"
+      - "Industry publications"
+      - "Research firms"
+    tier_3:
+      - "Forums and Reddit"
+      - "Anonymous reviews"
+      - "Blog posts"
+      - "Social media"
+
+  confidence_levels:
+    high: "Multiple primary sources, recent data, minimal assumptions"
+    medium: "2-3 sources, 1-2 years old, some assumptions"
+    low: "Limited sources, older data, significant assumptions"
+    insufficient: "No reliable data, recommend validation testing"
+
+# Industry Benchmarks (CAC Targets)
+cac_benchmarks:
+  saas:
+    smb: "$200-$1,000"
+    mid_market: "$1,000-$5,000"
+    enterprise: "$5,000-$50,000+"
+  ecommerce:
+    low_ticket: "$10-$30"
+    mid_ticket: "$30-$80"
+    high_ticket: "$80-$200+"
+  services:
+    varies: "Referrals most cost-effective"
+
+# Healthy Business Indicators
+health_indicators:
+  strong:
+    gross_margin: "> 70%"
+    cac_to_ltv: "< 30%"
+    payback_period: "< 12 months"
+
+  warning:
+    gross_margin: "< 30%"
+    cac_to_ltv: "> 50%"
+    payback_period: "> 24 months"
+
+# Validation Process Flow
+process_flow:
+  - phase: "Idea Refinement"
+    agent: "Lisa"
+    duration: "5-20 minutes"
+    outputs: ["Validation Context Document"]
+
+  - phase: "Market Fit Validation"
+    agent: "Alex"
+    duration: "10-15 minutes"
+    outputs: ["Market Research Report", "Demand Assessment"]
+
+  - phase: "Founder Alignment"
+    agent: "Marcus"
+    duration: "10-15 minutes"
+    outputs: ["Capability Assessment", "Gap Analysis"]
+
+  - phase: "Distribution Strategy"
+    agent: "Sarah"
+    duration: "10-15 minutes"
+    outputs: ["Channel Analysis", "CAC Assessment"]
+
+  - phase: "Final Synthesis"
+    agent: "Jordan"
+    duration: "3-5 minutes"
+    outputs: ["Comprehensive Validation Report", "Recommendation", "Action Plan"]
