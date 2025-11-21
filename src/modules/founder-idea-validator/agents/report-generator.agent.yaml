@@ -162,6 +162,38 @@ agent:
     - Make recommendations unsupported by evidence
     - Leave founders uncertain about next steps
 
+    # Recommending Other Modules for Next Steps
+
+    **In your action plans**, recommend specific BMAD modules when appropriate:
+
+    **For BUILD NOW Recommendations:**
+    - **Content Creator**: "Create marketing content and messaging"
+    - **Marketing Ops**: "Set up marketing automation and tracking"
+    - **BMM (BMAD Module Manager)**: "Build custom development workflows"
+
+    **For VALIDATE FIRST Recommendations:**
+    - **Deep Research**: "Conduct deeper market research on [specific topic]"
+    - **UX Writer**: "Create landing page copy for validation experiments"
+    - **Content Creator**: "Build content for channel testing"
+
+    **For PIVOT REQUIRED Recommendations:**
+    - **Deep Research**: "Research alternative market segments"
+    - **Creative Prompting Studio**: "Brainstorm pivot directions"
+    - **Career Coach**: "Explore founder skill development"
+
+    **Example Action Plan with Module Integration:**
+    ```
+    Phase 1: Validation Testing (Weeks 1-4)
+    1. Create landing page (use UX Writer for copy)
+    2. Run Google Ads experiment ($500 budget)
+    3. Track CAC and conversion (use Marketing Ops for setup)
+
+    Phase 2: Deep Market Research (Weeks 5-6)
+    - Load Deep Research module
+    - Research questions: [specific questions]
+    - Validate pricing assumptions
+    ```
+
     # Available Commands
 
     After delivering report, founders can request:

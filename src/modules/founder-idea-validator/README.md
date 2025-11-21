@@ -384,13 +384,172 @@ src/modules/founder-idea-validator/
 - **Act on Results**: Don't ignore validation findings. They save you time and money.
 - **Iterate**: Most ideas need refinement, not rejection. Pivot and re-validate.
 
-## 🤝 Integration with Other Modules
+## 🤝 Enhanced Validation with Other Modules
 
-Founder Idea Validator works great with:
-- **BMB**: For creating custom validation agents
-- **Deep Research**: For deeper market research if needed
-- **Content Creator**: For building marketing content after validation
-- **Marketing Ops**: For executing distribution strategy post-validation
+The Founder Idea Validator can be **enhanced with other BMAD modules** for deeper insights and comprehensive execution planning.
+
+### 🔬 Deep Research Integration
+
+**When to Use:** Complex or emerging markets requiring comprehensive analysis
+
+Alex (Market Fit Validator) can trigger Deep Research for:
+- Comprehensive competitive intelligence
+- Emerging market trend analysis
+- Multi-source demand signal synthesis
+- Deep technology landscape research
+
+**Example:**
+```
+Alex: "Based on initial research, this AI legal tech market is evolving rapidly.
+For deeper insights: *deep-research
+
+This will provide:
+- Analysis of 20+ recent developments
+- Competitor technology roadmaps
+- Regulatory landscape assessment
+- 30-60 minute comprehensive deep dive"
+```
+
+**Command:** `*deep-research`
+
+---
+
+### 📢 Marketing Ops Integration
+
+**When to Use:** Need detailed, channel-specific distribution strategies
+
+Sarah (Distribution Strategy Validator) can trigger Marketing Ops for:
+- Detailed channel playbooks (LinkedIn, Google Ads, SEO)
+- Attribution modeling and tracking setup
+- Conversion funnel optimization
+- Marketing automation strategies
+
+**Example:**
+```
+Sarah: "Validation shows LinkedIn is your primary channel.
+For detailed strategy: *marketing-ops
+
+This will create:
+- 90-day content calendar
+- Engagement playbook
+- Conversion tracking setup
+- Performance benchmarks"
+```
+
+**Command:** `*marketing-ops`
+
+---
+
+### ✍️ Content Creation Integration
+
+**When to Use:** Need validation materials or content-driven distribution
+
+Use Content Creator for:
+- Landing page copy for validation experiments
+- LinkedIn/social content for channel testing
+- Email sequences for lead nurturing
+- Blog content for SEO validation
+
+**Example:**
+```
+Jordan: "VALIDATE FIRST ⚠️ - Run these experiments:
+1. Landing page with pricing test
+2. 5 LinkedIn posts to gauge engagement
+
+For professional materials: *content-strategy
+
+This will create:
+- Conversion-optimized landing page copy
+- 5 engagement-tested LinkedIn posts
+- A/B testing variations"
+```
+
+**Command:** `*content-strategy`
+
+---
+
+### 💡 Creative Prompting Studio Integration
+
+**When to Use:** PIVOT REQUIRED - need to explore alternative directions
+
+Use Creative Prompting Studio for:
+- Structured pivot brainstorming
+- Design thinking exploration
+- Alternative business model ideation
+- Problem reframing exercises
+
+**Example:**
+```
+Jordan: "PIVOT REQUIRED ❌ - CAC economics don't work.
+
+For structured pivot exploration: Load Creative Prompting Studio
+
+This will help:
+- Explore 10+ pivot directions
+- Reframe the problem
+- Evaluate alternatives systematically
+- Find viable path forward"
+```
+
+---
+
+### 🎓 Career Coach Integration
+
+**When to Use:** Capability gaps need skill development
+
+Use Career Coach for:
+- Personalized learning plans
+- Skill gap assessment
+- Resource recommendations
+- Milestone-based development
+
+**Example:**
+```
+Marcus: "⚠️ Technical gap identified: Modern web frameworks
+
+For learning roadmap: Load Career Coach
+
+This will create:
+- 8-week skill development plan
+- Course recommendations
+- Practice projects
+- Milestone checkpoints"
+```
+
+---
+
+### Integration Workflow Pattern
+
+**Standard Flow:**
+1. **Complete core validation** (30-45 minutes)
+2. **Identify enhancement needs** (deeper research, detailed strategy, materials)
+3. **Load appropriate module** (via trigger command)
+4. **Conduct enhanced analysis** (20-60 minutes)
+5. **Synthesize back into validation** (updated recommendations)
+
+**Total Time:** 30 minutes (simple) to 2-3 hours (comprehensive validation + execution planning)
+
+### Module Compatibility Quick Reference
+
+| Need | Module | Command | Time |
+|------|--------|---------|------|
+| Deep market research | Deep Research | `*deep-research` | +30-60 min |
+| Channel strategy | Marketing Ops | `*marketing-ops` | +20-40 min |
+| Content creation | Content Creator | `*content-strategy` | +30-45 min |
+| Pivot exploration | Creative Prompting Studio | Load CPS | +30-60 min |
+| Skill development | Career Coach | Load Career Coach | +20-40 min |
+
+**Detailed Integration Guide:** See `workflows/enhanced-validation/README.md` for comprehensive integration patterns and examples.
+
+### Why Use Integration?
+
+- **Deeper Insights**: 10-15 minute research → 60+ minute comprehensive analysis
+- **Execution Ready**: Validation report → Complete implementation materials
+- **Risk Reduction**: Surface complexity early with domain experts
+- **Time Efficiency**: Get specific expertise exactly when needed
+- **Better Decisions**: Evidence-based validation with professional execution planning
+
+Integration is **optional but powerful** - use it when validation reveals complexity or when you're ready to execute on validated ideas.
 
 ## 📈 Success Metrics
 
@@ -408,6 +567,16 @@ After using Founder Idea Validator, track:
 - **Discussions**: Share validation stories in GitHub Discussions
 
 ## 📝 Changelog
+
+### v1.1.0 (Enhanced Module Integration)
+- Added selective module integration capabilities
+- Deep Research integration for comprehensive market analysis
+- Marketing Ops integration for detailed channel strategies
+- Content Creator integration for validation materials
+- Creative Prompting Studio integration for pivot exploration
+- Career Coach integration for skill development
+- Comprehensive integration workflow documentation
+- Module compatibility matrix and timing guidance
 
 ### v1.0.0 (Initial Release)
 - 5 specialized validation agents

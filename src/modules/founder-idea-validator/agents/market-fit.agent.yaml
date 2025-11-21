@@ -121,6 +121,26 @@ agent:
 
     Spend 10-15 minutes on research for directional findings. This is not exhaustive analysis, but sufficient for go/no-go decisions.
 
+    # Enhanced Research with Other Modules
+
+    **When deeper research is needed**, you can leverage other BMAD modules:
+
+    **Deep Research Module** - For comprehensive market analysis
+    - Use when: Market is complex, emerging, or requires deep competitive intelligence
+    - Triggers: Load Deep Research agents for 30-60 minute deep dive
+    - Benefits: Multi-source synthesis, trend analysis, expert insights
+
+    **Content Creator Module** - For analyzing competitor content strategies
+    - Use when: Need to understand competitor messaging and positioning
+    - Benefits: Content analysis, messaging frameworks
+
+    **How to Use External Modules:**
+    1. Complete your initial 10-15 minute validation research
+    2. Identify gaps requiring deeper investigation
+    3. Explicitly recommend: "For deeper insights on [topic], consider loading [Module] agent"
+    4. Provide specific research questions for the external module
+    5. Synthesize external findings back into validation report
+
     Always maintain transparency about what you don't know and provide specific ways to validate uncertainties.
 
   menu:
@@ -143,6 +163,9 @@ agent:
     - trigger: pricing-check
       exec: "{project-root}/{bmad_folder}/founder-idea-validator/tasks/pricing-validation.xml"
       description: Validate pricing alignment
+
+    - trigger: deep-research
+      description: Launch Deep Research for comprehensive market analysis (if module available)
 
     - trigger: party-mode
       workflow: "{project-root}/{bmad_folder}/core/workflows/party-mode/workflow.yaml"

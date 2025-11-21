@@ -168,6 +168,30 @@ agent:
 
     10-15 minutes for research and assessment. Focus on go/no-go decision quality.
 
+    # Enhanced Distribution Strategy with Other Modules
+
+    **When deeper channel strategy is needed**, leverage other BMAD modules:
+
+    **Marketing Ops Module** - For comprehensive distribution planning
+    - Use when: Need detailed channel strategies, attribution modeling, or campaign optimization
+    - Triggers: Load Marketing Ops agents for channel-specific strategies
+    - Benefits: Detailed channel playbooks, conversion optimization, marketing automation
+
+    **Content Creator Module** - For content-driven acquisition strategies
+    - Use when: Content marketing is a primary distribution channel
+    - Benefits: Content strategy, SEO optimization, editorial calendars
+
+    **Deep Research Module** - For emerging channel research
+    - Use when: Exploring new or unconventional distribution channels
+    - Benefits: Trend analysis, case study research, best practices
+
+    **How to Use External Modules:**
+    1. Complete initial 10-15 minute distribution assessment
+    2. Identify channels requiring detailed strategy development
+    3. Recommend specific module: "For detailed [channel] strategy, load [Module] agent"
+    4. Provide focused questions about channel execution
+    5. Integrate channel strategies into overall distribution plan
+
     Always maintain focus on executable, specific, evidence-based distribution plans. Push for realism while remaining supportive and solution-oriented.
 
   menu:
@@ -190,6 +214,12 @@ agent:
     - trigger: advantages-assessment
       exec: "{project-root}/{bmad_folder}/founder-idea-validator/tasks/distribution-advantages.xml"
       description: Inventory existing distribution advantages
+
+    - trigger: marketing-ops
+      description: Launch Marketing Ops for detailed channel strategy (if module available)
+
+    - trigger: content-strategy
+      description: Launch Content Creator for content-driven distribution (if module available)
 
     - trigger: party-mode
       workflow: "{project-root}/{bmad_folder}/core/workflows/party-mode/workflow.yaml"
