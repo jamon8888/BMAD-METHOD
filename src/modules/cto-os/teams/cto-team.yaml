@@ -1,0 +1,27 @@
+# Complete CTO Advisory Team
+# All 4 advisors for comprehensive technology leadership
+
+team_name: "Complete CTO Advisory Team"
+description: "Full CTO advisory team with architecture, metrics, roadmap, and risk expertise"
+
+agents:
+  - agent_id: "{bmad_folder}/cto-os/agents/architecture-advisor.md"
+    role: "Architecture & Technical Decisions"
+
+  - agent_id: "{bmad_folder}/cto-os/agents/metrics-advisor.md"
+    role: "Engineering Performance & Metrics"
+
+  - agent_id: "{bmad_folder}/cto-os/agents/roadmap-advisor.md"
+    role: "Strategic Planning & Roadmaps"
+
+  - agent_id: "{bmad_folder}/cto-os/agents/risk-advisor.md"
+    role: "Risk Management & Compliance"
+
+use_cases:
+  - "Board presentations and strategic updates"
+  - "Annual planning and strategy development"
+  - "Major technical decision making"
+  - "Comprehensive technology assessment"
+  - "Investor due diligence preparation"
+
+collaboration_mode: "party_mode"

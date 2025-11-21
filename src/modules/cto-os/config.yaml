@@ -1,0 +1,85 @@
+# CTO OS Module Configuration
+
+# Module Information
+module_code: cto-os
+module_name: "CTO OS - Expert CTO Advisory System"
+version: "1.0.0"
+description: "Professional CTO advisory system with architecture decisions, engineering metrics, technology roadmaps, and risk management capabilities"
+
+# User Configuration (inherited from core config)
+user_name: "{{user_name}}"
+communication_language: "{{communication_language}}"
+
+# Output Configuration
+cto_output_path: "{{cto_output_path}}"
+
+# Company Configuration
+company_stage: "{{company_stage}}"
+company_type: "{{company_type}}"
+team_size: "{{team_size}}"
+engineering_budget: "{{engineering_budget}}"
+
+# Technology Stack
+primary_tech_stack: "{{primary_tech_stack}}"
+cloud_provider: "{{cloud_provider}}"
+deployment_frequency: "{{deployment_frequency}}"
+
+# Module Settings
+bmad_folder: "{{bmad_folder}}"
+
+# Company Stage Benchmarks
+benchmarks:
+  early_startup:
+    deployment_frequency: "weekly"
+    lead_time_days: 7
+    team_size: "5-15"
+    debt_allocation: "10%"
+  growth:
+    deployment_frequency: "daily"
+    lead_time_days: 3
+    team_size: "15-50"
+    debt_allocation: "20%"
+  scale:
+    deployment_frequency: "multiple_daily"
+    lead_time_days: 1
+    team_size: "50-200"
+    debt_allocation: "25%"
+  enterprise:
+    deployment_frequency: "on_demand"
+    lead_time_hours: 4
+    team_size: "200+"
+    debt_allocation: "30%"
+
+# DORA Metrics Targets
+dora_targets:
+  elite:
+    deployment_frequency: "multiple_per_day"
+    lead_time: "< 1 hour"
+    mttr: "< 1 hour"
+    change_failure_rate: "0-15%"
+  high:
+    deployment_frequency: "daily_to_weekly"
+    lead_time: "1 day to 1 week"
+    mttr: "< 1 day"
+    change_failure_rate: "16-30%"
+
+# Compliance Certifications
+compliance:
+  soc2_timeline: "12-18 months"
+  iso27001_timeline: "12-24 months"
+  gdpr_timeline: "6-12 months"
+
+# Agent Capabilities
+agents:
+  architecture_advisor:
+    name: "Alex"
+    specialties: ["architecture_decisions", "technical_debt", "adr_creation", "migration_planning"]
+  metrics_advisor:
+    name: "Morgan"
+    specialties: ["dora_metrics", "team_health", "productivity_analysis", "executive_reporting"]
+  roadmap_advisor:
+    name: "Jordan"
+    specialties: ["technology_roadmaps", "strategic_planning", "capacity_planning", "okr_frameworks"]
+  risk_advisor:
+    name: "Riley"
+    specialties: ["security_risk", "compliance", "incident_response", "disaster_recovery"]

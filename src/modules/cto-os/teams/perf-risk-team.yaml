@@ -1,0 +1,21 @@
+# Performance & Risk Team
+# Morgan + Riley for operational excellence
+
+team_name: "Performance & Risk Team"
+description: "Engineering performance with risk management"
+
+agents:
+  - agent_id: "{bmad_folder}/cto-os/agents/metrics-advisor.md"
+    role: "Engineering Performance & Metrics"
+
+  - agent_id: "{bmad_folder}/cto-os/agents/risk-advisor.md"
+    role: "Risk Management & Compliance"
+
+use_cases:
+  - "Operational improvements and optimization"
+  - "Compliance and certification initiatives"
+  - "Incident response and post-mortems"
+  - "Team health and performance"
+  - "Security and reliability improvements"
+
+collaboration_mode: "party_mode"

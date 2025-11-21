@@ -1,0 +1,21 @@
+# Architecture & Planning Team
+# Alex + Jordan for strategic technical planning
+
+team_name: "Architecture & Planning Team"
+description: "Architecture decisions aligned with strategic roadmaps"
+
+agents:
+  - agent_id: "{bmad_folder}/cto-os/agents/architecture-advisor.md"
+    role: "Architecture & Technical Decisions"
+
+  - agent_id: "{bmad_folder}/cto-os/agents/roadmap-advisor.md"
+    role: "Strategic Planning & Roadmaps"
+
+use_cases:
+  - "Major architectural changes with roadmap impact"
+  - "Migration planning with resource allocation"
+  - "Technical vision with execution planning"
+  - "Multi-quarter technical initiatives"
+  - "Platform strategy development"
+
+collaboration_mode: "party_mode"
