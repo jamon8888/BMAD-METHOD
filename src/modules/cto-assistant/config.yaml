@@ -1,8 +1,8 @@
-# CTO OS Module Configuration
+# CTO Assistant Module Configuration
 
 # Module Information
-module_code: cto-os
-module_name: "CTO OS - Expert CTO Advisory System"
+module_code: cto-assistant
+module_name: "CTO Assistant - Expert CTO Advisory System"
 version: "1.0.0"
 description: "Professional CTO advisory system with architecture decisions, engineering metrics, technology roadmaps, and risk management capabilities"
 

@@ -1,4 +1,4 @@
-# CTO OS Knowledge Base
+# CTO Assistant Knowledge Base
 
 This directory contains comprehensive frameworks, guides, and reference materials for CTO-level decision making and technology leadership.
 
@@ -183,8 +183,8 @@ Regularly review and adapt to your changing needs.
 
 ## Attribution
 
-Based on **CTO OS Skills** by Rinaldo Festa
-- Repository: https://github.com/rinaldofesta/cto-os-skills
+Based on **CTO Assistant Skills** by Rinaldo Festa
+- Repository: https://github.com/rinaldofesta/cto-assistant-skills
 - Methodology refined through real-world CTO experience across startups to enterprises
 
 Adapted for BMAD Method by integrating with BMB (BMAD Module Builder) framework for AI-assisted technology leadership.

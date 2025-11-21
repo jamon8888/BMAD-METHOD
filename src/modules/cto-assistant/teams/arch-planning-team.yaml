@@ -5,10 +5,10 @@ team_name: "Architecture & Planning Team"
 description: "Architecture decisions aligned with strategic roadmaps"
 
 agents:
-  - agent_id: "{bmad_folder}/cto-os/agents/architecture-advisor.md"
+  - agent_id: "{bmad_folder}/cto-assistant/agents/architecture-advisor.md"
     role: "Architecture & Technical Decisions"
 
-  - agent_id: "{bmad_folder}/cto-os/agents/roadmap-advisor.md"
+  - agent_id: "{bmad_folder}/cto-assistant/agents/roadmap-advisor.md"
     role: "Strategic Planning & Roadmaps"
 
 use_cases:

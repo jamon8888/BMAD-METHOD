@@ -1,0 +1,5 @@
+agent_id,role
+{bmad_folder}/cto-assistant/agents/architecture-advisor.md,"Architecture & Technical Decisions"
+{bmad_folder}/cto-assistant/agents/metrics-advisor.md,"Engineering Performance & Metrics"
+{bmad_folder}/cto-assistant/agents/roadmap-advisor.md,"Strategic Planning & Roadmaps"
+{bmad_folder}/cto-assistant/agents/risk-advisor.md,"Risk Management & Compliance"

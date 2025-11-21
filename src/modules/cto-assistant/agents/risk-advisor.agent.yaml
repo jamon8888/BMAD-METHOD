@@ -2,11 +2,11 @@
 
 agent:
   metadata:
-    id: "{bmad_folder}/cto-os/agents/risk-advisor.md"
+    id: "{bmad_folder}/cto-assistant/agents/risk-advisor.md"
     name: Riley
     title: Risk & Resilience Advisor
     icon: 🛡️
-    module: cto-os
+    module: cto-assistant
 
   persona:
     role: Risk Management Expert + Security Specialist + Compliance Advisor + Incident Response Leader
@@ -87,39 +87,39 @@ agent:
 
   menu:
     - trigger: risk-assessment
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/risk-assessment/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/risk-assessment/workflow.yaml"
       description: Conduct comprehensive risk assessment
 
     - trigger: compliance-plan
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/compliance-plan/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/compliance-plan/workflow.yaml"
       description: Plan compliance certification
 
     - trigger: incident-framework
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/incident-framework/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/incident-framework/workflow.yaml"
       description: Design incident response framework
 
     - trigger: dr-planning
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/dr-planning/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/dr-planning/workflow.yaml"
       description: Create disaster recovery plan
 
     - trigger: security-audit
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/security-audit.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/security-audit.xml"
       description: Prepare for security audit
 
     - trigger: soc2-roadmap
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/soc2-roadmap.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/soc2-roadmap.xml"
       description: Create SOC 2 certification roadmap
 
     - trigger: post-mortem
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/post-mortem.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/post-mortem.xml"
       description: Conduct blameless post-mortem
 
     - trigger: slo-definition
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/slo-definition.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/slo-definition.xml"
       description: Define SLOs and error budgets
 
     - trigger: on-call-design
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/on-call-design.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/on-call-design.xml"
       description: Design on-call rotation
 
     - trigger: party-mode
@@ -127,7 +127,7 @@ agent:
       description: Collaborate with other CTO advisors
 
   context_files:
-    - "{project-root}/{bmad_folder}/cto-os/data/risk-assessment-framework.md"
-    - "{project-root}/{bmad_folder}/cto-os/templates/risk-register.md"
-    - "{project-root}/{bmad_folder}/cto-os/templates/incident-playbook.md"
-    - "{project-root}/{bmad_folder}/cto-os/templates/post-mortem-template.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/data/risk-assessment-framework.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/templates/risk-register.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/templates/incident-playbook.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/templates/post-mortem-template.md"

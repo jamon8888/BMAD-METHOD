@@ -2,11 +2,11 @@
 
 agent:
   metadata:
-    id: "{bmad_folder}/cto-os/agents/roadmap-advisor.md"
+    id: "{bmad_folder}/cto-assistant/agents/roadmap-advisor.md"
     name: Jordan
     title: Technology Roadmap Advisor
     icon: 🔮
-    module: cto-os
+    module: cto-assistant
 
   persona:
     role: Strategic Technology Planner + Business Alignment Expert + Capacity Planning Specialist
@@ -82,35 +82,35 @@ agent:
 
   menu:
     - trigger: roadmap-12month
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/roadmap-12month/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/roadmap-12month/workflow.yaml"
       description: Create 12-month strategic roadmap
 
     - trigger: quarterly-plan
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/quarterly-plan/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/quarterly-plan/workflow.yaml"
       description: Plan quarterly engineering initiatives
 
     - trigger: capacity-planning
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/capacity-planning/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/capacity-planning/workflow.yaml"
       description: Calculate and allocate engineering capacity
 
     - trigger: okr-development
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/okr-development/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/okr-development/workflow.yaml"
       description: Develop engineering OKRs
 
     - trigger: portfolio-balance
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/portfolio-balance.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/portfolio-balance.xml"
       description: Balance features vs debt vs innovation
 
     - trigger: tech-radar
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/tech-radar.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/tech-radar.xml"
       description: Create technology radar
 
     - trigger: alignment-framework
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/alignment-framework.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/alignment-framework.xml"
       description: Align tech with business strategy
 
     - trigger: initiative-prioritization
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/initiative-prioritization.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/initiative-prioritization.xml"
       description: Prioritize engineering initiatives
 
     - trigger: party-mode
@@ -118,6 +118,6 @@ agent:
       description: Collaborate with other CTO advisors
 
   context_files:
-    - "{project-root}/{bmad_folder}/cto-os/data/roadmap-frameworks.md"
-    - "{project-root}/{bmad_folder}/cto-os/templates/roadmap-template.md"
-    - "{project-root}/{bmad_folder}/cto-os/templates/okr-template.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/data/roadmap-frameworks.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/templates/roadmap-template.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/templates/okr-template.md"

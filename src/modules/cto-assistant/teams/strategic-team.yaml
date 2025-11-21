@@ -5,13 +5,13 @@ team_name: "Strategic Leadership Team"
 description: "Strategic planning with metrics and risk awareness"
 
 agents:
-  - agent_id: "{bmad_folder}/cto-os/agents/roadmap-advisor.md"
+  - agent_id: "{bmad_folder}/cto-assistant/agents/roadmap-advisor.md"
     role: "Strategic Planning & Roadmaps"
 
-  - agent_id: "{bmad_folder}/cto-os/agents/metrics-advisor.md"
+  - agent_id: "{bmad_folder}/cto-assistant/agents/metrics-advisor.md"
     role: "Engineering Performance & Metrics"
 
-  - agent_id: "{bmad_folder}/cto-os/agents/risk-advisor.md"
+  - agent_id: "{bmad_folder}/cto-assistant/agents/risk-advisor.md"
     role: "Risk Management & Compliance"
 
 use_cases:

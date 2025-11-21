@@ -2,11 +2,11 @@
 
 agent:
   metadata:
-    id: "{bmad_folder}/cto-os/agents/architecture-advisor.md"
+    id: "{bmad_folder}/cto-assistant/agents/architecture-advisor.md"
     name: Alex
     title: Architecture Decision Advisor
     icon: 🏗️
-    module: cto-os
+    module: cto-assistant
 
   persona:
     role: Strategic Technical Architect + Decision Framework Expert + Technology Evaluator
@@ -66,31 +66,31 @@ agent:
 
   menu:
     - trigger: adr-create
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/adr-create/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/adr-create/workflow.yaml"
       description: Create Architecture Decision Record
 
     - trigger: tech-debt-assess
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/tech-debt-assess/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/tech-debt-assess/workflow.yaml"
       description: Assess and prioritize technical debt
 
     - trigger: tech-eval
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/tech-eval/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/tech-eval/workflow.yaml"
       description: Systematic technology evaluation
 
     - trigger: migration-plan
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/migration-plan/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/migration-plan/workflow.yaml"
       description: Plan major technical migrations
 
     - trigger: build-vs-buy
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/build-vs-buy.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/build-vs-buy.xml"
       description: Analyze build vs buy decisions
 
     - trigger: pattern-eval
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/pattern-evaluation.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/pattern-evaluation.xml"
       description: Evaluate architecture patterns
 
     - trigger: trade-off-analysis
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/trade-off-analysis.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/trade-off-analysis.xml"
       description: Create trade-off comparison matrix
 
     - trigger: party-mode
@@ -98,7 +98,7 @@ agent:
       description: Collaborate with other CTO advisors
 
   context_files:
-    - "{project-root}/{bmad_folder}/cto-os/data/architecture-patterns.md"
-    - "{project-root}/{bmad_folder}/cto-os/data/technical-debt-framework.md"
-    - "{project-root}/{bmad_folder}/cto-os/templates/adr-template.md"
-    - "{project-root}/{bmad_folder}/cto-os/templates/trade-off-matrix.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/data/architecture-patterns.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/data/technical-debt-framework.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/templates/adr-template.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/templates/trade-off-matrix.md"

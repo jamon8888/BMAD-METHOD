@@ -1,14 +1,14 @@
-# CTO OS Module
+# CTO Assistant Module
 
 **Expert CTO Advisory System** with architecture decisions, engineering metrics, technology roadmaps, and risk & resilience management capabilities.
 
 ## Overview
 
-The CTO OS module provides a comprehensive set of AI agents, workflows, and frameworks for managing all aspects of technology leadership - from making critical architecture decisions to measuring engineering performance, planning strategic roadmaps, and managing operational risks.
+The CTO Assistant module provides a comprehensive set of AI agents, workflows, and frameworks for managing all aspects of technology leadership - from making critical architecture decisions to measuring engineering performance, planning strategic roadmaps, and managing operational risks.
 
 Built for CTOs, VPs of Engineering, and Engineering Directors who need professional-grade technical leadership capabilities with AI assistance.
 
-Based on the proven **CTO OS Skills** methodology by Rinaldo Festa, refined through real-world CTO experience across startups to enterprises.
+Based on the proven **CTO Assistant Skills** methodology by Rinaldo Festa, refined through real-world CTO experience across startups to enterprises.
 
 ## 🎯 What You Get
 
@@ -100,7 +100,7 @@ Based on the proven **CTO OS Skills** methodology by Rinaldo Festa, refined thro
 
 ```bash
 npx bmad-method@alpha install
-# Select "CTO OS" module
+# Select "CTO Assistant" module
 ```
 
 ### First Steps
@@ -117,7 +117,7 @@ npx bmad-method@alpha install
    - Risk assessment: `*risk-assessment`
 
 3. **View Your Output**
-   - Deliverables saved to: `{project-root}/{output_folder}/cto-os/`
+   - Deliverables saved to: `{project-root}/{output_folder}/cto-assistant/`
 
 ## 📖 Usage Examples
 
@@ -209,7 +209,7 @@ npx bmad-method@alpha install
 
 ## 👥 Team Configurations
 
-The CTO OS module includes pre-configured team bundles for different leadership scenarios:
+The CTO Assistant module includes pre-configured team bundles for different leadership scenarios:
 
 ### Complete CTO Advisory Team (cto-team.yaml)
 **All 4 advisors working together** for comprehensive technology leadership
@@ -321,7 +321,7 @@ These configurations personalize advisor recommendations and benchmarks.
 ## 📁 Module Structure
 
 ```
-src/modules/cto-os/
+src/modules/cto-assistant/
 ├── agents/                          (4 advisors)
 │   ├── architecture-advisor.agent.yaml
 │   ├── metrics-advisor.agent.yaml
@@ -387,14 +387,14 @@ src/modules/cto-os/
 
 ## 🤝 Integration with Other Modules
 
-CTO OS works great with:
+CTO Assistant works great with:
 - **BMB**: For creating custom agent workflows
 - **Deep Research**: For technology evaluation research
 - **Marketing Ops**: For go-to-market alignment
 
 ## 📈 Success Metrics
 
-After implementing CTO OS, track:
+After implementing CTO Assistant, track:
 - Architecture decisions documented (ADRs created)
 - DORA metrics baseline and improvements
 - Strategic initiatives completed vs planned
@@ -415,12 +415,12 @@ After implementing CTO OS, track:
 - 15+ comprehensive workflows
 - 25+ specialized tasks
 - Complete installation configuration
-- Based on proven CTO OS Skills methodology
+- Based on proven CTO Assistant Skills methodology
 
 ---
 
 **Built with** ❤️ **for technology leaders who want to scale their impact**
 
-**Based on CTO OS Skills** by Rinaldo Festa - https://github.com/rinaldofesta/cto-os-skills
+**Based on CTO Assistant Skills** by Rinaldo Festa - https://github.com/rinaldofesta/cto-assistant-skills
 
 Ready to transform your technology leadership? Load an advisor and get started! 🚀

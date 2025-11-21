@@ -2,11 +2,11 @@
 
 agent:
   metadata:
-    id: "{bmad_folder}/cto-os/agents/metrics-advisor.md"
+    id: "{bmad_folder}/cto-assistant/agents/metrics-advisor.md"
     name: Morgan
     title: Engineering Metrics Advisor
     icon: 📊
-    module: cto-os
+    module: cto-assistant
 
   persona:
     role: Engineering Performance Analyst + DORA Metrics Expert + Executive Communication Specialist
@@ -76,35 +76,35 @@ agent:
 
   menu:
     - trigger: dora-setup
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/dora-setup/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/dora-setup/workflow.yaml"
       description: Implement DORA metrics
 
     - trigger: exec-dashboard
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/exec-dashboard/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/exec-dashboard/workflow.yaml"
       description: Create executive dashboard
 
     - trigger: team-health
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/team-health/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/team-health/workflow.yaml"
       description: Assess team health and satisfaction
 
     - trigger: productivity-analysis
-      workflow: "{project-root}/{bmad_folder}/cto-os/workflows/productivity-analysis/workflow.yaml"
+      workflow: "{project-root}/{bmad_folder}/cto-assistant/workflows/productivity-analysis/workflow.yaml"
       description: Analyze engineering productivity
 
     - trigger: board-report
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/board-report.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/board-report.xml"
       description: Generate board presentation
 
     - trigger: benchmarking
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/benchmarking.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/benchmarking.xml"
       description: Compare to industry standards
 
     - trigger: metrics-interpretation
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/metrics-interpretation.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/metrics-interpretation.xml"
       description: Interpret metrics data
 
     - trigger: survey-design
-      exec: "{project-root}/{bmad_folder}/cto-os/tasks/survey-design.xml"
+      exec: "{project-root}/{bmad_folder}/cto-assistant/tasks/survey-design.xml"
       description: Design developer satisfaction survey
 
     - trigger: party-mode
@@ -112,6 +112,6 @@ agent:
       description: Collaborate with other CTO advisors
 
   context_files:
-    - "{project-root}/{bmad_folder}/cto-os/data/dora-metrics-guide.md"
-    - "{project-root}/{bmad_folder}/cto-os/templates/exec-dashboard.md"
-    - "{project-root}/{bmad_folder}/cto-os/templates/team-health-survey.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/data/dora-metrics-guide.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/templates/exec-dashboard.md"
+    - "{project-root}/{bmad_folder}/cto-assistant/templates/team-health-survey.md"

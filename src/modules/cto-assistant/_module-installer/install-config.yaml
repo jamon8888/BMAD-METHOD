@@ -1,14 +1,14 @@
-# CTO OS Module Installation Configuration
+# CTO Assistant Module Installation Configuration
 
-module_code: cto-os
-module_name: "CTO OS - Expert CTO Advisory System"
+module_code: cto-assistant
+module_name: "CTO Assistant - Expert CTO Advisory System"
 description: "Professional CTO advisory system with architecture decisions, engineering metrics, technology roadmaps, and risk management"
 
 installation_prompts:
   - prompt_id: cto_output_path
     question: "Where should CTO deliverables be saved?"
     type: text
-    default: "./output/cto-os"
+    default: "./output/cto-assistant"
     validation: path
 
   - prompt_id: company_stage
@@ -119,7 +119,7 @@ installation_prompts:
 
 post_installation_message: |
 
-  🎉 CTO OS Module Installed Successfully!
+  🎉 CTO Assistant Module Installed Successfully!
 
   You now have access to 4 expert CTO advisors:
   • Alex - Architecture Decision Advisor
@@ -135,7 +135,7 @@ post_installation_message: |
      - *roadmap-12month (Strategic Roadmap)
      - *risk-assessment (Risk Assessment)
 
-  Documentation: src/modules/cto-os/README.md
+  Documentation: src/modules/cto-assistant/README.md
 
   Happy technology leadership! 🚀
 
